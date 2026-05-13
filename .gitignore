@@ -9,7 +9,23 @@ cache/
 *.sqlite
 *.sqlite3
 *.db
+translation_cache.*
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# macOS / editor
+.DS_Store
+.vscode/
+.idea/
 
 # Optional local artifacts
 *.tmp
 *.log
+reports/
+validation_reports/
+todo.jsonl
