@@ -114,3 +114,13 @@ Purpose:
 - Fix: Added style quality rules for Copilot Agent translation (tone, lexicon, thematic mappings, and anti-calque guidance) while keeping parser safety constraints mandatory.
 - Regression test: not applicable (documentation-only change)
 - Notes: Style quality guidance is additive and must never override token/key/parser safety rules.
+
+### ISSUE-0010
+- Date detected: 2026-05-13
+- Status: resolved
+- Summary: Real Workshop source can contain unescaped internal ASCII quotes inside localisation values.
+- Affected files: tools/stellaris_loc_common.py, tools/stellaris_loc_validate.py, tools/stellaris_loc_extract_todo.py
+- Root cause: Validator treated source-side quote issues as fatal translation errors and parser skipped affected entries.
+- Fix: Added lenient parsing for source-preserved internal quotes and classified English/source-preserved quote issues as source_warnings.
+- Regression test: tests/test_stellaris_loc_tools.py, tests/test_stellaris_loc_batch_pipeline.py
+- Notes: Russian translated output must still be safe; new unescaped quotes in Russian are errors.

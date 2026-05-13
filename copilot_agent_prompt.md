@@ -21,6 +21,7 @@
 - Перевод выполняй сам как GitHub Copilot Agent.
 - Основной способ доступа к файлам и batch JSON: terminal commands (`pwd`, `ls`, `cat`, `sed`, `python3 -m json.tool`, `python3 tools/...`).
 - Не полагайся на workspace search/codebase search как на основной способ чтения файлов.
+- Не исправляй и не переписывай исходники в `fresh_mods`.
 
 Используй tools только для:
 - scan
@@ -67,12 +68,15 @@
 - Не добавляй markdown в translation JSON.
 - Не вставляй `TODO`, `TRUNCATED`, `FIXME`, `остальное аналогично`.
 - Стиль не важнее parser safety: нельзя ради красоты менять placeholders, keys или структуру `.yml`.
+- Source-side malformed quotes из English нужно переводить через batch/apply workflow; apply шаг обязан экранировать ASCII quotes в финальном `.yml`.
 
 ## Порядок работы
 
 1. Запусти scan.
 2. Пересобери Russian skeleton files.
 3. Проверь validator после rebuild.
+	- Если есть только source warnings (включая `Unescaped internal quote inside localization value.`) и `Errors: 0`, продолжай перевод.
+	- Если `Errors > 0`, остановись.
 4. Извлеки TODO в `work/<MOD_ID>/todo.jsonl`.
 5. Сформируй batch files в `work/<MOD_ID>/batches/`.
 6. Переведи batch files сам и сохрани translation JSON files в `work/<MOD_ID>/translations/`.

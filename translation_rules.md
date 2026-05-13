@@ -41,6 +41,14 @@
 - добавить случай в known_issues.md;
 - добавить regression test.
 
+## Source-side malformed quote policy
+
+- Реальные Workshop English файлы могут содержать unescaped ASCII quotes inside values.
+- Если проблема уже есть в English source, это классифицируется как source warning.
+- Агент не должен править `fresh_mods` ради исправления source-side malformed quotes.
+- При переводе такие кавычки можно сохранить в translation JSON обычными ASCII кавычками; apply шаг обязан безопасно экранировать их в финальном `.yml`.
+- Финальный Russian `.yml` не должен содержать новых unescaped internal quotes.
+
 ## 7. Итеративное улучшение качества
 
 - Каждую новую ошибку валидатора обязательно превращать в regression test.

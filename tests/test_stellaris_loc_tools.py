@@ -95,6 +95,54 @@ def test_escaped_quote_preserved(tmp_path: Path) -> None:
     assert result.is_valid
 
 
+def test_english_unescaped_internal_quote_lenient_parse_keeps_entry(tmp_path: Path) -> None:
+    english_file = tmp_path / "english.yml"
+    _write_text(
+        english_file,
+        'l_english:\nbad_quote_key:0 "Their proposed "Dreadnoughts" would be devastating."\n',
+        bom=False,
+    )
+
+    parsed = parse_localisation_file(english_file, expected_header="l_english:")
+
+    assert len(parsed.entries) == 1
+    assert parsed.entries[0].key == "bad_quote_key"
+    assert '"Dreadnoughts"' in parsed.entries[0].value
+    assert any(
+        issue.key == "bad_quote_key" and "Unescaped internal quote inside localization value." in issue.message
+        for issue in parsed.issues
+    )
+
+
+def test_english_unescaped_internal_quote_is_source_warning_when_preserved(tmp_path: Path) -> None:
+    english = 'l_english:\nbad_quote_key:0 "Their proposed "Dreadnoughts" would be devastating."\n'
+    russian = 'l_russian:\nbad_quote_key:0 "Their proposed "Dreadnoughts" would be devastating."\n'
+
+    en, ru = _make_pair(tmp_path, english, russian)
+    result = validate_pair_files(en, ru)
+
+    assert result.is_valid
+    assert result.errors == []
+    assert any(
+        "Unescaped internal quote inside localization value." in issue.message
+        for issue in result.source_warnings
+    )
+
+
+def test_russian_unescaped_internal_quote_after_translation_is_error(tmp_path: Path) -> None:
+    english = 'l_english:\nkey:0 "Text"\n'
+    russian = 'l_russian:\nkey:0 "Русский "плохой" текст"\n'
+
+    en, ru = _make_pair(tmp_path, english, russian)
+    result = validate_pair_files(en, ru)
+
+    assert not result.is_valid
+    assert any(
+        "Unescaped internal quote inside localization value." in issue.message
+        for issue in result.errors
+    )
+
+
 def test_unescaped_internal_quote_detected(tmp_path: Path) -> None:
     english = 'l_english:\nkey:0 "Text"\n'
     russian = 'l_russian:\nkey:0 "Bad "quote" text"\n'
@@ -415,3 +463,26 @@ def test_recursive_validation_not_blocked_by_source_duplicate_warnings(tmp_path:
     assert result.errors == []
     assert result.source_warnings
     assert result.is_valid
+
+
+def test_recursive_validation_not_blocked_by_source_unescaped_quote_warning(tmp_path: Path) -> None:
+    fresh_root = tmp_path / "fresh_mods" / "ModQuote"
+    russian_root = tmp_path / "output" / "ModQuote"
+
+    english_file = fresh_root / "localisation" / "english" / "quote_l_english.yml"
+    russian_file = russian_root / "localisation" / "russian" / "quote_l_russian.yml"
+
+    dirty_line = 'bad_quote_key:0 "Their proposed "Dreadnoughts" would be devastating."\n'
+    _write_text(english_file, "l_english:\n" + dirty_line, bom=False)
+    _write_text(russian_file, "l_russian:\n" + dirty_line, bom=True)
+
+    results = validate_roots(fresh_root=fresh_root, russian_root=russian_root)
+
+    assert len(results) == 1
+    result = results[0]
+    assert result.is_valid
+    assert result.errors == []
+    assert any(
+        "Unescaped internal quote inside localization value." in issue.message
+        for issue in result.source_warnings
+    )

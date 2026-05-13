@@ -224,6 +224,62 @@ def test_extraction_includes_occurrence_identity_for_duplicates(tmp_path: Path) 
     assert second["occurrences"][0]["key_occurrence_index"] == 1
 
 
+def test_extraction_includes_lenient_internal_quote_source(tmp_path: Path) -> None:
+    fresh_root = tmp_path / "fresh_mods" / "ModQuoteExtract"
+    russian_root = tmp_path / "output" / "ModQuoteExtract"
+
+    english_file = fresh_root / "localisation" / "english" / "mod_l_english.yml"
+    russian_file = russian_root / "localisation" / "russian" / "mod_l_russian.yml"
+
+    dirty_line = 'bad_quote_key:0 "Their proposed "Dreadnoughts" would be devastating."\n'
+    _write_text(english_file, "l_english:\n" + dirty_line, bom=False)
+    _write_text(russian_file, "l_russian:\n" + dirty_line, bom=True)
+
+    records, _ = build_todo_records(fresh_root=fresh_root, russian_root=russian_root)
+
+    assert len(records) == 1
+    assert records[0]["key"] == "bad_quote_key"
+    assert '"Dreadnoughts"' in records[0]["source"]
+
+
+def test_apply_escapes_translated_quotes_for_lenient_source_entry(tmp_path: Path) -> None:
+    fresh_root = tmp_path / "fresh_mods" / "ModQuoteApply"
+    russian_root = tmp_path / "output" / "ModQuoteApply"
+
+    english_file = fresh_root / "localisation" / "english" / "mod_l_english.yml"
+    russian_file = russian_root / "localisation" / "russian" / "mod_l_russian.yml"
+
+    dirty_line = 'bad_quote_key:0 "Their proposed "Dreadnoughts" would be devastating."\n'
+    _write_text(english_file, "l_english:\n" + dirty_line, bom=False)
+    _write_text(russian_file, "l_russian:\n" + dirty_line, bom=True)
+
+    todo_records, _ = build_todo_records(fresh_root=fresh_root, russian_root=russian_root)
+    assert len(todo_records) == 1
+
+    files_updated, values_updated, missing, errors = apply_translations(
+        todo_records=todo_records,
+        translations=[
+            {
+                "id": todo_records[0]["id"],
+                "translation": 'Проектируемые "Дредноуты" будут разрушительны.',
+            }
+        ],
+        russian_root=russian_root,
+    )
+
+    assert files_updated == 1
+    assert values_updated == 1
+    assert missing == 0
+    assert errors == []
+
+    russian_text = russian_file.read_text(encoding="utf-8-sig")
+    assert 'bad_quote_key:0 "Проектируемые \\\"Дредноуты\\\" будут разрушительны."' in russian_text
+
+    validation = validate_pair_files(english_file, russian_file)
+    assert validation.is_valid
+    assert validation.errors == []
+
+
 def test_apply_rejects_duplicate_key_replacement_without_occurrence_identity(tmp_path: Path) -> None:
     russian_root = tmp_path / "output" / "ModLegacyTodo"
     file_rel, file_path = _duplicate_russian_file(russian_root)

@@ -23,9 +23,8 @@ ENTRY_CAPTURE_RE = re.compile(
     r'^\s*([A-Za-z0-9_.@-]+):([0-9]+)?\s+"((?:[^"\\]|\\.)*)"\s*(#.*)?$'
 )
 ENTRY_PREFIX_RE = re.compile(r"^\s*([A-Za-z0-9_.@-]+):([0-9]+)?\s+")
-ENTRY_REWRITE_RE = re.compile(
-    r'^(?P<lead>\s*)(?P<key>[A-Za-z0-9_.@-]+):(?P<marker>[0-9]+)?(?P<space>\s+)"'
-    r'(?P<value>(?:[^"\\]|\\.)*)"(?P<trail>\s*(?:#.*)?)$'
+ENTRY_REWRITE_PREFIX_RE = re.compile(
+    r'^(?P<lead>\s*)(?P<key>[A-Za-z0-9_.@-]+):(?P<marker>[0-9]+)?(?P<space>\s+)'
 )
 
 DOLLAR_TOKEN_RE = re.compile(r"\$[^$\r\n]+\$")
@@ -37,6 +36,8 @@ PROTECTED_TOKEN_RE = re.compile(
     r"\$[^$\r\n]+\$|\[[^\[\]\r\n]+\]|\u00a3[^\u00a3\r\n]+\u00a3|\u00a7.|\\n|\\t|\\\"|\\\\"
 )
 PLACEHOLDER_RE = re.compile(r"__PROT_[0-9]{4}__")
+
+UNESCAPED_INTERNAL_QUOTE_MESSAGE = "Unescaped internal quote inside localization value."
 
 
 @dataclass
@@ -182,6 +183,71 @@ def _find_unescaped_quote(value: str, start: int) -> int | None:
     return None
 
 
+def _is_escaped_quote(value: str, index: int) -> bool:
+    backslash_count = 0
+    cursor = index - 1
+    while cursor >= 0 and value[cursor] == "\\":
+        backslash_count += 1
+        cursor -= 1
+    return backslash_count % 2 == 1
+
+
+def _find_lenient_closing_quote(remainder: str) -> int | None:
+    for index in range(len(remainder) - 1, 0, -1):
+        if remainder[index] != '"':
+            continue
+        if _is_escaped_quote(remainder, index):
+            continue
+
+        tail = remainder[index + 1 :].strip()
+        if not tail or tail.startswith("#"):
+            return index
+    return None
+
+
+def _parse_lenient_entry(line: str) -> tuple[str, str | None, str] | None:
+    prefix = ENTRY_PREFIX_RE.match(line)
+    if prefix is None:
+        return None
+
+    remainder = line[prefix.end() :]
+    if not remainder.startswith('"'):
+        return None
+
+    closing_idx = _find_lenient_closing_quote(remainder)
+    if closing_idx is None:
+        return None
+
+    value = remainder[1:closing_idx]
+    if _find_unescaped_quote(value, 0) is None:
+        return None
+
+    return prefix.group(1), prefix.group(2), value
+
+
+def _parse_rewrite_entry(line: str) -> dict[str, str | None] | None:
+    prefix = ENTRY_REWRITE_PREFIX_RE.match(line)
+    if prefix is None:
+        return None
+
+    remainder = line[prefix.end() :]
+    if not remainder.startswith('"'):
+        return None
+
+    closing_idx = _find_lenient_closing_quote(remainder)
+    if closing_idx is None:
+        return None
+
+    return {
+        "lead": prefix.group("lead"),
+        "key": prefix.group("key"),
+        "marker": prefix.group("marker"),
+        "space": prefix.group("space"),
+        "value": remainder[1:closing_idx],
+        "trail": remainder[closing_idx + 1 :],
+    }
+
+
 def diagnose_nonmatching_entry(line: str) -> list[str]:
     """Return human-readable diagnosis for a non-matching entry line."""
     prefix = ENTRY_PREFIX_RE.match(line)
@@ -199,7 +265,7 @@ def diagnose_nonmatching_entry(line: str) -> list[str]:
     tail = remainder[closing_idx + 1 :].strip()
     if tail and not tail.startswith("#"):
         if '"' in tail:
-            return ["Unescaped internal quote inside localization value."]
+            return [UNESCAPED_INTERNAL_QUOTE_MESSAGE]
         return ["Unexpected trailing content after closing quote."]
 
     return ["Localization entry does not match safe format."]
@@ -274,9 +340,37 @@ def parse_localisation_file(path: Path, expected_header: str | None = None) -> P
             entry_index += 1
             continue
 
+        lenient_entry = _parse_lenient_entry(parse_line)
+        if lenient_entry is not None:
+            key, marker, value = lenient_entry
+            key_occurrence_index = key_occurrence_counts.get(key, 0)
+            key_occurrence_counts[key] = key_occurrence_index + 1
+
+            entries.append(
+                LocalisationEntry(
+                    key=key,
+                    marker=marker,
+                    value=value,
+                    line=line_no,
+                    entry_index=entry_index,
+                    key_occurrence_index=key_occurrence_index,
+                )
+            )
+            issues.append(
+                ParseIssue(
+                    message=UNESCAPED_INTERNAL_QUOTE_MESSAGE,
+                    line=line_no,
+                    key=key,
+                )
+            )
+            entry_index += 1
+            continue
+
         if ":" in parse_line or '"' in parse_line:
+            prefix = ENTRY_PREFIX_RE.match(parse_line)
+            issue_key = prefix.group(1) if prefix is not None else None
             for message in diagnose_nonmatching_entry(parse_line):
-                issues.append(ParseIssue(message=message, line=line_no))
+                issues.append(ParseIssue(message=message, line=line_no, key=issue_key))
 
     if expected_header and not header_found:
         issues.append(ParseIssue(message=f"Missing expected header: {expected_header}", line=1))
@@ -403,11 +497,11 @@ def apply_occurrence_replacements(
 
         parse_body = body.lstrip("\ufeff")
         bom_prefix = body[: len(body) - len(parse_body)]
-        match = ENTRY_REWRITE_RE.match(parse_body)
-        if match is None:
+        parsed = _parse_rewrite_entry(parse_body)
+        if parsed is None:
             continue
 
-        key = match.group("key")
+        key = str(parsed["key"])
         key_occurrence_index = key_occurrence_counts.get(key, 0)
         key_occurrence_counts[key] = key_occurrence_index + 1
 
@@ -418,11 +512,11 @@ def apply_occurrence_replacements(
         if replacement is None:
             continue
 
-        marker = match.group("marker")
+        marker = parsed["marker"]
         marker_part = marker if marker is not None else ""
         lines[idx] = (
-            f"{bom_prefix}{match.group('lead')}{key}:{marker_part}{match.group('space')}"
-            f"\"{replacement.value}\"{match.group('trail')}{eol}"
+            f"{bom_prefix}{parsed['lead']}{key}:{marker_part}{parsed['space']}"
+            f"\"{replacement.value}\"{parsed['trail']}{eol}"
         )
         replaced_ids.add(replacement_key)
 
@@ -443,20 +537,20 @@ def apply_value_replacements(
 
         parse_body = body.lstrip("\ufeff")
         bom_prefix = body[: len(body) - len(parse_body)]
-        match = ENTRY_REWRITE_RE.match(parse_body)
-        if match is None:
+        parsed = _parse_rewrite_entry(parse_body)
+        if parsed is None:
             continue
 
-        key = match.group("key")
+        key = str(parsed["key"])
         if key not in replacements_by_key:
             continue
 
-        marker = match.group("marker")
+        marker = parsed["marker"]
         marker_part = marker if marker is not None else ""
         new_value = replacements_by_key[key]
         lines[idx] = (
-            f"{bom_prefix}{match.group('lead')}{key}:{marker_part}{match.group('space')}"
-            f"\"{new_value}\"{match.group('trail')}{eol}"
+            f"{bom_prefix}{parsed['lead']}{key}:{marker_part}{parsed['space']}"
+            f"\"{new_value}\"{parsed['trail']}{eol}"
         )
         replaced_keys.add(key)
 

@@ -10,6 +10,7 @@ from pathlib import Path
 
 try:
     from stellaris_loc_common import (
+        UNESCAPED_INTERNAL_QUOTE_MESSAGE,
         count_leading_utf8_boms,
         english_to_russian_relative_path,
         extract_protected_token_counters,
@@ -19,6 +20,7 @@ try:
     from stellaris_loc_scan import find_english_localisation_files
 except ImportError:  # pragma: no cover
     from tools.stellaris_loc_common import (
+        UNESCAPED_INTERNAL_QUOTE_MESSAGE,
         count_leading_utf8_boms,
         english_to_russian_relative_path,
         extract_protected_token_counters,
@@ -109,6 +111,39 @@ def _format_issue(issue: ValidationIssue) -> str:
 
     key_part = f" key={issue.key}" if issue.key else ""
     return f"  - {location}{key_part}: {issue.message}"
+
+
+def _is_unescaped_internal_quote_issue(message: str) -> bool:
+    return UNESCAPED_INTERNAL_QUOTE_MESSAGE in message
+
+
+def _english_parse_issue_is_source_warning(parse_issue) -> bool:
+    return _is_unescaped_internal_quote_issue(parse_issue.message)
+
+
+def _russian_parse_issue_is_source_warning(parse_issue, english_file, russian_entries_by_line: dict[int, object]) -> bool:
+    if not _is_unescaped_internal_quote_issue(parse_issue.message):
+        return False
+
+    if parse_issue.line is None:
+        return False
+
+    ru_entry = russian_entries_by_line.get(parse_issue.line)
+    if ru_entry is None:
+        return False
+
+    if parse_issue.key and ru_entry.key != parse_issue.key:
+        return False
+
+    ru_index = ru_entry.entry_index
+    if ru_index < 0 or ru_index >= len(english_file.entries):
+        return False
+
+    en_entry = english_file.entries[ru_index]
+    if en_entry.key != ru_entry.key:
+        return False
+
+    return en_entry.value == ru_entry.value
 
 
 def _counter_diff_issues(
@@ -412,6 +447,11 @@ def _compare_entry_structure(english_file, russian_file) -> tuple[list[Validatio
     russian_entries = russian_file.entries
     english_keys = [entry.key for entry in english_entries]
     russian_keys = [entry.key for entry in russian_entries]
+    english_unescaped_quote_issue_lines = {
+        issue.line
+        for issue in english_file.issues
+        if issue.line is not None and _is_unescaped_internal_quote_issue(issue.message)
+    }
 
     duplicate_errors, duplicate_warnings = _classify_duplicate_key_policy(english_file, russian_file)
     errors.extend(duplicate_errors)
@@ -501,10 +541,16 @@ def _compare_entry_structure(english_file, russian_file) -> tuple[list[Validatio
         en_tokens = extract_protected_token_counters(en_entry.value)
         ru_tokens = extract_protected_token_counters(ru_entry.value)
         for token_type, label in TOKEN_LABELS.items():
+            expected_counts = dict(en_tokens[token_type])
+            actual_counts = dict(ru_tokens[token_type])
+            if token_type == "escape" and en_entry.line in english_unescaped_quote_issue_lines:
+                expected_counts.pop('\\"', None)
+                actual_counts.pop('\\"', None)
+
             errors.extend(
                 _counter_diff_issues(
-                    expected=dict(en_tokens[token_type]),
-                    actual=dict(ru_tokens[token_type]),
+                    expected=expected_counts,
+                    actual=actual_counts,
                     label=label,
                     russian_file=russian_file.path,
                     line=ru_entry.line,
@@ -522,24 +568,31 @@ def validate_pair_files(english_path: Path, russian_path: Path) -> ValidationRes
     errors: list[ValidationIssue] = []
     source_warnings: list[ValidationIssue] = []
 
+    russian_entries_by_line = {entry.line: entry for entry in russian_file.entries}
+
     for parse_issue in english_file.issues:
-        errors.append(
-            ValidationIssue(
-                message=parse_issue.message,
-                file_path=english_path,
-                line=parse_issue.line,
-                key=parse_issue.key,
-            )
+        issue = ValidationIssue(
+            message=parse_issue.message,
+            file_path=english_path,
+            line=parse_issue.line,
+            key=parse_issue.key,
         )
+        if _english_parse_issue_is_source_warning(parse_issue):
+            source_warnings.append(issue)
+        else:
+            errors.append(issue)
+
     for parse_issue in russian_file.issues:
-        errors.append(
-            ValidationIssue(
-                message=parse_issue.message,
-                file_path=russian_path,
-                line=parse_issue.line,
-                key=parse_issue.key,
-            )
+        issue = ValidationIssue(
+            message=parse_issue.message,
+            file_path=russian_path,
+            line=parse_issue.line,
+            key=parse_issue.key,
         )
+        if _russian_parse_issue_is_source_warning(parse_issue, english_file, russian_entries_by_line):
+            source_warnings.append(issue)
+        else:
+            errors.append(issue)
 
     # Fallback for parser objects created by older tooling code paths.
     if not hasattr(russian_file, "leading_bom_count"):
