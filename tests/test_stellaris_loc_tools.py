@@ -13,7 +13,12 @@ def _write_text(path: Path, text: str, bom: bool = False) -> None:
     path.write_text(text, encoding=encoding)
 
 
-def _make_pair(tmp_path: Path, english_body: str, russian_body: str, russian_bom: bool = True) -> tuple[Path, Path]:
+def _make_pair(
+    tmp_path: Path,
+    english_body: str,
+    russian_body: str,
+    russian_bom: bool = True,
+) -> tuple[Path, Path]:
     english_file = tmp_path / "english.yml"
     russian_file = tmp_path / "russian.yml"
     _write_text(english_file, english_body, bom=False)
@@ -26,7 +31,6 @@ def _issue_messages(result) -> list[str]:
 
 
 def test_normal_entry_passes(tmp_path: Path) -> None:
-    # key:0 "Text"
     english = 'l_english:\nkey:0 "Text"\n'
     russian = 'l_russian:\nkey:0 "Tekst"\n'
     en, ru = _make_pair(tmp_path, english, russian)
@@ -158,12 +162,20 @@ def test_scan_finds_only_english_localisation_yml(tmp_path: Path) -> None:
     without_header = tmp_path / "localisation" / "english" / "b_l_english.yml"
     wrong_extension = tmp_path / "localisation" / "english" / "c_l_english.txt"
 
-    _write_text(with_header, "l_english:\nkey:0 \"Text\"\n", bom=False)
-    _write_text(without_header, "key:0 \"Text\"\n", bom=False)
-    _write_text(wrong_extension, "l_english:\nkey:0 \"Text\"\n", bom=False)
+    _write_text(with_header, 'l_english:\nkey:0 "Text"\n', bom=False)
+    _write_text(without_header, 'key:0 "Text"\n', bom=False)
+    _write_text(wrong_extension, 'l_english:\nkey:0 "Text"\n', bom=False)
 
     found = find_english_localisation_files(tmp_path)
     assert found == [with_header]
+
+
+def test_scan_finds_header_with_hidden_bom_marker(tmp_path: Path) -> None:
+    with_hidden_bom = tmp_path / "localisation" / "english" / "hidden_bom_l_english.yml"
+    _write_text(with_hidden_bom, '\ufeffl_english:\nkey:0 "Text"\n', bom=False)
+
+    found = find_english_localisation_files(tmp_path)
+    assert found == [with_hidden_bom]
 
 
 def test_rebuild_skeleton_creates_russian_file_with_bom(tmp_path: Path) -> None:
@@ -181,6 +193,30 @@ def test_rebuild_skeleton_creates_russian_file_with_bom(tmp_path: Path) -> None:
     assert "l_russian:" in russian_text
     assert 'key:0 "Text"' in russian_text
     assert summary.files_created == 1
+
+
+def test_rebuild_skeleton_handles_hidden_bom_header_and_validator_accepts(tmp_path: Path) -> None:
+    fresh_root = tmp_path / "fresh_mods" / "ModBom"
+    out_root = tmp_path / "output" / "ModBom"
+    english_file = fresh_root / "localisation" / "english" / "mod_l_english.yml"
+    _write_text(english_file, '\ufeffl_english:\nkey:0 "Text"\n', bom=False)
+
+    summary = rebuild_skeletons(fresh_root=fresh_root, russian_root=out_root, dry_run=False)
+
+    russian_file = out_root / "localisation" / "russian" / "mod_l_russian.yml"
+    assert russian_file.exists()
+    assert summary.files_created == 1
+
+    raw_ru = russian_file.read_bytes()
+    assert raw_ru.startswith(b"\xef\xbb\xbf")
+
+    ru_text = russian_file.read_text(encoding="utf-8-sig")
+    assert "l_russian:" in ru_text
+    assert "l_english:" not in ru_text
+    assert "\ufeffl_russian:" not in ru_text
+
+    result = validate_pair_files(english_file, russian_file)
+    assert result.is_valid
 
 
 def test_rebuild_skeleton_dry_run_does_not_write(tmp_path: Path) -> None:

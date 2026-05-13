@@ -61,6 +61,11 @@ class ParsedLocalisationFile:
     issues: list[ParseIssue]
 
 
+def normalize_header_line(line: str) -> str:
+    """Normalize localisation header line to tolerate BOM and surrounding spaces."""
+    return line.lstrip("\ufeff").strip()
+
+
 def read_utf8(path: Path) -> tuple[str, bool, str | None]:
     """Read file as UTF-8 and detect BOM."""
     try:
@@ -97,7 +102,7 @@ def has_header(path: Path, expected_header: str) -> bool:
         return False
 
     for line in text.splitlines():
-        if line.lstrip("\ufeff").strip() == expected_header:
+        if normalize_header_line(line) == expected_header:
             return True
     return False
 
@@ -119,23 +124,20 @@ def english_to_russian_relative_path(english_relative: Path) -> Path:
 
 
 def replace_english_header_with_russian(text: str) -> tuple[str, bool]:
-    """Replace first `l_english:` header with `l_russian:` while preserving whitespace/EOLs."""
+    """Replace first l_english: header with a clean l_russian: header line."""
     lines = text.splitlines(keepends=True)
-    replaced = False
 
     for idx, line in enumerate(lines):
         body = line.rstrip("\r\n")
         eol = line[len(body) :]
-        if body.strip() == "l_english:":
-            indent = body[: len(body) - len(body.lstrip())]
-            lines[idx] = f"{indent}l_russian:{eol}"
-            replaced = True
-            break
+        if normalize_header_line(body) == "l_english:":
+            lines[idx] = f"l_russian:{eol}"
+            return "".join(lines), True
 
-    if not lines and text.strip() == "l_english:":
+    if not lines and normalize_header_line(text) == "l_english:":
         return "l_russian:", True
 
-    return "".join(lines), replaced
+    return "".join(lines), False
 
 
 def _find_unescaped_quote(value: str, start: int) -> int | None:
@@ -188,22 +190,21 @@ def parse_localisation_file(path: Path, expected_header: str | None = None) -> P
     key_to_line: dict[str, int] = {}
 
     for line_no, raw_line in enumerate(text.splitlines(), start=1):
-        line = raw_line
-        if line_no == 1 and line.startswith("\ufeff"):
-            line = line[1:]
+        # Remove hidden BOM if it leaked into first lexical token.
+        parse_line = raw_line.lstrip("\ufeff")
+        normalized = normalize_header_line(raw_line)
 
-        stripped = line.strip()
-        if not stripped or stripped.startswith("#"):
+        if not normalized or normalized.startswith("#"):
             continue
 
-        if stripped in ("l_english:", "l_russian:"):
-            if expected_header and stripped == expected_header:
+        if normalized in ("l_english:", "l_russian:"):
+            if expected_header and normalized == expected_header:
                 header_found = True
             continue
 
-        safe_match = SAFE_ENTRY_RE.match(line)
+        safe_match = SAFE_ENTRY_RE.match(parse_line)
         if safe_match is not None:
-            capture_match = ENTRY_CAPTURE_RE.match(line)
+            capture_match = ENTRY_CAPTURE_RE.match(parse_line)
             if capture_match is None:
                 issues.append(
                     ParseIssue(
@@ -230,8 +231,8 @@ def parse_localisation_file(path: Path, expected_header: str | None = None) -> P
                 key_to_line[key] = line_no
             continue
 
-        if ":" in line or '"' in line:
-            for message in diagnose_nonmatching_entry(line):
+        if ":" in parse_line or '"' in parse_line:
+            for message in diagnose_nonmatching_entry(parse_line):
                 issues.append(ParseIssue(message=message, line=line_no))
 
     if expected_header and not header_found:

@@ -44,3 +44,13 @@ Purpose:
 - Fix: Switched to count-aware missing and extra checks for dollar, bracket, resource icon, formatting, and escape tokens.
 - Regression test: tests/test_stellaris_loc_batch_pipeline.py
 - Notes: Error messages now include Extra ... token strings expected by tests.
+
+### ISSUE-0003
+- Date detected: 2026-05-13
+- Status: resolved
+- Summary: Scanner and skeleton builder used inconsistent header normalization; files with BOM/hidden marker before l_english: could be scanned but skipped during skeleton rebuild.
+- Affected files: tools/stellaris_loc_common.py, tools/stellaris_loc_scan.py, tools/stellaris_loc_rebuild_skeleton.py
+- Root cause: Header parsing logic handled BOM differently between scan and header replacement paths.
+- Fix: Added normalize_header_line and reused it in has_header, parse_localisation_file, and replace_english_header_with_russian with clean l_russian: output.
+- Regression test: tests/test_stellaris_loc_tools.py
+- Notes: Rebuild now accepts header line forms like \ufeffl_english: and does not leak \ufeff into l_russian: line text.
