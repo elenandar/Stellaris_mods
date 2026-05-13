@@ -34,3 +34,13 @@ Purpose:
 - Fix: Added strict exact-token checks for `$...$`, `[...]`, `U+00A3...U+00A3`, `U+00A7X`, and escape sequences.
 - Regression test: tests/test_stellaris_loc_batch_pipeline.py
 - Notes: Extras are treated as issues for this project.
+
+### ISSUE-0002
+- Date detected: 2026-05-13
+- Status: resolved
+- Summary: Validator behavior diverged from tests and README because it was checking missing protected tokens but not all extra-token cases by count.
+- Affected files: tools/stellaris_loc_validate.py
+- Root cause: Subset-style token comparison allows suspicious extra tokens to pass.
+- Fix: Switched to count-aware missing and extra checks for dollar, bracket, resource icon, formatting, and escape tokens.
+- Regression test: tests/test_stellaris_loc_batch_pipeline.py
+- Notes: Error messages now include Extra ... token strings expected by tests.

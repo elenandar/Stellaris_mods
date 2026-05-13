@@ -298,3 +298,10 @@ def test_validator_flags_extra_formatting_token(tmp_path: Path) -> None:
     result = validate_pair_files(en, ru)
     messages = [issue.message for issue in result.issues]
     assert any("Extra formatting tag token" in message for message in messages)
+
+
+def test_validator_flags_extra_escape_sequence(tmp_path: Path) -> None:
+    en, ru = _make_validation_pair(tmp_path, "Line1\\nLine2", "Line1\\nLine2\\n")
+    result = validate_pair_files(en, ru)
+    messages = [issue.message for issue in result.issues]
+    assert any("Extra escape sequence token" in message for message in messages)

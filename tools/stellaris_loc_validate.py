@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate English/Russian Stellaris localisation `.yml` file pairs."""
+"""Validate English/Russian Stellaris localisation .yml file pairs."""
 
 from __future__ import annotations
 
@@ -8,9 +8,12 @@ from dataclasses import dataclass
 from pathlib import Path
 
 try:
-    from stellaris_loc_common import extract_protected_token_counters, parse_localisation_file
+    from stellaris_loc_common import (
+        english_to_russian_relative_path,
+        extract_protected_token_counters,
+        parse_localisation_file,
+    )
     from stellaris_loc_scan import find_english_localisation_files
-    from stellaris_loc_common import english_to_russian_relative_path
 except ImportError:  # pragma: no cover
     from tools.stellaris_loc_common import (
         english_to_russian_relative_path,
@@ -81,7 +84,7 @@ def _format_issue(issue: ValidationIssue) -> str:
     return f"  - {location}{key_part}: {issue.message}"
 
 
-def _counter_exact_issues(
+def _counter_diff_issues(
     expected: dict[str, int],
     actual: dict[str, int],
     label: str,
@@ -247,7 +250,7 @@ def _compare_entry_structure(english_file, russian_file) -> list[ValidationIssue
 
         for token_type, label in TOKEN_LABELS.items():
             issues.extend(
-                _counter_exact_issues(
+                _counter_diff_issues(
                     expected=dict(en_tokens[token_type]),
                     actual=dict(ru_tokens[token_type]),
                     label=label,
