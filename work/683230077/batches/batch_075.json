@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_8b048112978968e9ebe0ce55245209b4214ddc07",
+    "key": "sm_pd_battery_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Adds four point defense slots to the Starbase.\\n",
+    "text": "Adds four point defense slots to the Starbase.__PROT_0000__",
+    "entry_index": 43,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_1887b18aa1a43e88cff1e17d328ab0da4ab0edf5",
+    "key": "sm_gun_battery",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Gun Battery",
+    "text": "Gun Battery",
+    "entry_index": 44,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_92210e741fbc501297fc6728f2bf648345d7f099",
+    "key": "sm_gun_battery_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Adds two medium weapon slots to the Starbase.\\n",
+    "text": "Adds two medium weapon slots to the Starbase.__PROT_0000__",
+    "entry_index": 45,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_723fd81a433331ba9df124b3b7b808d4f79b04ab",
+    "key": "sm_missile_battery",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Torpedo Battery",
+    "text": "Torpedo Battery",
+    "entry_index": 46,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_1c80218cbd34226fefd314435fbabb0344e056bc",
+    "key": "sm_missile_battery_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Adds two torpedo weapon slots to the Starbase.\\n",
+    "text": "Adds two torpedo weapon slots to the Starbase.__PROT_0000__",
+    "entry_index": 47,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_9e6e707c4c469997ecf29edae9d05c8606ea3da2",
+    "key": "sm_large_battery",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Large Battery",
+    "text": "Large Battery",
+    "entry_index": 48,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_d6dd58196c5f306b87d4af4261f76045ff360b85",
+    "key": "sm_large_battery_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Adds two large weapon slots to the Starbase.\\n",
+    "text": "Adds two large weapon slots to the Starbase.__PROT_0000__",
+    "entry_index": 49,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_3632c74bd3ada57cfc542469ada362bda5915a8e",
+    "key": "sm_xl_battery",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Extra Large Battery",
+    "text": "Extra Large Battery",
+    "entry_index": 50,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_f186476bb7210089aa9b15f1a54e7c5936449354",
+    "key": "sm_xl_battery_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Adds one extra large weapon slot to the Starbase.\\n\\n§YWARNING: There is a build limit of 5 of these per starbase.§!\\n",
+    "text": "Adds one extra large weapon slot to the Starbase.__PROT_0000____PROT_0001____PROT_0002__WARNING: There is a build limit of 5 of these per starbase.__PROT_0003____PROT_0004__",
+    "entry_index": 51,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_4a74c95838730d047a2010ea0fe10149a1e6e135",
+    "key": "sm_titanic_battery",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Titanic Battery",
+    "text": "Titanic Battery",
+    "entry_index": 52,
+    "key_occurrence_index": 0
+  }
+]

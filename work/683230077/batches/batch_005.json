@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_9f68a0bf31b493132d73dd1f25d01d5fddf4b5be",
+    "key": "ai_behaviour_hitnrun_60_DESC",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "Ships will move up to the shown distance (60) and then fall back before their next attack run.",
+    "text": "Ships will move up to the shown distance (60) and then fall back before their next attack run.",
+    "entry_index": 39,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_4261faba4dd7cf6d6eb657c611e5ff9ddc1e9e6f",
+    "key": "ai_behaviour_hitnrun_80",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "Hit and Run Tactic (80)",
+    "text": "Hit and Run Tactic (80)",
+    "entry_index": 40,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_730e2cb6e6b25f876a0138cfef40a07d48664fde",
+    "key": "ai_behaviour_hitnrun_80_DESC",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "Ships will move up to the shown distance (80) and then fall back before their next attack run.",
+    "text": "Ships will move up to the shown distance (80) and then fall back before their next attack run.",
+    "entry_index": 41,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_9d565ccda8ab52785c59fe14ae80777c1c62903b",
+    "key": "ai_behaviour_hitnrun_100",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "Hit and Run Tactic (100)",
+    "text": "Hit and Run Tactic (100)",
+    "entry_index": 42,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_dbda1e4bca926bf711031bbec9ad52fc6893d1b9",
+    "key": "ai_behaviour_hitnrun_100_DESC",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "Ships will move up to the shown distance (100) and then fall back before their next attack run.",
+    "text": "Ships will move up to the shown distance (100) and then fall back before their next attack run.",
+    "entry_index": 43,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_769ec88cea43826d865b7c0074b09eafa8963108",
+    "key": "NSC_STRIKE_CRUISER_AURA_EMPTY",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Empty Slot",
+    "text": "Empty Slot",
+    "entry_index": 0,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_eb91bee30e80174b1f7aeb7af3db55e74fc4c699",
+    "key": "nsc_supportship_aura",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Support Destroyer Auras",
+    "text": "Support Destroyer Auras",
+    "entry_index": 7,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_02d3e6a204a5a8af65b99e744704e7ce3d826f64",
+    "key": "nsc_supportship_aura_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Various advanced auras designed for the Support Cruiser.",
+    "text": "Various advanced auras designed for the Support Cruiser.",
+    "entry_index": 8,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_bfc22a78fe1544b51dc27317d7c637889bc94aff",
+    "key": "nsc_supportship_hull_aura",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Support Destroyer Aura - Hull",
+    "text": "Support Destroyer Aura - Hull",
+    "entry_index": 9,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_feab453ea3094be25ee9a52443a5d67e74c7d107",
+    "key": "nsc_supportship_upkeep_aura",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Support Destroyer Aura - Upkeep",
+    "text": "Support Destroyer Aura - Upkeep",
+    "entry_index": 11,
+    "key_occurrence_index": 0
+  }
+]

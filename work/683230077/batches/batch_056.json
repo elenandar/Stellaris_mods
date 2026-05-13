@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_1cbc419d5fd850bc68accd443bd7ac5c9b0017ea",
+    "key": "SHIP_GRAPHICS_STRIKECRUISER_DESC",
+    "file": "localisation/russian/nsc_ship_browser_l_russian.yml",
+    "source": "Strike Cruisers are designed to catch enemy fleets and hold them in position until a friendly fleet can arrive to finish the job.",
+    "text": "Strike Cruisers are designed to catch enemy fleets and hold them in position until a friendly fleet can arrive to finish the job.",
+    "entry_index": 0,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_b7e8782e5a4001f26a40b5d2e6cdb8e5e73381d5",
+    "key": "SHIP_GRAPHICS_EXPLORATIONSHIP_DESC",
+    "file": "localisation/russian/nsc_ship_browser_l_russian.yml",
+    "source": "A combat-capable Science ship designed to withstand hostile forces while boldly going where no one has gone before.",
+    "text": "A combat-capable Science ship designed to withstand hostile forces while boldly going where no one has gone before.",
+    "entry_index": 1,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_327d8afd8f1ef3a4ed4a3120bc64f1644b460e83",
+    "key": "SHIP_GRAPHICS_BATTLECRUISER_DESC",
+    "file": "localisation/russian/nsc_ship_browser_l_russian.yml",
+    "source": "A much larger and more advanced version of the Cruiser designed for front-line combat duties.",
+    "text": "A much larger and more advanced version of the Cruiser designed for front-line combat duties.",
+    "entry_index": 2,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_57775ff920fdae05d8fad092eb102557da859d91",
+    "key": "SHIP_GRAPHICS_CARRIER_DESC",
+    "file": "localisation/russian/nsc_ship_browser_l_russian.yml",
+    "source": "Massive warships capable of carrying large numbers of Strike Craft. Due to the space needed for the hangars, these ships have little direct offensive capability must be protected by other combat vessels.",
+    "text": "Massive warships capable of carrying large numbers of Strike Craft. Due to the space needed for the hangars, these ships have little direct offensive capability must be protected by other combat vessels.",
+    "entry_index": 3,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_74d093bf2818fe1142b8955fff2e5dce2d5ab3df",
+    "key": "SHIP_GRAPHICS_DREADNOUGHT_DESC",
+    "file": "localisation/russian/nsc_ship_browser_l_russian.yml",
+    "source": "A larger and more advanced version of the Battleship, designed to be the primary front-line warship for any empire.",
+    "text": "A larger and more advanced version of the Battleship, designed to be the primary front-line warship for any empire.",
+    "entry_index": 4,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_6f8799219d2fec76f4614a95694da1bf294739c6",
+    "key": "SHIP_GRAPHICS_FLAGSHIP_DESC",
+    "file": "localisation/russian/nsc_ship_browser_l_russian.yml",
+    "source": "A massive command and control ship with unbelievable offensive capability. The pride and joy of any Naval fleet.",
+    "text": "A massive command and control ship with unbelievable offensive capability. The pride and joy of any Naval fleet.",
+    "entry_index": 5,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_0c06aa89bf1fdb01eddb7a8f820cd10ffa76b37d",
+    "key": "STRIKECRUISER",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Strike Cruiser",
+    "text": "Strike Cruiser",
+    "entry_index": 0,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_69210f6eb15be99450a8cf78128b9bef0aec3cd2",
+    "key": "StrikeCruiser_plural",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Strike Cruisers",
+    "text": "Strike Cruisers",
+    "entry_index": 3,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_377d45a9da55b036dfd0df55a5947cadb4fee703",
+    "key": "BATTLECRUISER",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Battlecruiser",
+    "text": "Battlecruiser",
+    "entry_index": 4,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_849a7475d231d17d018e27b10549ed9dc3a34436",
+    "key": "Battlecruiser_plural",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Battlecruisers",
+    "text": "Battlecruisers",
+    "entry_index": 7,
+    "key_occurrence_index": 0
+  }
+]

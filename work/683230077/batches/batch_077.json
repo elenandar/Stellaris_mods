@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_510447d2488ad853b4eef563dc7c30796b7a4681",
+    "key": "sm_solar_capacitor_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "A capacitor system that increases the energy production efficiency of Solar Panels.\\n\\n§YSolar Panel§! Production: §G+2 Energy§! £energy\\n\\n\\n§YSolar Panel§! Upkeep: §R+1 Minerals§! £minerals  (for Gestalts) and  §R+1 Consumer Goods§! £consumer_goods£  (for Non-Gestalts)\\n",
+    "text": "A capacitor system that increases the energy production efficiency of Solar Panels.__PROT_0000____PROT_0001____PROT_0002__Solar Panel__PROT_0003__ Production: __PROT_0004__+2 Energy__PROT_0005__ __PROT_0006__minerals  (for Gestalts) and  __PROT_0007__+1 Consumer Goods__PROT_0008__ __PROT_0009__  (for Non-Gestalts)__PROT_0010__",
+    "entry_index": 63,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_cede1266bae37c2d6e93b6c6bc833470231d4409",
+    "key": "sm_reinforced_defenses",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Reinforced Starbase Defenses",
+    "text": "Reinforced Starbase Defenses",
+    "entry_index": 64,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_9c0aafdebbe4f647716d2fb0974e58940f02d3e3",
+    "key": "sm_reinforced_defenses_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Improves the shields and armor of the Starbase.\\n",
+    "text": "Improves the shields and armor of the Starbase.__PROT_0000__",
+    "entry_index": 65,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_6cd85994df780f90ae54544a07bcefb20559b409",
+    "key": "sm_strategic_defenses",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Strategic Starbase Defenses",
+    "text": "Strategic Starbase Defenses",
+    "entry_index": 66,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_d684ab45bbfd09359fdba91e32f64da3801995ac",
+    "key": "sm_strategic_defenses_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Improves the shields and weapons of the Starbase.\\n",
+    "text": "Improves the shields and weapons of the Starbase.__PROT_0000__",
+    "entry_index": 67,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_22a8c38da5d2037363eb7adf737761bd9d3225e8",
+    "key": "sm_adv_starbase_defenses",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Advanced Starbase Defenses",
+    "text": "Advanced Starbase Defenses",
+    "entry_index": 68,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_2e4149fdf6472feff0e13a6b42f77237a5e4aa84",
+    "key": "sm_adv_starbase_defenses_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Improves the armor and weapons of the Starbase.\\n",
+    "text": "Improves the armor and weapons of the Starbase.__PROT_0000__",
+    "entry_index": 69,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_85c06bf2336ff729df9566e5b3d99eb28ca0437c",
+    "key": "sm_orbital_lab",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Orbital Research Lab",
+    "text": "Orbital Research Lab",
+    "entry_index": 70,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_905a8aa8d7b6c2378c43cd2254db489d11a5d8f6",
+    "key": "sm_orbital_lab_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "An advanced research laboratory. Having a §GSupport Lab§! will improve the research output.\\n",
+    "text": "An advanced research laboratory. Having a __PROT_0000__Support Lab__PROT_0001__ will improve the research output.__PROT_0002__",
+    "entry_index": 71,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_7923cbae37f4ee24401e72d15228e1d4d67375e6",
+    "key": "sm_orbital_physics_support_lab",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Physics Support Lab",
+    "text": "Physics Support Lab",
+    "entry_index": 72,
+    "key_occurrence_index": 0
+  }
+]

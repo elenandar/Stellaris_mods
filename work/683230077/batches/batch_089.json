@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_e5bd5f1546221b9359f510e83b6b8f7f3a373449",
+    "key": "nsc_sec_power_core",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Secondary Reactor",
+    "text": "Secondary Reactor",
+    "entry_index": 62,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_daf885651a6b148c986f0d17b91fce9cf5f6f1ea",
+    "key": "nsc_sec_power_core_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Secondary Reactor slot for Stations and Fortresses",
+    "text": "Secondary Reactor slot for Stations and Fortresses",
+    "entry_index": 63,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_d77d4c95f975edbed77a3e262e21a3b49bd90088",
+    "key": "tech_nsc_reactor_boosters_1_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "The discovery of Graviton power allows for better reactor boosters to be fitted onto our ships.",
+    "text": "The discovery of Graviton power allows for better reactor boosters to be fitted onto our ships.",
+    "entry_index": 65,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_788b6ec419669ee379352f68571249809266fd61",
+    "key": "tech_nsc_reactor_boosters_2_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "The discovery of Naquadria power allows for better reactor boosters to be fitted onto our ships.",
+    "text": "The discovery of Naquadria power allows for better reactor boosters to be fitted onto our ships.",
+    "entry_index": 67,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_28ee32112623724b99ad534160a891d3b80a47af",
+    "key": "tech_nsc_reactor_boosters_3_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "The discovery of Singularity power allows for better reactor boosters to be fitted onto our ships.",
+    "text": "The discovery of Singularity power allows for better reactor boosters to be fitted onto our ships.",
+    "entry_index": 69,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_76170f5bb6a84d965c7c1671bc8f0f0842cc4cea",
+    "key": "tech_nsc_dlc_check",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Apocalypse Now?",
+    "text": "Apocalypse Now?",
+    "entry_index": 70,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_0103d720bd3968d16c3f1ce1f3af1c60f48e1c98",
+    "key": "tech_nsc_dlc_check_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "This is an automatic starting tech to check for the Apocalypse DLC.",
+    "text": "This is an automatic starting tech to check for the Apocalypse DLC.",
+    "entry_index": 71,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_785e6b3cb10bdd9edd05630f9367286f8ab37849",
+    "key": "tech_strikecruiser_build_speed",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Standardized Strike Cruiser Patterns",
+    "text": "Standardized Strike Cruiser Patterns",
+    "entry_index": 72,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_0ba524e541e7ab91240245b7d3052e74d306f280",
+    "key": "tech_strikecruiser_build_speed_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Establishing new standards for the modeling and construction of Strike Cruisers greatly improves the efficiency of the production pipeline.",
+    "text": "Establishing new standards for the modeling and construction of Strike Cruisers greatly improves the efficiency of the production pipeline.",
+    "entry_index": 73,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_ddb9f3ba827c4f505b9c637bcf3f49bb7d0ada22",
+    "key": "tech_strikecruiser_hull_1",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Improved Strike Cruiser Hulls",
+    "text": "Improved Strike Cruiser Hulls",
+    "entry_index": 74,
+    "key_occurrence_index": 0
+  }
+]

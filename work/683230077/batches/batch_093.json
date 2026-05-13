@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_3f530c45cf8a50365ed2dca4ec578b8e03287017",
+    "key": "tech_power_station_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "An expanding star empire requires ever-greater Energy production to sustain it. Creating specialized, space-based Energy-creation facilities will allow us to centralize our Energy production in key systems to better supply our nation's Energy needs.",
+    "text": "An expanding star empire requires ever-greater Energy production to sustain it. Creating specialized, space-based Energy-creation facilities will allow us to centralize our Energy production in key systems to better supply our nation's Energy needs.",
+    "entry_index": 107,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_69c795dbad33a55703579d99f7690b45c5301dc7",
+    "key": "tech_defense_platforms_1",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Defense Platform Increase - Level 1",
+    "text": "Defense Platform Increase - Level 1",
+    "entry_index": 108,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_e3541d62731816fe13205cafb7c7a9848857f8f3",
+    "key": "tech_defense_platforms_1_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Improved technologies allow us to construct more defense platforms for our starbases.",
+    "text": "Improved technologies allow us to construct more defense platforms for our starbases.",
+    "entry_index": 109,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_42e0d9171886f73b085d6f3148314794548fedcb",
+    "key": "tech_defense_platforms_2",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Defense Platform Increase - Level 2",
+    "text": "Defense Platform Increase - Level 2",
+    "entry_index": 110,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_fb1c6c549bdac9003f34a7d6eb6bc68c57124064",
+    "key": "tech_defense_platforms_3",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Defense Platform Increase - Level 3",
+    "text": "Defense Platform Increase - Level 3",
+    "entry_index": 112,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_7783c12df132df11bd52c329ef21e232b1dc381f",
+    "key": "tech_defense_platforms_4",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Defense Platform Increase - Level 4",
+    "text": "Defense Platform Increase - Level 4",
+    "entry_index": 114,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_c335eeb10bf2230170c5be1278b5d4421a6066bb",
+    "key": "tech_nsc_ai_computer_1_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "This extremely advanced computer system can intelligently run all combat systems on a ship without taking over the helm, allowing for complete movement control during combat. Available for Carriers, Fleet Support Ships, and the Flagship.",
+    "text": "This extremely advanced computer system can intelligently run all combat systems on a ship without taking over the helm, allowing for complete movement control during combat. Available for Carriers, Fleet Support Ships, and the Flagship.",
+    "entry_index": 117,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_7efce23a4b32670b4d6b268169e67a493fc66b49",
+    "key": "tech_tomahawk_cruise_missile_1",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Advanced Cruise Missiles",
+    "text": "Advanced Cruise Missiles",
+    "entry_index": 118,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_a9c2f50da9de70d944f46406d2ba2c7e9ef4ba2c",
+    "key": "tech_tomahawk_cruise_missile_1_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "With the development of combat at longer and longer ranges, as well as the appearance of massive capital ships and defensive installations, there is a clear need for larger, more powerful missiles capable of taking on these new threats, and being launched from our own ships. These Advanced Cruise Missiles are the answer to this emerging need.",
+    "text": "With the development of combat at longer and longer ranges, as well as the appearance of massive capital ships and defensive installations, there is a clear need for larger, more powerful missiles capable of taking on these new threats, and being launched from our own ships. These Advanced Cruise Missiles are the answer to this emerging need.",
+    "entry_index": 119,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_207df85008943b5e8873f6b2941e7da1812b59e2",
+    "key": "tech_nsc_disabled_sections",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Disabled NSC Ship Sections",
+    "text": "Disabled NSC Ship Sections",
+    "entry_index": 120,
+    "key_occurrence_index": 0
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_ee602a327bfd7b02659c389ba513ef640def1146",
+    "key": "sm_tv_network_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "A TV studio that produces news programming for citizens across the system, increasing planetary stability. Would you like to know more?\\n",
+    "text": "A TV studio that produces news programming for citizens across the system, increasing planetary stability. Would you like to know more?__PROT_0000__",
+    "entry_index": 113,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_6de4374104b3ce8ba46ddb17e1f8de5f93b3d399",
+    "key": "POINT_DEFENCE_STARBASE",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Automated Defense System",
+    "text": "Automated Defense System",
+    "entry_index": 114,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_db9d541658495cacd1a8d43c742d47ff419a1944",
+    "key": "STARBASE_AURA_SHIP_DISRUPTOR",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Ship Disruptor",
+    "text": "Ship Disruptor",
+    "entry_index": 118,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_c00d27a9df8f558b771f06ee23545072061ac018",
+    "key": "STARBASE_AURA_SHIP_AMPLIFIER",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Ship Amplifier",
+    "text": "Ship Amplifier",
+    "entry_index": 119,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_92fc1ac1a120c4a556ba1a563fa376696f236940",
+    "key": "TITANIC_STARBASE_SECTION",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Titanic Section",
+    "text": "Titanic Section",
+    "entry_index": 122,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_b881777f10ef50aed76040419af50dcd2a9f887a",
+    "key": "EXTRA_LARGE_STARBASE_SECTION",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "XL Section",
+    "text": "XL Section",
+    "entry_index": 123,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_1d2a027045f12d736efbb26daa4063fdb94a35dc",
+    "key": "LARGE_STARBASE_SECTION",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Large Section",
+    "text": "Large Section",
+    "entry_index": 124,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_0a0f2fdcaed527364fc1724b51fa1a727c7e38a7",
+    "key": "PD_STARBASE_SECTION",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Point Defense Section",
+    "text": "Point Defense Section",
+    "entry_index": 125,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_07fbb8b2f2c39e807536375eb3ebce98bc78d2cd",
+    "key": "HANGAR_STARBASE_SECTION",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Hangar Section",
+    "text": "Hangar Section",
+    "entry_index": 126,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_eef6c0684e0cae043fc34bfa2d0921853a2e98af",
+    "key": "MISSILE_STARBASE_SECTION",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Missile Section",
+    "text": "Missile Section",
+    "entry_index": 127,
+    "key_occurrence_index": 0
+  }
+]

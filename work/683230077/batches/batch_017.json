@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_8980c013bdd8a12150ca63edab33e930ff46af8b",
+    "key": "CORVETTE_NAQUADRIA_REACTOR",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Naquadria Reactor",
+    "text": "Naquadria Reactor",
+    "entry_index": 181,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_f4b32ac2c029b393f00f6b259309e1dc9de43176",
+    "key": "NAQUADRIA_REACTOR_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Special reactor powered by high energy crystals.",
+    "text": "Special reactor powered by high energy crystals.",
+    "entry_index": 194,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_cf11a05729d76f28fb932face170bf8fa79f526a",
+    "key": "CORVETTE_SINGULARITY_REACTOR",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Singularity Reactor",
+    "text": "Singularity Reactor",
+    "entry_index": 195,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_5d392f569a6adcc468660a310616e36630cc43f2",
+    "key": "SINGULARITY_REACTOR_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Specialized reactor powered by an artificial black hole",
+    "text": "Specialized reactor powered by an artificial black hole",
+    "entry_index": 208,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_0b4c092125af79137137fae5fe80c9760895eaa6",
+    "key": "CORVETTE_MULTIDIMENSIONAL_REACTOR",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Multidimensional Reactor",
+    "text": "Multidimensional Reactor",
+    "entry_index": 209,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_540975870d2b1bc49cb11610afcd468ae5c8e551",
+    "key": "MULTIDIMENSIONAL_REACTOR_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Creating a matter bridge between different dimensions and alternative realities allows for a steady, if somewhat limited, stream of vacuum energy to power our next generation of reactors.",
+    "text": "Creating a matter bridge between different dimensions and alternative realities allows for a steady, if somewhat limited, stream of vacuum energy to power our next generation of reactors.",
+    "entry_index": 222,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_41afb2a50bdce1f1e35b713ebd3438754ca6e9f3",
+    "key": "CORVETTE_OPTIMIZED_ENIGMATIC_REACTOR",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Optimized Dark Matter Reactor",
+    "text": "Optimized Dark Matter Reactor",
+    "entry_index": 223,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_6a2f0ff71789d3c2a50786917ae07ab0d9153ce8",
+    "key": "OPTIMIZED_ENIGMATIC_REACTOR_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Taking advantage of the knowledge discovered from the Enigmatic Fortress along with our own discoveries, we can now take zero point energy directly from the subspace of our own universe without the risk of creating unstable exotic particles, allowing continuous energy limited only by our ability to control the flow of energy.",
+    "text": "Taking advantage of the knowledge discovered from the Enigmatic Fortress along with our own discoveries, we can now take zero point energy directly from the subspace of our own universe without the risk of creating unstable exotic particles, allowing continuous energy limited only by our ability to control the flow of energy.",
+    "entry_index": 236,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_756e029f208eece5b751f6d9757fb6eb85538d25",
+    "key": "FLAGSHIP_BLACK_HOLE_REACTOR_1",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Black Hole Reactor",
+    "text": "Black Hole Reactor",
+    "entry_index": 237,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_c5398b1bd67f3c5444a147d593a180e11f6dce6c",
+    "key": "FLAGSHIP_BLACK_HOLE_REACTOR_1_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Reactor powered by an artificial black hole.",
+    "text": "Reactor powered by an artificial black hole.",
+    "entry_index": 238,
+    "key_occurrence_index": 0
+  }
+]

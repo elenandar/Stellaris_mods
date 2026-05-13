@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_58906b4abc217ff1d049f09d06afee9ad64d6953",
+    "key": "SPECIAL_SLOT_TARGET_MAGNET",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Targeting Override",
+    "text": "Targeting Override",
+    "entry_index": 74,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_9107a3c8473dd3c50515ffe8208e64bcb98ba1c4",
+    "key": "SPECIAL_SLOT_TARGET_MAGNET_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Antenna arrays artificially increase the detection cross-section of this ship, forcing enemy weapons to target it instead of nearby friendlies.",
+    "text": "Antenna arrays artificially increase the detection cross-section of this ship, forcing enemy weapons to target it instead of nearby friendlies.",
+    "entry_index": 75,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_96c8e4ddb014dc4707f08899863e9201acd23b46",
+    "key": "EXPLORATION_SLOT_ANOMALY_LAB",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Anomaly Research Laboratory",
+    "text": "Anomaly Research Laboratory",
+    "entry_index": 76,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_acb5aa1df9c2f6882a30697d28354ff024ae1ee2",
+    "key": "EXPLORATION_SLOT_ANOMALY_LAB_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "This laboratory is dedicated to the study of anomalies, those strange and wonderful things in the galaxy that don't seem to follow the same rules as everything else. Each one deserves a full, comprehensive analysis, but there is so much to discover, and so little time. By optimizing the laboratory for the study of these delightful oddities, we can insure that every anomaly gets the attention it deserves, while also dramatically speeding up research time.",
+    "text": "This laboratory is dedicated to the study of anomalies, those strange and wonderful things in the galaxy that don't seem to follow the same rules as everything else. Each one deserves a full, comprehensive analysis, but there is so much to discover, and so little time. By optimizing the laboratory for the study of these delightful oddities, we can insure that every anomaly gets the attention it deserves, while also dramatically speeding up research time.",
+    "entry_index": 77,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_44be66870fcae3cebc160fd1c5e287ed1e552f9b",
+    "key": "EXPLORATION_SLOT_SURVEY_LAB",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Survey Laboratory",
+    "text": "Survey Laboratory",
+    "entry_index": 78,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_6be9518c25064640a6b0c727dd2ad79dbb4f867b",
+    "key": "EXPLORATION_SLOT_SURVEY_LAB_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "There are so many planets and systems out there, waiting, begging to be discovered, and each one might hold the key to new discoveries. There's no time to waste, and this specialized laboratory will allow us to conduct our surveys much, much faster - which means we'll be able to survey more and more space in the same amount of time. More surveys means more discovery, more adventure, and more knowledge about the galaxy.",
+    "text": "There are so many planets and systems out there, waiting, begging to be discovered, and each one might hold the key to new discoveries. There's no time to waste, and this specialized laboratory will allow us to conduct our surveys much, much faster - which means we'll be able to survey more and more space in the same amount of time. More surveys means more discovery, more adventure, and more knowledge about the galaxy.",
+    "entry_index": 79,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_b052f77a5cabd799212dec2053c4694d0f062506",
+    "key": "EXPLORATION_SLOT_ANALYSIS_LAB",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Advanced Analysis Laboratory",
+    "text": "Advanced Analysis Laboratory",
+    "entry_index": 80,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_d478ae0a8870074bc0edc0a6ed0d5354156695ae",
+    "key": "EXPLORATION_SLOT_ANALYSIS_LAB_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Every anomaly, by its very nature, forces us to ask questions, to challenge previously-held assumptions. There is nothing more valuable than this, when it comes to the advancement of science. We cannot risk missing any potential anomalies, and the secrets they hold. This specialized laboratory will ensure that we find every last anomaly the galaxy has to offer.",
+    "text": "Every anomaly, by its very nature, forces us to ask questions, to challenge previously-held assumptions. There is nothing more valuable than this, when it comes to the advancement of science. We cannot risk missing any potential anomalies, and the secrets they hold. This specialized laboratory will ensure that we find every last anomaly the galaxy has to offer.",
+    "entry_index": 81,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_9dc07213572849d0c3de77e80dea13074cffd360",
+    "key": "EXPLORATION_SLOT_DEBRIS_LAB",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Debris Analysis Laboratory",
+    "text": "Debris Analysis Laboratory",
+    "entry_index": 82,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_43f9640134b648769fda6dd89876d325bc1b4957",
+    "key": "EXPLORATION_SLOT_DEBRIS_LAB_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "This laboratory is dedicated to the research and analysis of spacecraft debris left behind from space battles. Space debris, both modern and ancient, can be the key to unlocking untold mysteries of the universe.",
+    "text": "This laboratory is dedicated to the research and analysis of spacecraft debris left behind from space battles. Space debris, both modern and ancient, can be the key to unlocking untold mysteries of the universe.",
+    "entry_index": 83,
+    "key_occurrence_index": 0
+  }
+]

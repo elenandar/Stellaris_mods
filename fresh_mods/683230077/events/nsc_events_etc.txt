@@ -1,0 +1,14 @@
+namespace = nsc_events
+
+########################
+### NSC ACTIVE EVENT ###
+########################
+event = {
+    id = nsc_events.1
+    hide_window = yes
+    is_triggered_only = yes
+	
+    immediate = {
+		set_global_flag = has_nsc_active
+	}
+}

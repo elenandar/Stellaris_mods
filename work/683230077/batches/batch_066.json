@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_c10c0a405826a9ffdb412e7a024caca6442d1f43",
+    "key": "EXPLORATIONSHIP_4_MID1_G7H2",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Missile Core (Level 4)",
+    "text": "Missile Core (Level 4)",
+    "entry_index": 156,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_de02407526e8dad4adf9d5c6ee38a09641457f63",
+    "key": "EXPLORATIONSHIP_4_MID1_M15",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Broadside Core (Level 4)",
+    "text": "Broadside Core (Level 4)",
+    "entry_index": 157,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_f58ef6a29d6ab1196fb6e77623f54f84190e0997",
+    "key": "EXPLORATIONSHIP_4_STERN_M6",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Broadside Stern (Level 4)",
+    "text": "Broadside Stern (Level 4)",
+    "entry_index": 163,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_71f3a78d8be0e53459063df017e0cf5875dc3c2f",
+    "key": "EXPLORATIONSHIP_4_STERN_S12",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Spitfire Stern (Level 4)",
+    "text": "Spitfire Stern (Level 4)",
+    "entry_index": 164,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_afbc93fad80b606f495fe47e34785ce96bc3ed44",
+    "key": "EXPLORATIONSHIP_4_STERN_PD12",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "PD Stern (Level 4)",
+    "text": "PD Stern (Level 4)",
+    "entry_index": 165,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_f809dac404b01930f7ede218d3c63c107dc7fc3c",
+    "key": "BATTLECRUISER_MID1_M2L3",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Salvo Core",
+    "text": "Salvo Core",
+    "entry_index": 171,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_8190f5739657a91187756650b21d580e7d6b9331",
+    "key": "BATTLECRUISER_MID1_G3L2",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Bombardment Core",
+    "text": "Bombardment Core",
+    "entry_index": 172,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_c7138c305e516379d1674732613f0cc16bf3f5de",
+    "key": "BATTLESHIP_BOW_XL",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Annihilator Bow",
+    "text": "Annihilator Bow",
+    "entry_index": 183,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_87707141c5809e658d62f8758789029648bd77f5",
+    "key": "BATTLESHIP_BOW_S6M4L4",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Salvo Bow",
+    "text": "Salvo Bow",
+    "entry_index": 184,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_9a78a0fa525ca5b2c81bf34734c0a33a41e4fe80",
+    "key": "BATTLESHIP_BOW_SF",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Spitfire Bow",
+    "text": "Spitfire Bow",
+    "entry_index": 187,
+    "key_occurrence_index": 0
+  }
+]

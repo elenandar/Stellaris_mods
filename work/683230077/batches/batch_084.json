@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_933a811fcfb309a773d2ebeedda29d29ac0170bb",
+    "key": "mod_station_researchers_society_research_produces_mult",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Research Station Society £society  Output",
+    "text": "Research Station Society £society  Output",
+    "entry_index": 138,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_088a0058075b1c7eb0d2c757d3e5c694705318fa",
+    "key": "mod_station_researchers_engineering_research_produces_mult",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Research Station Engineering £engineering  Output",
+    "text": "Research Station Engineering £engineering  Output",
+    "entry_index": 139,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_7604c4202f21527cdf33186750d7aed56d3ec53e",
+    "key": "tech_pd_frigate_1",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Escort Frigate Upgrade",
+    "text": "Escort Frigate Upgrade",
+    "entry_index": 0,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_c7da6d1ee822955dcdbc5aed09c65e1b0928d99d",
+    "key": "tech_pd_frigate_1_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Missiles, torpedoes, and strike craft all pose a grave threat to our fleets. Our naval engineers suggest re-designing our Frigates to mount an array of numerous point-defense weapons to shoot down these targets before they can reach our ships.",
+    "text": "Missiles, torpedoes, and strike craft all pose a grave threat to our fleets. Our naval engineers suggest re-designing our Frigates to mount an array of numerous point-defense weapons to shoot down these targets before they can reach our ships.",
+    "entry_index": 1,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_7681aed78869779012973b1fd2e247e38b44ae0c",
+    "key": "tech_StrikeCruiser_1_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Battle experience and extensive wargaming exercises show that fleet combat often ends without a decisive outcome, because the losing side makes an immediate, emergency jump to FTL. Our best scientists have miniaturized the Subspace Snare used on starbases for deployment onto a ship. These vessels will be blisteringly fast, to catch enemy fleets in their Snares, maneuverable enough to keep enemy ships from disengaging from combat, and tough enough to withstand significant punishment to ensure the enemy is pinned down for as long as possible.",
+    "text": "Battle experience and extensive wargaming exercises show that fleet combat often ends without a decisive outcome, because the losing side makes an immediate, emergency jump to FTL. Our best scientists have miniaturized the Subspace Snare used on starbases for deployment onto a ship. These vessels will be blisteringly fast, to catch enemy fleets in their Snares, maneuverable enough to keep enemy ships from disengaging from combat, and tough enough to withstand significant punishment to ensure the enemy is pinned down for as long as possible.",
+    "entry_index": 3,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_a53bdb498a65f4a821a6439b7f159ae692c0dc10",
+    "key": "tech_Battlecruiser_1_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "As larger and larger vessels become more common, combat is taking place at longer ranges, and offensive firepower is becoming an ever-more-decisive factor in battle. Our naval theorists suggest building a long, powerful vessel capable of mounting large, medium, and most notably, guided weapon emplacements, to specialize in hurling as much weaponry at the enemy as possible, in either mid- or long-range combat.",
+    "text": "As larger and larger vessels become more common, combat is taking place at longer ranges, and offensive firepower is becoming an ever-more-decisive factor in battle. Our naval theorists suggest building a long, powerful vessel capable of mounting large, medium, and most notably, guided weapon emplacements, to specialize in hurling as much weaponry at the enemy as possible, in either mid- or long-range combat.",
+    "entry_index": 5,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_41688b07f9c7b0a3d876ea2d46741930eb50913a",
+    "key": "tech_escortcarrier_1",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Light Carrier Upgrade",
+    "text": "Light Carrier Upgrade",
+    "entry_index": 6,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_8bd878652fd1b66e256f4144fae49fc85778a4e7",
+    "key": "tech_escortcarrier_1_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "The Destroyer class can be repurposed as a light Strike Craft platform, allowing our fleets to bring much needed firepower to the front lines.",
+    "text": "The Destroyer class can be repurposed as a light Strike Craft platform, allowing our fleets to bring much needed firepower to the front lines.",
+    "entry_index": 7,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_ba092f97ed495185fe85ec84fc09c8e3b38a11b3",
+    "key": "tech_Carrier_1_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Strike Craft have proven to be highly successful weapons in naval combat. It is time to design a specialized warship for the express purpose of carrying these weapons into battle, and housing the large support staff and maintenance bays that they require. Doing so will allow these new Carrier vessels to carry far more strike craft than their more improvised predecessors.",
+    "text": "Strike Craft have proven to be highly successful weapons in naval combat. It is time to design a specialized warship for the express purpose of carrying these weapons into battle, and housing the large support staff and maintenance bays that they require. Doing so will allow these new Carrier vessels to carry far more strike craft than their more improvised predecessors.",
+    "entry_index": 9,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_726d1a7168700ce25b33d05f44c032dfed6795b9",
+    "key": "tech_heavycarrier_1",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Heavy Carrier Upgrade",
+    "text": "Heavy Carrier Upgrade",
+    "entry_index": 10,
+    "key_occurrence_index": 0
+  }
+]

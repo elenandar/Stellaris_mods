@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_475f32b0d29c33323de7ec26ab350767ddee50ff",
+    "key": "guided_munitions_focus_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Explosive weapons . Our powerful missiles will secure victory for our people.",
+    "text": "Explosive weapons . Our powerful missiles will secure victory for our people.",
+    "entry_index": 42,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_80e37ac9e3cac5098b1e2876f381bc1a4c0dfdc0",
+    "key": "strike_craft_focus_name",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Strike Craft Focus",
+    "text": "Strike Craft Focus",
+    "entry_index": 43,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_1519a11da2548e700faa1cb8c3f723e295d3534c",
+    "key": "strike_craft_focus_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Strike Craft, our valiant pilots will prove victorious",
+    "text": "Strike Craft, our valiant pilots will prove victorious",
+    "entry_index": 45,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_c1db78d954d895873362a407f5850ef96ab81bcf",
+    "key": "policy_defense_doctrine",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Defense Doctrine",
+    "text": "Defense Doctrine",
+    "entry_index": 46,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_b0683e0033309b68713e9ef82e2741c4940869b0",
+    "key": "policy_defense_doctrine_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "This Fleet Doctrine determines which type of ship defenses our ships should emphasize, at the cost of reduced efficiency with the other defensive option.",
+    "text": "This Fleet Doctrine determines which type of ship defenses our ships should emphasize, at the cost of reduced efficiency with the other defensive option.",
+    "entry_index": 47,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_5db0f5ec8083a783cb52d0f90ceb55aa0e6c0174",
+    "key": "uniform_focus_name",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Standard Defenses",
+    "text": "Standard Defenses",
+    "entry_index": 48,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_8d0ce83b317f0ba0956330abc13e3ff2b8e8fe12",
+    "key": "uniform_focus_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "We will focus on armor and shields in equal measure; there is no need to favor one over the other. They are strongest together.",
+    "text": "We will focus on armor and shields in equal measure; there is no need to favor one over the other. They are strongest together.",
+    "entry_index": 50,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_79f5c145ffc8f8b49ce9381fc721b26b9dfa1af3",
+    "key": "armor_focus_name",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Armor Focus",
+    "text": "Armor Focus",
+    "entry_index": 51,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_53645822960027d02e9583b0d5dd49dc4461ea17",
+    "key": "armor_focus_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Trust in the strength of our Armor. Thick and impenetrable, it surrounds our hulls in its protective embrace, and cannot be ignored by missiles or torpedoes.",
+    "text": "Trust in the strength of our Armor. Thick and impenetrable, it surrounds our hulls in its protective embrace, and cannot be ignored by missiles or torpedoes.",
+    "entry_index": 53,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_8e65658f08a72b21bd745256c35c6d7d80e4a23d",
+    "key": "hardening_focus_name",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Defensive Hardening",
+    "text": "Defensive Hardening",
+    "entry_index": 54,
+    "key_occurrence_index": 0
+  }
+]

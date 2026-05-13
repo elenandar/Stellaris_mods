@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_7fde8b9a5f2d8cc0eefed5d3152a0bd9908ca831",
+    "key": "XL_CANNON_CORE",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Annihilator Cannon Core",
+    "text": "Annihilator Cannon Core",
+    "entry_index": 312,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_e563e73f0ebbe1fd2e343e88d9c85375ed6679d7",
+    "key": "T_CANNON_CORE",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Obliterator Cannon Core",
+    "text": "Obliterator Cannon Core",
+    "entry_index": 313,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_9f9dd1fd1e0f4bcc0b1146dd9e339e414a1bf8b6",
+    "key": "T_CANNON_CORE",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Obliterator Core",
+    "text": "Obliterator Core",
+    "entry_index": 314,
+    "key_occurrence_index": 1
+  },
+  {
+    "id": "loc_9ce151a06c8fa5c7491d67e8695eae88f23de746",
+    "key": "MISSILE_JUGGERNAUT_SECTION",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Missile Juggernaut",
+    "text": "Missile Juggernaut",
+    "entry_index": 315,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_783c526467e4a6366a5afc64ae7833e0ec602dc6",
+    "key": "ARTILLERY_JUGGERNAUT_SECTION",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Artillery Juggernaut",
+    "text": "Artillery Juggernaut",
+    "entry_index": 316,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_3559047bd38132735a7fc920b74c81aba87d13a4",
+    "key": "STRIKECRAFT_JUGGERNAUT_SECTION",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Strike Craft Juggernaut",
+    "text": "Strike Craft Juggernaut",
+    "entry_index": 317,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_b0c9504a6e69c88c20766ad5c0c74813578e293d",
+    "key": "ARTILLERY_JUGGERNAUT_SECTION",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Broadside Juggernaut",
+    "text": "Broadside Juggernaut",
+    "entry_index": 318,
+    "key_occurrence_index": 1
+  },
+  {
+    "id": "loc_0f1985afb40cfe1a643cb37222b795f605632eb7",
+    "key": "MEDIUM_JUGGERNAUT_SECTION",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Barrage Juggernaut",
+    "text": "Barrage Juggernaut",
+    "entry_index": 319,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_874663ad8808c15160a6dac3520eeb4f163f643b",
+    "key": "CORE1_HEADQUARTERS_SECTION",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Headquarters Core",
+    "text": "Headquarters Core",
+    "entry_index": 320,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_3c297faa7d6a917c66a336eef180a3547c242861",
+    "key": "stb_shipyard",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Shipyard",
+    "text": "Shipyard",
+    "entry_index": 0,
+    "key_occurrence_index": 0
+  }
+]

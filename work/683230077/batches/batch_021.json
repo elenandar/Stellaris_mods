@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_d315f37d4588d9d0e21bca86e98e220be232cfc5",
+    "key": "NSC_HYPER_DISRUPTOR",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Hyperdrive Scrambler",
+    "text": "Hyperdrive Scrambler",
+    "entry_index": 334,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_c84cef66948deec0e21b1682d29a5e78ac6c363b",
+    "key": "NSC_HYPER_DISRUPTOR_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Specialized energy weapons disrupt the energy systems of Hyperdrives",
+    "text": "Specialized energy weapons disrupt the energy systems of Hyperdrives",
+    "entry_index": 335,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_bf93f6e6b679f04f7907bc1e77b68d45e87dea5e",
+    "key": "spitfire",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Spitfire",
+    "text": "Spitfire",
+    "entry_index": 338,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_bb80f58e96b08054fb2b207c4627c42c1b28d817",
+    "key": "spitfire_Desc",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Ships with the Spitfire Configuration are designed to counter enemy screens",
+    "text": "Ships with the Spitfire Configuration are designed to counter enemy screens",
+    "entry_index": 339,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_488cd8afcf52de325c8054d5c5e030dc5a92589b",
+    "key": "heavy_carrier",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Heavy Carrier",
+    "text": "Heavy Carrier",
+    "entry_index": 340,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_afe6889f0751846288468b2f5d0fc42e40759e64",
+    "key": "heavy_carrier_desc",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Heavy Carrier Configuration",
+    "text": "Heavy Carrier Configuration",
+    "entry_index": 341,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_f16e6f725d4cd38b5d6d4cd857bc12b15fe28524",
+    "key": "super_carrier",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Super Carrier",
+    "text": "Super Carrier",
+    "entry_index": 342,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_bd11aec635f39cef3c452279721b930900e7c011",
+    "key": "super_carrier_desc",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Super Carrier Configuration",
+    "text": "Super Carrier Configuration",
+    "entry_index": 343,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_ebbfb3e0e6037d1a892638e2def04e530b49a51b",
+    "key": "interdictor",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Interdictor",
+    "text": "Interdictor",
+    "entry_index": 344,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_76f56ed5814633b51180600abc320eac21467ca9",
+    "key": "interdictor_desc",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Interdictor Configuration",
+    "text": "Interdictor Configuration",
+    "entry_index": 345,
+    "key_occurrence_index": 0
+  }
+]

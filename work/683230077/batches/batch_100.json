@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_b51bd454fe5609659018fc65fc90aeb3e911d0dc",
+    "key": "requires_no_existing_nsc_factory",
+    "file": "localisation/russian/nsc_tooltips_l_russian.yml",
+    "source": "You can only build one Strategic Resource Factory.",
+    "text": "You can only build one Strategic Resource Factory.",
+    "entry_index": 0,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_99475814df6f90bc5dc1a7f211af3df4d45be9f5",
+    "key": "requires_no_existing_mall",
+    "file": "localisation/russian/nsc_tooltips_l_russian.yml",
+    "source": "You can only build one Galactic Mall.",
+    "text": "You can only build one Galactic Mall.",
+    "entry_index": 1,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_6ae535a2c21e03e8da08bf1e2845f6b8f4229a15",
+    "key": "requires_no_existing_hospital",
+    "file": "localisation/russian/nsc_tooltips_l_russian.yml",
+    "source": "You can only build one Galactic General Hospital.",
+    "text": "You can only build one Galactic General Hospital.",
+    "entry_index": 2,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_4a646e38182c8eb791b02993d4d20c0e585807a0",
+    "key": "requires_no_existing_nsc_headquarters",
+    "file": "localisation/russian/nsc_tooltips_l_russian.yml",
+    "source": "You can only build one Fleet Headquarters.",
+    "text": "You can only build one Fleet Headquarters.",
+    "entry_index": 3,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_221fe8849580b2443424315ea911465395efbd29",
+    "key": "TBA",
+    "file": "localisation/russian/nsc_tooltips_l_russian.yml",
+    "source": "\\n§g(- Description To Be Added -)§!\\n",
+    "text": "__PROT_0000____PROT_0001__(- Description To Be Added -)__PROT_0002____PROT_0003__",
+    "entry_index": 4,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_81b7475f7e0a904752b5add253a6133be6f4c3f3",
+    "key": "starbase_management_limit",
+    "file": "localisation/russian/nsc_tooltips_l_russian.yml",
+    "source": "§ROnly five §Y$sm_starbase_management$§! may exist per empire.§!",
+    "text": "__PROT_0000__Only five __PROT_0001____PROT_0002____PROT_0003__ may exist per empire.__PROT_0004__",
+    "entry_index": 5,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_90c11231a672668eac5b3b78ad0a19547c6eb375",
+    "key": "requires_colony",
+    "file": "localisation/russian/nsc_tooltips_l_russian.yml",
+    "source": "Requires Colonized planet",
+    "text": "Requires Colonized planet",
+    "entry_index": 8,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_34f288a38691b4b01d83537b47b4dd1ed18f9873",
+    "key": "requires_stronghold",
+    "file": "localisation/russian/nsc_tooltips_l_russian.yml",
+    "source": "Requires Grand Citadel Starbase",
+    "text": "Requires Grand Citadel Starbase",
+    "entry_index": 9,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_79255891e68961d7e0f66f9f02edcca864a327fa",
+    "key": "requires_technology_hyperlane_generation",
+    "file": "localisation/russian/nsc_tooltips_l_russian.yml",
+    "source": "$TRIGGER_FAIL$Requires technology £physics  §Y$tech_hyperlane_generation$§!.",
+    "text": "__PROT_0000__Requires technology £physics  __PROT_0001____PROT_0002____PROT_0003__.",
+    "entry_index": 10,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_2e301061ae986be0c9a32ef6858f615aecc3069a",
+    "key": "requires_no_existing_generator_emisor",
+    "file": "localisation/russian/nsc_tooltips_l_russian.yml",
+    "source": "$TRIGGER_FAIL$Cannot build due to existing §YHyperlane Generator (Emitter)§! in the Empire.",
+    "text": "__PROT_0000__Cannot build due to existing __PROT_0001__Hyperlane Generator (Emitter)__PROT_0002__ in the Empire.",
+    "entry_index": 11,
+    "key_occurrence_index": 0
+  }
+]

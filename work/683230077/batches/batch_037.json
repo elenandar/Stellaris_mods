@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_a98c6edfc21b95cafac27685a4a12571f6f01b71",
+    "key": "mod_shipsize_Battlecruiser_upkeep_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Battlecruiser Upkeep",
+    "text": "Battlecruiser Upkeep",
+    "entry_index": 13,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_2a7462e6d02dc763878684c0321064602d2dcc6c",
+    "key": "mod_shipsize_Battlecruiser_hull_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Battlecruiser Hull Points",
+    "text": "Battlecruiser Hull Points",
+    "entry_index": 14,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_a2586b2aeba07fa2c9fc0c34d1f1295df340c737",
+    "key": "mod_shipsize_Battlecruiser_build_speed_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Battlecruiser Build Speed",
+    "text": "Battlecruiser Build Speed",
+    "entry_index": 15,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_bcfc6cbe671d2eaeac95573290229e8afe3c3c99",
+    "key": "mod_ship_Battlecruiser_cost_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Battlecruiser Build Cost",
+    "text": "Battlecruiser Build Cost",
+    "entry_index": 16,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_cf8716b5be457379139cf7f2dcb03cf6c62c1dcf",
+    "key": "mod_shipsize_Carrier_upkeep_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Carrier Upkeep",
+    "text": "Carrier Upkeep",
+    "entry_index": 17,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_0498af3f924f97d7e31911e16edff14edc600abe",
+    "key": "mod_shipsize_Carrier_hull_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Carrier Hull Points",
+    "text": "Carrier Hull Points",
+    "entry_index": 18,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_80fa26e10502d577b39a6c1bf691c714c5d4ab84",
+    "key": "mod_shipsize_Carrier_build_speed_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Carrier Build Speed",
+    "text": "Carrier Build Speed",
+    "entry_index": 19,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_b2282326fb9deb119437c011dc626b28b847fe22",
+    "key": "mod_ship_Carrier_cost_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Carrier Build Cost",
+    "text": "Carrier Build Cost",
+    "entry_index": 20,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_44d731407199dd327075ee523c395bac6e8e3d84",
+    "key": "mod_shipsize_Dreadnought_upkeep_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Dreadnought Upkeep",
+    "text": "Dreadnought Upkeep",
+    "entry_index": 21,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_03170f906ec749bc931b55e2a1f144d63ba5311a",
+    "key": "mod_shipsize_Dreadnought_hull_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Dreadnought Hull Points",
+    "text": "Dreadnought Hull Points",
+    "entry_index": 22,
+    "key_occurrence_index": 0
+  }
+]

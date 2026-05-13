@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_5f53cf0d18479ccbc0d6781c059c5b3a487aa7cc",
+    "key": "mod_pop_category_purge_produces_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Purge Pops Output",
+    "text": "Purge Pops Output",
+    "entry_index": 43,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_374f6a03702fe3322a0b1712903fac9422bc6f38",
+    "key": "mod_deposit_blockers_time_cost_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Tile Blocker Removal Time",
+    "text": "Tile Blocker Removal Time",
+    "entry_index": 44,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_73cab0af39476ae9bc8ef70683bf8df88cc4e9e5",
+    "key": "mod_light_ship_focus",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Light Ship Focus",
+    "text": "Light Ship Focus",
+    "entry_index": 45,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_bbcddeda1f6b72afd102cd0d246fbf4620dbc3fc",
+    "key": "mod_light_ship_focus_desc",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "A policy that focuses on a fleet of fast, light combat ships. Provides +20% build speed and -20% build cost to Corvettes, Destroyers, and Cruisers, but since our shipyards will be focused on these specific ships, larger classes will build 20% slower and be 20% more expensive.",
+    "text": "A policy that focuses on a fleet of fast, light combat ships. Provides +20% build speed and -20% build cost to Corvettes, Destroyers, and Cruisers, but since our shipyards will be focused on these specific ships, larger classes will build 20% slower and be 20% more expensive.",
+    "entry_index": 46,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_10288c75c1ef9cd9fdb04bf80ee5cf5992bf63c6",
+    "key": "mod_versatility_focus",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Cruiser Focus",
+    "text": "Cruiser Focus",
+    "entry_index": 47,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_38eeed9c0fca2eb40d3655b2c947b1d9eb93204d",
+    "key": "mod_versatility_focus_desc",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "A policy that focuses on a fleet of mid-sized combat ships. Provides +20% build speed and -20% build cost to Cruisers, Strike Cruisers, and Battlecruisers, but since our shipyards will be focused on these specific ships, other classes will build 20% slower and be 20% more expensive.",
+    "text": "A policy that focuses on a fleet of mid-sized combat ships. Provides +20% build speed and -20% build cost to Cruisers, Strike Cruisers, and Battlecruisers, but since our shipyards will be focused on these specific ships, other classes will build 20% slower and be 20% more expensive.",
+    "entry_index": 48,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_309e7e57b2a421487b86d3efebfdf17a2767ec53",
+    "key": "mod_capital_focus",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Capital Ship Focus",
+    "text": "Capital Ship Focus",
+    "entry_index": 49,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_a4fa31e963cc6378849b17485ff6663c53828eb0",
+    "key": "mod_capital_focus_desc",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "A policy that focuses on a fleet of large and powerful warships. Provides +20% build speed and -20% build cost to Battleships, Carriers, Dreadnoughts, and Titans, but since our shipyards will be focused on these specific ships, smaller classes will build 20% slower and be 20% more expensive.",
+    "text": "A policy that focuses on a fleet of large and powerful warships. Provides +20% build speed and -20% build cost to Battleships, Carriers, Dreadnoughts, and Titans, but since our shipyards will be focused on these specific ships, smaller classes will build 20% slower and be 20% more expensive.",
+    "entry_index": 50,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_b270081a25f462417c3dba28af4948e3cac74df0",
+    "key": "mod_carrier_focus",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Carrier Focus",
+    "text": "Carrier Focus",
+    "entry_index": 51,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_60d28e7b084790ca4d46f5a55fcf6fa128e67fb4",
+    "key": "mod_carrier_focus_desc",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "A policy that focuses on a fleet of Carriers equipped with large numbers of strike craft. Provides +35% build speed and -35% build cost to Escort Carriers and Carriers, but since our shipyards will be focused on these specific ships, other classes will build 20% slower and be 20% more expensive.",
+    "text": "A policy that focuses on a fleet of Carriers equipped with large numbers of strike craft. Provides +35% build speed and -35% build cost to Escort Carriers and Carriers, but since our shipyards will be focused on these specific ships, other classes will build 20% slower and be 20% more expensive.",
+    "entry_index": 52,
+    "key_occurrence_index": 0
+  }
+]

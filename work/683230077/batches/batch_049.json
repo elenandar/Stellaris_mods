@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_a7505c7a76c782f995f6815ed44c95e2dbe4c9fb",
+    "key": "eternal_vigilance_half_spending_large_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Only our strongest redoubts require our support.\\nAutomatically builds §YDefense Fortresses§! around §YBastion Starbases§!",
+    "text": "Only our strongest redoubts require our support.__PROT_0000__Automatically builds __PROT_0001__Defense Fortresses__PROT_0002__ around __PROT_0003__Bastion Starbases__PROT_0004__",
+    "entry_index": 28,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_3e79b9d51d115d7650e586ebbe9d036e073bae32",
+    "key": "policy_armament_doctrine",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Armament Doctrine",
+    "text": "Armament Doctrine",
+    "entry_index": 29,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_3c8532f59cb899c926a85f86df58329a0e86f9dd",
+    "key": "policy_armament_doctrine_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "This Fleet Doctrine determines what armaments our ship designs should emphasize, at the expense of reduced efficiency with other weapons.",
+    "text": "This Fleet Doctrine determines what armaments our ship designs should emphasize, at the expense of reduced efficiency with other weapons.",
+    "entry_index": 30,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_5ddee8a842ec83ae753b5fd64f47d785808c18dd",
+    "key": "balanced_focus_name",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Standard Armament",
+    "text": "Standard Armament",
+    "entry_index": 31,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_5d001493e3dbe15234229e017e98dc711b6c8d63",
+    "key": "balanced_focus_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "We will spread our focus evenly across the weapon types; there is no need to specialize in one to the detriment of the others.",
+    "text": "We will spread our focus evenly across the weapon types; there is no need to specialize in one to the detriment of the others.",
+    "entry_index": 33,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_0d1db0079fc23e595209133bbba812d645434fed",
+    "key": "brawler_name",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Brawler Focus",
+    "text": "Brawler Focus",
+    "entry_index": 34,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_208c9f2cee86c403b4eb11d093732960549afb40",
+    "key": "brawler_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Kinetic weapons have a long and storied history. Our Kinetic weapons will tear through enemy shields and hulls and bring glory to our nation.",
+    "text": "Kinetic weapons have a long and storied history. Our Kinetic weapons will tear through enemy shields and hulls and bring glory to our nation.",
+    "entry_index": 36,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_9197ba05a54086bbd931d9f35d0ed825c422abb1",
+    "key": "gunship_focus_name",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Gunship Focus",
+    "text": "Gunship Focus",
+    "entry_index": 37,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_d4b496e448f0e9559a5f9f945d2ae143626b0969",
+    "key": "gunship_focus_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "There is a certain majesty to the manipulation of direct energy to destroy one's foes. Our Energy weapons will burn through enemy ships and melt away their fleets.",
+    "text": "There is a certain majesty to the manipulation of direct energy to destroy one's foes. Our Energy weapons will burn through enemy ships and melt away their fleets.",
+    "entry_index": 39,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_5a7817298f37620a346036136e789061a39926bc",
+    "key": "guided_munitions_focus_name",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Missile Focus",
+    "text": "Missile Focus",
+    "entry_index": 40,
+    "key_occurrence_index": 0
+  }
+]

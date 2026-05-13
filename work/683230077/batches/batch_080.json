@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_2fe5a27d2ee9ba920e36c8eaf80dde7e1b66db29",
+    "key": "sm_synthetic_volatile_motes_fabricator_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "A special refinery that transforms minerals into volatile motes.\\n",
+    "text": "A special refinery that transforms minerals into volatile motes.__PROT_0000__",
+    "entry_index": 93,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_7aa89e20cd5bd2df0d4e09e0a51d591aafcefd3a",
+    "key": "sm_synthetic_gase_fabricator",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Synthetic Gases Fabricator",
+    "text": "Synthetic Gases Fabricator",
+    "entry_index": 94,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_1b646996e28c40c68df1de37e5a382657ff11f6a",
+    "key": "sm_synthetic_gase_fabricator_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "A special refinery that transforms minerals into exotic gases.\\n",
+    "text": "A special refinery that transforms minerals into exotic gases.__PROT_0000__",
+    "entry_index": 95,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_ca798c8f56b9cea01b303e199338ca74d9377ac3",
+    "key": "sm_robot_assembly",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Robot Assembly Facility",
+    "text": "Robot Assembly Facility",
+    "entry_index": 96,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_5f3f6cddf5814e6f68da717151be327fe0bd60c7",
+    "key": "sm_robot_assembly_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Builds robot populations and automatically transfers them into the colonies of the system.\\n",
+    "text": "Builds robot populations and automatically transfers them into the colonies of the system.__PROT_0000__",
+    "entry_index": 97,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_423b222c5da3c25179f2ad8354c8c599660642b7",
+    "key": "sm_assembly_line_manufacturing",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Assembly Line Manufacturing",
+    "text": "Assembly Line Manufacturing",
+    "entry_index": 98,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_fc0ffc42bd5379de1f86d96df88486fd32f0607d",
+    "key": "sm_assembly_line_manufacturing_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Helps in the production of alloys and consumer goods both in space and on planets. Will also improve the output of every §GSpace Foundry§! by §Y1 Alloy§!  £alloys  and §GSpace Factory§! by §Y2 Consumer Goods§!  £consumer_goods.\\n",
+    "text": "Helps in the production of alloys and consumer goods both in space and on planets. Will also improve the output of every __PROT_0000__Space Foundry__PROT_0001__ by __PROT_0002__1 Alloy__PROT_0003__  __PROT_0004__consumer_goods.__PROT_0005__",
+    "entry_index": 99,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_843f6044c6587e6101cb129cf19f65cb24a1bd16",
+    "key": "sm_federal_reserve_bank",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Central Reserve Bank",
+    "text": "Central Reserve Bank",
+    "entry_index": 100,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_827d0d82a368d69b5ea0b22331b81790834cea3a",
+    "key": "sm_federal_reserve_bank_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "A large financial bank that helps to improve trade within the system.\\n",
+    "text": "A large financial bank that helps to improve trade within the system.__PROT_0000__",
+    "entry_index": 101,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_3c4b3daec3b109c3f394d0dc538b36f0f598b680",
+    "key": "sm_cloning_facilities",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Cloning Facilities",
+    "text": "Cloning Facilities",
+    "entry_index": 102,
+    "key_occurrence_index": 0
+  }
+]

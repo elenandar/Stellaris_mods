@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_f87f096c17dac71e40f3d0792ebbd36d0a27304f",
+    "key": "BATTLECRUISER_CLOAKING_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "A large cloaking device for the Battlecruiser.",
+    "text": "A large cloaking device for the Battlecruiser.",
+    "entry_index": 376,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_9cac229ed1c9831dbd1a9278d1cbd035565600e5",
+    "key": "EXPLORATION_CRUISER_UPGRADE_PROJECT",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "Science Ship Upgrade Project",
+    "text": "Science Ship Upgrade Project",
+    "entry_index": 0,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_721e282beaa9eb201cc4d0ca2e6eeb5a846833d0",
+    "key": "EXPLORATION_CRUISER_UPGRADE_PROJECT_DESC",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "Our fleet engineers stand ready to begin the monumental task of retrofitting one of our existing Science ships into the new Explorer class. It is expected that this project will take approximately 250 days to complete. When finished, the Scientist Leader of the ship will transfer to their new ship automatically.",
+    "text": "Our fleet engineers stand ready to begin the monumental task of retrofitting one of our existing Science ships into the new Explorer class. It is expected that this project will take approximately 250 days to complete. When finished, the Scientist Leader of the ship will transfer to their new ship automatically.",
+    "entry_index": 1,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_7b54d0e586279d7e9c46c66347f862c0930aee03",
+    "key": "nsc_events_exploration_ship.3.name",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "Prototype Explorer",
+    "text": "Prototype Explorer",
+    "entry_index": 2,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_76bb3bee49e77dced68ceab417908cc5b975b8d1",
+    "key": "nsc_events_exploration_ship.3.desc",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "Our intrepid Science Officers have faced incredible danger in their quest to explore the galaxy and uncover all the secrets it has to offer. Our ship engineers have been working together with our scientists to come up with a solution to this problem. We believe we finally have the answer.\\n\\nThe Explorer is a large, combat-capable Science Ship dedicated to exploring new worlds and seeking out new life and new civilizations. Our scientists will no longer have to fear the terrors of the void!",
+    "text": "Our intrepid Science Officers have faced incredible danger in their quest to explore the galaxy and uncover all the secrets it has to offer. Our ship engineers have been working together with our scientists to come up with a solution to this problem. We believe we finally have the answer.__PROT_0000____PROT_0001__The Explorer is a large, combat-capable Science Ship dedicated to exploring new worlds and seeking out new life and new civilizations. Our scientists will no longer have to fear the terrors of the void!",
+    "entry_index": 3,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_e853423135a976af9776278e22db16f570044259",
+    "key": "nsc_events_exploration_ship.3.a",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "Excellent, we shall boldly go where no one has gone before!",
+    "text": "Excellent, we shall boldly go where no one has gone before!",
+    "entry_index": 4,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_782495f2a91edb914b9d14f880ea7ef48b9f6962",
+    "key": "nsc_events_exploration_ship.10.name",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "Science Fleet Upgrade",
+    "text": "Science Fleet Upgrade",
+    "entry_index": 5,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_354caff20e8d1bd7ca4b4f7180fd641498f4bc86",
+    "key": "nsc_events_exploration_ship.10.desc",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "Now that we have finalized the permanent design of the Explorer, our fleet logistics team would like to know if you want to upgrade our fleet of Science ships to this new, enhanced design. Performing the upgrade for each ship will take approximately §G250 days§! and will require an investment of §B400 Alloys§! and §Y50 Energy§! per ship, but would give our leading exploration scientists a much better chance of survival in an increasingly hostile universe. We can upgrade up to 8 Science ships to the new class. A Special Project will be created for each ship you want to upgrade, which will require moving that ship to our home system to begin the project. There is no time limit on how quickly you complete the projects. We await your decision.",
+    "text": "Now that we have finalized the permanent design of the Explorer, our fleet logistics team would like to know if you want to upgrade our fleet of Science ships to this new, enhanced design. Performing the upgrade for each ship will take approximately __PROT_0000__250 days__PROT_0001__ and will require an investment of __PROT_0002__400 Alloys__PROT_0003__ and __PROT_0004__50 Energy__PROT_0005__ per ship, but would give our leading exploration scientists a much better chance of survival in an increasingly hostile universe. We can upgrade up to 8 Science ships to the new class. A Special Project will be created for each ship you want to upgrade, which will require moving that ship to our home system to begin the project. There is no time limit on how quickly you complete the projects. We await your decision.",
+    "entry_index": 6,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_7b0a508e44e46f39a02d8b9143c1c223fdd53b17",
+    "key": "nsc_events_exploration_ship.10.1",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "Choose to upgrade §Y1§! ship. (§Y50 Energy§! & §B400 Alloys§!)",
+    "text": "Choose to upgrade __PROT_0000__1__PROT_0001__ ship. (__PROT_0002__50 Energy__PROT_0003__ & __PROT_0004__400 Alloys__PROT_0005__)",
+    "entry_index": 7,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_a5f95a4d5d0030833eed01cf14dcdb07ba256b19",
+    "key": "nsc_events_exploration_ship.10.2",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "Choose to upgrade §Y2§! ships. (§Y100 Energy§! & §B800 Alloys§!)",
+    "text": "Choose to upgrade __PROT_0000__2__PROT_0001__ ships. (__PROT_0002__100 Energy__PROT_0003__ & __PROT_0004__800 Alloys__PROT_0005__)",
+    "entry_index": 8,
+    "key_occurrence_index": 0
+  }
+]

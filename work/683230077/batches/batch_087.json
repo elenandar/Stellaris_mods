@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_1e3ec2d753eb96489a69b2db3ef4f03c3420630d",
+    "key": "tech_starbase_6",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Grand Citadel Starbase",
+    "text": "Grand Citadel Starbase",
+    "entry_index": 34,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_b8015aab8c57794b6493c73b956e3eeb6700c9ea",
+    "key": "tech_starbase_6_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "As fleets grow larger and more powerful, it becomes necessary for our starbases and defensive installations to grow in strength, as well. The Grand Citadel is a powerful and highly advanced system defense station, a massive upgrade to existing Citadel-class starbases. These valuable and highly developed starbases are important installations to our empire, and can support a wide range of facilities.",
+    "text": "As fleets grow larger and more powerful, it becomes necessary for our starbases and defensive installations to grow in strength, as well. The Grand Citadel is a powerful and highly advanced system defense station, a massive upgrade to existing Citadel-class starbases. These valuable and highly developed starbases are important installations to our empire, and can support a wide range of facilities.",
+    "entry_index": 35,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_1c4eb6a69881467811037c2a2ff576970d8e3539",
+    "key": "tech_starbase_7",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Solar Stronghold Starbase",
+    "text": "Solar Stronghold Starbase",
+    "entry_index": 36,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_0396ff00ee1523e7ce365e1d63ad012f2c60b381",
+    "key": "tech_starbase_7_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "The final upgrade in the starbase chain, the Solar Stronghold is the ultimate command and defense station, the largest class of starbase that it is possible to build. Enemy fleets will break upon these massive bulwarks, and each one is a vital asset to our empire, defending the most critical locations on the galactic map.",
+    "text": "The final upgrade in the starbase chain, the Solar Stronghold is the ultimate command and defense station, the largest class of starbase that it is possible to build. Enemy fleets will break upon these massive bulwarks, and each one is a vital asset to our empire, defending the most critical locations on the galactic map.",
+    "entry_index": 37,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_aa8872a652772f8f1bb693b1764c40cb61417f9b",
+    "key": "tech_space_defense_station_2",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Deep Space Defenses 2",
+    "text": "Deep Space Defenses 2",
+    "entry_index": 38,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_6bc9d6d535a0c7f8cef5a041aa12c8598a84f73b",
+    "key": "tech_space_defense_station_2_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "As fleets grow larger and more powerful, it becomes necessary for our defensive installations to grow in strength, as well. These expanded Defense Stations, an upgrade to the basic Defense Platforms we currently use, will allow us to better defend our territory from enemy attack.",
+    "text": "As fleets grow larger and more powerful, it becomes necessary for our defensive installations to grow in strength, as well. These expanded Defense Stations, an upgrade to the basic Defense Platforms we currently use, will allow us to better defend our territory from enemy attack.",
+    "entry_index": 39,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_f249712a8671c51298d98cbb69c2753c8bba336a",
+    "key": "tech_space_defense_station_3",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Deep Space Defenses 3",
+    "text": "Deep Space Defenses 3",
+    "entry_index": 40,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_2ba8efb39f5fb75a6ab834accc491c17f4471f71",
+    "key": "tech_space_defense_station_3_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "As fleets grow larger and more powerful, it becomes necessary for our defensive installations to grow in strength, as well. These expanded Fortress-level defensive installations, an upgrade to the Defense Stations currently in use, will allow us to better defend our territory from enemy attack.",
+    "text": "As fleets grow larger and more powerful, it becomes necessary for our defensive installations to grow in strength, as well. These expanded Fortress-level defensive installations, an upgrade to the Defense Stations currently in use, will allow us to better defend our territory from enemy attack.",
+    "entry_index": 41,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_f15fb4109231ef8956a3278340612d4ed244ff31",
+    "key": "tech_specialcomponents_1",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Advanced Warship Components",
+    "text": "Advanced Warship Components",
+    "entry_index": 42,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_424cd0a49eafe623909806eddfaa499b0ee62791",
+    "key": "tech_specialcomponents_1_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Our scientists have come up with a wide range of powerful new modules allowing for the enhancement and further specialization of our warships. Now we only have to miniaturize them, to make them small enough to carry aboard our vessels.",
+    "text": "Our scientists have come up with a wide range of powerful new modules allowing for the enhancement and further specialization of our warships. Now we only have to miniaturize them, to make them small enough to carry aboard our vessels.",
+    "entry_index": 43,
+    "key_occurrence_index": 0
+  }
+]

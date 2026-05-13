@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_9548d8d3584220f3f56622a5ae93ba4f062abf1a",
+    "key": "ai_behaviour_stationary_30_DESC",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "Ships will move up to the shown distance (30) and then hold position while firing at the enemy.",
+    "text": "Ships will move up to the shown distance (30) and then hold position while firing at the enemy.",
+    "entry_index": 9,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_ae72aae768a9a2d3f009fc4cb378d5f256716e23",
+    "key": "ai_behaviour_stationary_50",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "Artillery Tactic (Range: 50)",
+    "text": "Artillery Tactic (Range: 50)",
+    "entry_index": 10,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_98a1faeb2e2496cf33eebf460cbebf8ff9235ff4",
+    "key": "ai_behaviour_stationary_50_DESC",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "Ships will move up to the shown distance (50) and then hold position while firing at the enemy.",
+    "text": "Ships will move up to the shown distance (50) and then hold position while firing at the enemy.",
+    "entry_index": 11,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_f0e2dc290d7082aec8ff9ad7633978fe67b24754",
+    "key": "ai_behaviour_stationary_60",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "Artillery Tactic (Range: 60)",
+    "text": "Artillery Tactic (Range: 60)",
+    "entry_index": 12,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_f27016d5f28d8d82ec667989ba40c2b001663c24",
+    "key": "ai_behaviour_stationary_60_DESC",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "Ships will move up to the shown distance (60) and then hold position while firing at the enemy.",
+    "text": "Ships will move up to the shown distance (60) and then hold position while firing at the enemy.",
+    "entry_index": 13,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_ef1ff1073b2860ccfeb72327c3d043277924f072",
+    "key": "ai_behaviour_stationary_70",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "Artillery Tactic (Range: 70)",
+    "text": "Artillery Tactic (Range: 70)",
+    "entry_index": 14,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_b5977d01eb3f70322372b2f24865e84a938507d1",
+    "key": "ai_behaviour_stationary_70_DESC",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "Ships will move up to the shown distance (70) and then hold position while firing at the enemy.",
+    "text": "Ships will move up to the shown distance (70) and then hold position while firing at the enemy.",
+    "entry_index": 15,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_2458f6b9e5a7b828e66f0d88232b3693a4c12c06",
+    "key": "ai_behaviour_stationary_80",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "Artillery Tactic (Range: 80)",
+    "text": "Artillery Tactic (Range: 80)",
+    "entry_index": 16,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_99529281101aec9c3415d68a3fc42f3e89273847",
+    "key": "ai_behaviour_stationary_80_DESC",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "Ships will move up to the shown distance (80) and then hold position while firing at the enemy.",
+    "text": "Ships will move up to the shown distance (80) and then hold position while firing at the enemy.",
+    "entry_index": 17,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_767615965cba67c43a1a58e55476ff0f7f6687e9",
+    "key": "ai_behaviour_stationary_90",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "Artillery Tactic (Range: 90)",
+    "text": "Artillery Tactic (Range: 90)",
+    "entry_index": 18,
+    "key_occurrence_index": 0
+  }
+]

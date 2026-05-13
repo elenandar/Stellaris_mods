@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_5d807309264a027c817bb9238d6ec9814730d234",
+    "key": "mod_ships_engineering_research_produces_add",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Engineering Research",
+    "text": "Engineering Research",
+    "entry_index": 3,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_613c301c975aea7cf9701f8974b711f43c2a60d8",
+    "key": "mod_ships_alloys_produces_add",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Alloy Production",
+    "text": "Alloy Production",
+    "entry_index": 4,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_b2ec8bfb847794335cabeed291313f90d2b31361",
+    "key": "mod_ship_colossus_cost_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Colossus Build Cost",
+    "text": "Colossus Build Cost",
+    "entry_index": 5,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_9d75d6295019106ed49273231f3cb3ba51ebaf7e",
+    "key": "mod_shipsize_colossus_build_speed_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Colossus Build Speed",
+    "text": "Colossus Build Speed",
+    "entry_index": 6,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_450e78332f1b5ceee5806ea628ab81e3eaf3e345",
+    "key": "mod_ship_juggernaut_cost_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Juggernaut Build Cost",
+    "text": "Juggernaut Build Cost",
+    "entry_index": 7,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_da76d01d1a5cc93927771421ca0f4b5083fef481",
+    "key": "mod_shipsize_juggernaut_build_speed_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Juggernaut Build Speed",
+    "text": "Juggernaut Build Speed",
+    "entry_index": 8,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_7042b83207aa1429e14fbc487a10e46bae855edb",
+    "key": "mod_shipsize_StrikeCruiser_upkeep_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Strike Cruiser Upkeep",
+    "text": "Strike Cruiser Upkeep",
+    "entry_index": 9,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_1f034829b768d077001f8682a0378f4009db9bd6",
+    "key": "mod_shipsize_StrikeCruiser_hull_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Strike Cruiser Hull Points",
+    "text": "Strike Cruiser Hull Points",
+    "entry_index": 10,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_708bbc355b1236099a18146ed364005c5fb821b2",
+    "key": "mod_shipsize_StrikeCruiser_build_speed_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Strike Cruiser Build Speed",
+    "text": "Strike Cruiser Build Speed",
+    "entry_index": 11,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_9596cda78610db20f30268cde714c7116379cb9b",
+    "key": "mod_ship_StrikeCruiser_cost_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Strike Cruiser Build Cost",
+    "text": "Strike Cruiser Build Cost",
+    "entry_index": 12,
+    "key_occurrence_index": 0
+  }
+]

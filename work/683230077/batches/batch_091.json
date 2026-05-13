@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_be2d9f47679756c1028776bd903cf1a89f7a7565",
+    "key": "tech_carrier_build_speed_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Establishing new standards for the modeling and construction of Carriers greatly improves the efficiency of the production pipeline.",
+    "text": "Establishing new standards for the modeling and construction of Carriers greatly improves the efficiency of the production pipeline.",
+    "entry_index": 85,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_50a3a3350fc5a6a49a1b5eb314751204e26979ba",
+    "key": "tech_carrier_hull_1",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Improved Carrier Hulls",
+    "text": "Improved Carrier Hulls",
+    "entry_index": 86,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_1132649eaf4f1a997f61ebd706b83eeda812e824",
+    "key": "tech_carrier_hull_1_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Advances in building techniques will allow for the construction of sturdier and more durable Carriers.",
+    "text": "Advances in building techniques will allow for the construction of sturdier and more durable Carriers.",
+    "entry_index": 87,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_b52c4782cd85d240e203d4545b28e6de08de3016",
+    "key": "tech_carrier_hull_2",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Advanced Carrier Hulls",
+    "text": "Advanced Carrier Hulls",
+    "entry_index": 88,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_69160d5289781a7abb3120e3ec4eb65a6118fd26",
+    "key": "tech_carrier_hull_2_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "The latest generation of Carrier hulls have optimized structural integrity fields and improved bulkheads.",
+    "text": "The latest generation of Carrier hulls have optimized structural integrity fields and improved bulkheads.",
+    "entry_index": 89,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_087919364a3bc44c7b2c43e9190277489c304fea",
+    "key": "tech_dreadnought_build_speed",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Standardized Dreadnought Patterns",
+    "text": "Standardized Dreadnought Patterns",
+    "entry_index": 90,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_79e7a4e5e1ae89116f929c945703e171ead2157d",
+    "key": "tech_dreadnought_build_speed_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Establishing new standards for the modeling and construction of Dreadnoughts greatly improves the efficiency of the production pipeline.",
+    "text": "Establishing new standards for the modeling and construction of Dreadnoughts greatly improves the efficiency of the production pipeline.",
+    "entry_index": 91,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_4bc32b20a307593c7da8703af4a643c89ecf6aaf",
+    "key": "tech_dreadnought_hull_1",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Improved Dreadnought Hulls",
+    "text": "Improved Dreadnought Hulls",
+    "entry_index": 92,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_1aa2d41387170dcac24b99bd03427c7f54c54791",
+    "key": "tech_dreadnought_hull_1_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Advances in building techniques will allow for the construction of sturdier and more durable Dreadnoughts.",
+    "text": "Advances in building techniques will allow for the construction of sturdier and more durable Dreadnoughts.",
+    "entry_index": 93,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_74a35a5b9ff2cc9a453b87f28c5742336bf5e3f2",
+    "key": "tech_dreadnought_hull_2",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Advanced Dreadnought Hulls",
+    "text": "Advanced Dreadnought Hulls",
+    "entry_index": 94,
+    "key_occurrence_index": 0
+  }
+]

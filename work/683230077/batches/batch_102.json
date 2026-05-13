@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_16434d5d144ad40b4ef3be67bc74ca6f82f182f6",
+    "key": "nsc_ftl_disrupted",
+    "file": "localisation/russian/nsc_tooltips_l_russian.yml",
+    "source": "Hyperdrive Disrupted",
+    "text": "Hyperdrive Disrupted",
+    "entry_index": 22,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_c0d44ed6c3ad61930a16663efb7b8034fc66ddb7",
+    "key": "requires_technology_exploration_cruiser",
+    "file": "localisation/russian/nsc_tooltips_l_russian.yml",
+    "source": "Requires §HExplorer (Level 1)§!",
+    "text": "Requires __PROT_0000__Explorer (Level 1)__PROT_0001__",
+    "entry_index": 23,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_1c5787d85dfe102fa7b920e8ee3839785a717d1e",
+    "key": "requires_technology_automated_exploration",
+    "file": "localisation/russian/nsc_tooltips_l_russian.yml",
+    "source": "Requires §BAutomated Exploration Protocols§!",
+    "text": "Requires __PROT_0000__Automated Exploration Protocols__PROT_0001__",
+    "entry_index": 24,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_66707085860e7c471959c823a7bb199958a56523",
+    "key": "requires_discovery_tree",
+    "file": "localisation/russian/nsc_tooltips_l_russian.yml",
+    "source": "Requires completing the §MDiscovery Tradition§!",
+    "text": "Requires completing the __PROT_0000__Discovery Tradition__PROT_0001__",
+    "entry_index": 25,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_dfcc6b2767e1a6c6c73de9d4200a480d73540c47",
+    "key": "starbase_h_limit.tooltip.fail",
+    "file": "localisation/russian/nsc_tooltips_l_russian.yml",
+    "source": "You cannot build more than 6 hangar bays per starbase.",
+    "text": "You cannot build more than 6 hangar bays per starbase.",
+    "entry_index": 26,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_c71c8b2bed7e0f082c527c311af65c121901a978",
+    "key": "starbase_t_limit.tooltip.fail",
+    "file": "localisation/russian/nsc_tooltips_l_russian.yml",
+    "source": "You cannot build more than 2 Titanic weapons per starbase.",
+    "text": "You cannot build more than 2 Titanic weapons per starbase.",
+    "entry_index": 27,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_d915562ded58a2fbe1213300dffbd94dbd0a37e1",
+    "key": "starbase_xl_limit.tooltip.fail",
+    "file": "localisation/russian/nsc_tooltips_l_russian.yml",
+    "source": "You cannot build more than 6 XL weapons per starbase.",
+    "text": "You cannot build more than 6 XL weapons per starbase.",
+    "entry_index": 28,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_1c3325dbb9cd473d76af15e39466a673ecdc9f62",
+    "key": "starbase_filler_limit_3.tooltip.fail",
+    "file": "localisation/russian/nsc_tooltips_l_russian.yml",
+    "source": "You cannot build more than 3 of these modules per starbase.",
+    "text": "You cannot build more than 3 of these modules per starbase.",
+    "entry_index": 29,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_27fac599f57960bca43ffbee2fd983243890c2d7",
+    "key": "starbase_filler_limit_6.tooltip.fail",
+    "file": "localisation/russian/nsc_tooltips_l_russian.yml",
+    "source": "You cannot build more than 6 of these modules per starbase.",
+    "text": "You cannot build more than 6 of these modules per starbase.",
+    "entry_index": 30,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_d2b4ede6016d52bea462dcd54aca0923c591b22a",
+    "key": "starbase_filler_limit.tooltip_10.fail",
+    "file": "localisation/russian/nsc_tooltips_l_russian.yml",
+    "source": "You cannot build more than 10 of these modules per starbase.",
+    "text": "You cannot build more than 10 of these modules per starbase.",
+    "entry_index": 31,
+    "key_occurrence_index": 0
+  }
+]

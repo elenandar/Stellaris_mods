@@ -1,0 +1,742 @@
+#################################
+### VANILLA POLICY OVERWRITES ###
+#################################
+
+orbital_bombardment = {
+
+	potential = {
+		OR = {
+			is_country_type = default
+			is_country_type = vol
+		}
+	}
+
+	option = {
+		name = "orbital_bombardment_selective"
+		policy_flags = {
+			orbital_bombardment_selective
+		}
+
+		AI_weight = {
+			modifier = {
+				factor = 0
+				NOR = {
+					has_ethic = "ethic_pacifist"
+					has_ethic = "ethic_fanatic_pacifist"
+				}
+				NOT = {
+					is_galactic_community_member = yes
+					OR = {
+						is_active_resolution = "resolution_rulesofwar_independent_tribunals"
+						is_active_resolution = "resolution_rulesofwar_last_resort_doctrine"
+						is_active_resolution = "resolution_rulesofwar_demobilization_initiative"
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "orbital_bombardment_indiscriminate"
+
+		in_breach_of = {
+			{
+				key = resolution_rulesofwar_independent_tribunals
+			}
+			{
+				key = resolution_rulesofwar_last_resort_doctrine
+			}
+			{
+				key = resolution_rulesofwar_demobilization_initiative
+			}
+		}
+
+		policy_flags = {
+			orbital_bombardment_indiscriminate
+		}
+		modifier = {}
+
+		#valid = {
+		#	NOR = {
+		#		has_ethic = "ethic_pacifist"
+		#		has_ethic = "ethic_fanatic_pacifist"
+		#	}
+		#}
+		AI_weight = {
+			modifier = {
+				factor = 0.1
+				is_galactic_community_member = yes
+				OR = {
+					is_active_resolution = "resolution_rulesofwar_independent_tribunals"
+					is_active_resolution = "resolution_rulesofwar_last_resort_doctrine"
+					is_active_resolution = "resolution_rulesofwar_demobilization_initiative"
+				}
+			}
+		}
+	}
+	option = {
+		name = "orbital_bombardment_armageddon"
+
+		in_breach_of = {
+			{
+				key = resolution_rulesofwar_independent_tribunals
+			}
+			{
+				key = resolution_rulesofwar_last_resort_doctrine
+			}
+			{
+				key = resolution_rulesofwar_demobilization_initiative
+			}
+		}
+
+		#potential = {
+		#	OR = {
+		#		has_valid_civic = civic_fanatic_purifiers
+		#		has_valid_civic = civic_machine_terminator
+		#	}
+		#}
+
+		policy_flags = {
+			orbital_bombardment_armageddon
+		}
+		modifier = {}
+
+		AI_weight = {
+			modifier = {
+				factor = 10
+				OR = {
+					has_valid_civic = civic_fanatic_purifiers
+					has_valid_civic = civic_machine_terminator
+				}
+			}
+			modifier = {
+				factor = 10
+				has_ascension_perk = ap_become_the_crisis
+			}
+		}
+	}
+
+	option = {
+		name = "orbital_bombardment_devastation"
+
+		in_breach_of = {
+			{
+				key = resolution_rulesofwar_independent_tribunals
+			}
+			{
+				key = resolution_rulesofwar_last_resort_doctrine
+			}
+			{
+				key = resolution_rulesofwar_demobilization_initiative
+			}
+		}
+
+		#potential = {
+		#	OR = {
+		#		has_valid_civic = civic_scorched_earth
+		#		has_valid_civic = civic_hive_scorched_earth
+		#	}
+		#}
+
+		policy_flags = {
+			orbital_bombardment_devastation
+		}
+		modifier = {}
+
+		AI_weight = {
+			modifier = {
+				factor = 10
+				OR = {
+					has_valid_civic = civic_scorched_earth
+					has_valid_civic = civic_hive_scorched_earth
+				}
+			}
+			modifier = {
+				factor = 10
+				has_ascension_perk = ap_become_the_crisis
+				# TODO: Add Infernals crisis path with OR={} or remove THIS line later.
+			}
+		}
+	}
+}
+
+
+# eternal_vigilance_policy = {
+	# potential = {
+		# is_country_type = default
+		# has_ascension_perk = ap_eternal_vigilance
+	# }
+
+	
+	# option = {
+		# name = eternal_vigilance_full_spending
+
+		# policy_flags = {
+			# eternal_vigilance_full_spending
+		# }
+
+		# AI_weight = {
+			# weight = 20
+			# modifier = { #Seems like a good idea if you have the energy to spend
+				# factor = 5
+				# has_monthly_income = {
+					# resource = energy
+					# value > 100
+				# }
+			# }
+			# modifier = { #Uhoh we are close to a defecit we probably shouldn't
+				# factor = 0
+				# has_monthly_income = {
+					# resource = energy
+					# value < 1
+				# }
+			# }
+		# }
+	# }
+	
+	# option = {
+		# name = eternal_vigilance_full_spending_medium
+
+		# policy_flags = {
+			# eternal_vigilance_full_spending_medium
+		# }
+
+		# AI_weight = {
+			# weight = 20
+			# modifier = { #Seems like a good idea if you have the energy to spend
+				# factor = 5
+				# has_monthly_income = {
+					# resource = energy
+					# value > 100
+				# }
+			# }
+			# modifier = { #Uhoh we are close to a defecit we probably shouldn't
+				# factor = 0
+				# has_monthly_income = {
+					# resource = energy
+					# value < 1
+				# }
+			# }
+		# }
+	# }
+	
+	# option = {
+		# name = eternal_vigilance_full_spending_large
+
+		# policy_flags = {
+			# eternal_vigilance_full_spending_large
+		# }
+
+		# AI_weight = {
+			# weight = 20
+			# modifier = { #Seems like a good idea if you have the energy to spend
+				# factor = 5
+				# has_monthly_income = {
+					# resource = energy
+					# value > 100
+				# }
+			# }
+			# modifier = { #Uhoh we are close to a defecit we probably shouldn't
+				# factor = 0
+				# has_monthly_income = {
+					# resource = energy
+					# value < 1
+				# }
+			# }
+		# }
+	# }
+	
+	# option = {
+		# name = eternal_vigilance_half_spending
+
+		# policy_flags = {
+			# eternal_vigilance_half_spending
+		# }
+
+		# AI_weight = { #This is the option if you are doing just fine on the economy front
+			# weight = 75
+		# }
+	# }
+	
+	# option = {
+		# name = eternal_vigilance_half_spending_medium
+
+		# policy_flags = {
+			# eternal_vigilance_half_spending
+		# }
+
+		# AI_weight = { #This is the option if you are doing just fine on the economy front
+			# weight = 75
+		# }
+	# }
+	
+	# option = {
+		# name = eternal_vigilance_half_spending_large
+
+		# policy_flags = {
+			# eternal_vigilance_half_spending
+		# }
+
+		# AI_weight = { #This is the option if you are doing just fine on the economy front
+			# weight = 75
+		# }
+	# }
+	
+	# option = {
+		# name = eternal_vigilance_no_spending
+
+		# policy_flags = {
+			# eternal_vigilance_no_spending
+		# }
+
+		# AI_weight = {
+			# weight = 1
+			# modifier = { #Seems like a bad idea if you have the energy to spend
+				# factor = 0
+				# has_monthly_income = {
+					# resource = energy
+					# value > 100
+				# }
+			# }
+			# modifier = { #Uhoh we are close to a defecit we probably shouldn't spend more
+				# factor = 5
+				# has_monthly_income = {
+					# resource = energy
+					# value < 1
+				# }
+			# }
+		# }
+	# }
+# }
+
+
+
+
+
+#################################
+### NSC POLICIES ################
+#################################
+
+### TECH OPTIONS POLICY ###
+
+tech_options_policy = {
+	potential = {
+		is_country_type = default
+		is_ai = no
+	}
+	option = {
+		name = "defaulttech_option"
+		policy_flags = { defaulttech_option }		
+	}
+	option = {
+		name = "tech5_option"
+		policy_flags = { tech5_option }
+		modifier = { 
+			num_tech_alternatives_add = 5
+			country_physics_research_produces_mult = -0.10
+			country_society_research_produces_mult = -0.10
+			country_engineering_research_produces_mult = -0.10
+		}
+		ai_weight = { factor = 0 }
+	}
+	option = {
+		name = "tech10_option"
+		policy_flags = { tech10_option }
+		modifier = { 
+			num_tech_alternatives_add = 10
+			country_physics_research_produces_mult = -0.15
+			country_society_research_produces_mult = -0.15
+			country_engineering_research_produces_mult = -0.15
+		}
+		ai_weight = { factor = 0 }
+	}
+	option = {
+		name = "tech15_option"
+		policy_flags = { tech15_option }
+		modifier = { 
+			num_tech_alternatives_add = 15
+			country_physics_research_produces_mult = -0.20
+			country_society_research_produces_mult = -0.20
+			country_engineering_research_produces_mult = -0.20
+		}
+		ai_weight = { factor = 0 }
+	}
+	option = {
+		name = "tech20_option"
+		policy_flags = { tech20_option }
+		modifier = { 
+			num_tech_alternatives_add = 20
+			country_physics_research_produces_mult = -0.30
+			country_society_research_produces_mult = -0.30
+			country_engineering_research_produces_mult = -0.30
+		}
+		ai_weight = { factor = 0 }
+	}
+}
+
+### ARMAMENT DOCTRINE ###
+
+armament_doctrine = {
+	potential = {
+		is_country_type = default
+		has_tradition = tr_nsc_fleet_doctrine_armament
+	}
+
+	option = {
+		name = "balanced_focus"
+		policy_flags = { balanced_focus }
+	}
+
+	option = {
+		name = "brawler"
+		policy_flags = { brawler }
+		modifier = {
+			brawler_weapon_damage_mult = 0.1
+		}
+		ai_weight = { factor = 0 }		
+	}
+
+	option = {
+		name = "gunship_focus"
+		policy_flags = { gunship_focus }
+		modifier = {
+			gunship_weapon_damage_mult = 0.1
+		}
+		ai_weight = { factor = 0 }
+	}
+
+	option = {
+		name = "guided_munitions_focus"
+		policy_flags = { guided_munitions_focus }
+		modifier = {
+			explosive_weapon_damage_mult = 0.1
+		}
+		ai_weight = { factor = 0 }		
+	}
+
+	option = {
+		name = "strike_craft_focus"
+		policy_flags = { strike_craft_focus }
+		modifier = {
+			weapon_type_strike_craft_weapon_damage_mult = 0.1
+		}
+		ai_weight = { factor = 0 }		
+	}
+}
+
+### DEFENSIVE DOCTRINE ###
+defense_doctrine = {
+	potential = {
+		is_country_type = default
+		has_tradition = tr_nsc_fleet_doctrine_defense
+	}
+
+	option = {
+		name = "uniform_focus"
+		policy_flags = { uniform_focus }
+		ai_weight = { factor = 0 }
+	}
+
+	option = {
+		name = "armor_focus"
+		policy_flags = { armor_focus }
+		modifier = {
+			ship_armor_mult = 0.2
+			ship_shield_mult = -0.2
+		}
+		ai_weight = { factor = 0 }
+	}
+
+	option = {
+		name = "shield_focus"
+		policy_flags = { shield_focus }
+		modifier = {
+			ship_armor_mult = -0.2
+			ship_shield_mult = 0.2
+		}
+		ai_weight = { factor = 0 }
+	}
+
+	option = {
+		name = "hardening_focus"
+		policy_flags = { hardening_focus }
+		modifier = {
+			ship_armor_hardening_add = 0.2
+			ship_shield_hardening_add = 0.2
+		}
+		ai_weight = { factor = 0 }
+	}
+}
+
+### FLEET COMPOSITION DOCTRINE ###
+composition_doctrine = {
+	potential = {
+		is_country_type = default
+		has_tradition = tr_nsc_fleet_doctrine_fleet
+	}
+
+	option = {
+		name = "standard_composition"
+		policy_flags = { standard_composition }
+		ai_weight = { factor = 0 }
+	}
+
+	option = {
+		name = "light_ship_focus"
+		policy_flags = { light_ship_focus }
+		modifier = {
+			shipsize_corvette_build_speed_mult = 0.2
+			ship_corvette_cost_mult = -0.2
+			shipsize_destroyer_build_speed_mult = 0.2
+			ship_destroyer_cost_mult = -0.2
+			shipsize_cruiser_build_speed_mult = 0.2
+			ship_cruiser_cost_mult = -0.2
+			shipsize_StrikeCruiser_build_speed_mult = 0.2
+			ship_StrikeCruiser_cost_mult = -0.2
+			shipsize_battlecruiser_build_speed_mult = -0.2
+			ship_Battlecruiser_cost_mult = 0.2
+			shipsize_battleship_build_speed_mult = -0.2
+			ship_battleship_cost_mult = 0.2
+			shipsize_Carrier_build_speed_mult = -0.2
+			ship_Carrier_cost_mult = 0.2
+			shipsize_Dreadnought_build_speed_mult = -0.2
+			ship_Dreadnought_cost_mult = 0.2
+			shipsize_titan_build_speed_mult = -0.2
+			ship_titan_cost_mult = 0.2
+		}
+		ai_weight = { factor = 0 }
+	}
+
+	option = {
+		name = "versatility_focus"
+		policy_flags = { versatility_focus }
+		modifier = {
+			shipsize_corvette_build_speed_mult = -0.2
+			ship_corvette_cost_mult = 0.2
+			shipsize_destroyer_build_speed_mult = -0.2
+			ship_destroyer_cost_mult = 0.2
+			shipsize_cruiser_build_speed_mult = 0.2
+			ship_cruiser_cost_mult = -0.2
+			shipsize_StrikeCruiser_build_speed_mult = 0.2
+			ship_StrikeCruiser_cost_mult = -0.2
+			shipsize_battlecruiser_build_speed_mult = 0.2
+			ship_Battlecruiser_cost_mult = -0.2
+			shipsize_battleship_build_speed_mult = -0.2
+			ship_battleship_cost_mult = 0.2
+			shipsize_Carrier_build_speed_mult = -0.2
+			ship_Carrier_cost_mult = 0.2
+			shipsize_Dreadnought_build_speed_mult = -0.2
+			ship_Dreadnought_cost_mult = 0.2
+			shipsize_titan_build_speed_mult = -0.2
+			ship_titan_cost_mult = 0.2
+		}
+		ai_weight = { factor = 0 }
+	}
+
+	option = {
+		name = "capital_focus"
+		policy_flags = { capital_focus }
+		modifier = {
+			shipsize_corvette_build_speed_mult = -0.2
+			ship_corvette_cost_mult = 0.2
+			shipsize_destroyer_build_speed_mult = -0.2
+			ship_destroyer_cost_mult = 0.2
+			shipsize_cruiser_build_speed_mult = -0.2
+			ship_cruiser_cost_mult = 0.2
+			shipsize_StrikeCruiser_build_speed_mult = -0.2
+			ship_StrikeCruiser_cost_mult = 0.2
+			shipsize_battlecruiser_build_speed_mult = -0.2
+			ship_Battlecruiser_cost_mult = 0.2
+			shipsize_battleship_build_speed_mult = 0.2
+			ship_battleship_cost_mult = -0.2
+			shipsize_Carrier_build_speed_mult = 0.2
+			ship_Carrier_cost_mult = -0.2
+			shipsize_Dreadnought_build_speed_mult = 0.2
+			ship_Dreadnought_cost_mult = -0.2
+			shipsize_titan_build_speed_mult = 0.2
+			ship_titan_cost_mult = -0.2
+		}
+		ai_weight = { factor = 0 }
+	}
+
+	option = {
+		name = "carrier_focus"
+		policy_flags = { carrier_focus }
+		modifier = {
+			shipsize_corvette_build_speed_mult = -0.2
+			ship_corvette_cost_mult = 0.2
+			shipsize_destroyer_build_speed_mult = -0.2
+			ship_destroyer_cost_mult = 0.2
+			shipsize_cruiser_build_speed_mult = -0.2
+			ship_cruiser_cost_mult = 0.2
+			shipsize_StrikeCruiser_build_speed_mult = -0.2
+			ship_StrikeCruiser_cost_mult = 0.2
+			shipsize_battlecruiser_build_speed_mult = -0.2
+			ship_Battlecruiser_cost_mult = 0.2
+			shipsize_battleship_build_speed_mult = -0.2
+			ship_battleship_cost_mult = 0.2
+			shipsize_Carrier_build_speed_mult = 0.35
+			ship_Carrier_cost_mult = -0.35
+			shipsize_Dreadnought_build_speed_mult = -0.2
+			ship_Dreadnought_cost_mult = 0.2
+			shipsize_titan_build_speed_mult = -0.2
+			ship_titan_cost_mult = 0.2
+		}
+		ai_weight = { factor = 0 }
+	}
+}
+
+### FLEET OPERATIONS DOCTRINE ###
+operations_doctrine = {
+	potential = {
+		is_country_type = default
+		has_tradition = tr_nsc_fleet_doctrine_operations
+	}
+
+	option = {
+		name = "standard_operations"
+		policy_flags = { standard_operations }
+		ai_weight = { factor = 0 }
+	}
+
+	option = {
+		name = "blue_sky"
+		policy_flags = { blue_sky }
+		modifier = {
+			ship_home_territory_fire_rate_mult = 0.2
+			ship_fire_rate_mult = -0.1
+			shipclass_military_station_damage_mult = 0.25
+			starbase_upgrade_speed_mult = 0.25
+			ship_damage_against_starbases_mult = -0.2
+		}
+		ai_weight = { weight = 0 }
+	}
+
+	option = {
+		name = "black_sky"
+		policy_flags = { black_sky }
+		modifier = {
+			ship_home_territory_fire_rate_mult = -0.1
+			ship_fire_rate_mult = 0.2
+			ship_orbital_bombardment_mult = 0.15
+			ship_damage_against_starbases_mult = 0.2
+		}
+		ai_weight = { factor = 0 }
+	}
+
+	option = {
+		name = "privateer_operation"
+		valid = {
+			is_gestalt = no
+		}
+		policy_flags = { privateer_operation }
+		modifier = {
+			ships_logistics_mult = -0.15
+			planet_jobs_trade_produces_mult = 0.1
+			country_naval_cap_mult = -0.1
+		}
+		ai_weight = { factor = 0 }
+	}
+}
+
+### CREW QUALITY DOCTRINE ###
+crew_doctrine = {
+	potential = {
+		is_country_type = default
+		has_tradition = tr_nsc_fleet_doctrine_crew
+		is_gestalt = no
+	}
+
+	option = {
+		name = "standard_crew"
+		policy_flags = { standard_crew }
+		ai_weight = { factor = 0 }
+	}
+
+	option = {
+		name = "excellent_crew"
+		valid = { has_technology = tech_interstellar_fleet_traditions }
+		policy_flags = { excellent_crew }
+		modifier = {
+			ship_starting_experience_add = 250
+			starbase_shipyard_build_cost_mult = 0.05
+		}
+		ai_weight = { factor = 0 }
+	}
+
+	option = {
+		name = "militia_crew"
+		valid = { has_technology = tech_interstellar_fleet_traditions }
+		policy_flags = { militia_crew }
+		modifier = {
+			starbase_shipyard_build_cost_mult = -0.15
+			ship_accuracy_mult = -0.05
+			ship_tracking_mult = -0.05
+			ship_weapon_damage = -0.05
+			ship_disengage_opportunities_add = 2
+		}
+		ai_weight = { factor = 0 }
+	}
+
+	option = {
+		name = "ai_crew"
+		valid = { has_technology = tech_interstellar_fleet_traditions }
+		policy_flags = { ai_crew }
+		modifier = {
+			ships_energy_upkeep_mult = 0.1
+			country_naval_cap_mult = 0.01
+			ship_cloaking_detection_add = 1
+		}
+		ai_weight = { factor = 0 }
+	}
+}
+
+crew_doctrine_gestalt = {
+	potential = {
+		is_country_type = default
+		is_gestalt = yes
+		has_tradition = tr_nsc_fleet_doctrine_crew
+	}
+
+	option = {
+		name = "standard_drones"
+		valid = { has_technology = tech_interstellar_fleet_traditions }
+		policy_flags = { standard_drones }
+		ai_weight = { factor = 0 }
+	}
+
+	option = {
+		name = "quality_protocol"
+		valid = { has_technology = tech_interstellar_fleet_traditions }
+		policy_flags = { quality_protocol }
+		modifier = {
+			ship_starting_experience_add = 250
+			starbase_shipyard_build_cost_mult = 0.05
+			country_power_projection_influence_produces_add = 0.25
+		}
+		ai_weight = { factor = 0 }
+	}
+
+	option = {
+		name = "adaptive_protocol"
+		valid = { has_technology = tech_interstellar_fleet_traditions }
+		policy_flags = { adaptive_protocol }
+		modifier = {
+			ship_hull_regen_add_perc = 0.02
+			ship_shield_regen_add_perc = 0.02
+			ship_hull_regen_add_perc = 0.02
+		}
+		ai_weight = { factor = 0 }
+	}
+
+	option = {
+		name = "swarm_protocol"
+		valid = { has_technology = tech_interstellar_fleet_traditions }
+		policy_flags = { swarm_protocol }
+		modifier = {
+			ship_speed_mult = 0.25
+			ship_disengage_chance_reduction = 0.25
+			ship_evasion_mult = 0.25
+		}
+		ai_weight = { factor = 0 }
+	}
+}

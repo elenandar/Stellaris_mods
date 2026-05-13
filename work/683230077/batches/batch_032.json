@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_6ce906f69270ca945e9ae4266ef7afc7144d9c40",
+    "key": "nsc_galactic_mall_0_MEGASTRUCTURE_DETAILS",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "The galaxy's largest shopping center, capable of producing vast quantities of consumer goods, and the ultimate shopping experience.",
+    "text": "The galaxy's largest shopping center, capable of producing vast quantities of consumer goods, and the ultimate shopping experience.",
+    "entry_index": 40,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_72d015828915d364e34c2fc60314f9fb5520dc3d",
+    "key": "nsc_galactic_mall_0",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Galactic Mall Construction Site",
+    "text": "Galactic Mall Construction Site",
+    "entry_index": 41,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_e861e0fa597f4380b7a4979a207a8ff18844896f",
+    "key": "nsc_galactic_mall_1",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Galactic Mall",
+    "text": "Galactic Mall",
+    "entry_index": 44,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_cfea44f6ec364a3214d6effc7aa632b775c71a08",
+    "key": "nsc_galactic_mall_1_DESC",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "The galaxy's largest consumer mall and shopping center, capable of producing §G500§! £consumer_goods §YConsumer Goods§! and §G50§! £unity£ §YUnity§!",
+    "text": "The galaxy's largest consumer mall and shopping center, capable of producing __PROT_0000__500__PROT_0001__ __PROT_0002__unity£ __PROT_0003__Unity__PROT_0004__",
+    "entry_index": 45,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_e19f0167e93cd87a183c6b17c956fb0036c8163f",
+    "key": "nsc_galactic_mall_1_CONSTRUCTION_INFO_DELAYED",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "The galaxy's largest consumer mall and shopping center, capable of producing an impressive amount of £consumer_goods at the cost of £energy and £minerals",
+    "text": "The galaxy's largest consumer mall and shopping center, capable of producing an impressive amount of __PROT_0000__energy and £minerals",
+    "entry_index": 46,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_e57a1186dfba74e375885fffc96fbcac5f91c28f",
+    "key": "nsc_hospital_0_MEGASTRUCTURE_DETAILS",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "A massive hospital dedicated to the study of the xenoraces in the galaxy and the analysis and treatment of the diseases that affect these species.",
+    "text": "A massive hospital dedicated to the study of the xenoraces in the galaxy and the analysis and treatment of the diseases that affect these species.",
+    "entry_index": 48,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_f8fa53f753e6c0e55b8058e1925681b0ade812ae",
+    "key": "nsc_hospital_0",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Galactic General Hospital Construction Site",
+    "text": "Galactic General Hospital Construction Site",
+    "entry_index": 49,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_ab6e70fbe29a5e31ebfe4dc328e18b997693a976",
+    "key": "nsc_hospital_1",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Galactic Clinic",
+    "text": "Galactic Clinic",
+    "entry_index": 52,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_b12e8678d203bd00f7dc168beeb3755f5de3132b",
+    "key": "nsc_hospital_1_DESC",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "A large, space-borne medical clinic, dedicated to the study of the various xenoraces in the galaxy, and the analysis and treatment of all the diseases and conditions that afflict them.",
+    "text": "A large, space-borne medical clinic, dedicated to the study of the various xenoraces in the galaxy, and the analysis and treatment of all the diseases and conditions that afflict them.",
+    "entry_index": 53,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_cfc5bf1a575e077050e0764010e7efcf6def5035",
+    "key": "nsc_hospital_2",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Galactic Medical Center",
+    "text": "Galactic Medical Center",
+    "entry_index": 56,
+    "key_occurrence_index": 0
+  }
+]

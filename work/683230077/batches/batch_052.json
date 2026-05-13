@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_1e16418a9332d2c15bb5eaed378e7521e99b8a10",
+    "key": "carrier_focus_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Our Strike Craft are our greatest weapons. Our pilots are the best and brightest of our people, and our Carriers are the vessels that deploy our valiant warriors into battle. We must focus our efforts on producing as many of these powerful vessels as possible.",
+    "text": "Our Strike Craft are our greatest weapons. Our pilots are the best and brightest of our people, and our Carriers are the vessels that deploy our valiant warriors into battle. We must focus our efforts on producing as many of these powerful vessels as possible.",
+    "entry_index": 76,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_3ee722987bd5cf07d8fb3206583f381a85164ff9",
+    "key": "policy_operations_doctrine",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Fleet Operations Doctrine",
+    "text": "Fleet Operations Doctrine",
+    "entry_index": 77,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_53c3da562643467bfe9ca52d4dc543f853cdbbb4",
+    "key": "policy_operations_doctrine_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "A Navy has many duties: Power projection, defense of core territory, and the protection of internal trade. Our Fleet Operations Doctrine determines which of these tasks to emphasize.",
+    "text": "A Navy has many duties: Power projection, defense of core territory, and the protection of internal trade. Our Fleet Operations Doctrine determines which of these tasks to emphasize.",
+    "entry_index": 78,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_07333cce4436a558d8bab4d0c1cc66802e8a3275",
+    "key": "standard_operations_name",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Standard Operations",
+    "text": "Standard Operations",
+    "entry_index": 79,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_6c4e88f5ad1237db8274a43b3183433612f8a311",
+    "key": "standard_operations_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "We shouldn't over-specialize our Fleet Operations. We must be ready for any and all duties at all times, and never neglect one aspect of naval planning.",
+    "text": "We shouldn't over-specialize our Fleet Operations. We must be ready for any and all duties at all times, and never neglect one aspect of naval planning.",
+    "entry_index": 81,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_af3a0b8b3728b2486959d5d7a9f726ae92c14d77",
+    "key": "blue_sky",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Blue Sky Operations",
+    "text": "Blue Sky Operations",
+    "entry_index": 82,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_920a77d62809f6d4bc676e799ac30b81f6efe41a",
+    "key": "blue_sky_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Nothing is more important than the defense of our planets and our people. Our Navy exists purely to defend our nation, and we should plan to keep our campaigns limited to space we control, and fight primarily with our mighty Starbases in support of our fleets.",
+    "text": "Nothing is more important than the defense of our planets and our people. Our Navy exists purely to defend our nation, and we should plan to keep our campaigns limited to space we control, and fight primarily with our mighty Starbases in support of our fleets.",
+    "entry_index": 84,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_c6431b9350d9d243d09675ed9ad5467b3c45190f",
+    "key": "black_sky",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Black Sky Operations",
+    "text": "Black Sky Operations",
+    "entry_index": 85,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_95fc5cf6204abad0e606e14e5e2d71101d9717bd",
+    "key": "black_sky_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Our Navy must be able to project power far away from home--to protect our allies, punish our enemies, and respond to crises wherever they may arise. We cannot rely on Starbases to support our fleet; we must be able to fight anywhere, even across the galaxy. A Black Sky fleet is a tool of diplomacy, just like any other.",
+    "text": "Our Navy must be able to project power far away from home--to protect our allies, punish our enemies, and respond to crises wherever they may arise. We cannot rely on Starbases to support our fleet; we must be able to fight anywhere, even across the galaxy. A Black Sky fleet is a tool of diplomacy, just like any other.",
+    "entry_index": 87,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_aaf4656cc9a2a4b776121ac0a921c7bb56fe0f37",
+    "key": "privateer_operation",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Anti-Piracy Operations",
+    "text": "Anti-Piracy Operations",
+    "entry_index": 88,
+    "key_occurrence_index": 0
+  }
+]

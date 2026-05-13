@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_8b412219d7ffe7ff4df9946f3dcd98d206674d93",
+    "key": "FRIGATE_BOW_P4",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Escort Upgrade Bow",
+    "text": "Escort Upgrade Bow",
+    "entry_index": 38,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_8895cac0f35dcf3bc799e59ae00ab0f9d8ae6243",
+    "key": "FRIGATE_STERN_S2",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Interceptor Stern",
+    "text": "Interceptor Stern",
+    "entry_index": 39,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_ec8f0d876a2228432e1084c08b8eb8ca1e1d652d",
+    "key": "FRIGATE_STERN_P2",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Pinpoint Stern",
+    "text": "Pinpoint Stern",
+    "entry_index": 40,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_5c19ab12e90e89578ed352cf49a6bc4cd5117915",
+    "key": "FRIGATE_STERN_S1P1",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Picket Stern",
+    "text": "Picket Stern",
+    "entry_index": 41,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_5201fa2aff1095414c42d52db3cdfb89fe9f0469",
+    "key": "FRIGATE_STERN_G1",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Torpedo Stern",
+    "text": "Torpedo Stern",
+    "entry_index": 42,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_6ea06156cc10207e008c2f9c5df5b36d8e4cfed3",
+    "key": "FRIGATE_STERN_M1",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Broadside Stern",
+    "text": "Broadside Stern",
+    "entry_index": 43,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_bfe4e3c44e4c29d64dbc10f8ff51039c1f3e0e2b",
+    "key": "FRIGATE_STERN_P4",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Escort Upgrade Stern",
+    "text": "Escort Upgrade Stern",
+    "entry_index": 44,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_67cee25d5bfcb3cac604166ea375e4b03af72719",
+    "key": "DESTROYER_BOW_LC",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Light Carrier Bow",
+    "text": "Light Carrier Bow",
+    "entry_index": 49,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_dccb68b57f0ed0cb364db9952d70e270222dddd6",
+    "key": "DESTROYER_STERN_LC",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Light Carrier Stern",
+    "text": "Light Carrier Stern",
+    "entry_index": 53,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_f095116f2fdd9535d80b88a6474753f6005d3446",
+    "key": "CRISIS_DESTROYER_M2S2",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Volley",
+    "text": "Volley",
+    "entry_index": 54,
+    "key_occurrence_index": 0
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_31ef9a2eeb8224b49765963c10ff1d0591d5a36b",
+    "key": "decision_nsc_mothball_menu_desc",
+    "file": "localisation/russian/nsc_mothball_l_russian.yml",
+    "source": "Allows us to deactivate and reserve fleets, lowering their upkeep and naval capacity usage.",
+    "text": "Allows us to deactivate and reserve fleets, lowering their upkeep and naval capacity usage.",
+    "entry_index": 1,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_c8ec76092f4446bc1f6fa943db677ebde49ff6ab",
+    "key": "decision_nsc_mothball_menu_trigger.fail",
+    "file": "localisation/russian/nsc_mothball_l_russian.yml",
+    "source": "£trigger_no£ §RYou must have a fleet owned by you in orbit above this planet to use this feature.§!\\n\\n§YIf you are unable to use this feature, click on each mothballed fleet and right click the planet to ensure they are marked as 'in orbit'.§!",
+    "text": "__PROT_0000__ __PROT_0001__You must have a fleet owned by you in orbit above this planet to use this feature.__PROT_0002____PROT_0003____PROT_0004____PROT_0005__If you are unable to use this feature, click on each mothballed fleet and right click the planet to ensure they are marked as 'in orbit'.__PROT_0006__",
+    "entry_index": 2,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_f288d8a953e5a358131d77e33a87ca7740825efe",
+    "key": "decision_nsc_mothball_menu_tooltip",
+    "file": "localisation/russian/nsc_mothball_l_russian.yml",
+    "source": "Opens the Fleet Mothball Control Panel.",
+    "text": "Opens the Fleet Mothball Control Panel.",
+    "entry_index": 3,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_5ed90ebdbf9cf9857d6361abde97fd585174eba2",
+    "key": "nsc_events_mothball.menu.name",
+    "file": "localisation/russian/nsc_mothball_l_russian.yml",
+    "source": "Fleet Mothball Control",
+    "text": "Fleet Mothball Control",
+    "entry_index": 4,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_338baf7a39284f786d4154b552a6aa6c8152482b",
+    "key": "nsc_events_mothball.menu.desc",
+    "file": "localisation/russian/nsc_mothball_l_russian.yml",
+    "source": "Welcome to the Fleet Mothball System. In this window, you can select fleets to Mothball or Reactivate. Please take note of the following:\\n\\nA planet must be colonized by your empire to Mothball fleets in its orbit. Up to 5 fleets can be Mothballed in a planet's orbit at any given time.\\n\\nLeased fleets cannot be Mothballed.\\n\\nMothballing a fleet will reduce its Naval Capacity usage by 75% and reduce its upkeep costs by 90% as long as it is in Mothball status.\\n\\nYou will not be able to control or move Mothballed fleets. If you accidentally click on and try to move a Mothballed fleet, simply click on it again and right click on the planet to mark it as In Orbit. You will not be able to Reactivate a fleet that is not marked as In Orbit.\\n\\nReactivating a fleet will cost alloys to repair the ships to Combat Ready status. The cost will depend on the total hull points of all ships in the fleet. Reactivating a fleet takes 360 days for repairs.\\n\\n§RWARNING: Make sure that you can afford the increased Upkeep Costs and Naval Capacity of a fleet before Reactivating it!§!",
+    "text": "Welcome to the Fleet Mothball System. In this window, you can select fleets to Mothball or Reactivate. Please take note of the following:__PROT_0000____PROT_0001__A planet must be colonized by your empire to Mothball fleets in its orbit. Up to 5 fleets can be Mothballed in a planet's orbit at any given time.__PROT_0002____PROT_0003__Leased fleets cannot be Mothballed.__PROT_0004____PROT_0005__Mothballing a fleet will reduce its Naval Capacity usage by 75% and reduce its upkeep costs by 90% as long as it is in Mothball status.__PROT_0006____PROT_0007__You will not be able to control or move Mothballed fleets. If you accidentally click on and try to move a Mothballed fleet, simply click on it again and right click on the planet to mark it as In Orbit. You will not be able to Reactivate a fleet that is not marked as In Orbit.__PROT_0008____PROT_0009__Reactivating a fleet will cost alloys to repair the ships to Combat Ready status. The cost will depend on the total hull points of all ships in the fleet. Reactivating a fleet takes 360 days for repairs.__PROT_0010____PROT_0011____PROT_0012__WARNING: Make sure that you can afford the increased Upkeep Costs and Naval Capacity of a fleet before Reactivating it!__PROT_0013__",
+    "entry_index": 5,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_bbfa773e5a63a5ea58c9b6207e608ca0120e592a",
+    "key": "nsc_events_mothball.menu.close",
+    "file": "localisation/russian/nsc_mothball_l_russian.yml",
+    "source": "Close",
+    "text": "Close",
+    "entry_index": 6,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_e04ee9920665eb6715dbc93cc0d51f2a12aa79d5",
+    "key": "nsc_events_mothball.menu.fleet_mothball_stop.tooltip",
+    "file": "localisation/russian/nsc_mothball_l_russian.yml",
+    "source": "Reactivate the fleet to Combat Ready status.",
+    "text": "Reactivate the fleet to Combat Ready status.",
+    "entry_index": 7,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_2620556f19ef26d49c05b9de10a7484c19b369ca",
+    "key": "nsc_mothball_stop_trigger.fail",
+    "file": "localisation/russian/nsc_mothball_l_russian.yml",
+    "source": "The Fleet is currently being Reactivated.",
+    "text": "The Fleet is currently being Reactivated.",
+    "entry_index": 8,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_035873a03e7be79ab632bb326fd4c0cb5c948090",
+    "key": "nsc_events_mothball.menu.fleet_1_mothball_start",
+    "file": "localisation/russian/nsc_mothball_l_russian.yml",
+    "source": "Mothball §Y[nsc_mothball_target_fleet_1.GetName]§!  (Reactivation Cost: £alloys£§Y[nsc_mothball_target_fleet_1.nsc_mothball_target_fleet_total_cost_var]§!)",
+    "text": "Mothball __PROT_0000____PROT_0001____PROT_0002__  (Reactivation Cost: __PROT_0003____PROT_0004____PROT_0005____PROT_0006__)",
+    "entry_index": 11,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_2a1955447926d4840232bbdf8c2d38cf537bc80e",
+    "key": "nsc_events_mothball.menu.fleet_1_mothball_start.tooltip",
+    "file": "localisation/russian/nsc_mothball_l_russian.yml",
+    "source": "Start Mothballing the fleet.\\nReactivation Cost: £alloys£§Y[nsc_mothball_target_fleet_1.nsc_mothball_target_fleet_total_cost_var]§!",
+    "text": "Start Mothballing the fleet.__PROT_0000__Reactivation Cost: __PROT_0001____PROT_0002____PROT_0003____PROT_0004__",
+    "entry_index": 12,
+    "key_occurrence_index": 0
+  }
+]

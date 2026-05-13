@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_9cf9f6966bfda03fa0a2210ecea1d4ea1a533cbb",
+    "key": "nsc_events_exploration_ship.10.3",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "Choose to upgrade §Y3§! ships. (§Y150 Energy§! & §B1200 Alloys§!)",
+    "text": "Choose to upgrade __PROT_0000__3__PROT_0001__ ships. (__PROT_0002__150 Energy__PROT_0003__ & __PROT_0004__1200 Alloys__PROT_0005__)",
+    "entry_index": 9,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_5a30ee765e424ac99a917416675f2ac95d952166",
+    "key": "nsc_events_exploration_ship.10.4",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "Choose to upgrade §Y4§! ships. (§Y200 Energy§! & §B1600 Alloys§!)",
+    "text": "Choose to upgrade __PROT_0000__4__PROT_0001__ ships. (__PROT_0002__200 Energy__PROT_0003__ & __PROT_0004__1600 Alloys__PROT_0005__)",
+    "entry_index": 10,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_006b08c423138452b4bdd3b968dd44ae27a30b48",
+    "key": "nsc_events_exploration_ship.10.5",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "Choose to upgrade §Y5§! ships. (§Y250 Energy§! & §B2000 Alloys§!)",
+    "text": "Choose to upgrade __PROT_0000__5__PROT_0001__ ships. (__PROT_0002__250 Energy__PROT_0003__ & __PROT_0004__2000 Alloys__PROT_0005__)",
+    "entry_index": 11,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_25dcefcd963242eb8e724410a3b9ef8f911ae4d3",
+    "key": "nsc_events_exploration_ship.10.6",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "Choose to upgrade §Y6§! ships. (§Y300 Energy§! & §B2400 Alloys§!)",
+    "text": "Choose to upgrade __PROT_0000__6__PROT_0001__ ships. (__PROT_0002__300 Energy__PROT_0003__ & __PROT_0004__2400 Alloys__PROT_0005__)",
+    "entry_index": 12,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_aec36c4bbb4a028e0e30e7d0ec9bd90f8bc4c6b6",
+    "key": "nsc_events_exploration_ship.10.7",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "Choose to upgrade §Y7§! ships. (§Y350 Energy§! & §B2800 Alloys§!)",
+    "text": "Choose to upgrade __PROT_0000__7__PROT_0001__ ships. (__PROT_0002__350 Energy__PROT_0003__ & __PROT_0004__2800 Alloys__PROT_0005__)",
+    "entry_index": 13,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_3e9617d060888da834dcf0b3899cee8f8422596c",
+    "key": "nsc_events_exploration_ship.10.8",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "Choose to upgrade §Y8§! ships. (§Y400 Energy§! & §B3200 Alloys§!)",
+    "text": "Choose to upgrade __PROT_0000__8__PROT_0001__ ships. (__PROT_0002__400 Energy__PROT_0003__ & __PROT_0004__3200 Alloys__PROT_0005__)",
+    "entry_index": 14,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_382c8a2574bf944d5b041d2c5c18b858e58f4002",
+    "key": "nsc_events_exploration_ship.10.end",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "Choose not to upgrade any ships at all. (§M+25 Influence§!)",
+    "text": "Choose not to upgrade any ships at all. (__PROT_0000__+25 Influence__PROT_0001__)",
+    "entry_index": 15,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_fdaffbd240d25b857d72cc3321a86939c0f460bb",
+    "key": "nsc_events_exploration_ship.11.name",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "Science Ship Upgrade Complete",
+    "text": "Science Ship Upgrade Complete",
+    "entry_index": 16,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_24657d97cf90d13f371f97a65274df2ea44ebf46",
+    "key": "nsc_events_exploration_ship.11.desc",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "We have completed a Science Ship Upgrade project. The Scientist leader has taken his station and the new ship is now awaiting your orders.",
+    "text": "We have completed a Science Ship Upgrade project. The Scientist leader has taken his station and the new ship is now awaiting your orders.",
+    "entry_index": 17,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_86504bae885c5f54e5f149fa0726b0763baaf022",
+    "key": "nsc_flagship_cannot_be_acquired_by_conventional_means.tooltip.fail",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "§R$TRIGGER_FAIL$§! Due to its size and complexity, only the $nsc_flagship_shipyard$ Megastructure is capable of producing a Flagship-class vessel.",
+    "text": "__PROT_0000____PROT_0001____PROT_0002__ Due to its size and complexity, only the __PROT_0003__ Megastructure is capable of producing a Flagship-class vessel.",
+    "entry_index": 18,
+    "key_occurrence_index": 0
+  }
+]

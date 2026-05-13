@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_4b619422fcc5b0d3823ae93882aa28e7dbe4f737",
+    "key": "SPECIAL_SLOT_FIRE_CONTROL",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Fire Control System",
+    "text": "Fire Control System",
+    "entry_index": 54,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_50f480d8cc3ab608fdd1f8c539893cc0d320cf32",
+    "key": "SPECIAL_SLOT_FIRE_CONTROL_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "This advanced targeting system allows the ship to acquire targeting solutions faster and more precisely, inflicting greater damage on enemy vessels in combat.",
+    "text": "This advanced targeting system allows the ship to acquire targeting solutions faster and more precisely, inflicting greater damage on enemy vessels in combat.",
+    "entry_index": 55,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_199837ef5e2e6b5d776c36936203d10eee457430",
+    "key": "SPECIAL_SLOT_STRUCTURAL_INTEGRITY",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Structural Integrity Field",
+    "text": "Structural Integrity Field",
+    "entry_index": 56,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_66258f09f64acf718c51c6181b98fb63a980e3b1",
+    "key": "SPECIAL_SLOT_STRUCTURAL_INTEGRITY_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "This advanced system of forcefields strengthens the ship's hull structure from within, helping the vessel resist enemy fire for longer periods before failing.",
+    "text": "This advanced system of forcefields strengthens the ship's hull structure from within, helping the vessel resist enemy fire for longer periods before failing.",
+    "entry_index": 57,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_cefe0712be991045c10c962197d2812e6f7d2e09",
+    "key": "SPECIAL_SLOT_AUXILIARY_SHIELDS",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Auxiliary Shield System",
+    "text": "Auxiliary Shield System",
+    "entry_index": 58,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_a7bda8ee92fb80895f1822a2b53fd314f7b55a88",
+    "key": "SPECIAL_SLOT_AUXILIARY_SHIELDS_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "This secondary series of backup shield generators reinforces the ship's shields during combat, making the shields more resilient against enemy fire.",
+    "text": "This secondary series of backup shield generators reinforces the ship's shields during combat, making the shields more resilient against enemy fire.",
+    "entry_index": 59,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_5303a007f5388f5462bc5deed8a7257ad7fb157b",
+    "key": "SPECIAL_SLOT_QUANTUM_THRUSTERS",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Quantum Thrusters",
+    "text": "Quantum Thrusters",
+    "entry_index": 60,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_9f8b8c4264d9ffb98292246f29362c7368e7ef32",
+    "key": "SPECIAL_SLOT_QUANTUM_THRUSTERS_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Even the most powerful fleets are useless if they are not where they need to be, when they need to be there. While very expensive to maintain, and causing increased wear and tear on the ship as a whole, these Quantum Thrusters will provide a significant boost to sublight speed, allowing our fleets to travel faster to respond to any situations that may arise.",
+    "text": "Even the most powerful fleets are useless if they are not where they need to be, when they need to be there. While very expensive to maintain, and causing increased wear and tear on the ship as a whole, these Quantum Thrusters will provide a significant boost to sublight speed, allowing our fleets to travel faster to respond to any situations that may arise.",
+    "entry_index": 61,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_721abe00619ae79fcbf91dfbb5aa96b0f4d68082",
+    "key": "SPECIAL_SLOT_DEFLECTOR_ARRAY",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Deflector Array",
+    "text": "Deflector Array",
+    "entry_index": 62,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_b02b29cce06c529fa338f7538b112121d34e3943",
+    "key": "SPECIAL_SLOT_DEFLECTOR_ARRAY_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "These deflector arrays relieve strain on the shield generators, allowing the ship's shields to regenerate faster after combat, to get ready for the next engagement. In campaigns where multiple battles may be fought in the same system in quick succession, this can mean the difference between victory and defeat.",
+    "text": "These deflector arrays relieve strain on the shield generators, allowing the ship's shields to regenerate faster after combat, to get ready for the next engagement. In campaigns where multiple battles may be fought in the same system in quick succession, this can mean the difference between victory and defeat.",
+    "entry_index": 63,
+    "key_occurrence_index": 0
+  }
+]

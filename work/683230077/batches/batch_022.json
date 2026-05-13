@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_1a187d6a0b49903be6d551295c712150d65c68bb",
+    "key": "STRIKECRUISER_CLOAKING_3",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Strike Cruiser Elite Cloak",
+    "text": "Strike Cruiser Elite Cloak",
+    "entry_index": 346,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_7034c894e86b2245bbbd23bcf87fad8a9c7f9208",
+    "key": "STRIKECRUISER_CLOAKING_DARK_MATTER",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Strike Cruiser Dark Matter Cloak",
+    "text": "Strike Cruiser Dark Matter Cloak",
+    "entry_index": 348,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_e584242c12a4e72083d6f813388642b370239e69",
+    "key": "STRIKECRUISER_CLOAKING_PSI",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Strike Cruiser Psi-Phase Cloak",
+    "text": "Strike Cruiser Psi-Phase Cloak",
+    "entry_index": 350,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_bd7fc116c783b2b1a46eb0e5f3ccfd0205b033f0",
+    "key": "STRIKECRUISER_CLOAKING_3_TOOLTIP",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "While Cloaked:\\n\\nShield Hit Points: §R-100%§!\\nSublight Speed: §G+10%§!",
+    "text": "While Cloaked:__PROT_0000____PROT_0001__Shield Hit Points: __PROT_0002__-100%__PROT_0003____PROT_0004__Sublight Speed: __PROT_0005__+10%__PROT_0006__",
+    "entry_index": 352,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_c5f03c5c2a944c60fca925c4d0f042fb3a7dbd2d",
+    "key": "STRIKECRUISER_CLOAKING_DARK_MATTER_TOOLTIP",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "While Cloaked:\\n\\nShield Hit Points: §R-50%§!\\nSublight Speed: §G+15%§!",
+    "text": "While Cloaked:__PROT_0000____PROT_0001__Shield Hit Points: __PROT_0002__-50%__PROT_0003____PROT_0004__Sublight Speed: __PROT_0005__+15%__PROT_0006__",
+    "entry_index": 353,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_8941e4a9897c54e445557bde7becb2eb9b63d6a1",
+    "key": "STRIKECRUISER_CLOAKING_PSI_TOOLTIP",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "While Cloaked:\\n\\nSublight Speed: §G+20%§!",
+    "text": "While Cloaked:__PROT_0000____PROT_0001__Sublight Speed: __PROT_0002__+20%__PROT_0003__",
+    "entry_index": 354,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_cabc86c8dbaec1adb23bc9ec0e213e00ba956f87",
+    "key": "CARRIER_CLOAKING_3",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Carrier Elite Cloak",
+    "text": "Carrier Elite Cloak",
+    "entry_index": 355,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_41ed2f8f6e702ad0f8905c7184452013d2281d5b",
+    "key": "CARRIER_CLOAKING_DARK_MATTER",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Carrier Dark Matter Cloak",
+    "text": "Carrier Dark Matter Cloak",
+    "entry_index": 357,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_be353a026508a0e944f0ba695de65a99b72e4e27",
+    "key": "CARRIER_CLOAKING_PSI",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Carrier Psi-Phase Cloak",
+    "text": "Carrier Psi-Phase Cloak",
+    "entry_index": 359,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_57180a754484262c7d4dd3feececd624c23598f3",
+    "key": "CARRIER_CLOAKING_3_TOOLTIP",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "While Cloaked:\\n\\nShield Hit Points: §R-100%§!\\nSublight Speed: §R-50%§!\\nStrike Craft Damage: §R-50%§!\\nStrike Craft Fire Rate: §R-50%§!\\nStrike Craft Speed: §R-50%§!",
+    "text": "While Cloaked:__PROT_0000____PROT_0001__Shield Hit Points: __PROT_0002__-100%__PROT_0003____PROT_0004__Sublight Speed: __PROT_0005__-50%__PROT_0006____PROT_0007__Strike Craft Damage: __PROT_0008__-50%__PROT_0009____PROT_0010__Strike Craft Fire Rate: __PROT_0011__-50%__PROT_0012____PROT_0013__Strike Craft Speed: __PROT_0014__-50%__PROT_0015__",
+    "entry_index": 361,
+    "key_occurrence_index": 0
+  }
+]

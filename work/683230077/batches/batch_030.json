@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_011ad975186c0ff39902322a79bb350192dbd0e3",
+    "key": "hyperlane_creator_receptor_1",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Hyperlane Generator (Receiver)",
+    "text": "Hyperlane Generator (Receiver)",
+    "entry_index": 8,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_13f08b7a8a63c3c6233b8e78da4985bee89fc0c3",
+    "key": "hyperlane_creator_receptor_1_DESC",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Create A New Hyperlane - Step 4: Upgrade this structure to complete the construction of the hyperlane generator receiver.",
+    "text": "Create A New Hyperlane - Step 4: Upgrade this structure to complete the construction of the hyperlane generator receiver.",
+    "entry_index": 9,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_8a10c8077238f35ea0c55185da8faba3098fdef7",
+    "key": "hyperlane_creator_emisor_2",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Hyperlane Generator (Transmitter) - Activation",
+    "text": "Hyperlane Generator (Transmitter) - Activation",
+    "entry_index": 10,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_6c2d0a976bea82af85b41ddee51da81a39c02a84",
+    "key": "hyperlane_creator_emisor_2_DESC",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Create A New Hyperlane - Step 5: Upgrade this structure to activate the transmitter and create the new hyperlane.",
+    "text": "Create A New Hyperlane - Step 5: Upgrade this structure to activate the transmitter and create the new hyperlane.",
+    "entry_index": 11,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_8933f2d14084721ccb9d93105e91b289dbe715ad",
+    "key": "hyperlane_remover_emisor_0",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Hyperlane Remover (Transmitter) Construction Site",
+    "text": "Hyperlane Remover (Transmitter) Construction Site",
+    "entry_index": 12,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_3b946b0847fec07f4f92fc634fb9661a508919bf",
+    "key": "hyperlane_remover_emisor_0_DESC",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Remove A Hyperlane - Step 1: Build this structure in the system where the hyperlane that you want to remove begins.",
+    "text": "Remove A Hyperlane - Step 1: Build this structure in the system where the hyperlane that you want to remove begins.",
+    "entry_index": 13,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_bb310901d6c81bf039a59e828815e37e6330c40a",
+    "key": "hyperlane_remover_receptor_0",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Hyperlane Remover (Receiver) Construction Site",
+    "text": "Hyperlane Remover (Receiver) Construction Site",
+    "entry_index": 15,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_ba1467738e9308d2a6c6fa6029bcdf40a4f4acef",
+    "key": "hyperlane_remover_receptor_0_DESC",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Remove A Hyperlane - Step 2: Build this structure in the system where the hyperlane that you want to remove ends.",
+    "text": "Remove A Hyperlane - Step 2: Build this structure in the system where the hyperlane that you want to remove ends.",
+    "entry_index": 16,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_cd05f0f3648c192e1c64d521ad12de527fbf679b",
+    "key": "hyperlane_remover_emisor_1",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Hyperlane Remover (Transmitter)",
+    "text": "Hyperlane Remover (Transmitter)",
+    "entry_index": 18,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_bc316e3feece6480233164c52c9bade00f50e82a",
+    "key": "hyperlane_remover_emisor_1_DESC",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Remove A Hyperlane - Step 3: Upgrade this structure to complete the construction of the hyperlane removal transmitter.",
+    "text": "Remove A Hyperlane - Step 3: Upgrade this structure to complete the construction of the hyperlane removal transmitter.",
+    "entry_index": 19,
+    "key_occurrence_index": 0
+  }
+]

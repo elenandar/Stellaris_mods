@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_0e88129ec9efbea9e295962dd2db061a01751641",
+    "key": "nsc_events_mothball.menu.fleet_1_mothball_stop",
+    "file": "localisation/russian/nsc_mothball_l_russian.yml",
+    "source": "Reactivate §Y[nsc_mothball_target_fleet_1.GetName]§!  (Cost: £alloys£§Y[nsc_mothball_target_fleet_1.nsc_mothball_target_fleet_total_cost_var]§!)",
+    "text": "Reactivate __PROT_0000____PROT_0001____PROT_0002__  (Cost: __PROT_0003____PROT_0004____PROT_0005____PROT_0006__)",
+    "entry_index": 13,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_afc0d26abbf3f7a9ac8c4baedda2075043836be6",
+    "key": "nsc_events_mothball.menu.fleet_1_mothball_restoration_in_progress",
+    "file": "localisation/russian/nsc_mothball_l_russian.yml",
+    "source": "Reactivating [nsc_mothball_target_fleet_1.GetName]  (£time£ §Y[nsc_mothball_target_fleet_1.Get_nsc_fleet_in_mothball_repair_timer_var_status]§! Days)",
+    "text": "Reactivating __PROT_0000__  (__PROT_0001__ __PROT_0002____PROT_0003____PROT_0004__ Days)",
+    "entry_index": 14,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_21af2bd4a6e635b57f754e27d61888079035d937",
+    "key": "nsc_events_mothball.menu.fleet_1_mothball_restoration_timer.tooltip",
+    "file": "localisation/russian/nsc_mothball_l_russian.yml",
+    "source": "Time to Reactivation: £time£ §Y[nsc_mothball_target_fleet_1.Get_nsc_fleet_in_mothball_repair_timer_var_status]§! Days",
+    "text": "Time to Reactivation: __PROT_0000__ __PROT_0001____PROT_0002____PROT_0003__ Days",
+    "entry_index": 15,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_bae7ab838f20f450afd07c3de498fbb815ab098f",
+    "key": "NSC_EVENTS_MOTHBALL_MESSAGE_TITLE",
+    "file": "localisation/russian/nsc_mothball_l_russian.yml",
+    "source": "Mothballed Fleet Restored",
+    "text": "Mothballed Fleet Restored",
+    "entry_index": 36,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_ed3792a269d619ebe9f1c87fd925a2887ccf7496",
+    "key": "NSC_EVENTS_MOTHBALL_MESSAGE_DESC",
+    "file": "localisation/russian/nsc_mothball_l_russian.yml",
+    "source": "The §Y[From.GetName]§! fleet has been repaired after being mothballed on the [This.Orbit.GetName] planet.",
+    "text": "The __PROT_0000____PROT_0001____PROT_0002__ fleet has been repaired after being mothballed on the __PROT_0003__ planet.",
+    "entry_index": 37,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_5bdd493342bc3a31b2893e66f20b645d8d8bc1b4",
+    "key": "nsc_events_mothball.5.name",
+    "file": "localisation/russian/nsc_mothball_l_russian.yml",
+    "source": "Fleets Lost at [From.GetName]",
+    "text": "Fleets Lost at __PROT_0000__",
+    "entry_index": 38,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_c131268678a217a493a61b1b472fc8b401188320",
+    "key": "nsc_events_mothball.5.desc",
+    "file": "localisation/russian/nsc_mothball_l_russian.yml",
+    "source": "When [From.GetName] was lost to the enemy, our Mothballed fleets were destroyed by our staff to ensure they did not fall into enemy hands.",
+    "text": "When __PROT_0000__ was lost to the enemy, our Mothballed fleets were destroyed by our staff to ensure they did not fall into enemy hands.",
+    "entry_index": 39,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_99f3c4f65040f699f6331a27275adad05d942c16",
+    "key": "nsc_events_mothball.5.a",
+    "file": "localisation/russian/nsc_mothball_l_russian.yml",
+    "source": "A dark day for [This.GetName].",
+    "text": "A dark day for __PROT_0000__.",
+    "entry_index": 40,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_37f5704a876e1305f6c6f9864426005e2d6ee83f",
+    "key": "nsc_events_mothball.6.name",
+    "file": "localisation/russian/nsc_mothball_l_russian.yml",
+    "source": "Enemy Fleets Destroyed at [From.GetName]",
+    "text": "Enemy Fleets Destroyed at __PROT_0000__",
+    "entry_index": 41,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_90e0439c4d56eb43ffabd3455764b1e2e190cebf",
+    "key": "nsc_events_mothball.6.desc",
+    "file": "localisation/russian/nsc_mothball_l_russian.yml",
+    "source": "When we occupied [From.GetName], there were Mothballed enemy fleets in orbit. These fleets were destroyed by enemy staff before we could take control of them.",
+    "text": "When we occupied __PROT_0000__, there were Mothballed enemy fleets in orbit. These fleets were destroyed by enemy staff before we could take control of them.",
+    "entry_index": 42,
+    "key_occurrence_index": 0
+  }
+]

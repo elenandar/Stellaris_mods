@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_1717603b7ba08c620687e3497d0bce343c974c3a",
+    "key": "name_list_1-NSC-Lithoid",
+    "file": "localisation/russian/nsc_namelists_l_russian.yml",
+    "source": "NSC2 Lithoid",
+    "text": "NSC2 Lithoid",
+    "entry_index": 7,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_1a8ebfda93946d5fdb771965f10527d1cdea58de",
+    "key": "name_list_1-NSC-Machine",
+    "file": "localisation/russian/nsc_namelists_l_russian.yml",
+    "source": "NSC2 Machine",
+    "text": "NSC2 Machine",
+    "entry_index": 8,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_753103cad383ee8d13c2b9fbe8ef5b7fcd30d3c0",
+    "key": "name_list_1-NSC-Mammalian",
+    "file": "localisation/russian/nsc_namelists_l_russian.yml",
+    "source": "NSC2 Mammalian",
+    "text": "NSC2 Mammalian",
+    "entry_index": 9,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_bc2c2f9a6d80d31e35dadf28cae2b39ad39e872f",
+    "key": "name_list_1-NSC-Molluscoid",
+    "file": "localisation/russian/nsc_namelists_l_russian.yml",
+    "source": "NSC2 Molluscoid",
+    "text": "NSC2 Molluscoid",
+    "entry_index": 10,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_114e4fa6826c5cf7eb6d4753e02c674d31da0d74",
+    "key": "name_list_1-NSC-Necroid",
+    "file": "localisation/russian/nsc_namelists_l_russian.yml",
+    "source": "NSC2 Necroid",
+    "text": "NSC2 Necroid",
+    "entry_index": 11,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_f5ba541f49b11bfccaaf7485db53f1928a1255ed",
+    "key": "name_list_1-NSC-Plantoid",
+    "file": "localisation/russian/nsc_namelists_l_russian.yml",
+    "source": "NSC2 Plantoid",
+    "text": "NSC2 Plantoid",
+    "entry_index": 12,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_c4e00966656766eec2bbfba6a260d4c521a57c5b",
+    "key": "name_list_1-NSC-Reptilian",
+    "file": "localisation/russian/nsc_namelists_l_russian.yml",
+    "source": "NSC2 Reptilian",
+    "text": "NSC2 Reptilian",
+    "entry_index": 13,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_aa85ebf6a510e9a1fcdada2e2b7bad3266613316",
+    "key": "name_list_1-NSC-Steve",
+    "file": "localisation/russian/nsc_namelists_l_russian.yml",
+    "source": "NSC2 Steve",
+    "text": "NSC2 Steve",
+    "entry_index": 14,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_5e3a288f5aea5f385abc99981326fbd943f97305",
+    "key": "ap_nsc_matterenergy",
+    "file": "localisation/russian/nsc_perks_l_russian.yml",
+    "source": "Matter-Energy Manipulation",
+    "text": "Matter-Energy Manipulation",
+    "entry_index": 0,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_4aaded81b0d631ffb5073d81d0e84ebcddd8e768",
+    "key": "ap_nsc_matterenergy_desc",
+    "file": "localisation/russian/nsc_perks_l_russian.yml",
+    "source": "Our scientists have discovered how to manipulate matter-energy patterns, allowing us to create the resources we need by converting other resources we already have.",
+    "text": "Our scientists have discovered how to manipulate matter-energy patterns, allowing us to create the resources we need by converting other resources we already have.",
+    "entry_index": 1,
+    "key_occurrence_index": 0
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_e946fb7f7bba9666636371b4aa4def1c4033d164",
+    "key": "mod_shipsize_Dreadnought_build_speed_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Dreadnought Build Speed",
+    "text": "Dreadnought Build Speed",
+    "entry_index": 23,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_758b325465ba5e65ab4b5b281d1341e373ca8f93",
+    "key": "mod_ship_Dreadnought_cost_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Dreadnought Build Cost",
+    "text": "Dreadnought Build Cost",
+    "entry_index": 24,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_80f543faa3e31252546d8e6f0d7eb5c72042b9ac",
+    "key": "mod_shipsize_titan_upkeep_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Titan Upkeep",
+    "text": "Titan Upkeep",
+    "entry_index": 25,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_5649245d87bdf6bd4893a08ebbfa7228e46e071a",
+    "key": "mod_shipsize_titan_hull_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Titan Hull Points",
+    "text": "Titan Hull Points",
+    "entry_index": 26,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_ed7a515d53b15ad6289c1bc77455f0817c1b9aeb",
+    "key": "mod_shipsize_titan_build_speed_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Titan Build Speed",
+    "text": "Titan Build Speed",
+    "entry_index": 27,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_8c8f98c17d959716e65821c417e87af3e712e165",
+    "key": "mod_ship_titan_cost_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Titan Build Cost",
+    "text": "Titan Build Cost",
+    "entry_index": 28,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_e5361a36a820523cfe2bb1139aedb172d52ac3a1",
+    "key": "mod_shipsize_Flagship_upkeep_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Flagship Upkeep",
+    "text": "Flagship Upkeep",
+    "entry_index": 29,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_da798dda01a88e3de78ba69f568fbdcd3ba149d6",
+    "key": "mod_shipsize_Flagship_hull_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Flagship Hull Points",
+    "text": "Flagship Hull Points",
+    "entry_index": 30,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_889948c56ca1c8bf50db1f2131298ced78b787a8",
+    "key": "mod_shipsize_Flagship_build_speed_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Flagship Build Speed",
+    "text": "Flagship Build Speed",
+    "entry_index": 31,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_9a574f8614d43fa8a862bc160c458291bb296f74",
+    "key": "mod_ship_Flagship_cost_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Flagship Build Cost",
+    "text": "Flagship Build Cost",
+    "entry_index": 32,
+    "key_occurrence_index": 0
+  }
+]

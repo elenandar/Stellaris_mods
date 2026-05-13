@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_baf044f8dfc56cc4821821e1b57577474ac259e4",
+    "key": "nsc.requires.asteroid",
+    "file": "localisation/russian/nsc_tooltips_l_russian.yml",
+    "source": "Requires asteroid in the system.",
+    "text": "Requires asteroid in the system.",
+    "entry_index": 32,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_48e779f3f82878821cd2fd03d1e08b4587a592a7",
+    "key": "CLOAKING_FRIGATE_TOOLTIP",
+    "file": "localisation/russian/nsc_tooltips_l_russian.yml",
+    "source": "Ship Speed Bonus: §G25%§!\\nFrigate Evasion Bonus: §G15%§!",
+    "text": "Ship Speed Bonus: __PROT_0000__25%__PROT_0001____PROT_0002__Frigate Evasion Bonus: __PROT_0003__15%__PROT_0004__",
+    "entry_index": 33,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_22d020b4f22a8ecad1e81769e03b8d57d0ad8c85",
+    "key": "CLOAKING_BATTLECRUISER_TOOLTIP",
+    "file": "localisation/russian/nsc_tooltips_l_russian.yml",
+    "source": "Battlecruiser Shield Reduction: §R80%§!\\nBattlecruiser Speed Reduction §R50%§!",
+    "text": "Battlecruiser Shield Reduction: __PROT_0000__80%__PROT_0001____PROT_0002__Battlecruiser Speed Reduction __PROT_0003__50%__PROT_0004__",
+    "entry_index": 34,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_e2e03039f63fa1d808f410b5d778d6fa26d444f1",
+    "key": "starbase_detection_limit_6.tooltip.fail",
+    "file": "localisation/russian/nsc_tooltips_l_russian.yml",
+    "source": "You cannot build more than 6 Detection Arrays per starbase.",
+    "text": "You cannot build more than 6 Detection Arrays per starbase.",
+    "entry_index": 35,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_589a38f3f266fdf482761d4b403cf0a53aa7cd94",
+    "key": "CORVETTE_MID_S2PD1",
+    "file": "localisation/russian/replace/nsc_replacements_l_russian.yml",
+    "source": "Picket Core",
+    "text": "Picket Core",
+    "entry_index": 0,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_bcbf9bfc24d963b4290fca5beb20c91ac4320b50",
+    "key": "CORVETTE_MID_S3",
+    "file": "localisation/russian/replace/nsc_replacements_l_russian.yml",
+    "source": "Interceptor Core",
+    "text": "Interceptor Core",
+    "entry_index": 1,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_de02b9a01168e606ffc974232d511957475bfcaf",
+    "key": "CORVETTE_MID_PD3",
+    "file": "localisation/russian/replace/nsc_replacements_l_russian.yml",
+    "source": "Pinpoint Core",
+    "text": "Pinpoint Core",
+    "entry_index": 2,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_a1337980821de2d58452e6a6287793d0714a1f8d",
+    "key": "military_station_large",
+    "file": "localisation/russian/replace/nsc_replacements_l_russian.yml",
+    "source": "Defense Fortress",
+    "text": "Defense Fortress",
+    "entry_index": 5,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_4e89ee62e74d1d8b3ff6c4174d52c4ea0206f1ae",
+    "key": "eternal_vigilance_full_spending",
+    "file": "localisation/russian/replace/nsc_replacements_l_russian.yml",
+    "source": "Full Spending - Defense Platforms",
+    "text": "Full Spending - Defense Platforms",
+    "entry_index": 6,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_64119b18bd6f079dc6db06716f3930804daf5e86",
+    "key": "eternal_vigilance_full_spending_desc",
+    "file": "localisation/russian/replace/nsc_replacements_l_russian.yml",
+    "source": "Every starbase needs to be properly defended. Spare no cost.\\nAutomatically builds §YDefense Platforms§! around every §YStarbase§!",
+    "text": "Every starbase needs to be properly defended. Spare no cost.__PROT_0000__Automatically builds __PROT_0001__Defense Platforms__PROT_0002__ around every __PROT_0003__Starbase__PROT_0004__",
+    "entry_index": 8,
+    "key_occurrence_index": 0
+  }
+]

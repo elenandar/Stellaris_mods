@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_cc97054a37b0a755cabfa93096e3e896c2f89e21",
+    "key": "CRUISER_BOW_STRIKE_C",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Strike Cruiser Bow C",
+    "text": "Strike Cruiser Bow C",
+    "entry_index": 71,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_05d14da8974120b38e9cc0abc71501d11e611802",
+    "key": "CRUISER_MID_M2L2",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Artillery Core",
+    "text": "Artillery Core",
+    "entry_index": 72,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_13c0691ff9d052fa1904a09bbfe2047b11167539",
+    "key": "CRUISER_MID_M5P2",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Gunship Core",
+    "text": "Gunship Core",
+    "entry_index": 73,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_259cbc43d799b6beb51a9096f0f58bde60eea7db",
+    "key": "CRUISER_MID_M5S3",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Volley Core",
+    "text": "Volley Core",
+    "entry_index": 74,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_d7fc95aaaa542634ff4bfa50fc0ff3b369fafaf0",
+    "key": "CRUISER_MID_G4P3",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Torpedo Core",
+    "text": "Torpedo Core",
+    "entry_index": 75,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_1106c169fcfbbc0dff5f966446dc1be1bb62633c",
+    "key": "CRUISER_MID_STRIKE_A",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Strike Cruiser Core A",
+    "text": "Strike Cruiser Core A",
+    "entry_index": 76,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_555fe94a57a3ab8feda970e0db3722142ad9ce6c",
+    "key": "CRUISER_MID_STRIKE_B",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Strike Cruiser Core B",
+    "text": "Strike Cruiser Core B",
+    "entry_index": 77,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_bc2097e768df6390cde493ce0ef1682f141739eb",
+    "key": "CRUISER_MID_STRIKE_C",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Strike Cruiser Core C",
+    "text": "Strike Cruiser Core C",
+    "entry_index": 78,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_f4e49592703fecffa7e825832374c50112780cf3",
+    "key": "CRUISER_STERN_STRIKE_A",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Strike Cruiser Stern A",
+    "text": "Strike Cruiser Stern A",
+    "entry_index": 83,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_d3e01b97b3a41b1cf30f5a1b4b7fcfa6e77deb28",
+    "key": "CRUISER_STERN_STRIKE_B",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Strike Cruiser Stern B",
+    "text": "Strike Cruiser Stern B",
+    "entry_index": 84,
+    "key_occurrence_index": 0
+  }
+]

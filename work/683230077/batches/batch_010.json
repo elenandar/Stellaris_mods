@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_2ed18abe74d94987d06bf037afc2f5a05027e1a4",
+    "key": "SPECIAL_SLOT_KITCHEN_SINK",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Kitchen Sink",
+    "text": "Kitchen Sink",
+    "entry_index": 64,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_096d4c9307380adfb1cd4778ee6057d4f9fa3aea",
+    "key": "SPECIAL_SLOT_KITCHEN_SINK_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "A clean crew is a happy crew. A happy crew blows stuff up. And no, we still don't know why it uses power.",
+    "text": "A clean crew is a happy crew. A happy crew blows stuff up. And no, we still don't know why it uses power.",
+    "entry_index": 65,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_51021ce4f72647c30d7591655f1adfcf7e4afa9d",
+    "key": "SPECIAL_SLOT_STELLAR_CARTOGRAPHY",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Stellar Cartography",
+    "text": "Stellar Cartography",
+    "entry_index": 66,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_ffe1f38d2d3229733688da6cdce47acf9c57a965",
+    "key": "SPECIAL_SLOT_STELLAR_CARTOGRAPHY_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "This large system is used for mapping the surrounding space, allowing the ship's computers to calculate and recover from FTL jumps with increased speed.",
+    "text": "This large system is used for mapping the surrounding space, allowing the ship's computers to calculate and recover from FTL jumps with increased speed.",
+    "entry_index": 67,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_b11bac0ba9dfaacf6543d3b7125ffccdb4ccd0ef",
+    "key": "SPECIAL_SLOT_NAVIGATIONAL_ARRAY",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Navigational Array",
+    "text": "Navigational Array",
+    "entry_index": 68,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_ab34be61bfdad30e3ed3472750801382d6b1eefb",
+    "key": "SPECIAL_SLOT_NAVIGATIONAL_ARRAY_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "This advanced 3D navigational system serves two functions: First, increasing the ability of the ship's weapons to track enemy vessels in combat, and second, to increase the range of the ship's Jump Drives, if such drives are equipped.",
+    "text": "This advanced 3D navigational system serves two functions: First, increasing the ability of the ship's weapons to track enemy vessels in combat, and second, to increase the range of the ship's Jump Drives, if such drives are equipped.",
+    "entry_index": 69,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_884337fc3871dc3a49138ae0da178659a94bea48",
+    "key": "SPECIAL_SLOT_MARS_WEAPON_SYSTEM",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "MARS Weapon System",
+    "text": "MARS Weapon System",
+    "entry_index": 70,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_c277fed92c76aaf548f4ac7e6415d3474caff8e1",
+    "key": "SPECIAL_SLOT_MARS_WEAPON_SYSTEM_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "This advanced point-defense weapon system is specifically designed to track tiny, highly evasive targets - missiles, torpedoes, and strike craft - and provide extremely precise targeting solutions at blistering speeds, increasing the fire rate and damage potential of ship-borne point-defense weapons.",
+    "text": "This advanced point-defense weapon system is specifically designed to track tiny, highly evasive targets - missiles, torpedoes, and strike craft - and provide extremely precise targeting solutions at blistering speeds, increasing the fire rate and damage potential of ship-borne point-defense weapons.",
+    "entry_index": 71,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_111defef0fdc66b92db40a52df5e21416ba5e2dd",
+    "key": "SPECIAL_SLOT_STRIKE_CRAFT",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Carrier Command & Control Network",
+    "text": "Carrier Command & Control Network",
+    "entry_index": 72,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_4b44bfb02b6a98965d7d839359059cf4c98cbc9b",
+    "key": "SPECIAL_SLOT_STRIKE_CRAFT_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "An advanced network of radar and communication arrays that facilitate the command and control of large numbers of Strike Craft, increasing their effectiveness.",
+    "text": "An advanced network of radar and communication arrays that facilitate the command and control of large numbers of Strike Craft, increasing their effectiveness.",
+    "entry_index": 73,
+    "key_occurrence_index": 0
+  }
+]

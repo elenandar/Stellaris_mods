@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_4b2eb448cb28136b6b6804808a44600607c7f198",
+    "key": "sm_space_foundry_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "The space foundry will refine minerals into alloys. Having §GAssembly Line Manufacturing§! will improve the output by §Y1 Alloy§!  £alloys.\\n",
+    "text": "The space foundry will refine minerals into alloys. Having __PROT_0000__Assembly Line Manufacturing__PROT_0001__ will improve the output by __PROT_0002__1 Alloy__PROT_0003__  £alloys.__PROT_0004__",
+    "entry_index": 83,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_1dafa20cbb880caecfffd379d48e6bec7bf3a4a4",
+    "key": "sm_space_factory",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Space Factory",
+    "text": "Space Factory",
+    "entry_index": 84,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_d64bace00f428a9f3e47018427f9eba0b6339395",
+    "key": "sm_space_factory_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "The space factory will refine minerals into consumer goods. Having §GAssembly Line Manufacturing§! will improve the output by §Y2 Consumer Goods§!  £consumer_goods.\\n",
+    "text": "The space factory will refine minerals into consumer goods. Having __PROT_0000__Assembly Line Manufacturing__PROT_0001__ will improve the output by __PROT_0002__2 Consumer Goods__PROT_0003__  £consumer_goods.__PROT_0004__",
+    "entry_index": 85,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_6bf21d29cd20c96cdab68533fc4a9f0154a05a6c",
+    "key": "sm_security_branch_office",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Security Branch Office",
+    "text": "Security Branch Office",
+    "entry_index": 86,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_385a9cb7f7b75198b2f5e57d88487980dac4551b",
+    "key": "sm_security_branch_office_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "A secury branch office will focus on the defense of your trade routes against the local piracy.\\n",
+    "text": "A secury branch office will focus on the defense of your trade routes against the local piracy.__PROT_0000__",
+    "entry_index": 87,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_d0d0d63d9b88fa824c80fa030f2edd24d451e67b",
+    "key": "sm_administration_office",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Administration Office",
+    "text": "Administration Office",
+    "entry_index": 88,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_c770a6307f1d9804dcd36c241445215e75b1f3a8",
+    "key": "sm_administration_office_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Assists in empire-level management tasks, increasing the administration ability of the empire.\\n",
+    "text": "Assists in empire-level management tasks, increasing the administration ability of the empire.__PROT_0000__",
+    "entry_index": 89,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_3cc3e2366f7c93d48bfb4f4e54b5d1b9d0258c00",
+    "key": "sm_synthetic_crystal_fabricator",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Synthetic Crystals Fabricator",
+    "text": "Synthetic Crystals Fabricator",
+    "entry_index": 90,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_1e0650b9a1e8a3cf911705af1de696cbe9f5fff1",
+    "key": "sm_synthetic_crystal_fabricator_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "A special refinery that transforms minerals into rare crystals.\\n",
+    "text": "A special refinery that transforms minerals into rare crystals.__PROT_0000__",
+    "entry_index": 91,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_3e6b44fc3320af80ef4ba1ee3d096acb37c401c5",
+    "key": "sm_synthetic_volatile_motes_fabricator",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Synthetic Volatile Motes Fabricator",
+    "text": "Synthetic Volatile Motes Fabricator",
+    "entry_index": 92,
+    "key_occurrence_index": 0
+  }
+]

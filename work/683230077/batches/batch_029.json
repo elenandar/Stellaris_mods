@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_1747611b19b652c72461b7afc8ec397d011daa15",
+    "key": "job_diagnostician",
+    "file": "localisation/russian/nsc_jobs_l_russian.yml",
+    "source": "Diagnostician",
+    "text": "Diagnostician",
+    "entry_index": 0,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_61b48d60b0e8ce2f0b07248b33319dc8b74d45ab",
+    "key": "job_diagnostician_plural",
+    "file": "localisation/russian/nsc_jobs_l_russian.yml",
+    "source": "Diagnosticians",
+    "text": "Diagnosticians",
+    "entry_index": 1,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_47d120ac058cf83639cda3b0cd7578cb747dd663",
+    "key": "job_diagnostician_desc",
+    "file": "localisation/russian/nsc_jobs_l_russian.yml",
+    "source": "These specialized workers in the Galactic Hospital are experts in manufacturing robots or increasing reproduction of organic life",
+    "text": "These specialized workers in the Galactic Hospital are experts in manufacturing robots or increasing reproduction of organic life",
+    "entry_index": 2,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_0ef0cddda05b181e8fafdd51ef53987ba7b39e4e",
+    "key": "mod_job_diagnostician_add",
+    "file": "localisation/russian/nsc_jobs_l_russian.yml",
+    "source": "$job_diagnostician$ Jobs",
+    "text": "__PROT_0000__ Jobs",
+    "entry_index": 3,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_6cab9cbb71973f2c4c51181f1c3ede8454a3807f",
+    "key": "hyperlane_creator_emisor_0",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Hyperlane Generator (Transmitter) Construction Site",
+    "text": "Hyperlane Generator (Transmitter) Construction Site",
+    "entry_index": 0,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_b6d8e912afc1271c0d92da4d661558e40eb23307",
+    "key": "hyperlane_creator_emisor_0_DESC",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Create A New Hyperlane - Step 1: Build this structure in the system where you want the new hyperlane to start.",
+    "text": "Create A New Hyperlane - Step 1: Build this structure in the system where you want the new hyperlane to start.",
+    "entry_index": 1,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_765bae00dd76469fb933d30b04ae01cb96f82637",
+    "key": "hyperlane_creator_receptor_0",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Hyperlane Generator (Receiver) Construction Site",
+    "text": "Hyperlane Generator (Receiver) Construction Site",
+    "entry_index": 3,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_737efe325239488895a2331992535cc7741d3605",
+    "key": "hyperlane_creator_receptor_0_DESC",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Create A New Hyperlane - Step 2: Build this structure in the system where you want the new hyperlane to end.",
+    "text": "Create A New Hyperlane - Step 2: Build this structure in the system where you want the new hyperlane to end.",
+    "entry_index": 4,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_4f8da8001650cfb071acf656f55007036aa5851a",
+    "key": "hyperlane_creator_emisor_1",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Hyperlane Generator (Transmitter)",
+    "text": "Hyperlane Generator (Transmitter)",
+    "entry_index": 6,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_003f7d3045166e59d49d7e768606109a6fe439f1",
+    "key": "hyperlane_creator_emisor_1_DESC",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Create A New Hyperlane - Step 3: Upgrade this structure to complete the construction of the hyperlane generator transmitter.",
+    "text": "Create A New Hyperlane - Step 3: Upgrade this structure to complete the construction of the hyperlane generator transmitter.",
+    "entry_index": 7,
+    "key_occurrence_index": 0
+  }
+]

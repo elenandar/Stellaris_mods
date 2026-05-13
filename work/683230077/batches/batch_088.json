@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_087651b99c5fb472fec02a87f4ec212c1ce281af",
+    "key": "tech_ship_upkeep_1",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Efficient Fleet Supply Lines",
+    "text": "Efficient Fleet Supply Lines",
+    "entry_index": 44,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_65086cf6259feee64732106ab7482f9fdb1eb7ad",
+    "key": "tech_ship_upkeep_1_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Advancements in technology and logistics allow us to operate much more efficient supply lines to our fleets, thereby significantly reducing our ship upkeep costs.",
+    "text": "Advancements in technology and logistics allow us to operate much more efficient supply lines to our fleets, thereby significantly reducing our ship upkeep costs.",
+    "entry_index": 45,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_aa97249349baf95efb0b73c1ab5cd6150482140e",
+    "key": "tech_starbase_upkeep_1",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Efficient Starbase Maintenance",
+    "text": "Efficient Starbase Maintenance",
+    "entry_index": 46,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_077ec7708bf64338c67c1624b5b0cfde17acbf1a",
+    "key": "tech_starbase_upkeep_1_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Advancements in technology and training allow us to teach our starbase support staff much  more efficient maintenance methods, thereby significantly reducing our starbase upkeep costs.",
+    "text": "Advancements in technology and training allow us to teach our starbase support staff much  more efficient maintenance methods, thereby significantly reducing our starbase upkeep costs.",
+    "entry_index": 47,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_689623081bb4c227bd6dce70b05892d1d62fec40",
+    "key": "tech_singularity_power",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Singularity Power",
+    "text": "Singularity Power",
+    "entry_index": 48,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_b6e0486a5511f37cfc42c5e03c195e062f73821c",
+    "key": "tech_singularity_power_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Reactor powered by a quantum singularity.",
+    "text": "Reactor powered by a quantum singularity.",
+    "entry_index": 49,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_333c565b48581daa9d8580e4c72bc8866418e9d9",
+    "key": "tech_bh_power_3",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Advanced Flagship Reactors",
+    "text": "Advanced Flagship Reactors",
+    "entry_index": 50,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_8ef735e3f382209cefb1b83630ddb7dee893c0f6",
+    "key": "tech_bh_power_2",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Improved Flagship Reactors",
+    "text": "Improved Flagship Reactors",
+    "entry_index": 52,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_27e2ebfc561096e0e43f5dcefb0ce11aa2dc337b",
+    "key": "tech_optimized_enigmatic_power_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Enhanced Dark Matter Reactor",
+    "text": "Enhanced Dark Matter Reactor",
+    "entry_index": 55,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_665a42de7bf31788292c85b93932c35f1cfd4201",
+    "key": "tech_naquadria_power_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Specialized Reactor powered by ancient and rare crystals.",
+    "text": "Specialized Reactor powered by ancient and rare crystals.",
+    "entry_index": 61,
+    "key_occurrence_index": 0
+  }
+]

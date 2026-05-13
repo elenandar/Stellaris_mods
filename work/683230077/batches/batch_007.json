@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_f8fe54fbadb6dd11e09861e8f018be39649315c1",
+    "key": "nsc_strike_cruiser_aura_2_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "This updated Advanced Combat Systems module is an even more effective Interdictor than its predecessor. All hostile forces within range will be forced to stand and fight for quite some time before they can attempt an escape.",
+    "text": "This updated Advanced Combat Systems module is an even more effective Interdictor than its predecessor. All hostile forces within range will be forced to stand and fight for quite some time before they can attempt an escape.",
+    "entry_index": 28,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_fc6eaabac42c8eb01132537963540c41a39295f1",
+    "key": "nsc_titan_aura",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Fleet Command Network",
+    "text": "Fleet Command Network",
+    "entry_index": 29,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_471edfe824b448ba7b694956333d38f1896a56ba",
+    "key": "nsc_flagship_aura",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Advanced Fleet Command Network",
+    "text": "Advanced Fleet Command Network",
+    "entry_index": 30,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_39521b22244a45c68a071d6b5cc92f6022a36b91",
+    "key": "STRIKE_CRUISER_UPGRADE",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Strike Cruiser Upgrade Systems",
+    "text": "Strike Cruiser Upgrade Systems",
+    "entry_index": 31,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_e76b3cc00dec69fe05a44e91d96d87f1e928afea",
+    "key": "STRIKE_CRUISER_AFTERBURNER",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Assault Afterburner",
+    "text": "Assault Afterburner",
+    "entry_index": 36,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_738007be0e327caa9dae5f4a0e6536d1fe5d5bdb",
+    "key": "STRIKE_CRUISER_AFTERBURNER_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "A special afterburner that vastly increases the speed and evasion of the §YStrike Cruiser§! for rapid closure and assault on enemy fleets.",
+    "text": "A special afterburner that vastly increases the speed and evasion of the __PROT_0000__Strike Cruiser__PROT_0001__ for rapid closure and assault on enemy fleets.",
+    "entry_index": 37,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_320908b3951dee27452cb6cf4467c036aaf06455",
+    "key": "special_ship_slot",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Special Component",
+    "text": "Special Component",
+    "entry_index": 38,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_5fff9bb7cdf4c0c80cb594064fcd19ccce09c4b2",
+    "key": "special_ship_slot_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "A special component slot.",
+    "text": "A special component slot.",
+    "entry_index": 39,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_ef7fc104d50b1fd3cf4fab90eb49ac6960905ef6",
+    "key": "exploration_ship_slot",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Exploration Component",
+    "text": "Exploration Component",
+    "entry_index": 40,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_f05268d87b6f7a4b13417f5263967f8492c6479b",
+    "key": "exploration_ship_slot_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "A special Exploration component slot.",
+    "text": "A special Exploration component slot.",
+    "entry_index": 41,
+    "key_occurrence_index": 0
+  }
+]

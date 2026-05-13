@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_bc3333667d5c833f0226b3051d1433c9f57b7b69",
+    "key": "TECH_UNLOCK_SUPERCARRIER_CONSTRUCTION_TITLE",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "§HUnlocks Section Type:§! Supercarrier",
+    "text": "__PROT_0000__Unlocks Section Type:__PROT_0001__ Supercarrier",
+    "entry_index": 183,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_ff49a513b9e35762fbc02e6db516fd17e346b6cf",
+    "key": "TECH_UNLOCK_SUPERCARRIER_CONSTRUCTION_DESC",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "§HSupercarrier§!\\nFurther efforts in both ship construction and miniaturization of strike craft support facilities will allow us to squeeze an absolutely incredible number of hangar bays into our Carriers. These Supercarriers will be able to support swarms of strike craft, the better to defend our fleets from attack, and to overwhelm the foe with our best pilots.",
+    "text": "__PROT_0000__Supercarrier__PROT_0001____PROT_0002__Further efforts in both ship construction and miniaturization of strike craft support facilities will allow us to squeeze an absolutely incredible number of hangar bays into our Carriers. These Supercarriers will be able to support swarms of strike craft, the better to defend our fleets from attack, and to overwhelm the foe with our best pilots.",
+    "entry_index": 184,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_7df48cc853ea972e92560d05d6a3671eaed89fd9",
+    "key": "TECH_UNLOCK_SPITFIRE_CONSTRUCTION_TITLE",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "§HSpitfire Battleship Upgrade§!",
+    "text": "__PROT_0000__Spitfire Battleship Upgrade__PROT_0001__",
+    "entry_index": 185,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_ef09fa0ec11d4a546e6f0ba146322775f3855450",
+    "key": "TECH_UNLOCK_DREADNOUGHT_CONSTRUCTION_TITLE",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "§HUnlocks Ship Type:§! Dreadnought",
+    "text": "__PROT_0000__Unlocks Ship Type:__PROT_0001__ Dreadnought",
+    "entry_index": 187,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_9c02f0dafba397263759e9b59aaf46c1107d08c9",
+    "key": "TECH_UNLOCK_FLAGSHIP_CONSTRUCTION_TITLE",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "§HUnlocks Ship Type:§! Flagship",
+    "text": "__PROT_0000__Unlocks Ship Type:__PROT_0001__ Flagship",
+    "entry_index": 188,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_af05bf5189e670480bd63bcd66855a074a8f39c5",
+    "key": "TECH_UNLOCK_FLAGSHIP_CONSTRUCTION_DESC",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "§HFlagship§!\\nThe naval arms race has seen the production of larger and larger warships with no end in sight. Our naval engineers have suggested jumping to the logical conclusion of this serial escalation by constructing a ship so massive and powerful, that no empire will be able to support more than one of them at a time. This proposed Flagship will be the ultimate warship. Designed for maximum versatility, each section will have many possible configurations, allowing us to design our Flagship to suit our purposes. Mounting far more thrusters per ton than any other ship, the Flagship will be able to take any position in the fleet, from a long-range battery in the rear, to a massive brawler at the tip of a fleet's spear.\\n\\nThis power and versatility will come at a heavy cost, however. Merely building the Flagship will be an enormous endeavor, requiring a colossal stockpile of resources and a significant investment of time and manpower. Upon completion, it will take the entire GDP of a small star nation to maintain; as a result, it will require a massive amount of political influence to obtain approval for the project.",
+    "text": "__PROT_0000__Flagship__PROT_0001____PROT_0002__The naval arms race has seen the production of larger and larger warships with no end in sight. Our naval engineers have suggested jumping to the logical conclusion of this serial escalation by constructing a ship so massive and powerful, that no empire will be able to support more than one of them at a time. This proposed Flagship will be the ultimate warship. Designed for maximum versatility, each section will have many possible configurations, allowing us to design our Flagship to suit our purposes. Mounting far more thrusters per ton than any other ship, the Flagship will be able to take any position in the fleet, from a long-range battery in the rear, to a massive brawler at the tip of a fleet's spear.__PROT_0003____PROT_0004__This power and versatility will come at a heavy cost, however. Merely building the Flagship will be an enormous endeavor, requiring a colossal stockpile of resources and a significant investment of time and manpower. Upon completion, it will take the entire GDP of a small star nation to maintain; as a result, it will require a massive amount of political influence to obtain approval for the project.",
+    "entry_index": 189,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_754fb7de9ffbc86f441b5b6e8e36b52989b4ffcd",
+    "key": "TECH_UNLOCK_SUPPORTSHIP_CONSTRUCTION_TITLE",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "§HUnlocks Ship Upgrade:§! Support Destroyer",
+    "text": "__PROT_0000__Unlocks Ship Upgrade:__PROT_0001__ Support Destroyer",
+    "entry_index": 190,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_0128011f49f6ed3c02e0d5df496d9917b7b4b06a",
+    "key": "TECH_UNLOCK_SUPPORTSHIP_CONSTRUCTION_DESC",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "§HFleet Support Ship§!\\nAs our fleets grow in size, and the distance they travel from home increases, it becomes necessary to support them internally instead of trying to maintain long-range supply lines. The Support Destroyer is the answer to this problem, adding new support capabilities to our Cruisers through the addition of advanced modules.",
+    "text": "__PROT_0000__Fleet Support Ship__PROT_0001____PROT_0002__As our fleets grow in size, and the distance they travel from home increases, it becomes necessary to support them internally instead of trying to maintain long-range supply lines. The Support Destroyer is the answer to this problem, adding new support capabilities to our Cruisers through the addition of advanced modules.",
+    "entry_index": 191,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_e2803053d4a61c807e5245bb151a64caf8ab9018",
+    "key": "TECH_UNLOCK_EXPLORATIONSHIP_CONSTRUCTION_TITLE",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "§HUnlocks Ship Type:§! Explorer",
+    "text": "__PROT_0000__Unlocks Ship Type:__PROT_0001__ Explorer",
+    "entry_index": 192,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_70591ba8796f2389134d804a8d42d8996064e746",
+    "key": "TECH_UNLOCK_EXPLORATIONSHIP_CONSTRUCTION_DESC",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "§HExplorer§!\\nOur intrepid Science Officers have faced incredible danger in their quest to explore the galaxy and uncover all the secrets it has to offer. Our naval engineers suggest the development of a large, combat-capable Science Ship dedicated to exploring new worlds, seeking out new life and new civilizations, and boldly going where no one has gone before.",
+    "text": "__PROT_0000__Explorer__PROT_0001____PROT_0002__Our intrepid Science Officers have faced incredible danger in their quest to explore the galaxy and uncover all the secrets it has to offer. Our naval engineers suggest the development of a large, combat-capable Science Ship dedicated to exploring new worlds, seeking out new life and new civilizations, and boldly going where no one has gone before.",
+    "entry_index": 193,
+    "key_occurrence_index": 0
+  }
+]

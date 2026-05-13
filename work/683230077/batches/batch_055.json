@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_1e382933a6cba46ec9e7cf62b52dfd3c053e27ca",
+    "key": "adaptive_protocol_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Our officer drones have been designed with more independent thought in order to adapt in different situations. This means that we can field more ships, with our officer drones able to manage their crews with more autonomy, but overall combat performance will suffer slightly from the lack of unified action.",
+    "text": "Our officer drones have been designed with more independent thought in order to adapt in different situations. This means that we can field more ships, with our officer drones able to manage their crews with more autonomy, but overall combat performance will suffer slightly from the lack of unified action.",
+    "entry_index": 117,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_eb69859d37ea31c6dab62e9fc7806d5d0ddb97eb",
+    "key": "swarm_protocol",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Swarm Protocol",
+    "text": "Swarm Protocol",
+    "entry_index": 118,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_64a4a4c70d34cae7f071298e77126359cbc29b2b",
+    "key": "swarm_protocol_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Our drones require only minimal training. Our ships must be fast, and blot out the stars with their numbers; it does not take much training to do this. Each ship is a negligible loss; there are two more to take its place. The Swarm will overwhelm with sheer numbers.",
+    "text": "Our drones require only minimal training. Our ships must be fast, and blot out the stars with their numbers; it does not take much training to do this. Each ship is a negligible loss; there are two more to take its place. The Swarm will overwhelm with sheer numbers.",
+    "entry_index": 120,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_0fae4ac7356595419ac5252388bc532e6365385e",
+    "key": "edict_nsc_emergency_defenses",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Emergency Defense Initiative",
+    "text": "Emergency Defense Initiative",
+    "entry_index": 121,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_bb2027e7136c01b73aeadb23397ed59d7b089b96",
+    "key": "edict_nsc_emergency_defenses_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "An onslaught is imminent, and our defenses are weak. We absolutely must build up our starbases, and turn them into bristling defensive emplacements, but we have precious little time.\\n\\nHowever, by throwing everything we have into the effort, we may be able to fortify our defenses in a fraction of the normal time - it will be incredibly costly, but likely not as costly as losing the war to our hated foes.",
+    "text": "An onslaught is imminent, and our defenses are weak. We absolutely must build up our starbases, and turn them into bristling defensive emplacements, but we have precious little time.__PROT_0000____PROT_0001__However, by throwing everything we have into the effort, we may be able to fortify our defenses in a fraction of the normal time - it will be incredibly costly, but likely not as costly as losing the war to our hated foes.",
+    "entry_index": 122,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_e7e37a966346830af850bd3cc16b31c3304ee21c",
+    "key": "tradition_nsc_fleet_doctrine",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Doctrine",
+    "text": "Doctrine",
+    "entry_index": 123,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_16cc5c7b04f5ed9e4ef17c9d0871f7caa801aab9",
+    "key": "tradition_nsc_fleet_doctrine_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "As we continue our trek into the stars, we must find focus in the composition of our fleets.",
+    "text": "As we continue our trek into the stars, we must find focus in the composition of our fleets.",
+    "entry_index": 124,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_89fd6845c595f554285c56f7f8f2cc3d5ba4ba18",
+    "key": "tr_nsc_fleet_doctrine_adopt",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Fleet Doctrine Tradition",
+    "text": "Fleet Doctrine Tradition",
+    "entry_index": 125,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_326f9d762cc6930e28ed2eddcb164984c2532eb8",
+    "key": "tr_nsc_fleet_doctrine_finish",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Fleet Doctrine Tradition Finished",
+    "text": "Fleet Doctrine Tradition Finished",
+    "entry_index": 126,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_ed2a2d69ba75a623933de810e0d137543215bf87",
+    "key": "tr_nsc_fleet_doctrine_armament_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "§HUnlocks Policy:§! $policy_armament_doctrine$",
+    "text": "__PROT_0000__Unlocks Policy:__PROT_0001__ __PROT_0002__",
+    "entry_index": 128,
+    "key_occurrence_index": 0
+  }
+]

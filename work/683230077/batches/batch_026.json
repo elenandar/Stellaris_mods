@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_9bb672b1beb53cf5a42b5e40da12f8f3e8d2698d",
+    "key": "nsc_flagship_shipyard",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "Grand Shipyard",
+    "text": "Grand Shipyard",
+    "entry_index": 19,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_943d79c73a79151608bf5cc0beb72340a8984549",
+    "key": "nsc_flagship_shipyard_DESC",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "This massive space station is necessary to construct the largest and deadliest warship that the galaxy has ever seen.",
+    "text": "This massive space station is necessary to construct the largest and deadliest warship that the galaxy has ever seen.",
+    "entry_index": 20,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_18bd5d9789b6d6b91337cdf4f6616453f7143566",
+    "key": "requires_no_existing_nsc_grand_shipyard",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "$TRIGGER_FAIL$Cannot build more than one $nsc_flagship_shipyard$.",
+    "text": "__PROT_0000__Cannot build more than one __PROT_0001__.",
+    "entry_index": 22,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_57dac9cd2c4433ca05bb58dd572c7d5ad551bdd8",
+    "key": "requires_no_existing_nsc_flagship",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "£trigger_no£ Cannot build more than one Flagship.",
+    "text": "__PROT_0000__ Cannot build more than one Flagship.",
+    "entry_index": 23,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_a37fb1ce9b14a5d394d45b2351c6fe671cd1195a",
+    "key": "can_not_start_another_nsc_flagship_building",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "£trigger_no£ Cannot start another Flagship construction project.",
+    "text": "__PROT_0000__ Cannot start another Flagship construction project.",
+    "entry_index": 24,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_d5f4774a04b35d0478bd289da2c103d63c40ba8c",
+    "key": "nsc_flagship_shipyard_complete_DESC",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "This massive shipyard is home to our Empire's mighty Flagship.",
+    "text": "This massive shipyard is home to our Empire's mighty Flagship.",
+    "entry_index": 26,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_bac0cf8cdffc4dde3afea657baf43644dca5fbd0",
+    "key": "nsc_events_flagship.1.name",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "Grand Shipyard Ready For Construction",
+    "text": "Grand Shipyard Ready For Construction",
+    "entry_index": 27,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_21aabb571a0b99bed361c0a84d5bcf0861a4ca84",
+    "key": "nsc_events_flagship.1.desc",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "Our designs for the massive shipyard needed to build the Flagship are complete. We can begin construction of the assembly facility, but our Naval engineers need to finalize one - and only one - design for the utterly gargantuan vessel to be built. We'll only be able to construct one Flagship, so while we'll be able to retrofit and upgrade the vessel after it has been constructed, we need to have one, single design prior to construction.",
+    "text": "Our designs for the massive shipyard needed to build the Flagship are complete. We can begin construction of the assembly facility, but our Naval engineers need to finalize one - and only one - design for the utterly gargantuan vessel to be built. We'll only be able to construct one Flagship, so while we'll be able to retrofit and upgrade the vessel after it has been constructed, we need to have one, single design prior to construction.",
+    "entry_index": 28,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_b9dffc2ad03f9b73e3e2bc36382ded0b43024b35",
+    "key": "nsc_events_flagship.1.a",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "A ship to change the tide...",
+    "text": "A ship to change the tide...",
+    "entry_index": 29,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_ac5ce92865b6b5ddf3d0d4e1437995c14d1c560e",
+    "key": "nsc_events_flagship.3.name",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "Secret No Longer",
+    "text": "Secret No Longer",
+    "entry_index": 30,
+    "key_occurrence_index": 0
+  }
+]

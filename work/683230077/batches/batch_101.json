@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_7abd4ede21568136bfbae0f1d72232b809b3a7fa",
+    "key": "requires_existing_generator_receptor",
+    "file": "localisation/russian/nsc_tooltips_l_russian.yml",
+    "source": "$TRIGGER_FAIL$Requires existing §YHyperlane Generator (Receptor)§! in the Empire.",
+    "text": "__PROT_0000__Requires existing __PROT_0001__Hyperlane Generator (Receptor)__PROT_0002__ in the Empire.",
+    "entry_index": 12,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_0c42a0baa91796f00db0d597d537c5813fa7225d",
+    "key": "requires_existing_generator_emisor",
+    "file": "localisation/russian/nsc_tooltips_l_russian.yml",
+    "source": "$TRIGGER_FAIL$Requires existing §YHyperlane Generator (Emitter)§! in the Empire in a system not connected by an hyperlane to §Y[Root.GetName]§!.",
+    "text": "__PROT_0000__Requires existing __PROT_0001__Hyperlane Generator (Emitter)__PROT_0002__ in the Empire in a system not connected by an hyperlane to __PROT_0003____PROT_0004____PROT_0005__.",
+    "entry_index": 13,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_1507f8a4a34a853ccd40f0c54216c1930c169190",
+    "key": "requires_no_existing_system_generator_emisor",
+    "file": "localisation/russian/nsc_tooltips_l_russian.yml",
+    "source": "$TRIGGER_FAIL$Cannot build due to existing §YHyperlane Generator (Emitter)§! in the system.",
+    "text": "__PROT_0000__Cannot build due to existing __PROT_0001__Hyperlane Generator (Emitter)__PROT_0002__ in the system.",
+    "entry_index": 14,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_ee776f0d17c354979bd17af3fa2379adb05a6536",
+    "key": "requires_no_existing_generator_receptor",
+    "file": "localisation/russian/nsc_tooltips_l_russian.yml",
+    "source": "$TRIGGER_FAIL$Cannot build due to existing §YHyperlane Generator (Receptor)§! in the Empire.",
+    "text": "__PROT_0000__Cannot build due to existing __PROT_0001__Hyperlane Generator (Receptor)__PROT_0002__ in the Empire.",
+    "entry_index": 15,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_03c49658393fc1c78a82c1fc9b7ea64f96cc66b1",
+    "key": "requires_no_existing_remover_emisor",
+    "file": "localisation/russian/nsc_tooltips_l_russian.yml",
+    "source": "$TRIGGER_FAIL$Cannot build due to existing §YHyperlane Remover (Emitter)§! in the Empire.",
+    "text": "__PROT_0000__Cannot build due to existing __PROT_0001__Hyperlane Remover (Emitter)__PROT_0002__ in the Empire.",
+    "entry_index": 16,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_f2ba629e13ddd2a695885be6c9fda152e2f4afc0",
+    "key": "requires_existing_remover_receptor",
+    "file": "localisation/russian/nsc_tooltips_l_russian.yml",
+    "source": "$TRIGGER_FAIL$Requires existing §YHyperlane Remover (Receptor)§! in the Empire.",
+    "text": "__PROT_0000__Requires existing __PROT_0001__Hyperlane Remover (Receptor)__PROT_0002__ in the Empire.",
+    "entry_index": 17,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_254ee6e1ee306bd7ca237c7e426fa12aa167c51b",
+    "key": "requires_existing_remover_emisor",
+    "file": "localisation/russian/nsc_tooltips_l_russian.yml",
+    "source": "$TRIGGER_FAIL$Requires existing §YHyperlane Remover (Emitter)§! in the Empire in a system connected by an hyperlane to §Y[Root.GetName]§!.",
+    "text": "__PROT_0000__Requires existing __PROT_0001__Hyperlane Remover (Emitter)__PROT_0002__ in the Empire in a system connected by an hyperlane to __PROT_0003____PROT_0004____PROT_0005__.",
+    "entry_index": 18,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_90b193eb6f09881f7c362145fd2ace8d6d1de2a5",
+    "key": "requires_no_existing_system_remover_emisor",
+    "file": "localisation/russian/nsc_tooltips_l_russian.yml",
+    "source": "$TRIGGER_FAIL$Cannot build due to existing §YHyperlane Remover (Emitter)§! in the system.",
+    "text": "__PROT_0000__Cannot build due to existing __PROT_0001__Hyperlane Remover (Emitter)__PROT_0002__ in the system.",
+    "entry_index": 19,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_83f479129e6606851012cc7b69bf488ba869f347",
+    "key": "requires_no_existing_remover_receptor",
+    "file": "localisation/russian/nsc_tooltips_l_russian.yml",
+    "source": "$TRIGGER_FAIL$Cannot build due to existing §YHyperlane Remover (Receptor)§! in the Empire.",
+    "text": "__PROT_0000__Cannot build due to existing __PROT_0001__Hyperlane Remover (Receptor)__PROT_0002__ in the Empire.",
+    "entry_index": 20,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_7def27337e5e8a520e2102d554cc08e36676af4d",
+    "key": "nsc_headquarters_bonus",
+    "file": "localisation/russian/nsc_tooltips_l_russian.yml",
+    "source": "Headquarters Station Bonus",
+    "text": "Headquarters Station Bonus",
+    "entry_index": 21,
+    "key_occurrence_index": 0
+  }
+]

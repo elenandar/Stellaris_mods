@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_281040f4e46293cd3d99c803aa6df08290c66b52",
+    "key": "nsc_supportship_ftl_aura",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Support Destroyer Aura - FTL",
+    "text": "Support Destroyer Aura - FTL",
+    "entry_index": 13,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_21306ff337b91a9bed854ee18da0e650f7e0dade",
+    "key": "nsc_supportship_armor_aura",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Support Destroyer Aura - Armor",
+    "text": "Support Destroyer Aura - Armor",
+    "entry_index": 15,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_68a56bcbb61bc1328c69f796ba14f2f30b66163d",
+    "key": "nsc_supportship_shield_aura",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Support Destroyer Aura - Shield",
+    "text": "Support Destroyer Aura - Shield",
+    "entry_index": 17,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_806ca1cff20f20bea5d7e1d245e48f2a0f27dfa7",
+    "key": "nsc_supportship_invasion_aura",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Support Destroyer Aura - Invasion",
+    "text": "Support Destroyer Aura - Invasion",
+    "entry_index": 19,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_c2a9e2120520e045d210731f78dbe8d922baf848",
+    "key": "NSC_AI_COMBAT_COMPUTER",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Artificial Intelligence Combat System",
+    "text": "Artificial Intelligence Combat System",
+    "entry_index": 21,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_fd316e2b58bea76d19315b252eda91ebb495519d",
+    "key": "NSC_AI_BEHAVIOR_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "This extremely advanced computer system can intelligently run all combat systems on a ship without taking over the helm, allowing for complete movement control during combat.\\n\\n§GHow To Use:§! §BThis computer is available only on certain ship classes. It will allow the player to directly control the movement of these ships while in combat.\\n\\nShips equipped with this computer§! §HMUST§! §Bbe in a fleet by themselves or only with other ships that have the same computer - the movement control will not work in fleets mixed with other ships that have different combat computers.\\n\\nOnce equipped, the fleet will move to the position you designate and will continue firing as long as they have a target within weapons range.§! §HThe fleet will not move again until you tell them to do so.§!",
+    "text": "This extremely advanced computer system can intelligently run all combat systems on a ship without taking over the helm, allowing for complete movement control during combat.__PROT_0000____PROT_0001____PROT_0002__How To Use:__PROT_0003__ __PROT_0004__This computer is available only on certain ship classes. It will allow the player to directly control the movement of these ships while in combat.__PROT_0005____PROT_0006__Ships equipped with this computer__PROT_0007__ __PROT_0008__MUST__PROT_0009__ __PROT_0010__be in a fleet by themselves or only with other ships that have the same computer - the movement control will not work in fleets mixed with other ships that have different combat computers.__PROT_0011____PROT_0012__Once equipped, the fleet will move to the position you designate and will continue firing as long as they have a target within weapons range.__PROT_0013__ __PROT_0014__The fleet will not move again until you tell them to do so.__PROT_0015__",
+    "entry_index": 23,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_b7f92f2d9328d68fb23fb966a1674a36d6d6d898",
+    "key": "EXPLORER_COMBAT_COMPUTER_DEFAULT",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Ship's Computer",
+    "text": "Ship's Computer",
+    "entry_index": 24,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_37028c823a149c3ebad4256d8a91b89762ac25e0",
+    "key": "nsc_strike_cruiser_aura",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Advanced Combat Interdiction System",
+    "text": "Advanced Combat Interdiction System",
+    "entry_index": 25,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_79d0737565fe5a356cf02ed7d58f319dda3764a2",
+    "key": "nsc_strike_cruiser_aura_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "The Advanced Combat Systems function as an Interdictor, locking down all hostile ships within range and preventing them from fleeing or disengaging from combat. A must-have for any Admiral chasing an inferior or more evasive force.",
+    "text": "The Advanced Combat Systems function as an Interdictor, locking down all hostile ships within range and preventing them from fleeing or disengaging from combat. A must-have for any Admiral chasing an inferior or more evasive force.",
+    "entry_index": 26,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_784e8186b306bfa127661f628257982d8c593d5a",
+    "key": "nsc_strike_cruiser_aura_2",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Advanced Combat Interdiction System II",
+    "text": "Advanced Combat Interdiction System II",
+    "entry_index": 27,
+    "key_occurrence_index": 0
+  }
+]

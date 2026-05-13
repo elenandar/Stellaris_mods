@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_25398b7727dcde5a388ecf4adc261ff6830043b2",
+    "key": "FIGHTERS_HANGAR_PD_1_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Basic Fighter-class strike craft will deploy to engage nearby hostiles when the mothership enters battle. Will stay close to its carrier to intercept bombers and missiles.",
+    "text": "Basic Fighter-class strike craft will deploy to engage nearby hostiles when the mothership enters battle. Will stay close to its carrier to intercept bombers and missiles.",
+    "entry_index": 109,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_efab7cf1e4e63a0cbba90609388e094022824320",
+    "key": "FIGHTERS_HANGAR_PD_2",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Improved Fighter Wing (PD)",
+    "text": "Improved Fighter Wing (PD)",
+    "entry_index": 110,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_b00b5fd26fca02d7e2efff0a29d0f9e7c3475c34",
+    "key": "FIGHTERS_HANGAR_PD_2_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Improved Fighters target smaller enemy vessels as well as bombers and strike craft in coordinated maneuvers. Will stay close to its carrier to intercept bombers and missiles.",
+    "text": "Improved Fighters target smaller enemy vessels as well as bombers and strike craft in coordinated maneuvers. Will stay close to its carrier to intercept bombers and missiles.",
+    "entry_index": 111,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_d2c3dceec344a13ee6975305a12db632728fdf1f",
+    "key": "FIGHTERS_HANGAR_PD_3",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Advanced Fighter Wing (PD)",
+    "text": "Advanced Fighter Wing (PD)",
+    "entry_index": 112,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_b3a56afd5924ecf6af447f317f8138434a06074a",
+    "key": "FIGHTERS_HANGAR_PD_3_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "An Advanced Fighter Wing is capable of doing significant damage to smaller enemy vessels and hold its own against hostile strike craft. Will stay close to its carrier to intercept bombers and missiles.",
+    "text": "An Advanced Fighter Wing is capable of doing significant damage to smaller enemy vessels and hold its own against hostile strike craft. Will stay close to its carrier to intercept bombers and missiles.",
+    "entry_index": 113,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_6cae028d35ff32a54b72a1ec03f6c624452063a1",
+    "key": "NSC_REACTOR_BOOSTER_1",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Graviton Boosters",
+    "text": "Graviton Boosters",
+    "entry_index": 117,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_a05feaf6f9f980645cf827506b6e7033cae81106",
+    "key": "NSC_REACTOR_BOOSTER_1_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Reactor boosters augmented by Graviton Power Technology",
+    "text": "Reactor boosters augmented by Graviton Power Technology",
+    "entry_index": 118,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_69dc192b93a26b8c77308a42e472c255b70abe61",
+    "key": "NSC_REACTOR_BOOSTER_2",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Naquadria Boosters",
+    "text": "Naquadria Boosters",
+    "entry_index": 119,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_c20ebdbd120107f4b372fd2a0dab038be58bea11",
+    "key": "NSC_REACTOR_BOOSTER_2_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Reactor boosters augmented by Nasquadria Power Technology",
+    "text": "Reactor boosters augmented by Nasquadria Power Technology",
+    "entry_index": 120,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_8fbe470dc6937d2a6b8647016472efd41ed263d0",
+    "key": "NSC_REACTOR_BOOSTER_3",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Singularity Boosters",
+    "text": "Singularity Boosters",
+    "entry_index": 121,
+    "key_occurrence_index": 0
+  }
+]

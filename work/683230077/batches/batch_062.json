@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_94ca4e95be824c922f82fbe98eeb0b3a1a763ca3",
+    "key": "CRUISER_STERN_STRIKE_C",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Strike Cruiser Stern C",
+    "text": "Strike Cruiser Stern C",
+    "entry_index": 85,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_ed935634473c2533f7b7809bbba380d348aae327",
+    "key": "STRIKECRUISER_MID_M9P2",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Broadside Core",
+    "text": "Broadside Core",
+    "entry_index": 90,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_e3bb1667c6f2f20a2a2fc2c6bf9b65af0607a4ae",
+    "key": "OFFSPRING_CRUISER_MID_S4P2H1",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Hangar Core",
+    "text": "Hangar Core",
+    "entry_index": 101,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_2ec7ceae6d804fa0ca67bc8b6a38b12a52591401",
+    "key": "EXPLORATIONSHIP_1_BOW_L1",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Artillery Bow (Level 1)",
+    "text": "Artillery Bow (Level 1)",
+    "entry_index": 106,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_71a31e65281202192a7965a1720b2ea4a142dd26",
+    "key": "EXPLORATIONSHIP_1_BOW_M1S2",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Volley Bow (Level 1)",
+    "text": "Volley Bow (Level 1)",
+    "entry_index": 107,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_876f5a8b05fedff36cf031a58faa288fbf51beb3",
+    "key": "EXPLORATIONSHIP_1_BOW_M2",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Broadside Bow (Level 1)",
+    "text": "Broadside Bow (Level 1)",
+    "entry_index": 108,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_4f63f5048a980e601b70fca385a7bfacee39da25",
+    "key": "EXPLORATIONSHIP_1_MID1_M3",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Volley Core (Level 1)",
+    "text": "Volley Core (Level 1)",
+    "entry_index": 109,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_d623513e0fa2e51a2dcaa087850fa20c63b7ec63",
+    "key": "EXPLORATIONSHIP_1_MID1_S2",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Interceptor Core (Level 1)",
+    "text": "Interceptor Core (Level 1)",
+    "entry_index": 110,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_668670da316ac4ede9d377f05d78f4efdf996102",
+    "key": "EXPLORATIONSHIP_1_MID1_PD2",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Pinpoint Core (Level 1)",
+    "text": "Pinpoint Core (Level 1)",
+    "entry_index": 111,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_b2bb540a5fc28e4923120f495b03a5d2207c47dd",
+    "key": "EXPLORATIONSHIP_1_STERN_M1",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Broadside Stern (Level 1)",
+    "text": "Broadside Stern (Level 1)",
+    "entry_index": 115,
+    "key_occurrence_index": 0
+  }
+]

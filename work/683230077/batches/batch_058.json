@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_3076f92ab33ea53232f2e64944452b01671afc67",
+    "key": "starbase_headquarters",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Solar Stronghold",
+    "text": "Solar Stronghold",
+    "entry_index": 27,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_b85a47a224feb84f21456d90539b0b495d1dcc2b",
+    "key": "starbase_headquarters_plural",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Solar Strongholds",
+    "text": "Solar Strongholds",
+    "entry_index": 28,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_60be3913477f8b275c41939240469a19f3f48fc6",
+    "key": "CRISIS_CORVETTE_MID_S2PD1",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Picket",
+    "text": "Picket",
+    "entry_index": 30,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_345617995243d42f64d72a740dac3459de712c7f",
+    "key": "CRISIS_CORVETTE_MID_PD3",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Pinpoint",
+    "text": "Pinpoint",
+    "entry_index": 31,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_3fbddcc29065012b04a9fd4334b4ddf9b00dfbef",
+    "key": "FRIGATE_BOW_M1S2",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Volley Bow",
+    "text": "Volley Bow",
+    "entry_index": 32,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_d819925775b77aa398f9a30716dba77ba9b38f33",
+    "key": "FRIGATE_BOW_G1S2",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Torpedo Bow",
+    "text": "Torpedo Bow",
+    "entry_index": 33,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_60292554ee57400e4aca18e37c306a04d66574c0",
+    "key": "FRIGATE_BOW_G1S1P1",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Fullisade Bow",
+    "text": "Fullisade Bow",
+    "entry_index": 34,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_e56ff7036ad322570907a6a2ad2b3cb8e75a2224",
+    "key": "FRIGATE_BOW_M1S1P1",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Gunship Bow",
+    "text": "Gunship Bow",
+    "entry_index": 35,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_5408d8173e3a91b710f8e110709892d3951808d4",
+    "key": "FRIGATE_BOW_S3",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Interceptor Bow",
+    "text": "Interceptor Bow",
+    "entry_index": 36,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_3d30f0e33ef0896beca388e081ee85d02ecfb71d",
+    "key": "FRIGATE_BOW_S2P1",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Picket Bow",
+    "text": "Picket Bow",
+    "entry_index": 37,
+    "key_occurrence_index": 0
+  }
+]

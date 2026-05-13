@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_91b0ba24657fe50768a97f23196fc69f6e2e3003",
+    "key": "CARRIER",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Carrier",
+    "text": "Carrier",
+    "entry_index": 8,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_bc2573bad0e4c7a0dbcec8896e83d1bd88abb4ad",
+    "key": "Carrier_plural",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Carriers",
+    "text": "Carriers",
+    "entry_index": 10,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_3b3a3527e2eb0271cc22eef9214a87bc6029b0a8",
+    "key": "DREADNOUGHT",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Dreadnought",
+    "text": "Dreadnought",
+    "entry_index": 12,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_ea7daa1edeb6ab49208bb6f21125ec537e3c7314",
+    "key": "Dreadnought_plural",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Dreadnoughts",
+    "text": "Dreadnoughts",
+    "entry_index": 14,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_ab64ea9b1de743c01278c5d1ca14a66a15f8c356",
+    "key": "FLAGSHIP",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Flagship",
+    "text": "Flagship",
+    "entry_index": 16,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_47de581d09416429d3354e38fb64fc295dc15add",
+    "key": "Flagship_plural",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Flagships",
+    "text": "Flagships",
+    "entry_index": 18,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_8b3ee45765e546a08be8f79f62b5e94fd8e3ac23",
+    "key": "EXPLORATIONSHIP",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Explorer",
+    "text": "Explorer",
+    "entry_index": 20,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_cfd061a1b267c38b3d694d3fa03c5debeecc672b",
+    "key": "explorationship_plural",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Explorers",
+    "text": "Explorers",
+    "entry_index": 22,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_368d556cbdccce8f75bf47f0067d2d77bbcf00e7",
+    "key": "starbase_stronghold",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Grand Citadel",
+    "text": "Grand Citadel",
+    "entry_index": 24,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_f6ac71d6183591dd0d569c1db7f041390c8a7c91",
+    "key": "starbase_stronghold_plural",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Grand Citadels",
+    "text": "Grand Citadels",
+    "entry_index": 25,
+    "key_occurrence_index": 0
+  }
+]

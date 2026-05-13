@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_425744b519cd309cd8573525533011c9a63d79d8",
+    "key": "tech_explorationship_1",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Explorer (Level 1)",
+    "text": "Explorer (Level 1)",
+    "entry_index": 22,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_dee2d738d48870617a4d40b5622082a469d3b36a",
+    "key": "tech_explorationship_1_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Our intrepid Science Officers have faced incredible danger in their quest to explore the galaxy and uncover all the secrets it has to offer. Our naval engineers suggest the development of a large, combat-capable Science Ship dedicated to exploring new worlds, seeking out new life and new civilizations, and boldly going where no one has gone before.",
+    "text": "Our intrepid Science Officers have faced incredible danger in their quest to explore the galaxy and uncover all the secrets it has to offer. Our naval engineers suggest the development of a large, combat-capable Science Ship dedicated to exploring new worlds, seeking out new life and new civilizations, and boldly going where no one has gone before.",
+    "entry_index": 23,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_24bafc472ade4d021ee9185e3521f6b6e7c73c94",
+    "key": "tech_explorationship_2",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Explorer (Level 2)",
+    "text": "Explorer (Level 2)",
+    "entry_index": 24,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_7ded8bb7f0e878770ffccb6319b5a059c07b3f32",
+    "key": "tech_explorationship_2_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Our intrepid Science Officers have faced incredible danger in their quest to explore the galaxy and uncover all the secrets it has to offer. Our naval engineers, pleased with the performance of the Explorer, suggest developing a more powerful variant to further increase the protection available to our best and brightest Science Officers.",
+    "text": "Our intrepid Science Officers have faced incredible danger in their quest to explore the galaxy and uncover all the secrets it has to offer. Our naval engineers, pleased with the performance of the Explorer, suggest developing a more powerful variant to further increase the protection available to our best and brightest Science Officers.",
+    "entry_index": 25,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_70b096ebd3727a318faceec009970cc453033dca",
+    "key": "tech_explorationship_3",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Explorer (Level 3)",
+    "text": "Explorer (Level 3)",
+    "entry_index": 26,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_564b4d342096bc6c461ee7d4e6ee3e91fdf00027",
+    "key": "tech_explorationship_3_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Our intrepid Science Officers have faced incredible danger in their quest to explore the galaxy and uncover all the secrets it has to offer. Our naval engineers, pleased with the performance of the Explorer's upgraded form, suggest developing an even more powerful variant to further increase the protection available to our best and brightest Science Officers.",
+    "text": "Our intrepid Science Officers have faced incredible danger in their quest to explore the galaxy and uncover all the secrets it has to offer. Our naval engineers, pleased with the performance of the Explorer's upgraded form, suggest developing an even more powerful variant to further increase the protection available to our best and brightest Science Officers.",
+    "entry_index": 27,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_4bb8a60353ad28dd529a1097c2cadcab84e07805",
+    "key": "tech_explorationship_4",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Explorer (Level 4)",
+    "text": "Explorer (Level 4)",
+    "entry_index": 28,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_ddb849c2824eb859bb7dee68fc26f19754da36e4",
+    "key": "tech_drydock_1",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Starbase Drydock",
+    "text": "Starbase Drydock",
+    "entry_index": 30,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_76a1e84b81e2c8c592f1c84f7bb74c1a8f561ac2",
+    "key": "tech_drydock_1_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "This specially-designed facility makes use of advanced technology to maintain atmospheric pressures within the Shipyards, allowing workers to more easily build, maintain, upgrade, and repair many warships at once.",
+    "text": "This specially-designed facility makes use of advanced technology to maintain atmospheric pressures within the Shipyards, allowing workers to more easily build, maintain, upgrade, and repair many warships at once.",
+    "entry_index": 31,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_40f01bbac21a1575de69777ec0adcd6c425d6594",
+    "key": "tech_sensorstation_1_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "The starbase sensor station uses advanced sensor arrays to extend our intelligence gathering capabilities across several star systems, giving us advanced warning of any possible threats near our borders.",
+    "text": "The starbase sensor station uses advanced sensor arrays to extend our intelligence gathering capabilities across several star systems, giving us advanced warning of any possible threats near our borders.",
+    "entry_index": 33,
+    "key_occurrence_index": 0
+  }
+]

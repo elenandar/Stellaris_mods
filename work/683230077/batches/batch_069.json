@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_cb15cb61065c8c0c2661c3fc79294dc82ac628f6",
+    "key": "HEADQUARTERS_STARBASE_SECTION_T",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Stronghold Section",
+    "text": "Stronghold Section",
+    "entry_index": 292,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_2e16ea4c665232774c3040dde514e3a1d0e352b0",
+    "key": "PDSMALL_MILITARY_STATION_SECTION",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Light/PD Station Section",
+    "text": "Light/PD Station Section",
+    "entry_index": 294,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_645f68637426693d6afb4ad9a57dce712de3028d",
+    "key": "MEDTORP_MILITARY_STATION_SECTION",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Medium/Torpedo Station Section",
+    "text": "Medium/Torpedo Station Section",
+    "entry_index": 295,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_fdb1844539636c8066e05b71723791f2d4b8b91d",
+    "key": "LIGHT_MILITARY_STATION_SECTION_2",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Light Station Section",
+    "text": "Light Station Section",
+    "entry_index": 296,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_5a864ea0ae0b21fe8410a0fd378377692bf6f42c",
+    "key": "PD_MILITARY_STATION_SECTION_2",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "PD Station Section",
+    "text": "PD Station Section",
+    "entry_index": 297,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_a653dbdc44fee4191041a179ce378098d1f30a44",
+    "key": "MEDIUM_MILITARY_STATION_SECTION_2",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Medium Station Section",
+    "text": "Medium Station Section",
+    "entry_index": 299,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_af5892d3ed68c7b99cd4ccd45c65ffaccb686e26",
+    "key": "MEDTORP_MILITARY_STATION_SECTION_2",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Medium/Torp Station Section",
+    "text": "Medium/Torp Station Section",
+    "entry_index": 300,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_21d3252e676cb215c20bcd5a593c57e16fb7511d",
+    "key": "MISSILE_MILITARY_STATION_SECTION_2",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Missile Station Section",
+    "text": "Missile Station Section",
+    "entry_index": 301,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_e482d380bc6ed02ef981ef0b416f558e44fe1229",
+    "key": "HEAVY_MILITARY_STATION_SECTION_2",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Heavy Station Section",
+    "text": "Heavy Station Section",
+    "entry_index": 302,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_6c05b05a07b7b5819395cdf04c8fb654b314f22e",
+    "key": "HANGAR_MILITARY_STATION_SECTION_2",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Hangar Station Section",
+    "text": "Hangar Station Section",
+    "entry_index": 303,
+    "key_occurrence_index": 0
+  }
+]

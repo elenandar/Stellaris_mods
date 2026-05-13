@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_95210e5af772d702c80d5e09361fec4886c3b7bc",
+    "key": "tech_nsc_disabled_sections_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "If you are seeing this tech, something is wrong or you used the console.",
+    "text": "If you are seeing this tech, something is wrong or you used the console.",
+    "entry_index": 121,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_b7a2c17c4b023ed0c5f9743524ede91d19050f81",
+    "key": "tech_galactic_mall_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "The galaxy's largest consumer mall and shopping center, capable of producing vast quantities of consumer goods, and the ultimate shopping trip for the galaxy's most dedicated shopaholics.",
+    "text": "The galaxy's largest consumer mall and shopping center, capable of producing vast quantities of consumer goods, and the ultimate shopping trip for the galaxy's most dedicated shopaholics.",
+    "entry_index": 125,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_935f5b5b7c9393469e323a12c3ca5e358bd86138",
+    "key": "tech_hyperlane_generation",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Hyperlane Generation",
+    "text": "Hyperlane Generation",
+    "entry_index": 126,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_5eca640a6012e902cc7f4ab19487814f9e8a081c",
+    "key": "tech_hyperlane_generation_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Recent developments in both the design of hyperdrives and the activation of derelict Gateways can enable us to develop the way of creating new hyperlanes and removing existing ones, finally allowing us to reshape galactic geography for our needs and purposes.",
+    "text": "Recent developments in both the design of hyperdrives and the activation of derelict Gateways can enable us to develop the way of creating new hyperlanes and removing existing ones, finally allowing us to reshape galactic geography for our needs and purposes.",
+    "entry_index": 127,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_43c7b4291579e6281fe21bac8452a973a4f0fc6a",
+    "key": "requires_tech_hyperlane_generation",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "§RRequires £physics£ §Y$tech_hyperlane_generation$§! technology.§!",
+    "text": "__PROT_0000__Requires __PROT_0001__ __PROT_0002____PROT_0003____PROT_0004__ technology.__PROT_0005__",
+    "entry_index": 128,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_409fc814fb8d949ca7b68f23199d9019676b79da",
+    "key": "TECH_UNLOCK_HYPERLANE_GENERATION_TITLE",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "§HUnlocks Feature:§! Hyperlane Generation",
+    "text": "__PROT_0000__Unlocks Feature:__PROT_0001__ Hyperlane Generation",
+    "entry_index": 155,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_005ee0ee8916763c86b697d269a62890f3a980c2",
+    "key": "TECH_UNLOCK_HYPERLANE_GENERATION_DESC",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "§HHyperlane Generation§!\\nAllows the creation and removal of hyperlanes.",
+    "text": "__PROT_0000__Hyperlane Generation__PROT_0001____PROT_0002__Allows the creation and removal of hyperlanes.",
+    "entry_index": 156,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_cc2f359f7ad76a7e55b81a4584fcc59044705280",
+    "key": "TECH_UNLOCK_GRAVITON_POWER_TITLE",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "§HUnlocks Component:§! $GRAVITON_REACTOR$",
+    "text": "__PROT_0000__Unlocks Component:__PROT_0001__ __PROT_0002__",
+    "entry_index": 157,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_c5be25185c50cff5440e4342ed8dc21fc9afaf12",
+    "key": "TECH_UNLOCK_PD_FRIGATE_CONSTRUCTION_TITLE",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "§HUnlocks Section Type:§! Escort Frigate",
+    "text": "__PROT_0000__Unlocks Section Type:__PROT_0001__ Escort Frigate",
+    "entry_index": 171,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_709ef2817a81aec4839fe8856ce12cfe288878ea",
+    "key": "TECH_UNLOCK_PD_FRIGATE_CONSTRUCTION_DESC",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "§HPD Frigate§!\\nMissiles, torpedoes, and strike craft all pose a grave threat to our fleets. Our naval engineers suggest re-designing our Frigates to mount an array of numerous point-defense weapons to shoot down these targets before they can reach our ships.",
+    "text": "__PROT_0000__PD Frigate__PROT_0001____PROT_0002__Missiles, torpedoes, and strike craft all pose a grave threat to our fleets. Our naval engineers suggest re-designing our Frigates to mount an array of numerous point-defense weapons to shoot down these targets before they can reach our ships.",
+    "entry_index": 172,
+    "key_occurrence_index": 0
+  }
+]

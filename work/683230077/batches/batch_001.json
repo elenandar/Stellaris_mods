@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_8dc8783aee74e86637f5ac169246f0cae1cc4d8a",
+    "key": "1-NSC-Steve_STEVE",
+    "file": "localisation/russian/name_lists/name_list_1-NSC-Steve_l_russian.yml",
+    "source": "$ORD$ Steve",
+    "text": "__PROT_0000__ Steve",
+    "entry_index": 0,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_27634ba7ee8e900fcfd4e1a450c17174ce083fdb",
+    "key": "ai_behaviour",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "AI Tactic",
+    "text": "AI Tactic",
+    "entry_index": 0,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_8509abeb2f43392b3748bdbf553a0c2d827bf56a",
+    "key": "ai_behaviour_DESC",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "AI Tactic slot.",
+    "text": "AI Tactic slot.",
+    "entry_index": 1,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_27e2353e2bc10b8f08e12a3de6daca534ac514b6",
+    "key": "ai_behaviour_default",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "Default Behavior",
+    "text": "Default Behavior",
+    "entry_index": 2,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_2e64b7eae204dfda893f94098268db8512bcc624",
+    "key": "ai_behaviour_default_DESC",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "Uses the tactical behaviour set in the original computer. For use with the vanilla combat computers.\\n\\n§GHow To Use:§! §BChoose this computer if you would like to use a vanilla behavior in the slot above and NOT use an Advanced Tactic. If you want to use an Advanced Tactic for this ship class, choose a vanilla computer in the slot above first, and then choose a Tactic for this slot.§!\\n\\n",
+    "text": "Uses the tactical behaviour set in the original computer. For use with the vanilla combat computers.__PROT_0000____PROT_0001____PROT_0002__How To Use:__PROT_0003__ __PROT_0004__Choose this computer if you would like to use a vanilla behavior in the slot above and NOT use an Advanced Tactic. If you want to use an Advanced Tactic for this ship class, choose a vanilla computer in the slot above first, and then choose a Tactic for this slot.__PROT_0005____PROT_0006____PROT_0007__",
+    "entry_index": 3,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_f73f4d7bb18f7a473f920102ee14d5f783e789c5",
+    "key": "ai_behaviour_follow",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "Escort Tactic",
+    "text": "Escort Tactic",
+    "entry_index": 4,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_de6fc70e25254c8470a131cf0ac0b03342c07578",
+    "key": "ai_behaviour_follow_DESC",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "Ships will follow rest of the fleet. Balanced default behaviour.",
+    "text": "Ships will follow rest of the fleet. Balanced default behaviour.",
+    "entry_index": 5,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_fcee52676e99ded73e99ebe774625633c7cc8659",
+    "key": "ai_behaviour_charge",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "Charge Tactic",
+    "text": "Charge Tactic",
+    "entry_index": 6,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_bc5300640ef40dc64f70873994f21234659ff835",
+    "key": "ai_behaviour_charge_DESC",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "Ships will try to close the distance to the enemy fleet as directly as possible and engage in point blank range.",
+    "text": "Ships will try to close the distance to the enemy fleet as directly as possible and engage in point blank range.",
+    "entry_index": 7,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_203ac3c7ff4d66807e56432fff2ac58b5454d883",
+    "key": "ai_behaviour_stationary_30",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "Artillery Tactic (Range: 30)",
+    "text": "Artillery Tactic (Range: 30)",
+    "entry_index": 8,
+    "key_occurrence_index": 0
+  }
+]

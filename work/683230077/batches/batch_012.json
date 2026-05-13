@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_55ebba740776473138f6dbb15fce29235d504985",
+    "key": "EXPLORATION_SLOT_ARCH_LAB",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Advanced Archaeology Laboratory",
+    "text": "Advanced Archaeology Laboratory",
+    "entry_index": 84,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_a80b3d8a43f70fc9f97ea6c5976083ff243aeff1",
+    "key": "EXPLORATION_SLOT_ARCH_LAB_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "This laboratory is dedicated to the study of archaeological research sites. These sites hold untold mysteries which fire the imagination, and they deserve a dedicated lab where everything about them can be analyzed in full.",
+    "text": "This laboratory is dedicated to the study of archaeological research sites. These sites hold untold mysteries which fire the imagination, and they deserve a dedicated lab where everything about them can be analyzed in full.",
+    "entry_index": 85,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_299b7205215002cc76c7adc3b66aded072484142",
+    "key": "EXPLORATION_SLOT_STELLAR_CARTOGRAPHY_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "This large system is used for mapping the surrounding space, allowing the ship's computers to calculate and recover from FTL jumps with greatly increased speed. Far more effective than the model used on regular warships, these Stellar Cartography modules are also far more finicky, and require the steady hand of a highly-trained Science Officer to maintain.",
+    "text": "This large system is used for mapping the surrounding space, allowing the ship's computers to calculate and recover from FTL jumps with greatly increased speed. Far more effective than the model used on regular warships, these Stellar Cartography modules are also far more finicky, and require the steady hand of a highly-trained Science Officer to maintain.",
+    "entry_index": 87,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_585869e50a7424400401c1566c4b4ebb93906e11",
+    "key": "EXPLORATION_SLOT_QUANTUM_THRUSTERS_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "With so much to explore, every moment spent traveling between survey sites is a moment wasted. These Quantum Thrusters are designed to push our ship through space at blistering speeds, always rushing towards the next planet, the next star, the next great mystery waiting to be solved.",
+    "text": "With so much to explore, every moment spent traveling between survey sites is a moment wasted. These Quantum Thrusters are designed to push our ship through space at blistering speeds, always rushing towards the next planet, the next star, the next great mystery waiting to be solved.",
+    "entry_index": 89,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_0fafde60f3e542500bfc6137ffb54585e6403a34",
+    "key": "EXPLORATION_SLOT_NAVIGATIONAL_ARRAY_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "These advanced 3D navigational systems are specially designed to extend our sensor range as far out into the galaxy as possible, rapidly updating and adding to our map of the galaxy by conducting preliminary scans of wide swathes of space from afar.",
+    "text": "These advanced 3D navigational systems are specially designed to extend our sensor range as far out into the galaxy as possible, rapidly updating and adding to our map of the galaxy by conducting preliminary scans of wide swathes of space from afar.",
+    "entry_index": 91,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_d4d574ac0e57189a0c192603e8600b550fd16a3c",
+    "key": "EXPLORATION_SLOT_PHYSICS_LAB",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Advanced Physics Laboratory",
+    "text": "Advanced Physics Laboratory",
+    "entry_index": 92,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_58194d150ebed822abf4c4a6e80dc7756b9ff8a8",
+    "key": "EXPLORATION_SLOT_PHYSICS_LAB_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "§HProduces:§! 10 Physics Research\\nThis advanced laboratory is dedicated to producing ground-breaking Physics research--exploration into the secrets of matter and energy, computers and field manipulation.",
+    "text": "__PROT_0000__Produces:__PROT_0001__ 10 Physics Research__PROT_0002__This advanced laboratory is dedicated to producing ground-breaking Physics research--exploration into the secrets of matter and energy, computers and field manipulation.",
+    "entry_index": 93,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_39bb6077db82cbac9a8d8130737f11313e969ca8",
+    "key": "EXPLORATION_SLOT_SOCIETY_LAB",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Advanced Society Laboratory",
+    "text": "Advanced Society Laboratory",
+    "entry_index": 94,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_8a112dc450ea29001979b3d2af39f2ab09b98cbd",
+    "key": "EXPLORATION_SLOT_SOCIETY_LAB_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "§HProduces:§! 10 Society Research\\nThis advanced laboratory is dedicated to producing ground-breaking Society research--exploration into the secrets of sociology, biology, philosophy, and military theory, the sciences of life and culture.",
+    "text": "__PROT_0000__Produces:__PROT_0001__ 10 Society Research__PROT_0002__This advanced laboratory is dedicated to producing ground-breaking Society research--exploration into the secrets of sociology, biology, philosophy, and military theory, the sciences of life and culture.",
+    "entry_index": 95,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_9317309ed3e6c8ab5dee66586db68c03e841cf6d",
+    "key": "EXPLORATION_SLOT_ENGINEERING_LAB",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Advanced Engineering Laboratory",
+    "text": "Advanced Engineering Laboratory",
+    "entry_index": 96,
+    "key_occurrence_index": 0
+  }
+]

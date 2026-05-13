@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_d2ab4ca281b223b727af563e4a67632da10ff184",
+    "key": "nsc_events_flagship.3.desc",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "The construction of our mighty Flagship is naturally afforded the highest classification level we have, and we have spent considerable time, effort, and resources to keep the project shrouded in secrecy.\\n\\nHowever, despite our heroic efforts to keep its construction a closely-guarded secret, such a massive project is all but impossible to hide, and the galaxy's foreign powers have been aware of it for some time, and they are not standing idly by while we single-handedly change the face of interstellar warfare. Our intelligence agents are reporting that many empires have already begun construction of their own Flagships, hoping to maintain the balance of power in the galaxy.\\n\\nA new arms race is now underway.",
+    "text": "The construction of our mighty Flagship is naturally afforded the highest classification level we have, and we have spent considerable time, effort, and resources to keep the project shrouded in secrecy.__PROT_0000____PROT_0001__However, despite our heroic efforts to keep its construction a closely-guarded secret, such a massive project is all but impossible to hide, and the galaxy's foreign powers have been aware of it for some time, and they are not standing idly by while we single-handedly change the face of interstellar warfare. Our intelligence agents are reporting that many empires have already begun construction of their own Flagships, hoping to maintain the balance of power in the galaxy.__PROT_0002____PROT_0003__A new arms race is now underway.",
+    "entry_index": 31,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_1325d7068b0c2a02d2e88a4e12f4018f3412792c",
+    "key": "nsc_events_flagship.3.a",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "Disappointing, but not unexpected.",
+    "text": "Disappointing, but not unexpected.",
+    "entry_index": 32,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_eb37f0667a9a4fc6c8623c7003659ee9caf81f41",
+    "key": "nsc_events_flagship.4.name",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "The Ultimate Power In The Universe",
+    "text": "The Ultimate Power In The Universe",
+    "entry_index": 33,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_d7f2006bf4d6db65943db1c43886d8165580663f",
+    "key": "nsc_events_flagship.4.desc",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "After years of work, the consumption of vast quantities of resources, the construction of an incredible shipyard, and the expenditure of a considerable amount of political capital, the Flagship is finally complete and fully operational. It is the ultimate warship, capable of annihilating enemy fleets and turning the tides of entire wars.\\n\\nThe unveiling of this massive new warship has been a shock to the citizenry of our own empire, and also to the masses of foreign xenos, but, as previous intelligence reports have indicated, their governments have not been caught by surprise, and have been making their preparations to counter our mighty new weapon. Intelligence reports indicate that several empires are well on their way to rushing their own Flagships into production.",
+    "text": "After years of work, the consumption of vast quantities of resources, the construction of an incredible shipyard, and the expenditure of a considerable amount of political capital, the Flagship is finally complete and fully operational. It is the ultimate warship, capable of annihilating enemy fleets and turning the tides of entire wars.__PROT_0000____PROT_0001__The unveiling of this massive new warship has been a shock to the citizenry of our own empire, and also to the masses of foreign xenos, but, as previous intelligence reports have indicated, their governments have not been caught by surprise, and have been making their preparations to counter our mighty new weapon. Intelligence reports indicate that several empires are well on their way to rushing their own Flagships into production.",
+    "entry_index": 34,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_0a7e4d1489fcf8b7ad36bf1c1c191de42d95a4ab",
+    "key": "nsc_events_flagship.4.a",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "Excellent.",
+    "text": "Excellent.",
+    "entry_index": 35,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_6107166f3f60fd6eabbed38b70bcf278978c4f88",
+    "key": "nsc_events_flagship.6.name",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "Leveling The Playing Field",
+    "text": "Leveling The Playing Field",
+    "entry_index": 36,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_3f47b87ec975a7f6ef765be3a3a5d79633b92ad5",
+    "key": "nsc_events_flagship.6.desc",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "Our agents now report that multiple foreign powers have launched their own, fully-operational Flagships in an attempt to keep up in the naval arms race. The galaxy is now home to several of these gargantuan warships, with each one carrying enough firepower to crush an entire fleet. While the sheer expense of building and maintaining these vessels will keep any nation from building more than one Flagship, their incredible might will surely shape any future armed conflict in which they take part.",
+    "text": "Our agents now report that multiple foreign powers have launched their own, fully-operational Flagships in an attempt to keep up in the naval arms race. The galaxy is now home to several of these gargantuan warships, with each one carrying enough firepower to crush an entire fleet. While the sheer expense of building and maintaining these vessels will keep any nation from building more than one Flagship, their incredible might will surely shape any future armed conflict in which they take part.",
+    "entry_index": 37,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_8e574a0f57d08e7f2b608ae1e4e515428512ed0c",
+    "key": "nsc_events_flagship.6.a",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "Understood.",
+    "text": "Understood.",
+    "entry_index": 38,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_4fc6f0464d64b68ae974259c283568001d09ffd5",
+    "key": "nsc_events_flagship.7.name",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "An Epic Disaster",
+    "text": "An Epic Disaster",
+    "entry_index": 39,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_09b1854804179f2abfac4a662642631c8398f346",
+    "key": "nsc_events_flagship.7.desc",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "Our Flagship, the pride of our Navy, the glorious symbol of our empire's might, has been destroyed!\\n\\nThe shock of such a gross calamity can not be understated. The public has put a great deal of faith in the capability of our Flagship to defend us, and our propaganda has heavily featured our Flagship to keep our citizenry inspired. In the days, weeks, and years to come, many will surely question the command decisions that lead to the destruction of the most powerful warship our empire has ever produced.\\n\\nNow that we no longer have to spend the significant resources needed to maintain the Flagship, it will be possible to construct a new one, though it will require the same kind of in-depth Special Project as before - and we must take care not to lose our next Flagship as well. A review of our Naval strategies is certainly in order.",
+    "text": "Our Flagship, the pride of our Navy, the glorious symbol of our empire's might, has been destroyed!__PROT_0000____PROT_0001__The shock of such a gross calamity can not be understated. The public has put a great deal of faith in the capability of our Flagship to defend us, and our propaganda has heavily featured our Flagship to keep our citizenry inspired. In the days, weeks, and years to come, many will surely question the command decisions that lead to the destruction of the most powerful warship our empire has ever produced.__PROT_0002____PROT_0003__Now that we no longer have to spend the significant resources needed to maintain the Flagship, it will be possible to construct a new one, though it will require the same kind of in-depth Special Project as before - and we must take care not to lose our next Flagship as well. A review of our Naval strategies is certainly in order.",
+    "entry_index": 40,
+    "key_occurrence_index": 0
+  }
+]

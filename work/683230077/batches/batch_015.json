@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_cfd27a234442ce4ee41a3012ee3806c5086b9220",
+    "key": "NSC_REACTOR_BOOSTER_3_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Reactor boosters augmented by Singularity Power Technology",
+    "text": "Reactor boosters augmented by Singularity Power Technology",
+    "entry_index": 122,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_6bf3ef054006b0ecda3f3201280b01c26c99365e",
+    "key": "CORVETTE_SENSOR",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Corvette Scouting Sensor",
+    "text": "Corvette Scouting Sensor",
+    "entry_index": 123,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_1a08cd7cfc032a091cceddb7bba25b3aa0e60dbf",
+    "key": "CORVETTE_SENSOR_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "This special sensor package will allow a Corvette class ship to scout systems for threats before sending in your valuable science teams.",
+    "text": "This special sensor package will allow a Corvette class ship to scout systems for threats before sending in your valuable science teams.",
+    "entry_index": 124,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_2125d3bb161010ef808143375db41f29cd600077",
+    "key": "NSC_BOMBARDMENT_1",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Improved Bombardment",
+    "text": "Improved Bombardment",
+    "entry_index": 125,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_a6697f26636f8648eb6edacb5781d7bd7f56a09e",
+    "key": "NSC_BOMBARDMENT_1_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "We can now equip our military ships with an improved weapons package that will increase the damage done when we bombard planets.",
+    "text": "We can now equip our military ships with an improved weapons package that will increase the damage done when we bombard planets.",
+    "entry_index": 126,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_c808b00b0407dbbe9e7653322bc087978bec6a59",
+    "key": "NSC_BOMBARDMENT_2",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Enhanced Bombardment",
+    "text": "Enhanced Bombardment",
+    "entry_index": 127,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_a6615285ff1d6545726492121c7563254b1db60e",
+    "key": "NSC_BOMBARDMENT_2_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "We can now equip our military ships with an enhanced weapons package that will increase the damage done when we bombard planets.",
+    "text": "We can now equip our military ships with an enhanced weapons package that will increase the damage done when we bombard planets.",
+    "entry_index": 128,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_2615076bb58e1ee7b65a0e427458b7fa187fbdd3",
+    "key": "NSC_BOMBARDMENT_3",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Advanced Bombardment",
+    "text": "Advanced Bombardment",
+    "entry_index": 129,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_67ce1779bc8ace9860cb69a3cfe4aa080ed7f8ae",
+    "key": "NSC_BOMBARDMENT_3_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "We can now equip our military ships with an advanced weapons package that will increase the damage done when we bombard planets.",
+    "text": "We can now equip our military ships with an advanced weapons package that will increase the damage done when we bombard planets.",
+    "entry_index": 130,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_f3c571ea9a44092c3e2d2cdb9d8ab9a1538c085a",
+    "key": "NSC_NANITE_FIELD",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Nanite Dispensary",
+    "text": "Nanite Dispensary",
+    "entry_index": 131,
+    "key_occurrence_index": 0
+  }
+]

@@ -186,7 +186,7 @@ def test_double_russian_bom_before_header_is_error(tmp_path: Path) -> None:
     assert any("multiple leading UTF-8 BOM" in message or "Extra BOM marker before localisation header" in message for message in messages)
 
 
-def test_hidden_ufeef_before_russian_header_after_utf8_sig_is_error(tmp_path: Path) -> None:
+def test_hidden_ufeff_before_russian_header_after_utf8_sig_is_error(tmp_path: Path) -> None:
     english_file = tmp_path / "english.yml"
     russian_file = tmp_path / "russian.yml"
 

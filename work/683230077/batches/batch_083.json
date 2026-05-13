@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_18904cf1f2acbd08518eb47b695825571f20fbf9",
+    "key": "BATTERY_STARBASE_SECTION",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Medium Section",
+    "text": "Medium Section",
+    "entry_index": 128,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_0f09531d29c855383d3580129387c9499496d05d",
+    "key": "smining",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Mining Station",
+    "text": "Mining Station",
+    "entry_index": 129,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_0ec16031a1e9a4182b913ee0c422604aa3ef8be1",
+    "key": "sfactory",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Orbital Factory",
+    "text": "Orbital Factory",
+    "entry_index": 130,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_b570e0c5dbad061aca35871b45125c5e160d667f",
+    "key": "sfarm",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Orbital Farm",
+    "text": "Orbital Farm",
+    "entry_index": 131,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_68e44d52373f8749bd4a07e73b3f7b59114b3fcb",
+    "key": "srefinery",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Orbital Refinery",
+    "text": "Orbital Refinery",
+    "entry_index": 132,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_0b128aa8d5ca8d3f55f15e407baf271c285feda8",
+    "key": "ssensor",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Observatory",
+    "text": "Observatory",
+    "entry_index": 133,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_9dd97837747d4cd94d90b0f768d0db4d6fa8bf8d",
+    "key": "scolony",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Orbital Colony",
+    "text": "Orbital Colony",
+    "entry_index": 134,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_028391779fde98161047019dea589785630a658b",
+    "key": "spower",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Power Station",
+    "text": "Power Station",
+    "entry_index": 135,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_3a24414d014fe77e6b89dab89eee087b4c2899bb",
+    "key": "mod_pop_category_bio_trophy_unity_produces_mult",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Bio-Trophy Unity",
+    "text": "Bio-Trophy Unity",
+    "entry_index": 136,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_eb43c2c4d0cd66c22e5a27ee1a73ecfd64065db8",
+    "key": "mod_station_researchers_physics_research_produces_mult",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Research Station Physics £physics  Output",
+    "text": "Research Station Physics £physics  Output",
+    "entry_index": 137,
+    "key_occurrence_index": 0
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_19932c9300ffc9c1d438e207f1643910210bee61",
+    "key": "FLAGSHIP_BLACK_HOLE_REACTOR_2",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Black Hole Reactor II",
+    "text": "Black Hole Reactor II",
+    "entry_index": 239,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_6c5bf7f3284a999ba23986491d11a0936ac56895",
+    "key": "FLAGSHIP_BLACK_HOLE_REACTOR_3",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Black Hole Reactor III",
+    "text": "Black Hole Reactor III",
+    "entry_index": 241,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_a7ba751aff00564d21d35e05254f07bf1bf43967",
+    "key": "CITADEL_DARK_MATTER_REACTOR",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Dark Matter Reactor",
+    "text": "Dark Matter Reactor",
+    "entry_index": 243,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_a052ec192a135b18cf2eef93acd702158286fc98",
+    "key": "STARBASE_PRIMARY_REACTOR",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Starbase Primary Reactor",
+    "text": "Starbase Primary Reactor",
+    "entry_index": 244,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_93ad96e51c033fd13a1cebb9e84be1638c217a76",
+    "key": "STATION_FISSION_REACTOR",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Fission Reactor",
+    "text": "Fission Reactor",
+    "entry_index": 246,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_22ae5abbdf998bbb63bc2fbe2efa0bf8fb5d0d8f",
+    "key": "STATION_FUSION_REACTOR",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Fusion Reactor",
+    "text": "Fusion Reactor",
+    "entry_index": 247,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_db4a8931420820114b7571e12f460c6e91423de2",
+    "key": "STATION_COLD_FUSION_REACTOR",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Cold Fusion Reactor",
+    "text": "Cold Fusion Reactor",
+    "entry_index": 248,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_0f3f7c394911c1ed2ee800ae7fd7131900b72a55",
+    "key": "STATION_ANTIMATTER_REACTOR",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Anti-Matter Reactor",
+    "text": "Anti-Matter Reactor",
+    "entry_index": 249,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_8815ea7bb9ee15cdd47de61a9b40f16bd352d57a",
+    "key": "STATION_ZERO_POINT_REACTOR",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Zero-Point Reactor",
+    "text": "Zero-Point Reactor",
+    "entry_index": 250,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_c488e29543869f831c9d8d4956ab31832a42bc6e",
+    "key": "PERDITION_BEAM_FLAGSHIP",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "The Ambassador of Justice",
+    "text": "The Ambassador of Justice",
+    "entry_index": 308,
+    "key_occurrence_index": 0
+  }
+]

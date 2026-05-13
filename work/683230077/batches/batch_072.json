@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_5fa69d5bd8221d7903d88cd450ae27ce8dabe2a5",
+    "key": "sm_starbase_management",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Starbase Administration Office",
+    "text": "Starbase Administration Office",
+    "entry_index": 12,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_c1619c7a1590674102e4dcc2927b0e560e1d0881",
+    "key": "sm_starbase_management_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Some systems are absolutely critical to the maintenance of our empire's trade networks. A Starbase Administration Office is the seat of a very important official of our Empire, tasked with the protection of local trade routes and the defense of this critical starbase.\\n",
+    "text": "Some systems are absolutely critical to the maintenance of our empire's trade networks. A Starbase Administration Office is the seat of a very important official of our Empire, tasked with the protection of local trade routes and the defense of this critical starbase.__PROT_0000__",
+    "entry_index": 13,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_4dcf79f1ac4fce9f4b4305f1e3faf418096f8bf8",
+    "key": "sm_customs_office",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Starbase Customs Office",
+    "text": "Starbase Customs Office",
+    "entry_index": 14,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_1d18ea49888a1a2587acc0ee84c7c333554943bf",
+    "key": "sm_customs_office_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Central location for all immigration for the system.\\n",
+    "text": "Central location for all immigration for the system.__PROT_0000__",
+    "entry_index": 15,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_5df0ed331ccb52ecb7c60827a6d4eedbc1789adb",
+    "key": "sm_starbase_management_machine",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Starbase Network Hub",
+    "text": "Starbase Network Hub",
+    "entry_index": 16,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_2c2c1450f6b777875cd604185cea602bbfe2f434",
+    "key": "sm_starbase_management_hive",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Starbase Lair",
+    "text": "Starbase Lair",
+    "entry_index": 18,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_e8cb4f246ff7770ddd45e933d86f7e6042ba9b32",
+    "key": "sm_starbase_management_hive_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "We are one.\\n",
+    "text": "We are one.__PROT_0000__",
+    "entry_index": 19,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_5cb8211a1fa9a894217012544f92afb310dfb32e",
+    "key": "sm_mining_base",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "System Mineral Refinery",
+    "text": "System Mineral Refinery",
+    "entry_index": 20,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_b3f584c47e5e11237a3217d6329cb94d8f17cbf3",
+    "key": "sm_mining_base_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Some systems are specialized for the extraction of mineral resources to fuel our economy. A System Mineral Refinery gives a starbase the capacity to increase the efficiency of mineral extraction operations on all planets within the system.\\n",
+    "text": "Some systems are specialized for the extraction of mineral resources to fuel our economy. A System Mineral Refinery gives a starbase the capacity to increase the efficiency of mineral extraction operations on all planets within the system.__PROT_0000__",
+    "entry_index": 21,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_66e27678374336dd3a0163523e1e47590f5b63b0",
+    "key": "sm_farming_base",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "System Agriculture Terminal",
+    "text": "System Agriculture Terminal",
+    "entry_index": 22,
+    "key_occurrence_index": 0
+  }
+]

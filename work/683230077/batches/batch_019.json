@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_7caeee829bb4acd5af2deb2901d0f41dfb6b01d0",
+    "key": "PERDITION_BEAM_FLAGSHIP_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "The biggest laser in existence, for the biggest ship in existence, to overcompensate for a not-so-big Leader.",
+    "text": "The biggest laser in existence, for the biggest ship in existence, to overcompensate for a not-so-big Leader.",
+    "entry_index": 309,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_42091b7f1e3f97f0a9bf65bd3b49434610a0ad1f",
+    "key": "PERDITION_BEAM_STARBASE",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Atomic Phase Disintegrator",
+    "text": "Atomic Phase Disintegrator",
+    "entry_index": 310,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_023a012316fabcd8ec2b3fd55fc730d0ca174d22",
+    "key": "PERDITION_BEAM_STARBASE_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "DakkaDakkaDakkaDakka.",
+    "text": "DakkaDakkaDakkaDakka.",
+    "entry_index": 311,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_6c32e54715074eebc869d986376cce2ed2c60af0",
+    "key": "XL_BEAM_STARBASE",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Polarized Electron Modulator",
+    "text": "Polarized Electron Modulator",
+    "entry_index": 312,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_d2102c9c48c0ed577b838a194012e43cd1c0e9f4",
+    "key": "XL_BEAM_STARBASE_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Twice the Dakka, Half the Size.",
+    "text": "Twice the Dakka, Half the Size.",
+    "entry_index": 313,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_4df6ebee42bfcca17a9f1e9f878494af79024634",
+    "key": "BASIC_XL_BEAM",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Early Prototype Lance",
+    "text": "Early Prototype Lance",
+    "entry_index": 314,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_1e65d164adf04ee1aa6085d6836f32b65a3982f3",
+    "key": "BASIC_XL_BEAM_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "A basic prototype from the early days of Lance weapon development. It's weak in comparison to its successors, but requires no strategic resources to function.",
+    "text": "A basic prototype from the early days of Lance weapon development. It's weak in comparison to its successors, but requires no strategic resources to function.",
+    "entry_index": 315,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_975fc69cd42b0a9edcd44d79eb54ce600e3bd994",
+    "key": "BASIC_T_BEAM",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Prototype Perdition Beam",
+    "text": "Prototype Perdition Beam",
+    "entry_index": 316,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_1b8fde9e08ef7a5224aa68c9505dc6d020a4f9c4",
+    "key": "BASIC_T_BEAM_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "The earliest working example of a Titanic-class weapon, it lacks the raw devastating power of a true Perdition Beam. That said, it requires no strategic resources to function.",
+    "text": "The earliest working example of a Titanic-class weapon, it lacks the raw devastating power of a true Perdition Beam. That said, it requires no strategic resources to function.",
+    "entry_index": 317,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_d72c6c1c992ad1ee346bed5851be8b2cbdcce88d",
+    "key": "TOMAHAWK_CRUISE_MISSILE",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Tomahawk Advanced Cruise Missile",
+    "text": "Tomahawk Advanced Cruise Missile",
+    "entry_index": 318,
+    "key_occurrence_index": 0
+  }
+]

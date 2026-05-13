@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_50d78211bf33f869aa4be34f0184ce975600ff10",
+    "key": "sm_storage_room_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "A small storage area for various resources.",
+    "text": "A small storage area for various resources.",
+    "entry_index": 33,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_18240fd330082875a1f6af3a5552e01e2278be93",
+    "key": "sm_nightclub",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Nightclub",
+    "text": "Nightclub",
+    "entry_index": 34,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_b950fe4531c8547d98b0eab2b765b9aef1f057f3",
+    "key": "sm_nightclub_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Ain't no party like a Starbase party 'cause a Starbase party don't stop.",
+    "text": "Ain't no party like a Starbase party 'cause a Starbase party don't stop.",
+    "entry_index": 35,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_8ad39e3735ab83a0ca137e929aacef149d45eb09",
+    "key": "sm_public_market",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Public Market",
+    "text": "Public Market",
+    "entry_index": 36,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_293c7f617157217abcd4ba85fd789e5c79156e6f",
+    "key": "sm_public_market_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "A large trading market accessible to the general public.",
+    "text": "A large trading market accessible to the general public.",
+    "entry_index": 37,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_7278a03c01494ad75dc4445ca61c738fa5dec5e1",
+    "key": "sm_shield_module",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Shield Generator",
+    "text": "Shield Generator",
+    "entry_index": 38,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_ecef951a334e608e476bad776882421f7370454b",
+    "key": "sm_shield_module_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Adds more shields to the Starbase.\\n",
+    "text": "Adds more shields to the Starbase.__PROT_0000__",
+    "entry_index": 39,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_55d45fee8a788099e78173d49fb7999251768a72",
+    "key": "sm_armor_module",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Armor Plating",
+    "text": "Armor Plating",
+    "entry_index": 40,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_25f805500f5f50eda80d298c56da0007efb3ee70",
+    "key": "sm_armor_module_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Adds more armor to the Starbase.\\n",
+    "text": "Adds more armor to the Starbase.__PROT_0000__",
+    "entry_index": 41,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_fd079db7777ad9b0107e894586c728803d5e0e84",
+    "key": "sm_pd_battery",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Point Defense System",
+    "text": "Point Defense System",
+    "entry_index": 42,
+    "key_occurrence_index": 0
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_5d8a2b8489afe38f193bbd92d31eb85342691b34",
+    "key": "BATTLESHIP_MID_SF",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Spitfire Core",
+    "text": "Spitfire Core",
+    "entry_index": 191,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_f36341631afa5de56753593fb8f82e73b8be9202",
+    "key": "BATTLESHIP_STERN_L3",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Artillery Stern",
+    "text": "Artillery Stern",
+    "entry_index": 192,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_296771f8b6abff41a704072274740ddaf85e5082",
+    "key": "BATTLESHIP_STERN_SF",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Spitfire Stern",
+    "text": "Spitfire Stern",
+    "entry_index": 194,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_f94c2a9397d46171bd1cdd840978d7024518e1f2",
+    "key": "OFFSPRING_BATTLESHIP_BOW_S6M4L4",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Carronade Bow",
+    "text": "Carronade Bow",
+    "entry_index": 195,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_1ebb8877dbf789f0e14223d5e4ef57126c3cde36",
+    "key": "OFFSPRING_BATTLESHIP_BOW_S5P5M5G5",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Coverage Bow",
+    "text": "Coverage Bow",
+    "entry_index": 197,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_721a640732e40e1081761516af11c6e85fa53ff8",
+    "key": "OFFSPRING_BATTLESHIP_BOW_XL1",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Devastator Bow",
+    "text": "Devastator Bow",
+    "entry_index": 200,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_f4a581776b1b100fc78b6dec00ec19f95a2c049d",
+    "key": "OFFSPRING_BATTLESHIP_MID_M8G8",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Barrage Core",
+    "text": "Barrage Core",
+    "entry_index": 204,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_bbe630469fa2b7c2c715a1e3ad2c8466a93c20c0",
+    "key": "CARRIER_MID1_P4H4",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Carrier Core",
+    "text": "Carrier Core",
+    "entry_index": 212,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_1da9f0f7d080954ba9eef9b70841df414448a420",
+    "key": "CARRIER_MID1_HEAVY",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Heavy Carrier Core",
+    "text": "Heavy Carrier Core",
+    "entry_index": 213,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_9da55c99d356246d2fd1aeb259b7c943ae4dbdcc",
+    "key": "CARRIER_MID1_SUPER",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Supercarrier Core",
+    "text": "Supercarrier Core",
+    "entry_index": 214,
+    "key_occurrence_index": 0
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_ee577f3f93ded44102dba47fd93294178538c6b2",
+    "key": "stb_shipyard_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "A starbase focused on ship construction.\\n",
+    "text": "A starbase focused on ship construction.__PROT_0000__",
+    "entry_index": 1,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_22e9a3c61df215f631db9a47104a55fd441f95ce",
+    "key": "sm_drydock",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Drydock",
+    "text": "Drydock",
+    "entry_index": 2,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_85135e322fd94e292ca1c063492bd7ed9951ddbc",
+    "key": "sm_drydock_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "This specially-designed facility makes use of advanced technology to maintain atmospheric pressures within the Shipyards, allowing workers to more easily build, maintain, upgrade, and repair warships.\\n",
+    "text": "This specially-designed facility makes use of advanced technology to maintain atmospheric pressures within the Shipyards, allowing workers to more easily build, maintain, upgrade, and repair warships.__PROT_0000__",
+    "entry_index": 3,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_ca438b814e47ba640e6d7cb5c472ddeb27195495",
+    "key": "sm_drydock_desc_modifier",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Increases the build capacity of each §Y$sm_shipyard$§! by §G1§!\\n",
+    "text": "Increases the build capacity of each __PROT_0000____PROT_0001____PROT_0002__ by __PROT_0003__1__PROT_0004____PROT_0005__",
+    "entry_index": 4,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_d82bd526b4b8329b9ed7d285c71a07f475b8f0e2",
+    "key": "sm_fleet_anchorage",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Fleet Dock",
+    "text": "Fleet Dock",
+    "entry_index": 5,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_418a6cb1d4252aaa4ab2b1dd967da4936a6a97bc",
+    "key": "sm_fleet_anchorage_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "A significantly larger version of the standard fleet anchorage for our rapidly expanding navy.\\n",
+    "text": "A significantly larger version of the standard fleet anchorage for our rapidly expanding navy.__PROT_0000__",
+    "entry_index": 6,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_a96190fa58778af3673b099874a210f0a458e806",
+    "key": "sm_sensor_station",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Sensor Station",
+    "text": "Sensor Station",
+    "entry_index": 8,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_0b26f4b24f10cc7e652709dfa0b9ca4c583a3f5e",
+    "key": "sm_sensor_station_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "The starbase sensor station uses advanced sensor arrays to extend our intelligence gathering capabilities across several star systems, giving us advanced warning of any possible threats near our borders.\\n",
+    "text": "The starbase sensor station uses advanced sensor arrays to extend our intelligence gathering capabilities across several star systems, giving us advanced warning of any possible threats near our borders.__PROT_0000__",
+    "entry_index": 9,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_3cb5605e5b221028803b2222735001d30e0ffa05",
+    "key": "sm_solar_panel",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Solar Panel",
+    "text": "Solar Panel",
+    "entry_index": 10,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_e1eb981fec24fb26d66dab1fbec46d21544ff6ea",
+    "key": "sm_solar_panel_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "This set of solar panels provides energy to the starbase, helping to counteract the costs of running the installation and generating surplus energy.\\n",
+    "text": "This set of solar panels provides energy to the starbase, helping to counteract the costs of running the installation and generating surplus energy.__PROT_0000__",
+    "entry_index": 11,
+    "key_occurrence_index": 0
+  }
+]

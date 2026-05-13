@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_362a586516673fac7dcfed5db4f8cd1926dc9b91",
+    "key": "nsc_starbase_nanite_aura_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Advanced nanites that eat away at the armor of hostile ships by disrupting molecular bonds.",
+    "text": "Advanced nanites that eat away at the armor of hostile ships by disrupting molecular bonds.",
+    "entry_index": 134,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_fef626154a926774fc5e183a0a593de31d405c03",
+    "key": "sm_nsc_nanite_field",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Nanite Dispensary Field",
+    "text": "Nanite Dispensary Field",
+    "entry_index": 135,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_35a3bb40e46c740f08656ee07f187990dd8f2fe8",
+    "key": "sm_nsc_nanite_field_desc",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "This facility builds, houses, and deploys advanced nanites that eat away at the armor of hostile ships by disrupting molecular bonds.",
+    "text": "This facility builds, houses, and deploys advanced nanites that eat away at the armor of hostile ships by disrupting molecular bonds.",
+    "entry_index": 136,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_074705e640cb980df822829c0d1e8bdd0d46e2d4",
+    "key": "FLAGSHIP_JUMP_DRIVE",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Flagship Jump Drive",
+    "text": "Flagship Jump Drive",
+    "entry_index": 137,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_66565db2bec764bb5a61cb53c9411b73e3676bcd",
+    "key": "FLAGSHIP_JUMP_DRIVE_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "The Flagship Jump Drive tears ship-sized holes in the very fabric of reality, allowing for near-instantaneous movement between systems. The nature of the space the ship passes through on this journey is still poorly understood.",
+    "text": "The Flagship Jump Drive tears ship-sized holes in the very fabric of reality, allowing for near-instantaneous movement between systems. The nature of the space the ship passes through on this journey is still poorly understood.",
+    "entry_index": 138,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_23c306e38c83a7d78f33bcc0610eee9b479c263a",
+    "key": "HEADQUARTERS_JUMP_DRIVE_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "The Headquarters Jump Drive tears ship-sized holes in the very fabric of reality, allowing for near-instantaneous movement between systems. Because of the size and mass of the station, this drive has an extremely long recharge time and can only be used very sporadically.",
+    "text": "The Headquarters Jump Drive tears ship-sized holes in the very fabric of reality, allowing for near-instantaneous movement between systems. Because of the size and mass of the station, this drive has an extremely long recharge time and can only be used very sporadically.",
+    "entry_index": 140,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_fcf717d306e85686f5a28a902daebcbf4f4eafce",
+    "key": "EXPLORATION_HYPER_DRIVE",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Explorer Hyper Drive",
+    "text": "Explorer Hyper Drive",
+    "entry_index": 141,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_3fd7a7b14d1b3024f4569dfcc238432e3e5c7610",
+    "key": "EXPLORATION_HYPER_DRIVE_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Ships equipped with Hyper Drives travel swiftly between the edges of star systems along interstellar hyperlanes.",
+    "text": "Ships equipped with Hyper Drives travel swiftly between the edges of star systems along interstellar hyperlanes.",
+    "entry_index": 142,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_0ea6595d7f4f82807575afdc1d4dedc6103944cc",
+    "key": "CORVETTE_GRAVITON_REACTOR",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Graviton Reactor",
+    "text": "Graviton Reactor",
+    "entry_index": 167,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_18e0c4ae5d59b4523e8e069a83218dc16be9fcbd",
+    "key": "GRAVITON_REACTOR_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Adding gravitational and graviton based based particles to reinforce an antimatter reaction greatly increases the energy production of our reactors.",
+    "text": "Adding gravitational and graviton based based particles to reinforce an antimatter reaction greatly increases the energy production of our reactors.",
+    "entry_index": 180,
+    "key_occurrence_index": 0
+  }
+]

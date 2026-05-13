@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_fedcdb7790289603e2e8896f04ff854eb6c23522",
+    "key": "tech15_option_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "This option will increase the number of research alternatives to 15 and will cost approximately 20% of our monthly research production.",
+    "text": "This option will increase the number of research alternatives to 15 and will cost approximately 20% of our monthly research production.",
+    "entry_index": 13,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_521cda795f9fb8c04f9ed8a70e8a5b42aa4b5377",
+    "key": "tech20_option_name",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Research Initiative 20",
+    "text": "Research Initiative 20",
+    "entry_index": 14,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_32bcf6e95842e7d4c4add80c6087198e75c10f5a",
+    "key": "tech20_option_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "This option will increase the number of research alternatives to 20 and will cost approximately 30% of our monthly research production.",
+    "text": "This option will increase the number of research alternatives to 20 and will cost approximately 30% of our monthly research production.",
+    "entry_index": 16,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_9d2a7a0e82d783d68b78b8e7575c33d9254cbfcc",
+    "key": "eternal_vigilance_full_spending_medium",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Full Spending - Defense Stations",
+    "text": "Full Spending - Defense Stations",
+    "entry_index": 17,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_12eff1961ef277ebef911a2e1044ba58a0bc996a",
+    "key": "eternal_vigilance_full_spending_medium_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Every starbase needs to be properly defended. Spare no cost.\\nAutomatically builds §YDefense Stations§! around every §YStarbase§!",
+    "text": "Every starbase needs to be properly defended. Spare no cost.__PROT_0000__Automatically builds __PROT_0001__Defense Stations__PROT_0002__ around every __PROT_0003__Starbase__PROT_0004__",
+    "entry_index": 19,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_7c7d328bbb9a5439c931866d8613ee4feea72801",
+    "key": "eternal_vigilance_half_spending_medium",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Half Spending - Defense Stations",
+    "text": "Half Spending - Defense Stations",
+    "entry_index": 20,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_89b1ebe75de3f726e476440836f30086e9c6186f",
+    "key": "eternal_vigilance_half_spending_medium_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Only our strongest redoubts require our support.\\nAutomatically builds §YDefense Stations§! around §YBastion Starbases§!",
+    "text": "Only our strongest redoubts require our support.__PROT_0000__Automatically builds __PROT_0001__Defense Stations__PROT_0002__ around __PROT_0003__Bastion Starbases__PROT_0004__",
+    "entry_index": 22,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_08db8049b95a591a6d062a3da7cd24f15ccc0410",
+    "key": "eternal_vigilance_full_spending_large",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Full Spending - Defense Fortresses",
+    "text": "Full Spending - Defense Fortresses",
+    "entry_index": 23,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_619271dd71ca2a81dac6d907a6f348a242e41c81",
+    "key": "eternal_vigilance_full_spending_large_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Every starbase needs to be properly defended. Spare no cost.\\nAutomatically builds §YDefense Fortresses§! around every §YStarbase§!",
+    "text": "Every starbase needs to be properly defended. Spare no cost.__PROT_0000__Automatically builds __PROT_0001__Defense Fortresses__PROT_0002__ around every __PROT_0003__Starbase__PROT_0004__",
+    "entry_index": 25,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_d9e6fd1db2a00ca2384d62de41313defb8584ff7",
+    "key": "eternal_vigilance_half_spending_large",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Half Spending - Defense Fortresses",
+    "text": "Half Spending - Defense Fortresses",
+    "entry_index": 26,
+    "key_occurrence_index": 0
+  }
+]

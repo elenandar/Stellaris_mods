@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_67a145afcc53d9fcf3f1c589c6f889f4b4b0f58f",
+    "key": "mod_shipsize_headquarters_build_speed_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Headquarters Build Speed",
+    "text": "Headquarters Build Speed",
+    "entry_index": 33,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_36c0a23589f8f2dda5b270d1da4a0fb7259e7a0a",
+    "key": "mod_ship_headquarters_cost_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Headquarters Build Cost",
+    "text": "Headquarters Build Cost",
+    "entry_index": 34,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_1ce779618c606963a0ab9d52d82a6a89d52aec9a",
+    "key": "mod_shipsize_explorationship_build_speed_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Explorer Build Speed",
+    "text": "Explorer Build Speed",
+    "entry_index": 35,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_39322d83ad11211a483d66f1520ea4e4ef294a43",
+    "key": "mod_ship_explorationship_cost_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Explorer Build Cost",
+    "text": "Explorer Build Cost",
+    "entry_index": 36,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_2186f11f128478f880c10d2361c6d4e9628d6dc4",
+    "key": "mod_country_resource_max_minerals_add",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Max Minerals",
+    "text": "Max Minerals",
+    "entry_index": 37,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_3c1a57d79095218e97189caa1df39b4109017813",
+    "key": "mod_country_resource_max_energy_add",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Max Energy",
+    "text": "Max Energy",
+    "entry_index": 38,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_f185e95dac8eb809ead83ef8e3d8536739931278",
+    "key": "mod_leader_commanders_upkeep_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Admiral Upkeep",
+    "text": "Admiral Upkeep",
+    "entry_index": 39,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_1bcd1df472843a993da5542bec22810bde3637ce",
+    "key": "country_command_limit_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Fleet Command Limit",
+    "text": "Fleet Command Limit",
+    "entry_index": 40,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_bc4f4bc3d4f4ff7915f9c7212b90fba15ba75a59",
+    "key": "mod_weapon_type_point_defense_weapon_damage_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Point Defense Weapon Damage",
+    "text": "Point Defense Weapon Damage",
+    "entry_index": 41,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_991fd7881f0db930ab669ea59dafd67a7b691afa",
+    "key": "mod_planet_livestock_produces_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Livestock Output",
+    "text": "Livestock Output",
+    "entry_index": 42,
+    "key_occurrence_index": 0
+  }
+]

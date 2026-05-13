@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_c0d54387df0003cf667a3a41bbcae117fccdaae7",
+    "key": "allow_resource_factory",
+    "file": "localisation/russian/nsc_perks_l_russian.yml",
+    "source": "§HUnlocks Megastructure:§! Strategic Resource Factory",
+    "text": "__PROT_0000__Unlocks Megastructure:__PROT_0001__ Strategic Resource Factory",
+    "entry_index": 2,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_19b00161d74b5131cdf832bf506ea4e64569509a",
+    "key": "policy_tech_options_policy",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Research Diversity Initiative",
+    "text": "Research Diversity Initiative",
+    "entry_index": 0,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_8eb5ddb003993cceef4644a20b6eb1a1ca213230",
+    "key": "policy_tech_options_policy_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "This policy will allow our empire to spend research points on providing our scientists with more options when choosing their next research project.",
+    "text": "This policy will allow our empire to spend research points on providing our scientists with more options when choosing their next research project.",
+    "entry_index": 1,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_52f18036c2386d1465e87e5d3718cf95061c790a",
+    "key": "defaulttech_option_name",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Default Research",
+    "text": "Default Research",
+    "entry_index": 2,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_61b16dbcf3523e41b25197e4a57e1229dba0a311",
+    "key": "defaulttech_option_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "This option will keep the research alternatives at the normal number - nothing will change.",
+    "text": "This option will keep the research alternatives at the normal number - nothing will change.",
+    "entry_index": 4,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_d47d4b0f734511ea066a61305b1cc3eb89189ff3",
+    "key": "tech5_option_name",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Research Initiative 5",
+    "text": "Research Initiative 5",
+    "entry_index": 5,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_ff628a248fe513f93ab52c898e3beeaa168082e9",
+    "key": "tech5_option_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "This option will increase the number of research alternatives to 5 and will cost approximately 10% of our monthly research production.",
+    "text": "This option will increase the number of research alternatives to 5 and will cost approximately 10% of our monthly research production.",
+    "entry_index": 7,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_0d8be0802e9558f6efa65ea685e7ccaff6398027",
+    "key": "tech10_option_name",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Research Initiative 10",
+    "text": "Research Initiative 10",
+    "entry_index": 8,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_269a367bfea01ed4295ab322909f2193e39d6862",
+    "key": "tech10_option_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "This option will increase the number of research alternatives to 10 and will cost approximately 15% of our monthly research production.",
+    "text": "This option will increase the number of research alternatives to 10 and will cost approximately 15% of our monthly research production.",
+    "entry_index": 10,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_27c70a80cfaff8b0ddf660b261bca24a8c74d9b4",
+    "key": "tech15_option_name",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Research Initiative 15",
+    "text": "Research Initiative 15",
+    "entry_index": 11,
+    "key_occurrence_index": 0
+  }
+]

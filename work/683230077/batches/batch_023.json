@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_22560ec94ee274c33f69d9a9ce06ba2c4e33ba57",
+    "key": "CARRIER_CLOAKING_DARK_MATTER_TOOLTIP",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "While Cloaked:\\n\\nShield Hit Points: §R-80%§!\\nSublight Speed: §R-40%§!\\nStrike Craft Damage: §R-35%§!\\nStrike Craft Fire Rate: §R-35%§!\\nStrike Craft Speed: §R-35%§!",
+    "text": "While Cloaked:__PROT_0000____PROT_0001__Shield Hit Points: __PROT_0002__-80%__PROT_0003____PROT_0004__Sublight Speed: __PROT_0005__-40%__PROT_0006____PROT_0007__Strike Craft Damage: __PROT_0008__-35%__PROT_0009____PROT_0010__Strike Craft Fire Rate: __PROT_0011__-35%__PROT_0012____PROT_0013__Strike Craft Speed: __PROT_0014__-35%__PROT_0015__",
+    "entry_index": 362,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_0e3f823bfea8facc911107d4b0e07296a681aeb2",
+    "key": "CARRIER_CLOAKING_PSI_TOOLTIP",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "While Cloaked:\\n\\nShield Hit Points: §R-60%§!\\nSublight Speed: §R-30%§!\\nStrike Craft Damage: §R-20%§!\\nStrike Craft Fire Rate: §R-20%§!\\nStrike Craft Speed: §R-20%§!",
+    "text": "While Cloaked:__PROT_0000____PROT_0001__Shield Hit Points: __PROT_0002__-60%__PROT_0003____PROT_0004__Sublight Speed: __PROT_0005__-30%__PROT_0006____PROT_0007__Strike Craft Damage: __PROT_0008__-20%__PROT_0009____PROT_0010__Strike Craft Fire Rate: __PROT_0011__-20%__PROT_0012____PROT_0013__Strike Craft Speed: __PROT_0014__-20%__PROT_0015__",
+    "entry_index": 363,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_fb4cdf423c084fdf81aa1cf53233218308ba1e75",
+    "key": "EXPLORATION_CLOAKING_3",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Explorer Elite Cloak",
+    "text": "Explorer Elite Cloak",
+    "entry_index": 364,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_fa1144a94881b00919a599a84384f290af0e8c5b",
+    "key": "EXPLORATION_CLOAKING_DARK_MATTER",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Explorer Dark Matter Cloak",
+    "text": "Explorer Dark Matter Cloak",
+    "entry_index": 366,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_afe02930daff2050d284669df49f20aabdbfd893",
+    "key": "EXPLORATION_CLOAKING_PSI",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Explorer Psi-Phase Cloak",
+    "text": "Explorer Psi-Phase Cloak",
+    "entry_index": 368,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_2870c0e37ab520edef8b5038e8c90be1055d8a2d",
+    "key": "EXPLORATION_CLOAKING_3_TOOLTIP",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "While Cloaked:\\n\\nShield Hit Points: §R-50%§!\\nSublight Speed: §G+10%§!\\nSensor Range: §G+1§!\\nCloak Detection Strength: §G1§!",
+    "text": "While Cloaked:__PROT_0000____PROT_0001__Shield Hit Points: __PROT_0002__-50%__PROT_0003____PROT_0004__Sublight Speed: __PROT_0005__+10%__PROT_0006____PROT_0007__Sensor Range: __PROT_0008__+1__PROT_0009____PROT_0010__Cloak Detection Strength: __PROT_0011__1__PROT_0012__",
+    "entry_index": 370,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_17e27f82cac5760cc87622528405ae9e48370d74",
+    "key": "EXPLORATION_CLOAKING_DARK_MATTER_TOOLTIP",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "While Cloaked:\\n\\nShield Hit Points: §R-25%§!\\nSublight Speed: §G+20%§!\\nSensor Range: §G+2§!\\nCloak Detection Strength: §G2§!",
+    "text": "While Cloaked:__PROT_0000____PROT_0001__Shield Hit Points: __PROT_0002__-25%__PROT_0003____PROT_0004__Sublight Speed: __PROT_0005__+20%__PROT_0006____PROT_0007__Sensor Range: __PROT_0008__+2__PROT_0009____PROT_0010__Cloak Detection Strength: __PROT_0011__2__PROT_0012__",
+    "entry_index": 371,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_bae8f5cb0758c624d6ba5e924fb6697cd919c72b",
+    "key": "EXPLORATION_CLOAKING_PSI_TOOLTIP",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "While Cloaked:\\n\\nSublight Speed: §G+30%§!\\nSensor Range: §G+3§!\\nCloak Detection Strength: §G3§!",
+    "text": "While Cloaked:__PROT_0000____PROT_0001__Sublight Speed: __PROT_0002__+30%__PROT_0003____PROT_0004__Sensor Range: __PROT_0005__+3__PROT_0006____PROT_0007__Cloak Detection Strength: __PROT_0008__3__PROT_0009__",
+    "entry_index": 372,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_7a7c0e76521943c8270d5694ea69f7c3655e2d9b",
+    "key": "FLAGSHIP_CLOAKING_3",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Flagship Special Cloak",
+    "text": "Flagship Special Cloak",
+    "entry_index": 373,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_06b80ee09df8c23024f9a47f9640ff6aef043f5f",
+    "key": "FLAGSHIP_CLOAKING_3_TOOLTIP",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "While Cloaked:\\n\\nShield Hit Points: §R-75%§!\\nJump Drive Cooldown: §G-50%§!\\nSublight Speed: §G+50%§!\\nSensor Range: §G+3§!\\nCloak Detection Strength: §G5§!",
+    "text": "While Cloaked:__PROT_0000____PROT_0001__Shield Hit Points: __PROT_0002__-75%__PROT_0003____PROT_0004__Jump Drive Cooldown: __PROT_0005__-50%__PROT_0006____PROT_0007__Sublight Speed: __PROT_0008__+50%__PROT_0009____PROT_0010__Sensor Range: __PROT_0011__+3__PROT_0012____PROT_0013__Cloak Detection Strength: __PROT_0014__5__PROT_0015__",
+    "entry_index": 375,
+    "key_occurrence_index": 0
+  }
+]

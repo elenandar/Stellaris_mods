@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_26f1d83a9854ebd8a74249aca3618a1855bad57b",
+    "key": "CRISIS_CRUISER_SECTION_B",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Torpedo",
+    "text": "Torpedo",
+    "entry_index": 55,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_f70fc509403bb1ef054c6fd549d5993bfd160e19",
+    "key": "OFFSPRING_DESTROYER_BOW_G2",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Missile Bow",
+    "text": "Missile Bow",
+    "entry_index": 59,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_4c7ded3bea4a5fc3565ea5a3db03914a20f274fd",
+    "key": "OFFSPRING_DESTROYER_BOW_M2P4",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "PD Destroyer Bow",
+    "text": "PD Destroyer Bow",
+    "entry_index": 60,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_ea42b6922d518f51bd1229b153d728e3027ece72",
+    "key": "OFFSPRING_DESTROYER_STERN_M1",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Gunship Stern",
+    "text": "Gunship Stern",
+    "entry_index": 62,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_d5d53bf1d257917512e25a48916a8e83fa24562c",
+    "key": "OFFSPRING_DESTROYER_STERN_G1",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Missile Stern",
+    "text": "Missile Stern",
+    "entry_index": 63,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_3425e8fd5461f999947fb591507b4a9a8bfb6b06",
+    "key": "OFFSPRING_DESTROYER_STERN_P4",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "PD Destroyer Stern",
+    "text": "PD Destroyer Stern",
+    "entry_index": 64,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_9ebb6d0f980d7da0d0175ebd3e594347923e6a9b",
+    "key": "CRUISER_BOW_L3",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Artillery Bow",
+    "text": "Artillery Bow",
+    "entry_index": 65,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_0784f030df3bdd11dc3355d0cb6a9447099229d1",
+    "key": "CRUISER_BOW_M6",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Broadside Bow",
+    "text": "Broadside Bow",
+    "entry_index": 68,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_4b50bdb1e06cb02620e652d601c551ad194838b4",
+    "key": "CRUISER_BOW_STRIKE_A",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Strike Cruiser Bow A",
+    "text": "Strike Cruiser Bow A",
+    "entry_index": 69,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_cb525894e2abc2baa1b4239ba791ebad81123154",
+    "key": "CRUISER_BOW_STRIKE_B",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Strike Cruiser Bow B",
+    "text": "Strike Cruiser Bow B",
+    "entry_index": 70,
+    "key_occurrence_index": 0
+  }
+]

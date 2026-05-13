@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_444dec44fe331fc4dfba4b0397d82df44cb64112",
+    "key": "DREADNOUGHT_MID1_P3M7L6",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Carronade Core",
+    "text": "Carronade Core",
+    "entry_index": 224,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_178cb2f935ccdfc8552f785cd0b5b3e240b23415",
+    "key": "TITAN_BOW_T4",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Nova Bow",
+    "text": "Nova Bow",
+    "entry_index": 239,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_742641bbad1a8acea3253039c82539353b6680b4",
+    "key": "FLAGSHIP_BOW_H6T6",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Siegebreaker Bow",
+    "text": "Siegebreaker Bow",
+    "entry_index": 247,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_04ce8fc133871428a765a2e4ead6ec936072755e",
+    "key": "FLAGSHIP_BOW_H6X8T2",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Basilisk Bow",
+    "text": "Basilisk Bow",
+    "entry_index": 248,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_83ba4cd072b91a4490ce2493c089b1b6f902a35e",
+    "key": "FLAGSHIP_BOW_H6X12",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Stormbringer Bow",
+    "text": "Stormbringer Bow",
+    "entry_index": 249,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_ed5abb6ca6f2db25903a983c296f71378f3b66b8",
+    "key": "FLAGSHIP_BOW_P4G4L6H6",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Hailfire Bow",
+    "text": "Hailfire Bow",
+    "entry_index": 250,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_4f964ccdcd44005f5d70f17747cf035e8ed7076d",
+    "key": "FLAGSHIP_MID1_G20",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Missile Core",
+    "text": "Missile Core",
+    "entry_index": 257,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_3c97910d198022cb63f4a916a2659f89039132c9",
+    "key": "FLAGSHIP_STERN_P10M10",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Torrent Stern",
+    "text": "Torrent Stern",
+    "entry_index": 288,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_77883c4bd3f8ab28b2f97c2aefae3dc7cba4b84d",
+    "key": "FLAGSHIP_STERN_P10H10",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "PD Stern",
+    "text": "PD Stern",
+    "entry_index": 289,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_b3a4ad4144a2a5dcd772f298503185d125a79521",
+    "key": "STRONGHOLD_STARBASE_SECTION_T",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Grand Citadel Section",
+    "text": "Grand Citadel Section",
+    "entry_index": 290,
+    "key_occurrence_index": 0
+  }
+]

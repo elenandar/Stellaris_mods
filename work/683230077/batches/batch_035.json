@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_4a3e49f9a154ff742aee926b4001c20dbe81d506",
+    "key": "nsc_events_hyperlane_gen.6.desc",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "We have finally finished the last stages of construction of our Hyperlane Generator (Transmitter) in §Y[From.From.GetName]§!.",
+    "text": "We have finally finished the last stages of construction of our Hyperlane Generator (Transmitter) in __PROT_0000____PROT_0001____PROT_0002__.",
+    "entry_index": 89,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_9056f1d01eace682d6089824f262d89ae3d17a87",
+    "key": "nsc_events_hyperlane_gen.8.name",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Hyperlane Generator (Receiver) Completed",
+    "text": "Hyperlane Generator (Receiver) Completed",
+    "entry_index": 90,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_34ea2b24a46ba95f17f2c2ab4a436dab8e38d5fe",
+    "key": "nsc_events_hyperlane_gen.8.desc",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "We have finally finished the last stages of construction of our Hyperlane Generator (Receiver) in §Y[From.From.GetName]§!.",
+    "text": "We have finally finished the last stages of construction of our Hyperlane Generator (Receiver) in __PROT_0000____PROT_0001____PROT_0002__.",
+    "entry_index": 91,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_4649cd880ad652b9fc78872876cb8c22518cf02c",
+    "key": "nsc_events_hyperlane_gen.10.name",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Hyperlane Remover (Transmitter) Completed",
+    "text": "Hyperlane Remover (Transmitter) Completed",
+    "entry_index": 92,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_55ec67232053b5edf2b07b144be74d1f5011ef2d",
+    "key": "nsc_events_hyperlane_gen.10.desc",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "We have finally finished the last stages of construction of our Hyperlane Remover (Transmitter) in §Y[From.From.GetName]§!.",
+    "text": "We have finally finished the last stages of construction of our Hyperlane Remover (Transmitter) in __PROT_0000____PROT_0001____PROT_0002__.",
+    "entry_index": 93,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_ce4641fe896f3d4e35fa786f4af76922dd7ebcb5",
+    "key": "nsc_events_hyperlane_gen.12.name",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Hyperlane Remover (Receiver) Completed",
+    "text": "Hyperlane Remover (Receiver) Completed",
+    "entry_index": 94,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_88613cb776a14950eca6f5a9888f42f5b8ef0546",
+    "key": "nsc_events_hyperlane_gen.12.desc",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "We have finally finished the last stages of construction of our Hyperlane Remover (Receiver) in §Y[From.From.GetName]§!.",
+    "text": "We have finally finished the last stages of construction of our Hyperlane Remover (Receiver) in __PROT_0000____PROT_0001____PROT_0002__.",
+    "entry_index": 95,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_87e57da04ff13d82b91700dec0b487e13a6a128b",
+    "key": "mod_ships_energy_produces_add",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Energy Production",
+    "text": "Energy Production",
+    "entry_index": 0,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_9fa11e9de46644e7bd2b76e6f693cbca1ba17e19",
+    "key": "mod_ships_physics_research_produces_add",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Physics Research",
+    "text": "Physics Research",
+    "entry_index": 1,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_cafe562e5beabf07f419ba0f6825beb30fc16ae5",
+    "key": "mod_ships_society_research_produces_add",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Society Research",
+    "text": "Society Research",
+    "entry_index": 2,
+    "key_occurrence_index": 0
+  }
+]

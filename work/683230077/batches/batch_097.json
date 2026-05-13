@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_de43531041a44ba67487a28fc9b247c7712edf0a",
+    "key": "TECH_UNLOCK_EXPLORATIONSHIP2_CONSTRUCTION_TITLE",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "§HUnlocks Ship Upgrade:§! Explorer - Level 2",
+    "text": "__PROT_0000__Unlocks Ship Upgrade:__PROT_0001__ Explorer - Level 2",
+    "entry_index": 194,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_d144f34eb09cb9239876a0a2547575c890986df0",
+    "key": "TECH_UNLOCK_EXPLORATIONSHIP2_CONSTRUCTION_DESC",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "§HExplorer - Level 2§!\\nOur intrepid Science Officers have faced incredible danger in their quest to explore the galaxy and uncover all the secrets it has to offer. Our naval engineers, pleased with the performance of the Explorer, suggest developing a more powerful variant to further increase the protection available to our best and brightest Science Officers.",
+    "text": "__PROT_0000__Explorer - Level 2__PROT_0001____PROT_0002__Our intrepid Science Officers have faced incredible danger in their quest to explore the galaxy and uncover all the secrets it has to offer. Our naval engineers, pleased with the performance of the Explorer, suggest developing a more powerful variant to further increase the protection available to our best and brightest Science Officers.",
+    "entry_index": 195,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_b8d8d609502281fcc7e217d080badda75fd69106",
+    "key": "TECH_UNLOCK_EXPLORATIONSHIP3_CONSTRUCTION_TITLE",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "§HUnlocks Ship Upgrade:§! Explorer - Level 3",
+    "text": "__PROT_0000__Unlocks Ship Upgrade:__PROT_0001__ Explorer - Level 3",
+    "entry_index": 196,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_f361a37d60f1fbc44d55cf4aee06d1a9a2f45f6d",
+    "key": "TECH_UNLOCK_EXPLORATIONSHIP3_CONSTRUCTION_DESC",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "§HExplorer - Level 3§!\\nOur intrepid Science Officers have faced incredible danger in their quest to explore the galaxy and uncover all the secrets it has to offer. Our naval engineers, pleased with the performance of the Explorer's upgraded form, suggest developing an even more powerful variant to further increase the protection available to our best and brightest Science Officers.",
+    "text": "__PROT_0000__Explorer - Level 3__PROT_0001____PROT_0002__Our intrepid Science Officers have faced incredible danger in their quest to explore the galaxy and uncover all the secrets it has to offer. Our naval engineers, pleased with the performance of the Explorer's upgraded form, suggest developing an even more powerful variant to further increase the protection available to our best and brightest Science Officers.",
+    "entry_index": 197,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_80e588b288eee9fd8adae35e4dd33aafd6f1ade4",
+    "key": "TECH_UNLOCK_EXPLORATIONSHIP4_CONSTRUCTION_TITLE",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "§HUnlocks Ship Upgrade:§! Explorer - Level 4",
+    "text": "__PROT_0000__Unlocks Ship Upgrade:__PROT_0001__ Explorer - Level 4",
+    "entry_index": 198,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_3c62262f8ece228a5281087475634f8cc298c77e",
+    "key": "TECH_UNLOCK_EXPLORATIONSHIP4_CONSTRUCTION_DESC",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "§HExplorer - Level 4§!\\nOur intrepid Science Officers have faced incredible danger in their quest to explore the galaxy and uncover all the secrets it has to offer. Our naval engineers, pleased with the performance of the Explorer's upgraded form, suggest developing an even more powerful variant to further increase the protection available to our best and brightest Science Officers.",
+    "text": "__PROT_0000__Explorer - Level 4__PROT_0001____PROT_0002__Our intrepid Science Officers have faced incredible danger in their quest to explore the galaxy and uncover all the secrets it has to offer. Our naval engineers, pleased with the performance of the Explorer's upgraded form, suggest developing an even more powerful variant to further increase the protection available to our best and brightest Science Officers.",
+    "entry_index": 199,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_cffa33b00be94623006cf51297c930efa81bffaa",
+    "key": "TECH_UNLOCK_DRYDOCK_CONSTRUCTION_TITLE",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "§HUnlocks Starbase Building:§! Drydock",
+    "text": "__PROT_0000__Unlocks Starbase Building:__PROT_0001__ Drydock",
+    "entry_index": 200,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_7143fda274722d09ac1f205687782529abc949c8",
+    "key": "TECH_UNLOCK_DRYDOCK_CONSTRUCTION_DESC",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "§HDrydock§!\\nThis specially-designed facility makes use of advanced technology to maintain atmospheric pressures within the Shipyards, allowing workers to more easily build, maintain, upgrade, and repair many warships at once.",
+    "text": "__PROT_0000__Drydock__PROT_0001____PROT_0002__This specially-designed facility makes use of advanced technology to maintain atmospheric pressures within the Shipyards, allowing workers to more easily build, maintain, upgrade, and repair many warships at once.",
+    "entry_index": 201,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_5bb758d9e57b96f099100923c618a6e3c55f8cdb",
+    "key": "TECH_UNLOCK_SENSORSTATION_CONSTRUCTION_TITLE",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "§HUnlocks Starbase Building:§! Sensor Station",
+    "text": "__PROT_0000__Unlocks Starbase Building:__PROT_0001__ Sensor Station",
+    "entry_index": 202,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_8392ba3987c4c4443fb4842b5e2e43403d8e3eac",
+    "key": "TECH_UNLOCK_SENSORSTATION_CONSTRUCTION_DESC",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "§HSensor Station§!\\nThe starbase sensor station uses advanced sensor arrays to extend our intelligence gathering capabilities across several star systems, giving us advanced warning of any possible threats near our borders.",
+    "text": "__PROT_0000__Sensor Station__PROT_0001____PROT_0002__The starbase sensor station uses advanced sensor arrays to extend our intelligence gathering capabilities across several star systems, giving us advanced warning of any possible threats near our borders.",
+    "entry_index": 203,
+    "key_occurrence_index": 0
+  }
+]

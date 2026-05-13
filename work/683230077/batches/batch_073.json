@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_805f64ea001aed5357c4709ce0990629c3124fac",
+    "key": "sm_farming_base_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Some systems are specialized towards producing vast quantities of food to sustain our ever-growing population. A System Agriculture Terminal coordinates the efforts of all agricultural enterprises in the star system, increasing crop yields on all affected planets.\\n",
+    "text": "Some systems are specialized towards producing vast quantities of food to sustain our ever-growing population. A System Agriculture Terminal coordinates the efforts of all agricultural enterprises in the star system, increasing crop yields on all affected planets.__PROT_0000__",
+    "entry_index": 23,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_20a66a76aab0ca5346238d909299e8ef58aba1ae",
+    "key": "sm_power_station",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "System Energy Grid",
+    "text": "System Energy Grid",
+    "entry_index": 24,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_9ca6f5cd68f09b767fa6e8ad7f69fa6637d08465",
+    "key": "sm_power_station_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Some systems are specialized towards producing the raw energy all civilizations need to function. A System Energy Grid oversees all power-generating efforts across the system, increasing the efficiency of our technicians on all planets within the star system.\\n",
+    "text": "Some systems are specialized towards producing the raw energy all civilizations need to function. A System Energy Grid oversees all power-generating efforts across the system, increasing the efficiency of our technicians on all planets within the star system.__PROT_0000__",
+    "entry_index": 25,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_d2c5059b679c427800d4fc8c5c6c725d61eaec2c",
+    "key": "sm_artifact_silo",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Minor Artifacts Storage",
+    "text": "Minor Artifacts Storage",
+    "entry_index": 26,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_8b73c2c59952d28c47bf250fd4d6fae6aa9b5645",
+    "key": "sm_artifact_silo_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "This specialized silo can be used to store Minor Artifacts on a starbase.\\n",
+    "text": "This specialized silo can be used to store Minor Artifacts on a starbase.__PROT_0000__",
+    "entry_index": 27,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_ddb44cbe11f7e25bffea0f80b3b55096a026a51a",
+    "key": "sm_public_plaza",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Public Plaza",
+    "text": "Public Plaza",
+    "entry_index": 28,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_f1d1edd18699d00e848b42c25bf1530cc87439c7",
+    "key": "sm_public_plaza_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "A beautiful plaza where people can gather and relax.",
+    "text": "A beautiful plaza where people can gather and relax.",
+    "entry_index": 29,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_3c4a84b46ec133b7b96a5eddd342f881b5a4a1e8",
+    "key": "sm_fleet_club",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Fleet Officer's Club",
+    "text": "Fleet Officer's Club",
+    "entry_index": 30,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_49fc2d1531a82da067c67a538de771d10a0ead25",
+    "key": "sm_fleet_club_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "A place for rest & relaxation specifically for fleet officers.",
+    "text": "A place for rest & relaxation specifically for fleet officers.",
+    "entry_index": 31,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_43e0a90fd23eb8c92d4c4888c5e0712c524b0960",
+    "key": "sm_storage_room",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Storage Room",
+    "text": "Storage Room",
+    "entry_index": 32,
+    "key_occurrence_index": 0
+  }
+]

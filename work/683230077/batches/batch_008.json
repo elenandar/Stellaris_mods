@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_e4b65a113b16598e87f174ff4358b20e0b8e3b91",
+    "key": "hq_ftl_components",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Headquarters Jump Drive",
+    "text": "Headquarters Jump Drive",
+    "entry_index": 42,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_338e4958468699d3b32e86c94a97e473f24ce531",
+    "key": "hq_ftl_components_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "A slot for the Headquarters Jump Drive.",
+    "text": "A slot for the Headquarters Jump Drive.",
+    "entry_index": 43,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_10e19dfad7aba8ebd80d20ab30a1c1c3d6e51501",
+    "key": "SPECIAL_SLOT_MULTIPHASIC_SENSORS",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Multiphasic Sensors",
+    "text": "Multiphasic Sensors",
+    "entry_index": 46,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_36b88d43029940afc75633933400c8701687d442",
+    "key": "SPECIAL_SLOT_MULTIPHASIC_SENSORS_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "These advanced sensors increase sensor range using multiphase generators, updating and adding to our map of the galaxy by conducting preliminary scans of wide swathes of space from afar.",
+    "text": "These advanced sensors increase sensor range using multiphase generators, updating and adding to our map of the galaxy by conducting preliminary scans of wide swathes of space from afar.",
+    "entry_index": 47,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_d333184f52dda832ea138058fbfcd3cc79c0ac8c",
+    "key": "SPECIAL_SLOT_DAMAGE_CONTROL",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Damage Control Teams",
+    "text": "Damage Control Teams",
+    "entry_index": 48,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_d526c0b61c5c325c789b3d779d0e89c2e06771d4",
+    "key": "SPECIAL_SLOT_DAMAGE_CONTROL_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "These specialized crew members are trained in rapid ship repair under battlefield conditions to keep the ship running longer, and to reduce the need to head home for repairs after combat engagements.",
+    "text": "These specialized crew members are trained in rapid ship repair under battlefield conditions to keep the ship running longer, and to reduce the need to head home for repairs after combat engagements.",
+    "entry_index": 49,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_a649b6c19a74ee3c0183ccecbef69ea99ab7cb8a",
+    "key": "SPECIAL_SLOT_READY_ROOM",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Captain's Ready Room",
+    "text": "Captain's Ready Room",
+    "entry_index": 50,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_a325226922ac2732dc4611f83f1e771c24a483b7",
+    "key": "SPECIAL_SLOT_READY_ROOM_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Commanding a warship is a heavy burden, and even the most able Captains are likely to feel the strain. Setting aside a private space for the Captain of the vessel to relax, while still being available in case of emergencies, will improve the Captain's mental health, and improve their ability to command the vessel when the time comes to engage in combat.",
+    "text": "Commanding a warship is a heavy burden, and even the most able Captains are likely to feel the strain. Setting aside a private space for the Captain of the vessel to relax, while still being available in case of emergencies, will improve the Captain's mental health, and improve their ability to command the vessel when the time comes to engage in combat.",
+    "entry_index": 51,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_9c67e23c401e4cfef8e477e055508f4235da6cfe",
+    "key": "SPECIAL_SLOT_CREW_LOUNGE",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Crew Lounge",
+    "text": "Crew Lounge",
+    "entry_index": 52,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_62025409d2d024bc44e9fa3fe16bd7f2d9a904e6",
+    "key": "SPECIAL_SLOT_CREW_LOUNGE_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Long deployments aboard spacefaring warships can take their toll on a ship's crew. Having designated Crew Lounge areas will provide the crew with a place to relieve excess stress, improve mental health, and, in the end, improve combat performance as a result.",
+    "text": "Long deployments aboard spacefaring warships can take their toll on a ship's crew. Having designated Crew Lounge areas will provide the crew with a place to relieve excess stress, improve mental health, and, in the end, improve combat performance as a result.",
+    "entry_index": 53,
+    "key_occurrence_index": 0
+  }
+]

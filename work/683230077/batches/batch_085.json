@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_1988b984a4c85e114ff7a4bc3c92a46b75c58841",
+    "key": "tech_heavycarrier_1_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "As our ship building capabilities continue to increase, we continue to look for new ways to advance our current ship class layouts. Combined with new advancements in miniaturizing many of the support facilities required for the maintenance of strike craft, we believe that we can alter our existing Carrier designs into Heavy Carriers, with the ability to support more hangar bays.",
+    "text": "As our ship building capabilities continue to increase, we continue to look for new ways to advance our current ship class layouts. Combined with new advancements in miniaturizing many of the support facilities required for the maintenance of strike craft, we believe that we can alter our existing Carrier designs into Heavy Carriers, with the ability to support more hangar bays.",
+    "entry_index": 11,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_2b62cf82136347ab8c6368ae6480ce459f7e3123",
+    "key": "tech_supercarrier_1",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Supercarrier Upgrade",
+    "text": "Supercarrier Upgrade",
+    "entry_index": 12,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_c6f284da41fca4a746889e746913931d338888d1",
+    "key": "tech_supercarrier_1_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Further efforts in both ship construction and miniaturization of strike craft support facilities will allow us to squeeze an absolutely incredible number of hangar bays into our Carriers. These Supercarriers will be able to support swarms of strike craft, the better to defend our fleets from attack, and to overwhelm the foe with our best pilots.",
+    "text": "Further efforts in both ship construction and miniaturization of strike craft support facilities will allow us to squeeze an absolutely incredible number of hangar bays into our Carriers. These Supercarriers will be able to support swarms of strike craft, the better to defend our fleets from attack, and to overwhelm the foe with our best pilots.",
+    "entry_index": 13,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_5d49482851696a60dbfc2e99df16fb62acd1e39a",
+    "key": "tech_spitfire_1",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Spitfire Battleship Specialization",
+    "text": "Spitfire Battleship Specialization",
+    "entry_index": 14,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_aea0e76faa55b81540b7a35353d0a86de1e52aae",
+    "key": "tech_spitfire_1_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "While capital ships are far more powerful than any vessels that have come before them, they are also far more expensive, and pose juicy targets for swarms of smaller, cheaper vessels that can overwhelm the capital ships with sheer numbers. To counter this, our engineers are working on a few blueprints that could adapt the Battleship into an anti-Corvette-and-Destroyer powerhouse, along with weapons specifically designed for that purpose. These new designs will cause these 'Spitfire Battleships' to have an even higher production cost, but such sacrifices are worth it, if it means protecting our vulnerable capital ships.",
+    "text": "While capital ships are far more powerful than any vessels that have come before them, they are also far more expensive, and pose juicy targets for swarms of smaller, cheaper vessels that can overwhelm the capital ships with sheer numbers. To counter this, our engineers are working on a few blueprints that could adapt the Battleship into an anti-Corvette-and-Destroyer powerhouse, along with weapons specifically designed for that purpose. These new designs will cause these 'Spitfire Battleships' to have an even higher production cost, but such sacrifices are worth it, if it means protecting our vulnerable capital ships.",
+    "entry_index": 15,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_588a996b2637386dea36b238e7b0a1176d09c407",
+    "key": "tech_Dreadnought_1_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "The Battleship heralded a new era of ship design and naval combat. The ability to both deliver and take massive damage at long range, and the advent of devastating XL weaponry, have completely changed the nature of warfare. Our naval engineers believe that we should develop an even better version of these powerful ships. Their proposed 'Dreadnoughts' would be capable of mounting heavier defenses, more guns, and even two of the incredible XL weapons that have been so successful on the battlefield.",
+    "text": "The Battleship heralded a new era of ship design and naval combat. The ability to both deliver and take massive damage at long range, and the advent of devastating XL weaponry, have completely changed the nature of warfare. Our naval engineers believe that we should develop an even better version of these powerful ships. Their proposed 'Dreadnoughts' would be capable of mounting heavier defenses, more guns, and even two of the incredible XL weapons that have been so successful on the battlefield.",
+    "entry_index": 17,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_b5f9cbb8bb5a6395e132b3b0a5f55f6b6e9c9067",
+    "key": "tech_Flagship_1",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "The Flagship",
+    "text": "The Flagship",
+    "entry_index": 18,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_294cfe57a133e7cb4ac475a67998218e3ea188f1",
+    "key": "tech_Flagship_1_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "The naval arms race has seen the production of larger and larger warships with no end in sight. Our naval engineers have suggested jumping to the logical conclusion of this serial escalation by constructing a ship so massive and powerful, that no empire will be able to support more than one of them at a time. This proposed Flagship will be the ultimate warship. Designed for maximum versatility, each section will have many possible configurations, allowing us to design our Flagship to suit our purposes. Mounting far more thrusters per ton than any other ship, the Flagship will be able to take any position in the fleet, from a long-range battery in the rear, to a massive brawler at the tip of a fleet's spear.\\n\\nThis power and versatility will come at a heavy cost, however. Merely building the Flagship will be an enormous endeavor, requiring a colossal stockpile of resources and a significant investment of time and manpower. Upon completion, it will take the entire GDP of a small star nation to maintain; as a result, it will require a massive amount of political influence to obtain approval for the project.",
+    "text": "The naval arms race has seen the production of larger and larger warships with no end in sight. Our naval engineers have suggested jumping to the logical conclusion of this serial escalation by constructing a ship so massive and powerful, that no empire will be able to support more than one of them at a time. This proposed Flagship will be the ultimate warship. Designed for maximum versatility, each section will have many possible configurations, allowing us to design our Flagship to suit our purposes. Mounting far more thrusters per ton than any other ship, the Flagship will be able to take any position in the fleet, from a long-range battery in the rear, to a massive brawler at the tip of a fleet's spear.__PROT_0000____PROT_0001__This power and versatility will come at a heavy cost, however. Merely building the Flagship will be an enormous endeavor, requiring a colossal stockpile of resources and a significant investment of time and manpower. Upon completion, it will take the entire GDP of a small star nation to maintain; as a result, it will require a massive amount of political influence to obtain approval for the project.",
+    "entry_index": 19,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_16982654b6d9a53a07d067f484321f80fd1fc050",
+    "key": "tech_supportcruiser_1",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Support Destroyer Upgrade",
+    "text": "Support Destroyer Upgrade",
+    "entry_index": 20,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_1c2b9843b0e17c9f10d92339ca07dacdbc5b66f2",
+    "key": "tech_supportcruiser_1_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "As our fleets grow in size, and the distance they travel from home increases, it becomes necessary to support them internally instead of trying to maintain long-range supply lines. The Support Destroyer is the answer to this problem, adding new support capabilities to our Destroyers through the addition of advanced modules.",
+    "text": "As our fleets grow in size, and the distance they travel from home increases, it becomes necessary to support them internally instead of trying to maintain long-range supply lines. The Support Destroyer is the answer to this problem, adding new support capabilities to our Destroyers through the addition of advanced modules.",
+    "entry_index": 21,
+    "key_occurrence_index": 0
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_c57c2d596ab518532f4056ff605596fddf8f4afd",
+    "key": "nsc_events_mothball.6.a",
+    "file": "localisation/russian/nsc_mothball_l_russian.yml",
+    "source": "Unfortunate.",
+    "text": "Unfortunate.",
+    "entry_index": 43,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_791a87432f47c8e1a352c592d8773b9f1eb55366",
+    "key": "nsc_events_mothball.8.desc",
+    "file": "localisation/russian/nsc_mothball_l_russian.yml",
+    "source": "When we abadoned [From.GetName], someone neglected to Reactivate our Mothballed fleets in orbit. As a result, they were destroyed along with all other orbital facilities.",
+    "text": "When we abadoned __PROT_0000__, someone neglected to Reactivate our Mothballed fleets in orbit. As a result, they were destroyed along with all other orbital facilities.",
+    "entry_index": 45,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_0003d4faa2ebad751ef73a3e39d1c4f4e172c4b1",
+    "key": "nsc_events_mothball.8.a",
+    "file": "localisation/russian/nsc_mothball_l_russian.yml",
+    "source": "That is ridiculous!",
+    "text": "That is ridiculous!",
+    "entry_index": 46,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_2121f63fa2843c8a5ce400bb6f83824f7491269d",
+    "key": "NSC_NAME_STEVE",
+    "file": "localisation/russian/nsc_namelists_l_russian.yml",
+    "source": "Steve",
+    "text": "Steve",
+    "entry_index": 0,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_d4fb9bc056f67b24369c25ced297001a5ccca80b",
+    "key": "name_list_1-NSC-Arthopoid",
+    "file": "localisation/russian/nsc_namelists_l_russian.yml",
+    "source": "NSC2 Arthopoid",
+    "text": "NSC2 Arthopoid",
+    "entry_index": 1,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_7e07c9991e470605c37ef7a729a1f94a39f7d514",
+    "key": "name_list_1-NSC-Avian",
+    "file": "localisation/russian/nsc_namelists_l_russian.yml",
+    "source": "NSC2 Avian",
+    "text": "NSC2 Avian",
+    "entry_index": 2,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_2d36cf660fff3180442a1640bb9303e413ab4ee6",
+    "key": "name_list_1-NSC-Fungoid",
+    "file": "localisation/russian/nsc_namelists_l_russian.yml",
+    "source": "NSC2 Fungoid",
+    "text": "NSC2 Fungoid",
+    "entry_index": 3,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_4b1b6c5f6eba9b57088eb6230898a9a1f3e560f0",
+    "key": "name_list_1-NSC-Hive",
+    "file": "localisation/russian/nsc_namelists_l_russian.yml",
+    "source": "NSC2 Hive",
+    "text": "NSC2 Hive",
+    "entry_index": 4,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_c37daa9368fab5431cc708fa5a5097cae8bad0cc",
+    "key": "name_list_1-NSC-Human",
+    "file": "localisation/russian/nsc_namelists_l_russian.yml",
+    "source": "NSC2 Human",
+    "text": "NSC2 Human",
+    "entry_index": 5,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_ec86112bfd667be6880713f50be97eeb11752d23",
+    "key": "name_list_1-NSC-Humanoid",
+    "file": "localisation/russian/nsc_namelists_l_russian.yml",
+    "source": "NSC2 Humanoid",
+    "text": "NSC2 Humanoid",
+    "entry_index": 6,
+    "key_occurrence_index": 0
+  }
+]

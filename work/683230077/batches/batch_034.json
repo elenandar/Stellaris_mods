@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_9e3407ee362f8073ac7c22fc7ea739c851a4fcb5",
+    "key": "nsc_events_hyperlane_gen.3.desc",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Our efforts in removing the existing hyperlane between §Y[hyperlane_remover_emisor.GetName]§! and §Y[hyperlane_remover_receptor.GetName]§! have proved successful.",
+    "text": "Our efforts in removing the existing hyperlane between __PROT_0000____PROT_0001____PROT_0002__ and __PROT_0003____PROT_0004____PROT_0005__ have proved successful.",
+    "entry_index": 79,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_422ad9e9250f5eb19484810058f6f68618a09cec",
+    "key": "nsc_events_hyperlane_gen.5.name",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Hyperlane Generator (Transmitter) Construction",
+    "text": "Hyperlane Generator (Transmitter) Construction",
+    "entry_index": 80,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_6acb8f5185e90c5119501c8ca68cae4da7d819fe",
+    "key": "nsc_events_hyperlane_gen.5.desc",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "We have finished the first stages of construction of our Hyperlane Generator (Transmitter) in §Y[hyperlane_generator_1.GetName]§!.",
+    "text": "We have finished the first stages of construction of our Hyperlane Generator (Transmitter) in __PROT_0000____PROT_0001____PROT_0002__.",
+    "entry_index": 81,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_351276aaaede8b343efaebfdc7e9d2b9d27df03b",
+    "key": "nsc_events_hyperlane_gen.7.name",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Hyperlane Generator (Receiver) Construction",
+    "text": "Hyperlane Generator (Receiver) Construction",
+    "entry_index": 82,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_c860db4fee94f20bcc3934da12a514f1f43dc9c5",
+    "key": "nsc_events_hyperlane_gen.7.desc",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "We have finished the first stages of construction of our Hyperlane Generator (Receiver) in §Y[hyperlane_generator_2.GetName]§!.",
+    "text": "We have finished the first stages of construction of our Hyperlane Generator (Receiver) in __PROT_0000____PROT_0001____PROT_0002__.",
+    "entry_index": 83,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_b865ff3b227bf8817cf12d48c605c8c1c9ec7687",
+    "key": "nsc_events_hyperlane_gen.9.name",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Hyperlane Remover (Transmitter) Construction",
+    "text": "Hyperlane Remover (Transmitter) Construction",
+    "entry_index": 84,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_7162ba1a14c2e4eda88eb378be0b4e06a7b29626",
+    "key": "nsc_events_hyperlane_gen.9.desc",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "We have finished the first stages of construction of our Hyperlane Remover (Transmitter) in §Y[hyperlane_generator_3.GetName]§!.",
+    "text": "We have finished the first stages of construction of our Hyperlane Remover (Transmitter) in __PROT_0000____PROT_0001____PROT_0002__.",
+    "entry_index": 85,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_c76cf8cda593df3ee3cc370b098064f8900a012f",
+    "key": "nsc_events_hyperlane_gen.11.name",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Hyperlane Remover (Receiver) Construction",
+    "text": "Hyperlane Remover (Receiver) Construction",
+    "entry_index": 86,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_fcd502f5b918b5c8c5941aade3d2a8d93bd121f5",
+    "key": "nsc_events_hyperlane_gen.11.desc",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "We have finished the first stages of construction of our Hyperlane Remover (Receiver) in §Y[hyperlane_generator_4.GetName]§!.",
+    "text": "We have finished the first stages of construction of our Hyperlane Remover (Receiver) in __PROT_0000____PROT_0001____PROT_0002__.",
+    "entry_index": 87,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_3e57747644d3268efa8b4f247df0f0f23f1546e1",
+    "key": "nsc_events_hyperlane_gen.6.name",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Hyperlane Generator (Transmitter) Completed",
+    "text": "Hyperlane Generator (Transmitter) Completed",
+    "entry_index": 88,
+    "key_occurrence_index": 0
+  }
+]

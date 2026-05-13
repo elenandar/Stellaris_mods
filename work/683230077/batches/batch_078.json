@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_c95d9d8ed1b1ed60130a25e2a91ce6e4e1349807",
+    "key": "sm_orbital_physics_support_lab_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "A laboratory specializing in Physics research. Will improve the output of every §GOrbital Research Lab§! by §Y2 Physics Research§!.\\n",
+    "text": "A laboratory specializing in Physics research. Will improve the output of every __PROT_0000__Orbital Research Lab__PROT_0001__ by __PROT_0002__2 Physics Research__PROT_0003__.__PROT_0004__",
+    "entry_index": 73,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_6a4e2d0cb632271fa2b00d7335ae8e6a71e22d38",
+    "key": "sm_orbital_society_support_lab",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Society Support Lab",
+    "text": "Society Support Lab",
+    "entry_index": 74,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_1a3566ece54b3f2a66b049b2a10bf086c060a21a",
+    "key": "sm_orbital_society_support_lab_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "A laboratory specializing in Society research. Will improve the output of every §GOrbital Research Lab§! by §Y2 Society Research§!.\\n",
+    "text": "A laboratory specializing in Society research. Will improve the output of every __PROT_0000__Orbital Research Lab__PROT_0001__ by __PROT_0002__2 Society Research__PROT_0003__.__PROT_0004__",
+    "entry_index": 75,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_e2e03a985d725107d5302cf6820fb28371662c09",
+    "key": "sm_orbital_engineering_support_lab",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Engineering Support Lab",
+    "text": "Engineering Support Lab",
+    "entry_index": 76,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_078a39841a86a135f729b0b4b93021dbc8e8bd0c",
+    "key": "sm_orbital_engineering_support_lab_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "A laboratory specializing in Egineering research. Will improve the output of every §GOrbital Research Lab§! by §Y2 Engineering Research§!.\\n",
+    "text": "A laboratory specializing in Egineering research. Will improve the output of every __PROT_0000__Orbital Research Lab__PROT_0001__ by __PROT_0002__2 Engineering Research__PROT_0003__.__PROT_0004__",
+    "entry_index": 77,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_42ef4b155008e1c200a4e589f2850b02cda0a519",
+    "key": "sm_ground_forces_academy",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Ground Forces Academy",
+    "text": "Ground Forces Academy",
+    "entry_index": 78,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_0871e73866a3a933c31ef8a5483ea72492220977",
+    "key": "sm_ground_forces_academy_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Increases the efficiency in which ground armies are recruited and trained.\\n",
+    "text": "Increases the efficiency in which ground armies are recruited and trained.__PROT_0000__",
+    "entry_index": 79,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_b66731e1f36d2f030889ca536c6d7ea3fad8f705",
+    "key": "sm_repair_module",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Repair Facility",
+    "text": "Repair Facility",
+    "entry_index": 80,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_90dc6c172330135c14090078d21fea7cf16a6758",
+    "key": "sm_repair_module_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "A facility that specializes in the rapid repair of ships orbiting the starbase.\\n",
+    "text": "A facility that specializes in the rapid repair of ships orbiting the starbase.__PROT_0000__",
+    "entry_index": 81,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_b6d83810687309d1f685231cd675be7c254c9c10",
+    "key": "sm_space_foundry",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Space Foundry",
+    "text": "Space Foundry",
+    "entry_index": 82,
+    "key_occurrence_index": 0
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_9f56378289a41862757db4f7c04a2683a217ce28",
+    "key": "EXPLORATIONSHIP_1_STERN_S2",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Spitfire Stern (Level 1)",
+    "text": "Spitfire Stern (Level 1)",
+    "entry_index": 116,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_3b13a6deb27e7cc2902caf24f574345f1d7a082c",
+    "key": "EXPLORATIONSHIP_1_STERN_PD2",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Pinpoint Stern (Level 1)",
+    "text": "Pinpoint Stern (Level 1)",
+    "entry_index": 117,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_5a9f6a437f09e235a2c6cfebc922d00dd932c215",
+    "key": "EXPLORATIONSHIP_2_BOW_L1",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Artillery Bow (Level 2)",
+    "text": "Artillery Bow (Level 2)",
+    "entry_index": 118,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_1add16d03531fe1344142fd69f5ba9d9cc72fa57",
+    "key": "EXPLORATIONSHIP_2_BOW_G1S2",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Fusillade Bow (Level 2)",
+    "text": "Fusillade Bow (Level 2)",
+    "entry_index": 119,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_8441a507c964aab93b6f5986c95b0098138dc863",
+    "key": "EXPLORATIONSHIP_2_BOW_M5",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Broadside Bow (Level 2)",
+    "text": "Broadside Bow (Level 2)",
+    "entry_index": 120,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_68e5fc53cbff738d48fedcbf52f5b0a212c6a873",
+    "key": "EXPLORATIONSHIP_2_MID1_L1G1",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Barrage Core (Level 2)",
+    "text": "Barrage Core (Level 2)",
+    "entry_index": 121,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_908ebbb41c638bdb3e0c7f1a3b21c5c90401dc71",
+    "key": "EXPLORATIONSHIP_2_MID1_L1M1",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Artillery Core (Level 2)",
+    "text": "Artillery Core (Level 2)",
+    "entry_index": 122,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_2ef909bab76bfb771a4c7f2512c1443e4a560258",
+    "key": "EXPLORATIONSHIP_2_MID1_M2S2",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Volley Core (Level 2)",
+    "text": "Volley Core (Level 2)",
+    "entry_index": 123,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_12e5b3394c6c26bebf50ad439c67d440f85c0f6f",
+    "key": "EXPLORATIONSHIP_2_MID1_G3",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Missile Core (Level 2)",
+    "text": "Missile Core (Level 2)",
+    "entry_index": 124,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_69941e963ea143b36a68183b3ee8b620dde91362",
+    "key": "EXPLORATIONSHIP_2_MID1_M3",
+    "file": "localisation/russian/nsc_shipsections_l_russian.yml",
+    "source": "Broadside Core (Level 2)",
+    "text": "Broadside Core (Level 2)",
+    "entry_index": 125,
+    "key_occurrence_index": 0
+  }
+]

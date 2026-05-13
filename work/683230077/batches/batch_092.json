@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_fbfd9992122d0b522fe444fc45af1df97c7d4446",
+    "key": "tech_dreadnought_hull_2_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "The latest generation of Dreadnought hulls have optimized structural integrity fields and improved bulkheads.",
+    "text": "The latest generation of Dreadnought hulls have optimized structural integrity fields and improved bulkheads.",
+    "entry_index": 95,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_9f3395b3d4f347d966baaa91f49c4df0df326299",
+    "key": "tech_flagship_build_speed",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Standardized Flagship Patterns",
+    "text": "Standardized Flagship Patterns",
+    "entry_index": 96,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_55ba10649a732fbaa846164b4073edf6e287be47",
+    "key": "tech_flagship_build_speed_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Establishing new standards for the modeling and construction of the Flagship greatly improves the efficiency of the production pipeline.",
+    "text": "Establishing new standards for the modeling and construction of the Flagship greatly improves the efficiency of the production pipeline.",
+    "entry_index": 97,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_e70a63781c54e2673ef462488f091a3bd07ada0b",
+    "key": "tech_flagship_hull_1",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Improved Flagship Hulls",
+    "text": "Improved Flagship Hulls",
+    "entry_index": 98,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_6df7dc90d5d3739a5381faf8fe4b95ec3defa8d7",
+    "key": "tech_flagship_hull_1_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Advances in building techniques will allow for the construction of sturdier and more durable Flagships.",
+    "text": "Advances in building techniques will allow for the construction of sturdier and more durable Flagships.",
+    "entry_index": 99,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_fab05d690936c0235906b2a91785e65c8e6a31d0",
+    "key": "tech_flagship_hull_2",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Advanced Flagship Hulls",
+    "text": "Advanced Flagship Hulls",
+    "entry_index": 100,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_dd7c09ffb71ccb2efa7762c7cfd330041103c39f",
+    "key": "tech_flagship_hull_2_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "The latest generation of Flagship hulls have optimized structural integrity fields and improved bulkheads.",
+    "text": "The latest generation of Flagship hulls have optimized structural integrity fields and improved bulkheads.",
+    "entry_index": 101,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_191032a7ad7f6a78b5f261a0c92356b232292c36",
+    "key": "tech_stronghold_upgrades",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Improved Starbases",
+    "text": "Improved Starbases",
+    "entry_index": 102,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_9de3994d7d4150691cfa08865e739423cba3c16a",
+    "key": "tech_stronghold_upgrades_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Establishing new standards for the modeling and construction of all starbases greatly improves the efficiency of the production pipeline.",
+    "text": "Establishing new standards for the modeling and construction of all starbases greatly improves the efficiency of the production pipeline.",
+    "entry_index": 103,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_aa0f9f1137f846c1790aaef8e25b08b614830da1",
+    "key": "tech_mining_base_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "As we expand among the stars, we require ever more resources to support our civilization. Creating specialized, space-based mineral refineries could help centralize production and increase efficiency, leading to higher mineral yields.",
+    "text": "As we expand among the stars, we require ever more resources to support our civilization. Creating specialized, space-based mineral refineries could help centralize production and increase efficiency, leading to higher mineral yields.",
+    "entry_index": 105,
+    "key_occurrence_index": 0
+  }
+]

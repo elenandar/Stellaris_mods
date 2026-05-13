@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_3a2eb78cbda5a29229162eaedc875bb0d836fefe",
+    "key": "EXPLORATION_SLOT_ENGINEERING_LAB_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "§HProduces:§! 10 Engineering Research\\nThis advanced laboratory is dedicated to producing ground-breaking Engineering research--exploration into the secrets of materials, industry, spacecraft, propulsion, and robotics.",
+    "text": "__PROT_0000__Produces:__PROT_0001__ 10 Engineering Research__PROT_0002__This advanced laboratory is dedicated to producing ground-breaking Engineering research--exploration into the secrets of materials, industry, spacecraft, propulsion, and robotics.",
+    "entry_index": 97,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_7cb06364fc3f2e6709dc3f23a69ca690f555ce3a",
+    "key": "EXPLORATION_SLOT_MINING_FACILITY",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Asteroid Mining Facility",
+    "text": "Asteroid Mining Facility",
+    "entry_index": 98,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_829cd034e52d9ddf62d07146fab754679c8d00ea",
+    "key": "EXPLORATION_SLOT_MINING_FACILITY_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "§HProduces:§! 7 Minerals\\n§HUpkeep:§! 5 Energy\\nThis facility allows an empire to convert an old Explorer into an advanced mining platform, able to produce a small amount of minerals each month.",
+    "text": "__PROT_0000__Produces:__PROT_0001__ 7 Minerals__PROT_0002____PROT_0003__Upkeep:__PROT_0004__ 5 Energy__PROT_0005__This facility allows an empire to convert an old Explorer into an advanced mining platform, able to produce a small amount of minerals each month.",
+    "entry_index": 99,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_ca3589dfeb19f102b8d51585c404acd7d47356cc",
+    "key": "EXPLORATION_SLOT_SOLAR_ARRAY",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Solar Panel Array",
+    "text": "Solar Panel Array",
+    "entry_index": 100,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_cae9b9afcba3c1fcb55d633f1db78854ae885d27",
+    "key": "EXPLORATION_SLOT_SOLAR_ARRAY_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "§HProduces:§! 7 Energy\\n§HUpkeep:§! 5 Minerals\\nThis facility allows an empire to convert an old Explorer into a large solar panel array and battery system, able to produce a small amount of energy each month.",
+    "text": "__PROT_0000__Produces:__PROT_0001__ 7 Energy__PROT_0002____PROT_0003__Upkeep:__PROT_0004__ 5 Minerals__PROT_0005__This facility allows an empire to convert an old Explorer into a large solar panel array and battery system, able to produce a small amount of energy each month.",
+    "entry_index": 101,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_91334cbc3a90874ddf3e917f710fcfe42bef061d",
+    "key": "EXPLORATION_SLOT_ALLOY_REFINERY",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Alloy Refinery",
+    "text": "Alloy Refinery",
+    "entry_index": 102,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_018f57eddf5444c44f9e454880a958d33d32543a",
+    "key": "EXPLORATION_SLOT_ALLOY_REFINERY_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "§HProduces:§! 7 Alloys\\n§HUpkeep:§! 3 Minerals & 3 Energy\\nThis facility allows an empire to convert an old Explorer into a modern alloy refinery, able to produce a small amount of alloys each month.",
+    "text": "__PROT_0000__Produces:__PROT_0001__ 7 Alloys__PROT_0002____PROT_0003__Upkeep:__PROT_0004__ 3 Minerals & 3 Energy__PROT_0005__This facility allows an empire to convert an old Explorer into a modern alloy refinery, able to produce a small amount of alloys each month.",
+    "entry_index": 103,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_06575c0127b531ef0b8e8ab2f8c7c9792c4f03db",
+    "key": "FRIGATE_CLOAK",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Frigate Advanced Cloaking Device",
+    "text": "Frigate Advanced Cloaking Device",
+    "entry_index": 104,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_d68775cfbf1b84ac9b206002600ff45722c85707",
+    "key": "BATTLECRUISER_CLOAK",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Battlecruiser Heavy Cloaking Device",
+    "text": "Battlecruiser Heavy Cloaking Device",
+    "entry_index": 106,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_3232be9afb7ae4e77a172859fb30b68df9526d70",
+    "key": "FIGHTERS_HANGAR_PD_1",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Basic Fighter Wing (PD)",
+    "text": "Basic Fighter Wing (PD)",
+    "entry_index": 108,
+    "key_occurrence_index": 0
+  }
+]

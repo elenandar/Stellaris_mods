@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_9c5454e33e3ae14bbf50b67cfaf52c835868bfdd",
+    "key": "ai_crew_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "We will crew our ships mostly with AI units. This has the advantage of producing ship crews at an impressive rate. However, AI units optimized for crew roles have difficulties adapting to rapidly altering situations, which will increase the number of casualties we take in battle.",
+    "text": "We will crew our ships mostly with AI units. This has the advantage of producing ship crews at an impressive rate. However, AI units optimized for crew roles have difficulties adapting to rapidly altering situations, which will increase the number of casualties we take in battle.",
+    "entry_index": 104,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_9b6d094bec7438f2536c28a90553e177e94656bc",
+    "key": "edict_nsc_doctrine_ai",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "AI Doctrine Replacement",
+    "text": "AI Doctrine Replacement",
+    "entry_index": 105,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_b7428f9ea4959282f6323701b65d081ecae0babe",
+    "key": "edict_nsc_doctrine_ai_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "For AI Only",
+    "text": "For AI Only",
+    "entry_index": 106,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_c0c868148b575351aec6f94683e098b276972fe8",
+    "key": "policy_crew_doctrine_gestalt",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Drone Crew Doctrine",
+    "text": "Drone Crew Doctrine",
+    "entry_index": 107,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_f524d8b78ade4ae9ddfcf5e2e5c85e27c1655c95",
+    "key": "policy_crew_doctrine_gestalt_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "The training of a Navy's drones is one of the most important aspect it ever undertakes. We should carefully tailor our training programs to fit our circumstances; outdated or maladapted training programs are worse than useless, and will cripple our Navy. We must decide how to train our drones.",
+    "text": "The training of a Navy's drones is one of the most important aspect it ever undertakes. We should carefully tailor our training programs to fit our circumstances; outdated or maladapted training programs are worse than useless, and will cripple our Navy. We must decide how to train our drones.",
+    "entry_index": 108,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_6b537a9e4ad583e68ac0390b9cc7a784d814ea3c",
+    "key": "standard_drones",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Standard Drones",
+    "text": "Standard Drones",
+    "entry_index": 109,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_63ef5fe3680352f588b0207e8ae704cf66bc73c9",
+    "key": "standard_drones_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Our drones are sufficient at the moment; we do not require either higher quality drones, independent drones, or a swarm of naval drones.",
+    "text": "Our drones are sufficient at the moment; we do not require either higher quality drones, independent drones, or a swarm of naval drones.",
+    "entry_index": 111,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_bbacc91445b714a8756241ef0a8f85ca74797391",
+    "key": "quality_protocol",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Quality Protocol",
+    "text": "Quality Protocol",
+    "entry_index": 112,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_7aa4a91d7b7e6ac3ccbb4d0b609e0b6b94116db8",
+    "key": "quality_protocol_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Our drones must be of the highest quality, to make our ships fight at peak efficiency. We will be unable to fill as many ships as we might have with more lax standards, but this is the price we pay for excellence.",
+    "text": "Our drones must be of the highest quality, to make our ships fight at peak efficiency. We will be unable to fill as many ships as we might have with more lax standards, but this is the price we pay for excellence.",
+    "entry_index": 114,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_33cc809b3df1c6615417cdd8c59603fddf3c9f8a",
+    "key": "adaptive_protocol",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Adaptive Protocol",
+    "text": "Adaptive Protocol",
+    "entry_index": 115,
+    "key_occurrence_index": 0
+  }
+]

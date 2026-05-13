@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_f28a2f1f6c0bdeed5778239538de6688b6b7225e",
+    "key": "sm_titanic_battery_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Adds one titanic weapon slot to the Starbase.\\n\\n§YWARNING: There is a build limit of 2 of these per starbase.§!\\n",
+    "text": "Adds one titanic weapon slot to the Starbase.__PROT_0000____PROT_0001____PROT_0002__WARNING: There is a build limit of 2 of these per starbase.__PROT_0003____PROT_0004__",
+    "entry_index": 53,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_0915990a6cb947cad8e79dfc86d539582767e951",
+    "key": "sm_construction_office",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Starbase Construction Office",
+    "text": "Starbase Construction Office",
+    "entry_index": 54,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_710d07939acf6fe00615e7af6085b30764f7f0dd",
+    "key": "sm_construction_office_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Increases the efficiency at which the starbase builds modules, buildings, and upgrades.\\n",
+    "text": "Increases the efficiency at which the starbase builds modules, buildings, and upgrades.__PROT_0000__",
+    "entry_index": 55,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_dafa13886c80827ae4029881f439a77bec94f4aa",
+    "key": "sm_planetary_construction_office",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Planetary Construction Office",
+    "text": "Planetary Construction Office",
+    "entry_index": 56,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_c6c1848420468185b726dc3e27e4e12163254d1f",
+    "key": "sm_planetary_construction_office_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Increases the efficiency at which buildings are built on planets.\\n",
+    "text": "Increases the efficiency at which buildings are built on planets.__PROT_0000__",
+    "entry_index": 57,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_fe7a58609db91c9844229f34760e54113a0959fc",
+    "key": "sm_asteroid_mining",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Asteroid Mining Team",
+    "text": "Asteroid Mining Team",
+    "entry_index": 58,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_6080ed66bf806be50f23157f067503f9a8ccd409",
+    "key": "sm_asteroid_mining_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "A team which mines stray asteroids that are too small to be targeted by a standard mining station. Having an §GAsteroid Mining Manager§! will improve the output by §Y2 Minerals§! £minerals.\\n",
+    "text": "A team which mines stray asteroids that are too small to be targeted by a standard mining station. Having an __PROT_0000__Asteroid Mining Manager__PROT_0001__ will improve the output by __PROT_0002__2 Minerals__PROT_0003__ £minerals.__PROT_0004__",
+    "entry_index": 59,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_f1fb9977783061f5890c063492eedef5cfe644b3",
+    "key": "sm_mining_manager",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Asteroid Mining Manager",
+    "text": "Asteroid Mining Manager",
+    "entry_index": 60,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_9b2c0f1a2ffbd4181ef9d5b5d0bc033c0d38d1ba",
+    "key": "sm_mining_manager_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "A Manager that increases the efficiency of every asteroid mining team. Will improve the output of every §GAsteroid Mining Team§! by §Y2 Minerals§! £minerals.\\n",
+    "text": "A Manager that increases the efficiency of every asteroid mining team. Will improve the output of every __PROT_0000__Asteroid Mining Team__PROT_0001__ by __PROT_0002__2 Minerals__PROT_0003__ £minerals.__PROT_0004__",
+    "entry_index": 61,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_5cbddc43b9b8e0b387136227f46c7c85970fcfcf",
+    "key": "sm_solar_capacitor",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Solar Capacitors",
+    "text": "Solar Capacitors",
+    "entry_index": 62,
+    "key_occurrence_index": 0
+  }
+]

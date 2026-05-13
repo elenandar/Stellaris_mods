@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_159ca1a6273f35edbb33a692ce5c9fd611fce4b5",
+    "key": "hyperlane_remover_receptor_1",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Hyperlane Remover (Receiver)",
+    "text": "Hyperlane Remover (Receiver)",
+    "entry_index": 20,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_bce6d7adbffe767f9dd9beac73567a87083e074d",
+    "key": "hyperlane_remover_receptor_1_DESC",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Remove A Hyperlane - Step 4: Upgrade this structure to complete the construction of the hyperlane removal receiver.",
+    "text": "Remove A Hyperlane - Step 4: Upgrade this structure to complete the construction of the hyperlane removal receiver.",
+    "entry_index": 21,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_870482e6e0c0ea73d1b63aa340ac0cd846dc9098",
+    "key": "hyperlane_remover_emisor_2",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Hyperlane Remover (Transmitter) - Activation",
+    "text": "Hyperlane Remover (Transmitter) - Activation",
+    "entry_index": 22,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_52188b44364461653bacf9857940c2d61ba31653",
+    "key": "hyperlane_remover_emisor_2_DESC",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Remove A Hyperlane - Step 5: Upgrade this structure to activate the transmitter and remove the hyperlane between the two systems.",
+    "text": "Remove A Hyperlane - Step 5: Upgrade this structure to activate the transmitter and remove the hyperlane between the two systems.",
+    "entry_index": 23,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_3513f3b7608f6b95af3796c014a38fb2385db830",
+    "key": "nsc_headquarters_0",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Fleet Headquarters Construction Site",
+    "text": "Fleet Headquarters Construction Site",
+    "entry_index": 24,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_96c0a8b00949c6113c277675d33a7d3f62723219",
+    "key": "nsc_headquarters_0_DESC",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "The Fleet Headquarters is the centralized command & control station for your empire. Building and maintaining the Fleet Headquarters provides significant bonuses.",
+    "text": "The Fleet Headquarters is the centralized command & control station for your empire. Building and maintaining the Fleet Headquarters provides significant bonuses.",
+    "entry_index": 25,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_611b88033872a6bf6cf24417333f005f9f72125f",
+    "key": "nsc_headquarters_1",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Fleet Headquarters",
+    "text": "Fleet Headquarters",
+    "entry_index": 28,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_d5f22b6db8c39e5f4869ac25869bfc34d1eafd2b",
+    "key": "nsc_strategic_resource_factory_0_MEGASTRUCTURE_DETAILS",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "A massive industrial complex that can produce most strategic resources, at the cost of consuming vast quantities of minerals and energy.",
+    "text": "A massive industrial complex that can produce most strategic resources, at the cost of consuming vast quantities of minerals and energy.",
+    "entry_index": 32,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_1d57ac3783801d50eb1e5d3db87d6c6f28874726",
+    "key": "nsc_strategic_resource_factory_0",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Strategic Resource Factory Construction Site",
+    "text": "Strategic Resource Factory Construction Site",
+    "entry_index": 33,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_a966d13adc0db0973f3698b34187c854f8926920",
+    "key": "nsc_strategic_resource_factory_1",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Strategic Resource Factory",
+    "text": "Strategic Resource Factory",
+    "entry_index": 36,
+    "key_occurrence_index": 0
+  }
+]

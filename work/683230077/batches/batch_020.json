@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_ba5939d8a634d8b39b0f57ac56703140e3b1a5e3",
+    "key": "TOMAHAWK_CRUISE_MISSILE_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "An extremely expensive anti-capital ship missile with a very long range and high damage. Very useful for defense stations or long range artillery ships.",
+    "text": "An extremely expensive anti-capital ship missile with a very long range and high damage. Very useful for defense stations or long range artillery ships.",
+    "entry_index": 319,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_1ba219ea27b62f79421a94babaa297c20edfa527",
+    "key": "NSC_PD_MISSILE",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Harrington Advanced Missile Pod",
+    "text": "Harrington Advanced Missile Pod",
+    "entry_index": 320,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_23774912d417eeefe2b1eb7fc56e31af752d40f7",
+    "key": "NSC_PD_MISSILE_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "An advanced pod of point defense missiles capable of taking down fast and maneuverable targets.",
+    "text": "An advanced pod of point defense missiles capable of taking down fast and maneuverable targets.",
+    "entry_index": 321,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_59aac479e1007342e881979c18772f3d4f1f5871",
+    "key": "FRIGATE_TORPEDO_1",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Harpoon Torpedo",
+    "text": "Harpoon Torpedo",
+    "entry_index": 322,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_84b226a67d89e10f09ce591e135a88a8b208fd7e",
+    "key": "FRIGATE_TORPEDO_1_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "A specialized torpedo designed to fit into the small launchers of the Frigate class, intended for use in quick stealth strikes in enemy territory.",
+    "text": "A specialized torpedo designed to fit into the small launchers of the Frigate class, intended for use in quick stealth strikes in enemy territory.",
+    "entry_index": 323,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_0cf47b14a25a1d2b357dec150842a8a7dab63de3",
+    "key": "BATTLECRUISER_TORPEDO_1",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Minuteman Torpedo",
+    "text": "Minuteman Torpedo",
+    "entry_index": 324,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_503488c149a886063dbf239812da8d1944ad5831",
+    "key": "BATTLECRUISER_TORPEDO_1_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Named after its ability to fire more rapidly than most other torpedoes, the Minuteman is a special variant designed for the Battlecruiser class to execute devastating strikes on larger enemy capital ships. It can also be equipped on starbases and defense platforms for long-range capital ship defense.",
+    "text": "Named after its ability to fire more rapidly than most other torpedoes, the Minuteman is a special variant designed for the Battlecruiser class to execute devastating strikes on larger enemy capital ships. It can also be equipped on starbases and defense platforms for long-range capital ship defense.",
+    "entry_index": 325,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_a7447f0d6b8f435c7a5879cd58a9104e7ee9fa48",
+    "key": "BATTLESHIP_SNIPER_GUN_1",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Electro-Magnetic Flux Cannon",
+    "text": "Electro-Magnetic Flux Cannon",
+    "entry_index": 326,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_fefe7d72fe19fb2e4dc3b3979659776dc51f12dd",
+    "key": "BATTLESHIP_SNIPER_GUN_1_DESC",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "These specialized high speed turrets are designed for engaging nimble Corvettes. They have great precision at long range, but struggle against the thicker hulls of larger ships.",
+    "text": "These specialized high speed turrets are designed for engaging nimble Corvettes. They have great precision at long range, but struggle against the thicker hulls of larger ships.",
+    "entry_index": 327,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_e01c20d1694811ade21b71a0256ee808789fdcbd",
+    "key": "BATTLESHIP_SNIPER_GUN_2",
+    "file": "localisation/russian/nsc_components_l_russian.yml",
+    "source": "Atomic Photon Flux Cannon",
+    "text": "Atomic Photon Flux Cannon",
+    "entry_index": 328,
+    "key_occurrence_index": 0
+  }
+]

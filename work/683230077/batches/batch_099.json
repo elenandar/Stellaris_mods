@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_d3eef422fe9cf1d3c78622a6d439b3702484cd89",
+    "key": "TECH_UNLOCK_MINING_BASE_CONSTRUCTION_TITLE",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "§HUnlocks Starbase Building:§! System Mineral Refinery",
+    "text": "__PROT_0000__Unlocks Starbase Building:__PROT_0001__ System Mineral Refinery",
+    "entry_index": 216,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_6798527c20c3d7a7fdc93a67ffdf21501cc626c2",
+    "key": "TECH_UNLOCK_MINING_BASE_CONSTRUCTION_DESC",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "§HMining Base§!\\nSystem wide mineral processing hub that enhances mineral production for the entire system.",
+    "text": "__PROT_0000__Mining Base__PROT_0001____PROT_0002__System wide mineral processing hub that enhances mineral production for the entire system.",
+    "entry_index": 217,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_b544be6362138a4c7fe0b9a5bd2c51d67b2f8282",
+    "key": "TECH_UNLOCK_POWER_STATON_CONSTRUCTION_TITLE",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "§HUnlocks Starbase Building:§! System Energy Grid",
+    "text": "__PROT_0000__Unlocks Starbase Building:__PROT_0001__ System Energy Grid",
+    "entry_index": 218,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_df6d98a1252770f33a8d16656c8decf19d448791",
+    "key": "TECH_UNLOCK_POWER_STATON_CONSTRUCTION_DESC",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "§HPower Station§!\\nSystem wide energy grid that enhances energy production for the entire system.",
+    "text": "__PROT_0000__Power Station__PROT_0001____PROT_0002__System wide energy grid that enhances energy production for the entire system.",
+    "entry_index": 219,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_d8125a765deb1f2e701e0044c53c36f83a11c5d4",
+    "key": "TECH_UNLOCK_AICOMPUTER_CONSTRUCTION_TITLE",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "§HUnlocks Combat Computer:§! Artificial Intelligence Combat System",
+    "text": "__PROT_0000__Unlocks Combat Computer:__PROT_0001__ Artificial Intelligence Combat System",
+    "entry_index": 220,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_b93aa1bf66b00867c6e32fad5b57b9600b1e18bd",
+    "key": "TECH_UNLOCK_AICOMPUTER_CONSTRUCTION_DESC",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "§HAI Combat System§!\\nThis extremely advanced computer system can intelligently run all combat systems on specific ships without taking over the helm, allowing for complete movement control during combat.",
+    "text": "__PROT_0000__AI Combat System__PROT_0001____PROT_0002__This extremely advanced computer system can intelligently run all combat systems on specific ships without taking over the helm, allowing for complete movement control during combat.",
+    "entry_index": 221,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_aa89e1fa78cc26bd944c14548608d300763a5208",
+    "key": "TECH_UNLOCK_CRUISEMISSILE_CONSTRUCTION_TITLE",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "§HUnlocks Weapon:§! Tomahawk Advanced Cruise Missile\\n§HUnlocks Weapon:§! Harpoon Torpedo",
+    "text": "__PROT_0000__Unlocks Weapon:__PROT_0001__ Tomahawk Advanced Cruise Missile__PROT_0002____PROT_0003__Unlocks Weapon:__PROT_0004__ Harpoon Torpedo",
+    "entry_index": 222,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_6c39a597879f651f8a7ec037ef43a67877bffcec",
+    "key": "TECH_UNLOCK_CRUISEMISSILE_CONSTRUCTION_DESC",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "§HAdvanced Cruise Missiles§!\\nWith the advent of Battlecruisers, which are designed to be capable of fielding large numbers of missile launchers, and the development of combat at longer and longer ranges, as well as the appearance of massive capital ships and defensive installations, there is a clear need for larger, more powerful missiles capable of taking on these new threats, and being launched from our Battlecruisers. These Advanced Cruise Missiles are the answer to this emerging need.",
+    "text": "__PROT_0000__Advanced Cruise Missiles__PROT_0001____PROT_0002__With the advent of Battlecruisers, which are designed to be capable of fielding large numbers of missile launchers, and the development of combat at longer and longer ranges, as well as the appearance of massive capital ships and defensive installations, there is a clear need for larger, more powerful missiles capable of taking on these new threats, and being launched from our Battlecruisers. These Advanced Cruise Missiles are the answer to this emerging need.",
+    "entry_index": 223,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_0d175cc40f716f88cb55a7a4b8a32a16f8228b8a",
+    "key": "TECH_UNLOCK_GALACTIC_MALL_TITLE",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "§HUnlocks Megastructure:§! Galactic Mall",
+    "text": "__PROT_0000__Unlocks Megastructure:__PROT_0001__ Galactic Mall",
+    "entry_index": 224,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_841a29232d37c49451df16b9ab6954e95e3f6249",
+    "key": "TECH_UNLOCK_HOPSITAL_TITLE",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "§HUnlocks Megastructure:§! Galactic General Hospital",
+    "text": "__PROT_0000__Unlocks Megastructure:__PROT_0001__ Galactic General Hospital",
+    "entry_index": 226,
+    "key_occurrence_index": 0
+  }
+]

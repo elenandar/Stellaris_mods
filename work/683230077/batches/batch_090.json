@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_0fe9b205d524d5739a0736988c9524aed1fee156",
+    "key": "tech_strikecruiser_hull_1_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Advances in building techniques will allow for the construction of sturdier and more durable Strike Cruisers.",
+    "text": "Advances in building techniques will allow for the construction of sturdier and more durable Strike Cruisers.",
+    "entry_index": 75,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_ffa12cb4810ba523137e5450b87897d7734e0149",
+    "key": "tech_strikecruiser_hull_2",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Advanced Strike Cruiser Hulls",
+    "text": "Advanced Strike Cruiser Hulls",
+    "entry_index": 76,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_75a71da74926edfc75a794d5fc1720c7186a34e7",
+    "key": "tech_strikecruiser_hull_2_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "The latest generation of Strike Cruiser hulls have optimized structural integrity fields and improved bulkheads.",
+    "text": "The latest generation of Strike Cruiser hulls have optimized structural integrity fields and improved bulkheads.",
+    "entry_index": 77,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_19dc8e3b03b937137e181b2cd61e285d119263bb",
+    "key": "tech_battlecruiser_build_speed",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Standardized Battlecruiser Patterns",
+    "text": "Standardized Battlecruiser Patterns",
+    "entry_index": 78,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_60c10da881335ce38b88a4533fc4910935c3fc76",
+    "key": "tech_battlecruiser_build_speed_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Establishing new standards for the modeling and construction of Battlecruisers greatly improves the efficiency of the production pipeline.",
+    "text": "Establishing new standards for the modeling and construction of Battlecruisers greatly improves the efficiency of the production pipeline.",
+    "entry_index": 79,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_c4e6a31c92c3802d171128b5467b88bc04429836",
+    "key": "tech_battlecruiser_hull_1",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Improved Battlecruiser Hulls",
+    "text": "Improved Battlecruiser Hulls",
+    "entry_index": 80,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_1fc28d87f4dbe4422e598302469a98eadd07cb75",
+    "key": "tech_battlecruiser_hull_1_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Advances in building techniques will allow for the construction of sturdier and more durable Battlecruisers.",
+    "text": "Advances in building techniques will allow for the construction of sturdier and more durable Battlecruisers.",
+    "entry_index": 81,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_d8addc2f1ffe8ba199a4beaa0a4f4b35cea9d403",
+    "key": "tech_battlecruiser_hull_2",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Advanced Battlecruiser Hulls",
+    "text": "Advanced Battlecruiser Hulls",
+    "entry_index": 82,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_b2d7347e290584f31cb65a6dd8673c5d2b1b7935",
+    "key": "tech_battlecruiser_hull_2_desc",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "The latest generation of Battlecruiser hulls have optimized structural integrity fields and improved bulkheads.",
+    "text": "The latest generation of Battlecruiser hulls have optimized structural integrity fields and improved bulkheads.",
+    "entry_index": 83,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_da21c17b36e8a649d85c92b7714888273b5e55e5",
+    "key": "tech_carrier_build_speed",
+    "file": "localisation/russian/nsc_technologies_l_russian.yml",
+    "source": "Standardized Carrier Patterns",
+    "text": "Standardized Carrier Patterns",
+    "entry_index": 84,
+    "key_occurrence_index": 0
+  }
+]

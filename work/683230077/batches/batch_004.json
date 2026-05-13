@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_e6332e404ae084b09b595dc27aaf8ac6c70795e6",
+    "key": "ai_behaviour_flank_30_DESC",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "Ships will circle the enemy fleet at a set distance (30) while firing their weapons.",
+    "text": "Ships will circle the enemy fleet at a set distance (30) while firing their weapons.",
+    "entry_index": 29,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_9c0b431247f7891e2c3c2599607652a41b3f5ca6",
+    "key": "ai_behaviour_flank_60",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "Flanking Tactic (60)",
+    "text": "Flanking Tactic (60)",
+    "entry_index": 30,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_ab1a264a9f24d66ea8a4ae27278f7db6a1574cf2",
+    "key": "ai_behaviour_flank_60_DESC",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "Ships will circle the enemy fleet at a set distance (60) while firing their weapons.",
+    "text": "Ships will circle the enemy fleet at a set distance (60) while firing their weapons.",
+    "entry_index": 31,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_63ecae72b1cd57034c622837239c43c8610ae90f",
+    "key": "ai_behaviour_flank_80",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "Flanking Tactic (80)",
+    "text": "Flanking Tactic (80)",
+    "entry_index": 32,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_7a31c3f3a4245afef7b98996c635252119b11a44",
+    "key": "ai_behaviour_flank_80_DESC",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "Ships will circle the enemy fleet at a set distance (80) while firing their weapons.",
+    "text": "Ships will circle the enemy fleet at a set distance (80) while firing their weapons.",
+    "entry_index": 33,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_ba529543b07de23b2526381fe2be61c23c6344b1",
+    "key": "ai_behaviour_flank_100",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "Flanking Tactic (100)",
+    "text": "Flanking Tactic (100)",
+    "entry_index": 34,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_4cb142ccf0d202511086d68f73a46b7d7a8ade8a",
+    "key": "ai_behaviour_flank_100_DESC",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "Ships will circle the enemy fleet at a set distance (100) while firing their weapons.",
+    "text": "Ships will circle the enemy fleet at a set distance (100) while firing their weapons.",
+    "entry_index": 35,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_1c7e51ed89455fff6bd5bda053943b2e73c36659",
+    "key": "ai_behaviour_hitnrun_30",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "Hit and Run Tactic (30)",
+    "text": "Hit and Run Tactic (30)",
+    "entry_index": 36,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_0afc142dd8ef8f657c17e60cbf0560ec048584c9",
+    "key": "ai_behaviour_hitnrun_30_DESC",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "Ships will move up to the shown distance (30) and then fall back before their next attack run.",
+    "text": "Ships will move up to the shown distance (30) and then fall back before their next attack run.",
+    "entry_index": 37,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_53dad70d4e5b714e959b2074d1965e41090d828b",
+    "key": "ai_behaviour_hitnrun_60",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "Hit and Run Tactic (60)",
+    "text": "Hit and Run Tactic (60)",
+    "entry_index": 38,
+    "key_occurrence_index": 0
+  }
+]

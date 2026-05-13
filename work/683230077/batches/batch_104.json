@@ -1,0 +1,47 @@
+[
+  {
+    "id": "loc_749544b0c01a32007c3d24f96f1b07ac3b8838b9",
+    "key": "eternal_vigilance_half_spending",
+    "file": "localisation/russian/replace/nsc_replacements_l_russian.yml",
+    "source": "Half Spending - Defense Platforms",
+    "text": "Half Spending - Defense Platforms",
+    "entry_index": 9,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_5d9a2acd991a0211b3a8e8a7ff664f22dfaaedbe",
+    "key": "eternal_vigilance_half_spending_desc",
+    "file": "localisation/russian/replace/nsc_replacements_l_russian.yml",
+    "source": "Only our strongest redoubts require our support.\\nAutomatically builds §YDefense Platforms§! around §YBastion Starbases§!",
+    "text": "Only our strongest redoubts require our support.__PROT_0000__Automatically builds __PROT_0001__Defense Platforms__PROT_0002__ around __PROT_0003__Bastion Starbases__PROT_0004__",
+    "entry_index": 11,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_952ca26d0f751484c5f30b0003643139ed075e54",
+    "key": "sm_naval_logistics_office_desc",
+    "file": "localisation/russian/replace/nsc_replacements_l_russian.yml",
+    "source": "A minimal-but-extant bureaucratic layer increases the theoretical capacity of the Starbase's Anchorages.\\n",
+    "text": "A minimal-but-extant bureaucratic layer increases the theoretical capacity of the Starbase's Anchorages.__PROT_0000__",
+    "entry_index": 12,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_1ee48a9e5be663a82b29d059d906b301111e0c3a",
+    "key": "sm_naval_logistics_office_desc_modifier",
+    "file": "localisation/russian/replace/nsc_replacements_l_russian.yml",
+    "source": "Anchorages: §G+3§! §YNaval Capacity§!\\nFleet Docks: §G+50§! §YNaval Capacity§!",
+    "text": "Anchorages: __PROT_0000__+3__PROT_0001__ __PROT_0002__Naval Capacity__PROT_0003____PROT_0004__Fleet Docks: __PROT_0005__+50__PROT_0006__ __PROT_0007__Naval Capacity__PROT_0008__",
+    "entry_index": 13,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_04b321955a37dc775897405ff36f0bf5a46a1f90",
+    "key": "requires_anchorage",
+    "file": "localisation/russian/replace/nsc_replacements_l_russian.yml",
+    "source": "Requires §YAnchorage§! or §YFleet Dock§!.",
+    "text": "Requires __PROT_0000__Anchorage__PROT_0001__ or __PROT_0002__Fleet Dock__PROT_0003__.",
+    "entry_index": 14,
+    "key_occurrence_index": 0
+  }
+]

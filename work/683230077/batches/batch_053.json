@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_0cb26469466302d00439a639f2b7be468c96efaa",
+    "key": "privateer_operation_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Our fleets are more than sufficient to defend us and our way of life, but they are also instrumental in protecting our internal trade. Trade is the lifeblood of our Empire, and we must do everything we can to protect it.",
+    "text": "Our fleets are more than sufficient to defend us and our way of life, but they are also instrumental in protecting our internal trade. Trade is the lifeblood of our Empire, and we must do everything we can to protect it.",
+    "entry_index": 90,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_8d9647fd55a77edc731f431222e54fed25f45efd",
+    "key": "policy_crew_doctrine",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Crew Training Doctrine",
+    "text": "Crew Training Doctrine",
+    "entry_index": 91,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_75cb9ce0a210e84a19748616243cb6e7776a6923",
+    "key": "policy_crew_doctrine_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "The training of a Navy's crews and officers is one of the most important aspect it ever undertakes. We should carefully tailor our training programs to fit our circumstances; outdated or maladapted training programs are worse than useless, and will cripple our Navy. We must decide how to train our crews and officers.",
+    "text": "The training of a Navy's crews and officers is one of the most important aspect it ever undertakes. We should carefully tailor our training programs to fit our circumstances; outdated or maladapted training programs are worse than useless, and will cripple our Navy. We must decide how to train our crews and officers.",
+    "entry_index": 92,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_c3566eecff3b9f02fedbe33aea13e40b5b929014",
+    "key": "standard_crew",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Standard Training",
+    "text": "Standard Training",
+    "entry_index": 93,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_c4788cad5e8901c6dd28638ced323921a65194ab",
+    "key": "standard_crew_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "A standard level of training, without any specialized focus, will allow us to best maintain operational readiness.",
+    "text": "A standard level of training, without any specialized focus, will allow us to best maintain operational readiness.",
+    "entry_index": 95,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_444dfecb736b7390deed0ffe8834591709732b40",
+    "key": "excellent_crew",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Naval Academy Training",
+    "text": "Naval Academy Training",
+    "entry_index": 96,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_808d5ee24435b7ac9903f53b8245a3b42d6c0226",
+    "key": "excellent_crew_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "We must implement a full Naval Academy training program. Crews are to be trained for years, with potential officers given additional specialized training. However, many will fail to meet the high standards we set, reducing the pool of acceptable crews for our ships.",
+    "text": "We must implement a full Naval Academy training program. Crews are to be trained for years, with potential officers given additional specialized training. However, many will fail to meet the high standards we set, reducing the pool of acceptable crews for our ships.",
+    "entry_index": 98,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_d2bcc112ec5e8287bc4eb6bb4bd2804c3e0e7d56",
+    "key": "militia_crew",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Rapid Training",
+    "text": "Rapid Training",
+    "entry_index": 99,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_c76755f7b06d58bffd0a8f8c1fe893bfb20a073a",
+    "key": "militia_crew_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "We must implement a rapid training program, focused on getting ship crews ready as soon as possible, without any advanced training. This will allow us to swell our ranks with many recruits to fill our ships, but will result in reduced combat performance.",
+    "text": "We must implement a rapid training program, focused on getting ship crews ready as soon as possible, without any advanced training. This will allow us to swell our ranks with many recruits to fill our ships, but will result in reduced combat performance.",
+    "entry_index": 101,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_b55ca9f499d0f29f655b4fe9b65d2776dd20b2c8",
+    "key": "ai_crew",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Artificial Intelligence Crews",
+    "text": "Artificial Intelligence Crews",
+    "entry_index": 102,
+    "key_occurrence_index": 0
+  }
+]

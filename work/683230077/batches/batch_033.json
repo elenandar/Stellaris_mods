@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_b935a732f1241e6ac7290741bf59c6686ca384ed",
+    "key": "nsc_hospital_2_DESC",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "A huge, space-borne medical center, dedicated to the study of the various xenoraces in the galaxy, and the analysis and treatment of all the diseases and conditions that afflict them.",
+    "text": "A huge, space-borne medical center, dedicated to the study of the various xenoraces in the galaxy, and the analysis and treatment of all the diseases and conditions that afflict them.",
+    "entry_index": 57,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_ace5c3d7d5114129b093d801279d5be756050626",
+    "key": "nsc_hospital_3",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Galactic General Hospital",
+    "text": "Galactic General Hospital",
+    "entry_index": 60,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_6eba9dba4b400bf018778eb7aff6efb7977f3094",
+    "key": "nsc_hospital_3_DESC",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "An utterly gargantuan, state-of-the-art space-borne hospital, dedicated to the study of the various xenoraces in the galaxy, and the analysis and treatment of all the diseases and conditions that afflict them.",
+    "text": "An utterly gargantuan, state-of-the-art space-borne hospital, dedicated to the study of the various xenoraces in the galaxy, and the analysis and treatment of all the diseases and conditions that afflict them.",
+    "entry_index": 61,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_f66091b73625ed1577c6f7100c53cd84bb3df85a",
+    "key": "nsc_hospital_4",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Galactic General Hospital II",
+    "text": "Galactic General Hospital II",
+    "entry_index": 64,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_cc17b2408278c8ee767d27c87a77f68047127916",
+    "key": "nsc_hospital_5",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Galactic General Hospital III",
+    "text": "Galactic General Hospital III",
+    "entry_index": 68,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_58d8c9dc92360596616b08342db75573d4f7a606",
+    "key": "triggered_opinion_of_nsc_hopsital_1",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Galactic Hospital",
+    "text": "Galactic Hospital",
+    "entry_index": 72,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_1c0ea42e614b9bd917329bc4fb6906e5f6617712",
+    "key": "nsc_events_hyperlane_gen.1.name",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Hyperlane Generated",
+    "text": "Hyperlane Generated",
+    "entry_index": 75,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_fdb7526736b0716dc09634bc02a184b065d6a829",
+    "key": "nsc_events_hyperlane_gen.1.desc",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Our efforts in creating a new hyperlane between §Y[hyperlane_creator_emisor.GetName]§! and §Y[hyperlane_creator_receptor.GetName]§! have proved successful.",
+    "text": "Our efforts in creating a new hyperlane between __PROT_0000____PROT_0001____PROT_0002__ and __PROT_0003____PROT_0004____PROT_0005__ have proved successful.",
+    "entry_index": 76,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_1aafbf548bd1d2374a972243c72d497a1de66287",
+    "key": "nsc_events_hyperlane_gen.a",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Excellent",
+    "text": "Excellent",
+    "entry_index": 77,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_d2bf2c40a4bac6fa60579d1e75880f8f3342368d",
+    "key": "nsc_events_hyperlane_gen.3.name",
+    "file": "localisation/russian/nsc_megastructures_l_russian.yml",
+    "source": "Hyperlane Removed",
+    "text": "Hyperlane Removed",
+    "entry_index": 78,
+    "key_occurrence_index": 0
+  }
+]

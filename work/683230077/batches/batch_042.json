@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_b48622f59dd63e81510b380a18bd6eb08340e093",
+    "key": "mod_explosive_weapon_damage_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Explosive (Missile S/M/L) Weapon Damage",
+    "text": "Explosive (Missile S/M/L) Weapon Damage",
+    "entry_index": 64,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_be29e3ad8aabfcde3ad3403d3d9eed8c19f78ec9",
+    "key": "mod_megastructures_nsc_flagship_shipyard_cost_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Grand Shipyard Build Cost",
+    "text": "Grand Shipyard Build Cost",
+    "entry_index": 66,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_b6088af250fb767e444df8b8b9694d6767e276b4",
+    "key": "mod_shipsize_military_station_medium_build_speed_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Defense Station Build Speed",
+    "text": "Defense Station Build Speed",
+    "entry_index": 67,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_37f7dba0a789f5c267ee1bb97495739e24f9e98a",
+    "key": "mod_ship_military_station_medium_upkeep_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Defense Station Upkeep",
+    "text": "Defense Station Upkeep",
+    "entry_index": 68,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_4dfbfac86a582d23877ef5aad989655ca019fc91",
+    "key": "mod_shipsize_military_station_large_build_speed_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Fortress Build Speed",
+    "text": "Fortress Build Speed",
+    "entry_index": 69,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_a6fc68d229a9b6982ffa76f6a680b13da971fbcc",
+    "key": "mod_ship_military_station_large_upkeep_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Fortress Upkeep",
+    "text": "Fortress Upkeep",
+    "entry_index": 70,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_3b2667335477c15fa989eace9b1294b3b18bfac2",
+    "key": "mod_shipsize_ion_cannon_hull_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Ion Cannon Hull Points",
+    "text": "Ion Cannon Hull Points",
+    "entry_index": 71,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_fae6125396ca7f313a2bb9e17983b05ac622ecde",
+    "key": "mod_commander_skill_levels",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Commander Skill Levels",
+    "text": "Commander Skill Levels",
+    "entry_index": 72,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_68fba9765b85fb68b21bbd9d89679d3ea098e96b",
+    "key": "mod_gunship_weapon_fire_rate_mult",
+    "file": "localisation/russian/nsc_modifiers_l_russian.yml",
+    "source": "Gunship Weapon Fire Rate",
+    "text": "Gunship Weapon Fire Rate",
+    "entry_index": 73,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_eed01a65aa209cf01ba96c27d8150d99678ca87e",
+    "key": "decision_nsc_mothball_menu",
+    "file": "localisation/russian/nsc_mothball_l_russian.yml",
+    "source": "Fleet Mothballing",
+    "text": "Fleet Mothballing",
+    "entry_index": 0,
+    "key_occurrence_index": 0
+  }
+]

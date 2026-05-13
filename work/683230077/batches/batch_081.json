@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_c43f5e8f713babe0fdeca9439b24377bf47694e1",
+    "key": "sm_cloning_facilities_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Facilities that increase population growth across the system, at the cost of population happiness.\\n",
+    "text": "Facilities that increase population growth across the system, at the cost of population happiness.__PROT_0000__",
+    "entry_index": 103,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_eb2b4692f81bebfbe99ecdbcddb6e1bdf25b622d",
+    "key": "sm_navcom_ai",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Navcom AI",
+    "text": "Navcom AI",
+    "entry_index": 104,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_341ac78fe658530f4978fdf0607d97ed494b64e8",
+    "key": "sm_navcom_ai_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "An extremely advanced navigation system that can rapidly calculate coordinates for emergency jumps. Increases the chance for ships to successfully disengage from combat.\\n",
+    "text": "An extremely advanced navigation system that can rapidly calculate coordinates for emergency jumps. Increases the chance for ships to successfully disengage from combat.__PROT_0000__",
+    "entry_index": 105,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_bfad8ba78ac1f1c398b529a9771a7ab1e2a6d4fd",
+    "key": "sm_starbase_ai",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Starbase Artificial Intelligence",
+    "text": "Starbase Artificial Intelligence",
+    "entry_index": 106,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_cdcfa3b4aedf1d42b2285ad21ae2e95a5f2fec78",
+    "key": "sm_starbase_ai_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "An extremely advanced AI computer capable of improving a starbase's attack, defense, and trade protection abilities.\\n",
+    "text": "An extremely advanced AI computer capable of improving a starbase's attack, defense, and trade protection abilities.__PROT_0000__",
+    "entry_index": 107,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_087ead13419d21e71092125ce598dea8dc341b4d",
+    "key": "sm_tv_studio",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Entertainment TV Studio",
+    "text": "Entertainment TV Studio",
+    "entry_index": 108,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_524c4bf51801bedaab1f0461156691742f2fc611",
+    "key": "sm_tv_studio_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "A TV studio that produces entertainment programming for citizens across the system, increasing planetary amenities.\\n",
+    "text": "A TV studio that produces entertainment programming for citizens across the system, increasing planetary amenities.__PROT_0000__",
+    "entry_index": 109,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_3482749630332b98c83ada2481432b38eade72dc",
+    "key": "sm_real_estate_dev",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "Real Estate Developer",
+    "text": "Real Estate Developer",
+    "entry_index": 110,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_55f16d4ed01cb485065ef7c129021d131252a096",
+    "key": "sm_real_estate_dev_desc",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "An office where real estate agents assist citizens with finding suitable locations for new homes. Increases the available planetary housing.\\n",
+    "text": "An office where real estate agents assist citizens with finding suitable locations for new homes. Increases the available planetary housing.__PROT_0000__",
+    "entry_index": 111,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_8b9da63be8008621412ef129c38094e961829805",
+    "key": "sm_tv_network",
+    "file": "localisation/russian/nsc_starbase_l_russian.yml",
+    "source": "TV News Network",
+    "text": "TV News Network",
+    "entry_index": 112,
+    "key_occurrence_index": 0
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_f77e0c33d9b43a7f66a515f01510793ddfe6ec21",
+    "key": "ai_behaviour_stationary_90_DESC",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "Ships will move up to the shown distance (90) and then hold position while firing at the enemy.",
+    "text": "Ships will move up to the shown distance (90) and then hold position while firing at the enemy.",
+    "entry_index": 19,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_8581f93f046f43bcbcde8a826a12a2796130ea85",
+    "key": "ai_behaviour_stationary_100",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "Artillery Tactic (Range: 100)",
+    "text": "Artillery Tactic (Range: 100)",
+    "entry_index": 20,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_12ab01646891ff3db05d8926c4afdf86bed5a8c3",
+    "key": "ai_behaviour_stationary_100_DESC",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "Ships will move up to the shown distance (100) and then hold position while firing at the enemy.",
+    "text": "Ships will move up to the shown distance (100) and then hold position while firing at the enemy.",
+    "entry_index": 21,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_3fdf4447f92b27d47e5db849643d38176ebd3d8c",
+    "key": "ai_behaviour_stationary_110",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "Artillery Tactic (Range: 110)",
+    "text": "Artillery Tactic (Range: 110)",
+    "entry_index": 22,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_2f0771cc7aceb8ff97ad48ae4229a53a1d09befc",
+    "key": "ai_behaviour_stationary_110_DESC",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "Ships will move up to the shown distance (110) and then hold position while firing at the enemy.",
+    "text": "Ships will move up to the shown distance (110) and then hold position while firing at the enemy.",
+    "entry_index": 23,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_2649496257e53f43aa5490a51cbb235438690ff9",
+    "key": "ai_behaviour_stationary_120",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "Artillery Tactic (Range: 120)",
+    "text": "Artillery Tactic (Range: 120)",
+    "entry_index": 24,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_1fbfcc98ca9a55ac290ec335d26cc554b89f0c4b",
+    "key": "ai_behaviour_stationary_120_DESC",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "Ships will move up to the shown distance (120) and then hold position while firing at the enemy.",
+    "text": "Ships will move up to the shown distance (120) and then hold position while firing at the enemy.",
+    "entry_index": 25,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_b690d8c0cdb5d94a57dae220416c3d20f58ccca9",
+    "key": "ai_behaviour_stationary_200",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "Standoff Tactic (Range: 200)",
+    "text": "Standoff Tactic (Range: 200)",
+    "entry_index": 26,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_32f824ddc4408fc7d95f87e722ff0b23d570c551",
+    "key": "ai_behaviour_stationary_200_DESC",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "Ships will move up to the shown distance (200) and then hold position. NOTE: This setting will cause the ship to stand off outside of normal weapon range, protecting them from most enemy fire but also preventing them from firing at the enemy themselves. Ideal for ships that you want to remain out of combat as much as possible.",
+    "text": "Ships will move up to the shown distance (200) and then hold position. NOTE: This setting will cause the ship to stand off outside of normal weapon range, protecting them from most enemy fire but also preventing them from firing at the enemy themselves. Ideal for ships that you want to remain out of combat as much as possible.",
+    "entry_index": 27,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_ec04662d02d52256a50b3ed37c8356e5e110d134",
+    "key": "ai_behaviour_flank_30",
+    "file": "localisation/russian/nsc_behaviors_l_russian.yml",
+    "source": "Flanking Tactic (30)",
+    "text": "Flanking Tactic (30)",
+    "entry_index": 28,
+    "key_occurrence_index": 0
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_2593cfd0beeb03b82556fded013d675f05c923ac",
+    "key": "hardening_focus_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "If we focus on hardening our shields and armor plating we can resist penetration weapon systems to make our ships tougher",
+    "text": "If we focus on hardening our shields and armor plating we can resist penetration weapon systems to make our ships tougher",
+    "entry_index": 56,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_748d929a0ade767865aa101b5d0064922ec28360",
+    "key": "shield_focus_name",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Shield Focus",
+    "text": "Shield Focus",
+    "entry_index": 57,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_253786a866eca9cb5134a6c576a525507f8d14c1",
+    "key": "shield_focus_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Shimmering shields are the superior defensive option. Unlike armor, they recharge without the need for repairs, allowing for extended campaigns without the need to halt our pace of operations.",
+    "text": "Shimmering shields are the superior defensive option. Unlike armor, they recharge without the need for repairs, allowing for extended campaigns without the need to halt our pace of operations.",
+    "entry_index": 59,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_596ae62e4da16a88eb3d63872c6c7484c1940fbd",
+    "key": "policy_composition_doctrine",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Fleet Composition Doctrine",
+    "text": "Fleet Composition Doctrine",
+    "entry_index": 60,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_03334995e81adae34779214aac1eb7c29805f915",
+    "key": "policy_composition_doctrine_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "This Fleet Doctrine determines which types of ships should make up the bulk of our naval forces, allowing us to construct our favored vessels more quickly at a lower cost, at the expense of taking longer and costing more to build ships that we are not emphasizing.",
+    "text": "This Fleet Doctrine determines which types of ships should make up the bulk of our naval forces, allowing us to construct our favored vessels more quickly at a lower cost, at the expense of taking longer and costing more to build ships that we are not emphasizing.",
+    "entry_index": 61,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_a744e02e5e893693abe6a0c635367f5f77639e03",
+    "key": "standard_composition_name",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Standard Composition",
+    "text": "Standard Composition",
+    "entry_index": 62,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_12fc88d2c79f690b796163f2ac1894f59d81fa9a",
+    "key": "standard_composition_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Every ship has its place; we should not retool our shipyards to favor one type of construction over another. A wide-ranging fleet is the best option.",
+    "text": "Every ship has its place; we should not retool our shipyards to favor one type of construction over another. A wide-ranging fleet is the best option.",
+    "entry_index": 64,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_d5e51f7997fbe48ffec95c12b6d6c267e2066dcc",
+    "key": "light_ship_focus_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Light ships are cheap and speedy, both in construction and in space. They're perfect for quashing pirates, protecting trade, defending wide swathes of space, screening larger vessels, and defending our nation on a budget. We need to prioritize the construction of these valuable vessels.",
+    "text": "Light ships are cheap and speedy, both in construction and in space. They're perfect for quashing pirates, protecting trade, defending wide swathes of space, screening larger vessels, and defending our nation on a budget. We need to prioritize the construction of these valuable vessels.",
+    "entry_index": 67,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_45adcc2ae240ef4724b61e1265acc11a1272f4af",
+    "key": "versatility_focus_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Cruisers, and their larger cousins, Strike Cruisers and Battlecruisers, are the most versatile ships we can build. They excel at all ranges, with a wide range of weapons, and are tough enough to withstand a hit, but don't take nearly as long to build, or cost nearly as much to produce and maintain, as capital ships. For a versatile fleet, we should focus on Cruisers to fill out our Navy.",
+    "text": "Cruisers, and their larger cousins, Strike Cruisers and Battlecruisers, are the most versatile ships we can build. They excel at all ranges, with a wide range of weapons, and are tough enough to withstand a hit, but don't take nearly as long to build, or cost nearly as much to produce and maintain, as capital ships. For a versatile fleet, we should focus on Cruisers to fill out our Navy.",
+    "entry_index": 70,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_35a047d666b447385ca57f48233acc636416ae29",
+    "key": "capital_focus_desc",
+    "file": "localisation/russian/nsc_policies_edicts_l_russian.yml",
+    "source": "Capital Ships are the pride of our fleets. With heavy armaments to obliterate the enemy, and heavy defenses to shrug off any attack, these mighty warships are the greatest weapon in our arsenal. They are nothing less than the future of galactic warfare, and we should build our fleets around them, and focus our efforts on their construction.",
+    "text": "Capital Ships are the pride of our fleets. With heavy armaments to obliterate the enemy, and heavy defenses to shrug off any attack, these mighty warships are the greatest weapon in our arsenal. They are nothing less than the future of galactic warfare, and we should build our fleets around them, and focus our efforts on their construction.",
+    "entry_index": 73,
+    "key_occurrence_index": 0
+  }
+]

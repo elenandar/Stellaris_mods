@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_d3ca860fc51f174d402e02946ecd238d173c7173",
+    "key": "nsc_events_flagship.7.a",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "Understood, we will begin the project soon.",
+    "text": "Understood, we will begin the project soon.",
+    "entry_index": 41,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_3c5273e5dd520369ba22dc65eaf8255e6ae155e5",
+    "key": "nsc_events_flagship.8.name",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "Voluntary Disarmament",
+    "text": "Voluntary Disarmament",
+    "entry_index": 42,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_7db7178ab5570a97a73f7cf2c2e429410c4c9fa6",
+    "key": "nsc_events_flagship.8.desc",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "The existence of mighty superweapons such as the Flagship have powerful ripple effects. The maintenance costs of such incredible warships are significant, and their mere existence serves as a symbol of a nation's martial disposition - and can raise international tensions and accelerate the naval arms race.\\n\\nWhether due to economics or politics, you, our honored [Root.GetRulerTitle], has decided to dismantle their Flagship, though the Shipyard remains operational. It is possible to invest the significant resources to immediately begin construction of a new Flagship, though it will be difficult to keep such a massive project a secret - easier this time, at least, since the massive shipyards themselves are already in existence - and the rationale for dismantling and then reconstructing such a massive project is dubious at best. In any event, doing so will require a Special Project.\\n\\nOn the other hand, if it is more prudent to wait and keep our options open for a later date, there is now a Flagship Reconstruction Edict available, for the time when it becomes necessary or desirable to build another Flagship.",
+    "text": "The existence of mighty superweapons such as the Flagship have powerful ripple effects. The maintenance costs of such incredible warships are significant, and their mere existence serves as a symbol of a nation's martial disposition - and can raise international tensions and accelerate the naval arms race.__PROT_0000____PROT_0001__Whether due to economics or politics, you, our honored __PROT_0002__, has decided to dismantle their Flagship, though the Shipyard remains operational. It is possible to invest the significant resources to immediately begin construction of a new Flagship, though it will be difficult to keep such a massive project a secret - easier this time, at least, since the massive shipyards themselves are already in existence - and the rationale for dismantling and then reconstructing such a massive project is dubious at best. In any event, doing so will require a Special Project.__PROT_0003____PROT_0004__On the other hand, if it is more prudent to wait and keep our options open for a later date, there is now a Flagship Reconstruction Edict available, for the time when it becomes necessary or desirable to build another Flagship.",
+    "entry_index": 43,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_e0931f4038b29e8f31698cc2ae1bc552105fd335",
+    "key": "nsc_events_flagship.8.a",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "We will rebuild the Flagship when it is needed.",
+    "text": "We will rebuild the Flagship when it is needed.",
+    "entry_index": 44,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_3dcb90168047fafd4e4362424b89235614abef88",
+    "key": "nsc_events_flagship.9.name",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "New Flagship Complete",
+    "text": "New Flagship Complete",
+    "entry_index": 45,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_91898a60bcb58a3dc059f0958550953f47ce1a87",
+    "key": "nsc_events_flagship.9.desc",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "Our new Flagship is finally complete and ready for launch. Hopefully, this one will not meet the same grim fate as the last one - these ships are not cheap or quick to replace, after all, and losing them is a massive blow to our morale and our military power. The Flagship is the most powerful weapon in our arsenal - it should be handled with care.\\n\\nWe must try not to let our people down.",
+    "text": "Our new Flagship is finally complete and ready for launch. Hopefully, this one will not meet the same grim fate as the last one - these ships are not cheap or quick to replace, after all, and losing them is a massive blow to our morale and our military power. The Flagship is the most powerful weapon in our arsenal - it should be handled with care.__PROT_0000____PROT_0001__We must try not to let our people down.",
+    "entry_index": 46,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_b367d02fb04710512c45d95cab99e881ee99cf75",
+    "key": "nsc_events_flagship.9.a",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "We will not fail again.",
+    "text": "We will not fail again.",
+    "entry_index": 47,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_e4ccaa1ef0f2063ea9cc6716f5d407b78aa46c98",
+    "key": "nsc_events_flagship.10.name",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "A Legendary Battle",
+    "text": "A Legendary Battle",
+    "entry_index": 48,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_3a25802649310f0250ab96d32cb47e38c4ab25e0",
+    "key": "nsc_events_flagship.10.desc",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "Ever since the inception of the Flagship Project, even before the colossal shipyard to construct the vessel was built, many naval theorists have posited that, like previous developments led to a focus on capital ship clashes, the new phase of the naval arms race could one day lead to enemy Flagships meeting on the field of battle. Some even posited that the only feasible way to counter a Flagship would be with another Flagship, making such clashes inevitable.\\n\\nThat day is finally here. Our Flagship is about to engage an enemy Flagship, and the heavens will rumble with their power. Both nations have put enormous resources into developing their Flagships, and designed their doctrines at least partially around the mighty vessels. Now, the entire galaxy will see the results--with the balance of galactic power, and the future of naval combat and thought, on the line.",
+    "text": "Ever since the inception of the Flagship Project, even before the colossal shipyard to construct the vessel was built, many naval theorists have posited that, like previous developments led to a focus on capital ship clashes, the new phase of the naval arms race could one day lead to enemy Flagships meeting on the field of battle. Some even posited that the only feasible way to counter a Flagship would be with another Flagship, making such clashes inevitable.__PROT_0000____PROT_0001__That day is finally here. Our Flagship is about to engage an enemy Flagship, and the heavens will rumble with their power. Both nations have put enormous resources into developing their Flagships, and designed their doctrines at least partially around the mighty vessels. Now, the entire galaxy will see the results--with the balance of galactic power, and the future of naval combat and thought, on the line.",
+    "entry_index": 49,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_ce6bb1e4ec45e18e38f62954c3b590aeb03bc5c7",
+    "key": "nsc_events_flagship.10.a",
+    "file": "localisation/russian/nsc_events_l_russian.yml",
+    "source": "Onward to Glory!",
+    "text": "Onward to Glory!",
+    "entry_index": 50,
+    "key_occurrence_index": 0
+  }
+]
