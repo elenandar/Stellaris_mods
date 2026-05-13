@@ -14,6 +14,20 @@ except ImportError:  # pragma: no cover
     from tools.stellaris_loc_translation_cache import TranslationCache
 
 
+def _record_file(record: dict) -> str:
+    file_value = record.get("file")
+    if isinstance(file_value, str) and file_value:
+        return file_value
+
+    occurrences = record.get("occurrences")
+    if isinstance(occurrences, list) and occurrences:
+        first = occurrences[0]
+        if isinstance(first, dict):
+            return str(first.get("file", ""))
+
+    return ""
+
+
 def build_batch_items(
     todo_records: list[dict],
     cache: TranslationCache | None = None,
@@ -22,14 +36,16 @@ def build_batch_items(
     """Convert TODO records to compact batch items for LLM translation."""
     items: list[dict] = []
     for record in todo_records:
-        masked_source = record["masked_source"]
+        masked_source = str(record.get("masked_source", ""))
         if cache is not None and skip_cached_complete and cache.has_completed(masked_source):
             continue
 
         items.append(
             {
-                "id": record["id"],
-                "key": record["key"],
+                "id": str(record.get("id", "")),
+                "key": str(record.get("key", "")),
+                "file": _record_file(record),
+                "source": str(record.get("source", "")),
                 "text": masked_source,
             }
         )

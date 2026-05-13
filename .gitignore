@@ -4,28 +4,34 @@ output/
 batches/
 translations/
 cache/
+reports/
+validation_reports/
+
+# Runtime artifacts
+todo.jsonl
+translation_cache.*
 
 # Translation cache databases
 *.sqlite
 *.sqlite3
 *.db
-translation_cache.*
+
+# macOS
+.DS_Store
 
 # Python
 __pycache__/
 *.pyc
 .pytest_cache/
+
+# Virtual environments
 .venv/
 venv/
 
-# macOS / editor
-.DS_Store
+# IDEs
 .vscode/
 .idea/
 
 # Optional local artifacts
 *.tmp
 *.log
-reports/
-validation_reports/
-todo.jsonl

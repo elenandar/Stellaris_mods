@@ -55,6 +55,74 @@ python tools/stellaris_loc_apply_translations.py --todo todo.jsonl --translation
 python tools/stellaris_loc_validate.py --fresh-root fresh_mods/SomeMod --russian-root output/SomeMod
 ```
 
+## Placeholder safety for LLM responses
+
+Warning:
+- The model must preserve masked placeholders exactly, e.g. `__PROT_0000__`.
+- Do not remove, duplicate, rename, or invent placeholders.
+- The translated output must target the `text` field only.
+
+If placeholder validation fails during apply:
+- that translation unit is rejected;
+- Russian files are not modified for that unit;
+- CLI exits with non-zero status;
+- cache row is marked with `status=error` and an error message (if cache is enabled).
+
+## Batch item format
+
+`tools/stellaris_loc_batch_format.py` creates JSON batches:
+
+```json
+[
+  {
+    "id": "unique-id",
+    "key": "localisation_key",
+    "file": "localisation/russian/mod_l_russian.yml",
+    "source": "Hello $PLANET$",
+    "text": "Hello __PROT_0000__"
+  }
+]
+```
+
+- `text` is the primary field to translate.
+- `source` is context only.
+- `file` and `key` help traceability.
+
+## Correct and incorrect model responses
+
+Correct response example:
+
+```json
+[
+  {
+    "id": "unique-id",
+    "translation": "Привет, __PROT_0000__"
+  }
+]
+```
+
+Incorrect response example (placeholder removed):
+
+```json
+[
+  {
+    "id": "unique-id",
+    "translation": "Привет, планета"
+  }
+]
+```
+
+Incorrect response example (unknown placeholder added):
+
+```json
+[
+  {
+    "id": "unique-id",
+    "translation": "Привет, __PROT_9999__"
+  }
+]
+```
+
 ## Validator checks
 
 `tools/stellaris_loc_validate.py` validates:
@@ -75,65 +143,28 @@ python tools/stellaris_loc_validate.py --fresh-root fresh_mods/SomeMod --russian
 - no TODO/TRUNCATED/FIXME/"ostalnoe analogichno" placeholders
 - safe localisation entry format
 
-## TODO extraction format
+## Optional cache usage
 
-`tools/stellaris_loc_extract_todo.py` writes JSONL rows:
-
-```json
-{"id":"...","file":"...","key":"...","line":12,"source":"...","masked_source":"...","token_map":{},"occurrences":[...]}
-```
-
-- `id` is stable and based on masked source text.
-- identical strings are deduplicated.
-- `occurrences` keeps all file/key/line placements for safe apply.
-
-## Batch format
-
-`tools/stellaris_loc_batch_format.py` creates JSON batches:
-
-```json
-[
-  {
-    "id": "unique-id",
-    "key": "localisation_key",
-    "text": "masked English text"
-  }
-]
-```
-
-Optional cache usage:
 - pass `--cache-db cache/translation_cache.sqlite3`
-- completed cache entries are skipped by default
-- use `--include-cached-complete` to include them
-
-## Apply format
-
-Input translations for `tools/stellaris_loc_apply_translations.py`:
-
-```json
-[
-  {
-    "id": "unique-id",
-    "translation": "masked Russian translation"
-  }
-]
-```
-
-After apply, run validator.
+- completed cache entries are skipped by default in batch formatting
+- use `--include-cached-complete` to include them again
 
 ## Tests
 
 Run all tests:
 
 ```bash
-pytest -q
+python3 -m pytest -q
 ```
 
 ## Git hygiene
 
-Do not commit/generated data directories and cache DB files:
+Do not commit generated/runtime data:
 - `fresh_mods/`
 - `output/`
 - `batches/`
 - `translations/`
-- SQLite cache files (`*.sqlite`, `*.sqlite3`, `*.db`)
+- `reports/`
+- `validation_reports/`
+- `todo.jsonl`
+- cache DB files (`translation_cache.*`, `*.sqlite`, `*.sqlite3`, `*.db`)
