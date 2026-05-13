@@ -5,25 +5,12 @@ This repository contains safe tooling for Stellaris `.yml` localisation workflow
 Important:
 - Fresh English localisation files are the only source of truth.
 - Old translations and translation memory are not used.
-- The pipeline prepares, translates, validates, and applies translations safely.
-
-## Workspace layout
-
-```text
-StellarisTranslationWorkspace/
-  fresh_mods/
-  output/
-  tools/
-  tests/
-  glossary_ru.md
-  glossary_candidates.md
-  translation_rules.md
-  known_issues.md
-```
+- The main workflow for this repository is Copilot Agent semi-automatic translation.
+- GitHub Copilot subscription does not require `LLM_API_KEY` for the main workflow.
 
 ## Mandatory reading before translation
 
-Before any translation run, the agent must read:
+Before any translation run, read:
 - [glossary_ru.md](glossary_ru.md)
 - [translation_rules.md](translation_rules.md)
 - [known_issues.md](known_issues.md)
@@ -35,66 +22,113 @@ Quality policy:
 
 ## Core tools
 
-- `tools/stellaris_loc_common.py`: shared parser/token/path/BOM helpers
-- `tools/stellaris_loc_scan.py`: scan fresh mod for English localisation files
+- `tools/stellaris_loc_scan.py`: scan a fresh mod for English localisation files
 - `tools/stellaris_loc_rebuild_skeleton.py`: create Russian skeleton files from English files
-- `tools/stellaris_loc_extract_todo.py`: extract deduplicated translation TODO units as JSONL
-- `tools/stellaris_loc_batch_format.py`: split TODO units into JSON batches for translation
-- `tools/stellaris_loc_translation_cache.py`: SQLite cache for deduplicated source strings
-- `tools/stellaris_loc_apply_translations.py`: apply translated masked text back to Russian files
 - `tools/stellaris_loc_validate.py`: validate EN/RU pairs and parser safety
+- `tools/stellaris_loc_extract_todo.py`: extract translation TODO units as JSONL
+- `tools/stellaris_loc_batch_format.py`: split TODO units into batch JSON files
+- `tools/stellaris_loc_apply_translations.py`: apply translated masked text back to Russian files
+- `tools/stellaris_loc_translation_cache.py`: optional SQLite cache for deduplicated source strings
+- `tools/stellaris_loc_common.py`: shared parser/token/path/BOM helpers
 
-## Batch translation notes
+## Copilot Agent semi-automatic translation workflow
 
-- Keys must never be translated or changed.
-- Values inside quotes may localize proper names to Cyrillic when appropriate.
-- Catalogue names like `P4T-257-a`, `PXT-947`, `P57J-657-b`, `XJ-9`, and `3V-0L` should remain unchanged.
-- Replacements are applied by occurrence identity (`entry_index` + `key_occurrence_index`), not only by key.
-- Legacy key-only apply is allowed only for unique keys; duplicate keys require occurrence identity.
+This is the main workflow for the user.
 
-## Placeholder safety for model responses
+How it works:
+- GitHub Copilot Agent translates the batch JSON files directly in VS Code.
+- Python tools handle the safe mechanical steps:
+  - scan
+  - skeleton rebuild
+  - validation
+  - TODO extraction
+  - batch formatting
+  - apply translations
+  - final validation
 
-Warning:
-- The model must preserve masked placeholders exactly, e.g. `__PROT_0000__`.
-- Do not remove, duplicate, rename, or invent placeholders.
-- The translated output must target the `text` field only.
+Important constraints for the main workflow:
+- No API key is needed.
+- Do not use `tools/stellaris_loc_translate_batches.py` in the main workflow.
+- Do not use `tools/stellaris_loc_translate_mod.py` in the main workflow.
+- Do not use `tools/stellaris_loc_translate_collection.py` in the main workflow.
+- Do not require `LLM_BASE_URL`, `LLM_API_KEY`, or `LLM_MODEL`.
+- Copilot Agent performs the translation itself.
 
-If placeholder validation fails during apply:
-- that translation unit is rejected;
-- Russian files are not modified for that unit;
-- CLI exits with non-zero status;
-- cache row is marked with `status=error` and an error message (if cache is enabled).
+### One-mod command sequence
 
-## Batch item format
+Example mod id: `2638108246`
 
-`tools/stellaris_loc_batch_format.py` creates JSON batches:
+```bash
+python3 -m pytest -q
 
-```json
-[
-  {
-    "id": "unique-id",
-    "key": "localisation_key",
-    "file": "localisation/russian/mod_l_russian.yml",
-    "source": "Hello $PLANET$",
-    "text": "Hello __PROT_0000__",
-    "entry_index": 13,
-    "key_occurrence_index": 1
-  }
-]
+rm -rf output/2638108246 work/2638108246
+mkdir -p work/2638108246/batches work/2638108246/translations cache
+
+python3 tools/stellaris_loc_scan.py --root fresh_mods/2638108246
+
+python3 tools/stellaris_loc_rebuild_skeleton.py \
+  --fresh-root fresh_mods/2638108246 \
+  --russian-root output/2638108246
+
+python3 tools/stellaris_loc_validate.py \
+  --fresh-root fresh_mods/2638108246 \
+  --russian-root output/2638108246
+
+python3 tools/stellaris_loc_extract_todo.py \
+  --fresh-root fresh_mods/2638108246 \
+  --russian-root output/2638108246 \
+  --out work/2638108246/todo.jsonl \
+  --cache-db cache/translation_cache.sqlite3
+
+python3 tools/stellaris_loc_batch_format.py \
+  --todo work/2638108246/todo.jsonl \
+  --batch-size 10 \
+  --out work/2638108246/batches \
+  --cache-db cache/translation_cache.sqlite3
 ```
 
-- `text` is the only field to translate.
-- `source`, `key`, `file`, and occurrence identity are context only.
-- Model responses must still be only:
+After these commands:
+- Ask Copilot Agent to translate the batch files in `work/2638108246/batches/`.
+- Save the resulting translation JSON files in `work/2638108246/translations/`.
 
-```json
-[
-  {
-    "id": "unique-id",
-    "translation": "Привет, __PROT_0000__"
-  }
-]
+Then apply translations:
+
+```bash
+python3 tools/stellaris_loc_apply_translations.py \
+  --todo work/2638108246/todo.jsonl \
+  --translations-dir work/2638108246/translations \
+  --russian-root output/2638108246 \
+  --cache-db cache/translation_cache.sqlite3 \
+  --model GitHub-Copilot-Agent \
+  --glossary-version v1
 ```
+
+Then run final validation:
+
+```bash
+python3 tools/stellaris_loc_validate.py \
+  --fresh-root fresh_mods/2638108246 \
+  --russian-root output/2638108246
+```
+
+Expected outcome:
+- `Errors: 0`
+- `Source warnings` are acceptable only when they describe English source issues.
+
+### Copilot Agent translation prompt
+
+Use the ready prompt from [copilot_agent_prompt.md](copilot_agent_prompt.md).
+
+Operational notes:
+- Translate only the `text` field.
+- Keep `id` unchanged.
+- Preserve placeholders exactly, including `__PROT_0000__` style tokens.
+- Never change localisation keys.
+- Do not use Unicode quotes.
+- Do not create multiline strings.
+- Catalogue names such as `P4T-257-a`, `PXT-947`, `P57J-657-b`, `XJ-9`, and `3V-0L` must remain unchanged.
+- Proper names may be localized to Cyrillic where appropriate.
+- Always check the final validator report.
 
 ## Validator checks
 
@@ -103,7 +137,7 @@ If placeholder validation fails during apply:
 - UTF-8 with BOM for Russian files
 - key count, key order, key identity
 - numeric marker consistency (`:0`, `:1`, ...)
-- exact protected-token preservation (missing and extra are issues):
+- exact protected-token preservation:
   - `$...$`
   - `[...]`
   - `U+00A3...U+00A3` resource icon tokens
@@ -113,7 +147,7 @@ If placeholder validation fails during apply:
 - no unclosed quotes
 - no unescaped internal quotes
 - no Unicode quotes
-- no TODO/TRUNCATED/FIXME/"ostalnoe analogichno" placeholders
+- no TODO/TRUNCATED/FIXME placeholders
 - safe localisation entry format
 
 Validator findings are separated into:
@@ -129,11 +163,20 @@ Duplicate key policy:
 - duplicate keys in English source are `source_warnings` if Russian preserves the same full ordered key sequence
 - duplicate keys that appear only in Russian are `errors`
 - duplicate keys in Russian that do not preserve English full ordered key sequence are `errors`
-- duplicate-safe apply targets exact occurrences, so repeated keys are not overwritten wholesale
+- apply targets exact occurrences using `entry_index` and `key_occurrence_index`
 
-## Fully automated LLM translation
+## Advanced: OpenAI-compatible API automation
 
-Environment variables:
+This mode is optional.
+
+Use it only if you have access to an external OpenAI-compatible API endpoint.
+
+Important:
+- GitHub Copilot subscription itself does not provide `LLM_API_KEY`.
+- The API automation tools stay in the repository for optional advanced usage.
+- This is not the main workflow for the user.
+
+Optional environment variables:
 
 ```env
 LLM_BASE_URL=https://api.openai.com/v1
@@ -141,11 +184,9 @@ LLM_API_KEY=your-key
 LLM_MODEL=gpt-5.4-xhigh
 ```
 
-See [.env.example](.env.example) for a minimal template.
+See [.env.example](.env.example) for the optional template.
 
-Never commit API keys.
-
-### Translate one mod
+Optional one-mod API automation:
 
 ```bash
 python3 tools/stellaris_loc_translate_mod.py \
@@ -153,11 +194,14 @@ python3 tools/stellaris_loc_translate_mod.py \
   --russian-root output/2638108246 \
   --work-dir work/2638108246 \
   --cache-db cache/translation_cache.sqlite3 \
+  --base-url "$LLM_BASE_URL" \
+  --api-key "$LLM_API_KEY" \
+  --model "$LLM_MODEL" \
   --batch-size 20 \
   --glossary-version v1
 ```
 
-### Translate a collection
+Optional collection API automation:
 
 ```bash
 python3 tools/stellaris_loc_translate_collection.py \
@@ -165,12 +209,15 @@ python3 tools/stellaris_loc_translate_collection.py \
   --output-root output \
   --work-root work \
   --cache-db cache/translation_cache.sqlite3 \
+  --base-url "$LLM_BASE_URL" \
+  --api-key "$LLM_API_KEY" \
+  --model "$LLM_MODEL" \
   --batch-size 20 \
   --workers 1 \
   --glossary-version v1
 ```
 
-### Translate prepared batch files directly
+Optional direct batch translation with API automation:
 
 ```bash
 python3 tools/stellaris_loc_translate_batches.py \
@@ -178,31 +225,18 @@ python3 tools/stellaris_loc_translate_batches.py \
   --translations-dir work/2638108246/translations \
   --cache-db cache/translation_cache.sqlite3 \
   --provider openai-compatible \
+  --base-url "$LLM_BASE_URL" \
+  --api-key "$LLM_API_KEY" \
+  --model "$LLM_MODEL" \
   --glossary-version v1 \
   --limit 1
 ```
 
-Recommendations:
-- Use `--limit-batches 1` or `--limit 1` for the first test.
-- Always check the final validator report.
-- Generated folders should remain gitignored.
-
-## Quick manual pipeline
-
-```bash
-python tools/stellaris_loc_scan.py --root fresh_mods/SomeMod
-python tools/stellaris_loc_rebuild_skeleton.py --fresh-root fresh_mods/SomeMod --russian-root output/SomeMod
-python tools/stellaris_loc_extract_todo.py --fresh-root fresh_mods/SomeMod --russian-root output/SomeMod --out todo.jsonl
-python tools/stellaris_loc_batch_format.py --todo todo.jsonl --batch-size 100 --out batches/
-python tools/stellaris_loc_apply_translations.py --todo todo.jsonl --translations-dir translations --russian-root output/SomeMod
-python tools/stellaris_loc_validate.py --fresh-root fresh_mods/SomeMod --russian-root output/SomeMod
-```
-
-## Optional cache usage
-
-- pass `--cache-db cache/translation_cache.sqlite3`
-- completed cache entries are skipped by default in batch formatting
-- use `--include-cached-complete` to include them again
+Recommendations for optional API mode:
+- use `--limit 1` or `--limit-batches 1` for the first test
+- do not commit API keys
+- generated folders should remain gitignored
+- always check the final validator report
 
 ## Tests
 

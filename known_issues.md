@@ -84,3 +84,13 @@ Purpose:
 - Fix: Added automatic OpenAI-compatible LLM runner for batch directories, single-mod orchestration, and collection orchestration.
 - Regression test: tests/test_stellaris_loc_llm_runner.py
 - Notes: Runner reads batch files directly, validates JSON/id/placeholders, retries on malformed responses, and writes translation JSON files without chat copy.
+
+### ISSUE-0007
+- Date detected: 2026-05-13
+- Status: resolved
+- Summary: Main workflow documentation implied that an external OpenAI-compatible API was required, but the user works through GitHub Copilot Agent without `LLM_API_KEY`.
+- Affected files: README.md, .env.example, copilot_agent_prompt.md
+- Root cause: API-runner commands were documented as the primary workflow instead of an optional advanced mode.
+- Fix: Documentation now separates the Copilot Agent semi-automatic workflow from optional API automation and provides a dedicated Copilot Agent prompt.
+- Regression test: not applicable (documentation-only change)
+- Notes: GitHub Copilot subscription is not the same as an external OpenAI-compatible API subscription.
