@@ -1,9 +1,11 @@
 # Stellaris Localisation Safety Tools
 
-This workspace contains tooling to safely process Stellaris `.yml` localisation files.
+This repository contains safe tooling for Stellaris `.yml` localisation workflows.
 
-These tools are designed to work with a fresh mod source tree and a separate output tree.
-They do not perform artistic translation. The skeleton builder only mirrors structure.
+Important:
+- Fresh English localisation files are the only source of truth.
+- Old translations and translation memory are not used.
+- The pipeline prepares and applies translations safely, but does not call any LLM API directly.
 
 ## Workspace layout
 
@@ -19,96 +21,119 @@ StellarisTranslationWorkspace/
   known_issues.md
 ```
 
-## Mandatory reading before any translation
+## Mandatory reading before translation
 
-Before starting any translation task, the agent must read:
+Before any translation run, the agent must read:
 - [glossary_ru.md](glossary_ru.md)
 - [translation_rules.md](translation_rules.md)
 - [known_issues.md](known_issues.md)
 
 Quality policy:
 - Every newly discovered validator error must become a regression test.
-- Every validator change must be accompanied by a test.
-- Disputed new terms must be added only to [glossary_candidates.md](glossary_candidates.md), not directly to [glossary_ru.md](glossary_ru.md).
+- Every validator change must include a test in `tests/`.
+- Disputed terms go only to [glossary_candidates.md](glossary_candidates.md) until user approval.
 
-## Requirements
+## Tools
 
-- Python 3.10+
-- pytest (for tests)
+- `tools/stellaris_loc_common.py`: shared parser/token/path/BOM helpers
+- `tools/stellaris_loc_scan.py`: scan fresh mod for English localisation files
+- `tools/stellaris_loc_rebuild_skeleton.py`: create Russian skeleton files from English files
+- `tools/stellaris_loc_extract_todo.py`: extract deduplicated translation TODO units as JSONL
+- `tools/stellaris_loc_batch_format.py`: split TODO units into JSON batches for external translation
+- `tools/stellaris_loc_translation_cache.py`: SQLite cache for deduplicated source strings
+- `tools/stellaris_loc_apply_translations.py`: apply translated masked text back to Russian files
+- `tools/stellaris_loc_validate.py`: validate EN/RU pairs and parser safety
 
-## 1) Scan English localisation files
-
-Find `.yml` files that contain `l_english:`:
+## Quick accelerated workflow
 
 ```bash
 python tools/stellaris_loc_scan.py --root fresh_mods/SomeMod
-```
-
-Print absolute paths:
-
-```bash
-python tools/stellaris_loc_scan.py --root fresh_mods/SomeMod --absolute
-```
-
-## 2) Validate English/Russian file pairs
-
-Pair mode:
-
-```bash
-python tools/stellaris_loc_validate.py --english path/to/file_l_english.yml --russian path/to/file_l_russian.yml
-```
-
-Recursive mode:
-
-```bash
+python tools/stellaris_loc_rebuild_skeleton.py --fresh-root fresh_mods/SomeMod --russian-root output/SomeMod
+python tools/stellaris_loc_extract_todo.py --fresh-root fresh_mods/SomeMod --russian-root output/SomeMod --out todo.jsonl
+python tools/stellaris_loc_batch_format.py --todo todo.jsonl --batch-size 100 --out batches/
+python tools/stellaris_loc_apply_translations.py --todo todo.jsonl --translations translations/batch_001_ru.json --russian-root output/SomeMod
 python tools/stellaris_loc_validate.py --fresh-root fresh_mods/SomeMod --russian-root output/SomeMod
 ```
 
-The validator checks:
+## Validator checks
 
-- headers `l_english:` and `l_russian:`
-- Russian file BOM (UTF-8 with BOM)
-- key count, key set, key order
+`tools/stellaris_loc_validate.py` validates:
+- required headers (`l_english:`, `l_russian:`)
+- UTF-8 with BOM for Russian files
+- key count, key order, key identity
 - numeric marker consistency (`:0`, `:1`, ...)
-- preservation of protected tokens:
+- exact protected-token preservation (missing and extra are issues):
   - `$...$`
   - `[...]`
-  - `U+00A3...U+00A3` resource icon spans
+  - `U+00A3...U+00A3` resource icon tokens
   - `U+00A7X` formatting tags
-  - `\\n`, `\\t`, `\\\\`, `\\"`
-- no multiline value starts
+  - escape tokens: `\\n`, `\\t`, `\\\\`, `\\"`
+- no multiline values
 - no unclosed quotes
-- no unescaped inner quotes
-- no Unicode quote characters (guillemets and curly quotes)
-- no placeholders: `TODO`, `TRUNCATED`, `FIXME`, `\\u043e\\u0441\\u0442\\u0430\\u043b\\u044c\\u043d\\u043e\\u0435 \\\u0430\\u043d\\u0430\\u043b\\u043e\\u0433\\u0438\\u0447\\u043d\\u043e`
+- no unescaped internal quotes
+- no Unicode quotes
+- no TODO/TRUNCATED/FIXME/"ostalnoe analogichno" placeholders
 - safe localisation entry format
 
-## 3) Rebuild Russian skeleton files
+## TODO extraction format
 
-Create Russian skeleton files from fresh English files (no text translation):
+`tools/stellaris_loc_extract_todo.py` writes JSONL rows:
 
-```bash
-python tools/stellaris_loc_rebuild_skeleton.py --fresh-root fresh_mods/SomeMod --russian-root output/SomeMod --dry-run
+```json
+{"id":"...","file":"...","key":"...","line":12,"source":"...","masked_source":"...","token_map":{},"occurrences":[...]}
 ```
 
-Apply writes:
+- `id` is stable and based on masked source text.
+- identical strings are deduplicated.
+- `occurrences` keeps all file/key/line placements for safe apply.
 
-```bash
-python tools/stellaris_loc_rebuild_skeleton.py --fresh-root fresh_mods/SomeMod --russian-root output/SomeMod
+## Batch format
+
+`tools/stellaris_loc_batch_format.py` creates JSON batches:
+
+```json
+[
+  {
+    "id": "unique-id",
+    "key": "localisation_key",
+    "text": "masked English text"
+  }
+]
 ```
 
-Behavior:
+Optional cache usage:
+- pass `--cache-db cache/translation_cache.sqlite3`
+- completed cache entries are skipped by default
+- use `--include-cached-complete` to include them
 
-- scans English `.yml` files with `l_english:`
-- maps `english` path segment to `russian`
-- renames `_l_english.yml` to `_l_russian.yml`
-- changes header `l_english:` to `l_russian:`
-- preserves comments, blank lines, and line order
-- keeps quoted text unchanged (skeleton only)
-- writes output in UTF-8 with BOM
+## Apply format
 
-## Run tests
+Input translations for `tools/stellaris_loc_apply_translations.py`:
+
+```json
+[
+  {
+    "id": "unique-id",
+    "translation": "masked Russian translation"
+  }
+]
+```
+
+After apply, run validator.
+
+## Tests
+
+Run all tests:
 
 ```bash
 pytest -q
 ```
+
+## Git hygiene
+
+Do not commit/generated data directories and cache DB files:
+- `fresh_mods/`
+- `output/`
+- `batches/`
+- `translations/`
+- SQLite cache files (`*.sqlite`, `*.sqlite3`, `*.db`)

@@ -8,8 +8,20 @@ from dataclasses import dataclass
 from pathlib import Path
 
 try:
+    from stellaris_loc_common import (
+        english_to_russian_relative_path,
+        read_utf8,
+        replace_english_header_with_russian,
+        write_utf8_bom,
+    )
     from stellaris_loc_scan import find_english_localisation_files
 except ImportError:  # pragma: no cover
+    from tools.stellaris_loc_common import (
+        english_to_russian_relative_path,
+        read_utf8,
+        replace_english_header_with_russian,
+        write_utf8_bom,
+    )
     from tools.stellaris_loc_scan import find_english_localisation_files
 
 
@@ -22,40 +34,6 @@ class RebuildSummary:
     dry_run_actions: int = 0
 
 
-def english_to_russian_relative_path(english_relative: Path) -> Path:
-    """Map an English localisation relative path to expected Russian path."""
-    parts = ["russian" if p == "english" else p for p in english_relative.parts]
-    if not parts:
-        return english_relative
-
-    filename = parts[-1]
-    if filename.endswith("_l_english.yml"):
-        filename = filename[: -len("_l_english.yml")] + "_l_russian.yml"
-    elif "l_english" in filename:
-        filename = filename.replace("l_english", "l_russian")
-    parts[-1] = filename
-    return Path(*parts)
-
-
-def _replace_english_header_with_russian(text: str) -> tuple[str, bool]:
-    lines = text.splitlines(keepends=True)
-    replaced = False
-
-    for idx, line in enumerate(lines):
-        body = line.rstrip("\r\n")
-        eol = line[len(body) :]
-        if body.strip() == "l_english:":
-            indent = body[: len(body) - len(body.lstrip())]
-            lines[idx] = f"{indent}l_russian:{eol}"
-            replaced = True
-            break
-
-    if not replaced and not lines and text.strip() == "l_english:":
-        return "l_russian:", True
-
-    return "".join(lines), replaced
-
-
 def rebuild_skeletons(fresh_root: Path, russian_root: Path, dry_run: bool = False) -> RebuildSummary:
     summary = RebuildSummary()
     english_files = find_english_localisation_files(fresh_root)
@@ -66,14 +44,13 @@ def rebuild_skeletons(fresh_root: Path, russian_root: Path, dry_run: bool = Fals
         russian_relative = english_to_russian_relative_path(english_relative)
         russian_file = russian_root / russian_relative
 
-        try:
-            english_text = english_file.read_text(encoding="utf-8-sig")
-        except OSError:
+        english_text, _, read_error = read_utf8(english_file)
+        if read_error is not None:
             summary.files_skipped += 1
-            print(f"SKIP read error: {english_file}")
+            print(f"SKIP read error: {english_file} ({read_error})")
             continue
 
-        russian_text, header_replaced = _replace_english_header_with_russian(english_text)
+        russian_text, header_replaced = replace_english_header_with_russian(english_text)
         if not header_replaced:
             summary.files_skipped += 1
             print(f"SKIP no l_english header: {english_file}")
@@ -87,8 +64,7 @@ def rebuild_skeletons(fresh_root: Path, russian_root: Path, dry_run: bool = Fals
             print(f"DRY-RUN {action}: {russian_file}")
             continue
 
-        russian_file.parent.mkdir(parents=True, exist_ok=True)
-        russian_file.write_text(russian_text, encoding="utf-8-sig")
+        write_utf8_bom(russian_file, russian_text, dry_run=False)
 
         if already_exists:
             summary.files_updated += 1

@@ -1,33 +1,15 @@
-# Local mod data
+# Generated workspace data
 fresh_mods/
-old_translations/
 output/
-workshop/
-mods/
-
-# Translation cache
-*.sqlite
-*.sqlite3
-translation_cache.*
-cache/
-.cache/
-
-# Python
-__pycache__/
-*.pyc
-.pytest_cache/
-.venv/
-venv/
-
-# OS / editor
-.DS_Store
-.vscode/
-.idea/
-
-# Logs / reports
-*.log
-reports/
-validation_reports/
 batches/
 translations/
-todo.jsonl
+cache/
+
+# Translation cache databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Optional local artifacts
+*.tmp
+*.log

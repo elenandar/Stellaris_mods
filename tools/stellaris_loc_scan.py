@@ -6,30 +6,20 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 
+try:
+    from stellaris_loc_common import has_header
+except ImportError:  # pragma: no cover
+    from tools.stellaris_loc_common import has_header
+
+
 ENGLISH_HEADER = "l_english:"
-
-
-def file_has_header(path: Path, header: str = ENGLISH_HEADER) -> bool:
-    """Return True when a text file contains the expected localisation header."""
-    if path.suffix.lower() != ".yml":
-        return False
-
-    try:
-        text = path.read_text(encoding="utf-8", errors="replace")
-    except OSError:
-        return False
-
-    for line in text.splitlines():
-        if line.lstrip("\ufeff").strip() == header:
-            return True
-    return False
 
 
 def find_english_localisation_files(root: Path) -> list[Path]:
     """Recursively find English localisation `.yml` files under `root`."""
     result: list[Path] = []
     for path in sorted(root.rglob("*.yml")):
-        if path.is_file() and file_has_header(path, ENGLISH_HEADER):
+        if path.is_file() and has_header(path, ENGLISH_HEADER):
             result.append(path)
     return result
 
