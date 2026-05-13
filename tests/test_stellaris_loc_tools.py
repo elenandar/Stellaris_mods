@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
+from tools.stellaris_loc_common import count_leading_utf8_boms, parse_localisation_file
 from tools.stellaris_loc_rebuild_skeleton import rebuild_skeletons
 from tools.stellaris_loc_scan import find_english_localisation_files
 from tools.stellaris_loc_validate import validate_pair_files, validate_roots
@@ -157,6 +158,80 @@ def test_missing_bom_detected(tmp_path: Path) -> None:
     assert any("UTF-8 with BOM" in message for message in messages)
 
 
+def test_correct_russian_bom_and_clean_header_passes(tmp_path: Path) -> None:
+    english_file = tmp_path / "english.yml"
+    russian_file = tmp_path / "russian.yml"
+
+    _write_text(english_file, 'l_english:\nkey:0 "Text"\n', bom=False)
+    russian_file.write_bytes(b"\xef\xbb\xbfl_russian:\nkey:0 \"Text\"\n")
+
+    result = validate_pair_files(english_file, russian_file)
+    messages = _issue_messages(result)
+
+    assert result.is_valid
+    assert not any("Extra BOM marker before localisation header" in message for message in messages)
+
+
+def test_double_russian_bom_before_header_is_error(tmp_path: Path) -> None:
+    english_file = tmp_path / "english.yml"
+    russian_file = tmp_path / "russian.yml"
+
+    _write_text(english_file, 'l_english:\nkey:0 "Text"\n', bom=False)
+    russian_file.write_bytes(b"\xef\xbb\xbf\xef\xbb\xbfl_russian:\nkey:0 \"Text\"\n")
+
+    result = validate_pair_files(english_file, russian_file)
+    messages = _issue_messages(result)
+
+    assert not result.is_valid
+    assert any("multiple leading UTF-8 BOM" in message or "Extra BOM marker before localisation header" in message for message in messages)
+
+
+def test_hidden_ufeef_before_russian_header_after_utf8_sig_is_error(tmp_path: Path) -> None:
+    english_file = tmp_path / "english.yml"
+    russian_file = tmp_path / "russian.yml"
+
+    _write_text(english_file, 'l_english:\nkey:0 "Text"\n', bom=False)
+    russian_file.write_bytes(
+        b"\xef\xbb\xbf\n" + "\ufeffl_russian:\nkey:0 \"Text\"\n".encode("utf-8")
+    )
+
+    text_after_sig = russian_file.read_text(encoding="utf-8-sig")
+    first_nonempty = next((line for line in text_after_sig.splitlines() if line.strip()), "")
+    assert first_nonempty == "\ufeffl_russian:"
+
+    result = validate_pair_files(english_file, russian_file)
+    messages = _issue_messages(result)
+
+    assert not result.is_valid
+    assert any("Extra BOM marker before localisation header" in message for message in messages)
+
+
+def test_parse_localisation_file_reports_bom_diagnostics(tmp_path: Path) -> None:
+    russian_file = tmp_path / "russian.yml"
+    russian_file.write_bytes(b"\xef\xbb\xbf\xef\xbb\xbfl_russian:\nkey:0 \"Text\"\n")
+
+    parsed = parse_localisation_file(russian_file, expected_header="l_russian:")
+
+    assert parsed.leading_bom_count == 2
+    assert parsed.text_starts_with_hidden_bom is True
+
+
+def test_english_source_extra_bom_marker_is_source_warning(tmp_path: Path) -> None:
+    english_file = tmp_path / "english.yml"
+    russian_file = tmp_path / "russian.yml"
+
+    english_file.write_bytes(b"\xef\xbb\xbf\xef\xbb\xbfl_english:\nkey:0 \"Text\"\n")
+    _write_text(russian_file, 'l_russian:\nkey:0 "Tekst"\n', bom=True)
+
+    result = validate_pair_files(english_file, russian_file)
+
+    assert result.is_valid
+    assert any(
+        "Extra BOM marker before localisation header in English source" in item.message
+        for item in result.source_warnings
+    )
+
+
 def test_scan_finds_only_english_localisation_yml(tmp_path: Path) -> None:
     with_header = tmp_path / "localisation" / "english" / "a_l_english.yml"
     without_header = tmp_path / "localisation" / "english" / "b_l_english.yml"
@@ -188,9 +263,13 @@ def test_rebuild_skeleton_creates_russian_file_with_bom(tmp_path: Path) -> None:
 
     russian_file = out_root / "localisation" / "russian" / "mod_l_russian.yml"
     assert russian_file.exists()
-    assert russian_file.read_bytes().startswith(b"\xef\xbb\xbf")
+    raw = russian_file.read_bytes()
+    assert raw.startswith(b"\xef\xbb\xbf")
+    assert count_leading_utf8_boms(raw) == 1
     russian_text = russian_file.read_text(encoding="utf-8-sig")
-    assert "l_russian:" in russian_text
+    first_line = russian_text.splitlines()[0] if russian_text.splitlines() else ""
+    assert first_line == "l_russian:"
+    assert "\ufeffl_russian:" not in russian_text
     assert 'key:0 "Text"' in russian_text
     assert summary.files_created == 1
 
@@ -209,9 +288,11 @@ def test_rebuild_skeleton_handles_hidden_bom_header_and_validator_accepts(tmp_pa
 
     raw_ru = russian_file.read_bytes()
     assert raw_ru.startswith(b"\xef\xbb\xbf")
+    assert count_leading_utf8_boms(raw_ru) == 1
 
     ru_text = russian_file.read_text(encoding="utf-8-sig")
-    assert "l_russian:" in ru_text
+    first_line = ru_text.splitlines()[0] if ru_text.splitlines() else ""
+    assert first_line == "l_russian:"
     assert "l_english:" not in ru_text
     assert "\ufeffl_russian:" not in ru_text
 

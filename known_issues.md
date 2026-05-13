@@ -94,3 +94,23 @@ Purpose:
 - Fix: Documentation now separates the Copilot Agent semi-automatic workflow from optional API automation and provides a dedicated Copilot Agent prompt.
 - Regression test: not applicable (documentation-only change)
 - Notes: GitHub Copilot subscription is not the same as an external OpenAI-compatible API subscription.
+
+### ISSUE-0008
+- Date detected: 2026-05-13
+- Status: resolved
+- Summary: Copilot Agent/manual file writes can create Russian localisation files with double BOM or hidden `U+FEFF` before `l_russian:` header.
+- Affected files: tools/stellaris_loc_validate.py, tools/stellaris_loc_common.py, tests/test_stellaris_loc_tools.py, translation_rules.md
+- Root cause: Manual/agent writes may preserve an existing BOM marker in text and then write the file again as UTF-8 with BOM.
+- Fix: Validator now detects multiple leading UTF-8 BOM markers and hidden `U+FEFF` before `l_russian:`; common helper counts leading BOM sequences; instructions require clean header and exactly one UTF-8 BOM.
+- Regression test: tests/test_stellaris_loc_tools.py
+- Notes: Correct file has one byte-level UTF-8 BOM and text read with `utf-8-sig` starts with `l_russian:`.
+
+### ISSUE-0009
+- Date detected: 2026-05-13
+- Status: resolved
+- Summary: Safety-only instructions produced stylistically flat Russian localisation for diplomatic/lore-heavy mod text.
+- Affected files: translation_rules.md, copilot_agent_prompt.md, README.md
+- Root cause: Prompt/rules emphasized parser safety but lacked explicit quality style guidance for tone and natural phrasing.
+- Fix: Added style quality rules for Copilot Agent translation (tone, lexicon, thematic mappings, and anti-calque guidance) while keeping parser safety constraints mandatory.
+- Regression test: not applicable (documentation-only change)
+- Notes: Style quality guidance is additive and must never override token/key/parser safety rules.

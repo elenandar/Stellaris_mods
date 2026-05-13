@@ -13,6 +13,9 @@ from pathlib import Path
 from typing import Any
 
 
+UTF8_BOM = codecs.BOM_UTF8
+
+
 SAFE_ENTRY_RE = re.compile(
     r"^\s*([A-Za-z0-9_.@-]+):([0-9]+)?\s+\"(?:[^\"\\]|\\.)*\"\s*(#.*)?$"
 )
@@ -68,6 +71,8 @@ class ParsedLocalisationFile:
     path: Path
     text: str
     bom_present: bool
+    leading_bom_count: int
+    text_starts_with_hidden_bom: bool
     header_found: bool
     entries: list[LocalisationEntry]
     issues: list[ParseIssue]
@@ -76,6 +81,15 @@ class ParsedLocalisationFile:
 def normalize_header_line(line: str) -> str:
     """Normalize localisation header line to tolerate BOM and surrounding spaces."""
     return line.lstrip("\ufeff").strip()
+
+
+def count_leading_utf8_boms(raw: bytes) -> int:
+    """Count only leading UTF-8 BOM sequences at file start."""
+    bom_len = len(UTF8_BOM)
+    count = 0
+    while raw.startswith(UTF8_BOM, count * bom_len):
+        count += 1
+    return count
 
 
 def read_utf8(path: Path) -> tuple[str, bool, str | None]:
@@ -101,7 +115,8 @@ def write_utf8_bom(path: Path, text: str, dry_run: bool = False) -> None:
         return
 
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(text, encoding="utf-8-sig")
+    clean_text = text.lstrip("\ufeff")
+    path.write_text(clean_text, encoding="utf-8-sig")
 
 
 def has_header(path: Path, expected_header: str) -> bool:
@@ -192,6 +207,20 @@ def diagnose_nonmatching_entry(line: str) -> list[str]:
 
 def parse_localisation_file(path: Path, expected_header: str | None = None) -> ParsedLocalisationFile:
     """Parse localisation file and return entries plus parse issues."""
+    leading_bom_count = 0
+    text_starts_with_hidden_bom = False
+    try:
+        raw = path.read_bytes()
+    except OSError:
+        raw = None
+    if raw is not None:
+        leading_bom_count = count_leading_utf8_boms(raw)
+        try:
+            text_sig = raw.decode("utf-8-sig")
+        except UnicodeDecodeError:
+            text_sig = raw.decode("utf-8-sig", errors="replace")
+        text_starts_with_hidden_bom = text_sig.startswith("\ufeff")
+
     text, bom_present, decode_error = read_utf8(path)
     issues: list[ParseIssue] = []
     if decode_error:
@@ -256,6 +285,8 @@ def parse_localisation_file(path: Path, expected_header: str | None = None) -> P
         path=path,
         text=text,
         bom_present=bom_present,
+        leading_bom_count=leading_bom_count,
+        text_starts_with_hidden_bom=text_starts_with_hidden_bom,
         header_found=header_found,
         entries=entries,
         issues=issues,

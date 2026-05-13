@@ -8,6 +8,9 @@ Important:
 - The main workflow for this repository is Copilot Agent semi-automatic translation.
 - GitHub Copilot subscription does not require `LLM_API_KEY` for the main workflow.
 
+Warning:
+- Russian `.yml` files must have exactly one UTF-8 BOM at file start and no hidden `U+FEFF` in the textual header.
+
 ## Mandatory reading before translation
 
 Before any translation run, read:
@@ -134,7 +137,12 @@ Operational notes:
 
 `tools/stellaris_loc_validate.py` validates:
 - required headers (`l_english:`, `l_russian:`)
-- UTF-8 with BOM for Russian files
+- Russian BOM/header hygiene:
+  - missing UTF-8 BOM is an error
+  - exactly one leading UTF-8 BOM sequence
+  - multiple leading UTF-8 BOM sequences are an error
+  - no extra hidden `U+FEFF` before `l_russian:` after `utf-8-sig` decoding
+  - clean header line `l_russian:`
 - key count, key order, key identity
 - numeric marker consistency (`:0`, `:1`, ...)
 - exact protected-token preservation:
@@ -149,6 +157,8 @@ Operational notes:
 - no Unicode quotes
 - no TODO/TRUNCATED/FIXME placeholders
 - safe localisation entry format
+
+Validator explicitly reports double BOM / hidden BOM before `l_russian:` as an error.
 
 Validator findings are separated into:
 - `errors`

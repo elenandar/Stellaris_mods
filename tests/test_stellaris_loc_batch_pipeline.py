@@ -6,7 +6,11 @@ import pytest
 
 from tools.stellaris_loc_apply_translations import apply_translations
 from tools.stellaris_loc_batch_format import build_batch_items
-from tools.stellaris_loc_common import build_stable_todo_id, mask_protected_tokens
+from tools.stellaris_loc_common import (
+    build_stable_todo_id,
+    count_leading_utf8_boms,
+    mask_protected_tokens,
+)
 from tools.stellaris_loc_extract_todo import build_todo_records
 from tools.stellaris_loc_translation_cache import TranslationCache
 from tools.stellaris_loc_validate import validate_pair_files
@@ -109,7 +113,13 @@ def test_duplicate_key_different_values_apply_correctly(tmp_path: Path) -> None:
     assert missing == 0
     assert errors == []
 
+    raw = file_path.read_bytes()
+    assert count_leading_utf8_boms(raw) == 1
+
     text = file_path.read_text(encoding="utf-8-sig")
+    first_line = text.splitlines()[0] if text.splitlines() else ""
+    assert first_line == "l_russian:"
+    assert "\ufeffl_russian:" not in text
     assert 'Antares_Prime:0 "Антарес Прайм"' in text
     assert 'Antares_Prime:0 "P4T-257-a"' in text
 

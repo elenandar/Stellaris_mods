@@ -10,15 +10,19 @@ from pathlib import Path
 
 try:
     from stellaris_loc_common import (
+        count_leading_utf8_boms,
         english_to_russian_relative_path,
         extract_protected_token_counters,
+        normalize_header_line,
         parse_localisation_file,
     )
     from stellaris_loc_scan import find_english_localisation_files
 except ImportError:  # pragma: no cover
     from tools.stellaris_loc_common import (
+        count_leading_utf8_boms,
         english_to_russian_relative_path,
         extract_protected_token_counters,
+        normalize_header_line,
         parse_localisation_file,
     )
     from tools.stellaris_loc_scan import find_english_localisation_files
@@ -46,6 +50,21 @@ TOKEN_LABELS = {
     "formatting": "formatting tag",
     "escape": "escape sequence",
 }
+
+RUSSIAN_BOM_HEADER_ERROR = (
+    "Extra BOM marker before localisation header. File must have exactly one UTF-8 BOM "
+    "and clean l_russian: header."
+)
+
+RUSSIAN_MULTIPLE_BOM_ERROR = (
+    "Russian file has multiple leading UTF-8 BOM markers. File must have exactly one UTF-8 "
+    "BOM and a clean l_russian: header."
+)
+
+ENGLISH_BOM_HEADER_WARNING = (
+    "Extra BOM marker before localisation header in English source. Parser can normalize "
+    "it, but source should be cleaned."
+)
 
 
 @dataclass
@@ -161,6 +180,112 @@ def _scan_line_level_issues(path: Path, text: str) -> list[ValidationIssue]:
                     line=line_no,
                 )
             )
+
+    return issues
+
+
+def _decode_utf8_sig(raw: bytes) -> str:
+    try:
+        return raw.decode("utf-8-sig")
+    except UnicodeDecodeError:
+        return raw.decode("utf-8-sig", errors="replace")
+
+
+def _find_header_line(text: str, expected_header: str) -> tuple[int, str] | None:
+    for line_no, raw_line in enumerate(text.splitlines(), start=1):
+        if normalize_header_line(raw_line) == expected_header:
+            return line_no, raw_line
+    return None
+
+
+def _validate_english_source_bom_header(path: Path) -> list[ValidationIssue]:
+    try:
+        raw = path.read_bytes()
+    except OSError:
+        return []
+
+    text_sig = _decode_utf8_sig(raw)
+    leading_bom_count = count_leading_utf8_boms(raw)
+    header_line = _find_header_line(text_sig, expected_header="l_english:")
+
+    has_extra_marker = leading_bom_count > 1
+    line_no = 1
+    if header_line is not None:
+        line_no, raw_header = header_line
+        if raw_header.startswith("\ufeff"):
+            has_extra_marker = True
+
+    if not has_extra_marker:
+        return []
+
+    return [
+        ValidationIssue(
+            message=ENGLISH_BOM_HEADER_WARNING,
+            file_path=path,
+            line=line_no,
+        )
+    ]
+
+
+def _validate_russian_bom_header(russian_file) -> list[ValidationIssue]:
+    issues: list[ValidationIssue] = []
+
+    if not russian_file.bom_present:
+        issues.append(
+            ValidationIssue(
+                message="Russian file is not UTF-8 with BOM.",
+                file_path=russian_file.path,
+                line=1,
+            )
+        )
+
+    if russian_file.leading_bom_count > 1:
+        issues.append(
+            ValidationIssue(
+                message=RUSSIAN_MULTIPLE_BOM_ERROR,
+                file_path=russian_file.path,
+                line=1,
+            )
+        )
+
+    if russian_file.text_starts_with_hidden_bom:
+        issues.append(
+            ValidationIssue(
+                message=RUSSIAN_BOM_HEADER_ERROR,
+                file_path=russian_file.path,
+                line=1,
+            )
+        )
+
+    try:
+        raw = russian_file.path.read_bytes()
+        text_sig = raw.decode("utf-8-sig")
+    except (OSError, UnicodeDecodeError):
+        text_sig = russian_file.text
+
+    header_line = _find_header_line(text_sig, expected_header="l_russian:")
+    if header_line is None:
+        return issues
+
+    header_line_no, header_text = header_line
+
+    if header_text.startswith("\ufeff") and not russian_file.text_starts_with_hidden_bom:
+        issues.append(
+            ValidationIssue(
+                message=RUSSIAN_BOM_HEADER_ERROR,
+                file_path=russian_file.path,
+                line=header_line_no,
+            )
+        )
+
+    if header_text is not None and header_text != "l_russian:":
+        issues.append(
+            ValidationIssue(
+                message="Russian localisation header must be exactly l_russian:.",
+                file_path=russian_file.path,
+                line=header_line_no,
+            )
+        )
 
     return issues
 
@@ -416,17 +541,21 @@ def validate_pair_files(english_path: Path, russian_path: Path) -> ValidationRes
             )
         )
 
+    # Fallback for parser objects created by older tooling code paths.
+    if not hasattr(russian_file, "leading_bom_count"):
+        try:
+            raw_ru = russian_path.read_bytes()
+            russian_file.leading_bom_count = count_leading_utf8_boms(raw_ru)
+            russian_file.text_starts_with_hidden_bom = raw_ru.decode("utf-8-sig", errors="replace").startswith("\ufeff")
+        except OSError:
+            russian_file.leading_bom_count = 0
+            russian_file.text_starts_with_hidden_bom = False
+
+    source_warnings.extend(_validate_english_source_bom_header(english_path))
+    errors.extend(_validate_russian_bom_header(russian_file))
+
     errors.extend(_scan_line_level_issues(english_path, english_file.text))
     errors.extend(_scan_line_level_issues(russian_path, russian_file.text))
-
-    if not russian_file.bom_present:
-        errors.append(
-            ValidationIssue(
-                message="Russian file is not UTF-8 with BOM.",
-                file_path=russian_path,
-                line=1,
-            )
-        )
 
     structure_errors, structure_warnings = _compare_entry_structure(english_file, russian_file)
     errors.extend(structure_errors)
