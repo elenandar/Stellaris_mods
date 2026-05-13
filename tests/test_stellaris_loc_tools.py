@@ -4,7 +4,7 @@ from pathlib import Path
 
 from tools.stellaris_loc_rebuild_skeleton import rebuild_skeletons
 from tools.stellaris_loc_scan import find_english_localisation_files
-from tools.stellaris_loc_validate import validate_pair_files
+from tools.stellaris_loc_validate import validate_pair_files, validate_roots
 
 
 def _write_text(path: Path, text: str, bom: bool = False) -> None:
@@ -230,3 +230,107 @@ def test_rebuild_skeleton_dry_run_does_not_write(tmp_path: Path) -> None:
     russian_file = out_root / "localisation" / "russian" / "mod_l_russian.yml"
     assert not russian_file.exists()
     assert summary.dry_run_actions == 1
+
+
+def test_duplicate_keys_preserved_sequence_are_source_warnings_only(tmp_path: Path) -> None:
+    english = (
+        'l_english:\n'
+        'Ancient_Antares:0 "Ancient Antares"\n'
+        'Antares_Prime:0 "Antares Prime"\n'
+        'Antares_Prime:0 "P4T-257-a"\n'
+        'PXT_947:0 "PXT-947"\n'
+    )
+    russian = (
+        'l_russian:\n'
+        'Ancient_Antares:0 "Drevnii Antares"\n'
+        'Antares_Prime:0 "Antares Prime"\n'
+        'Antares_Prime:0 "P4T-257-a"\n'
+        'PXT_947:0 "PXT-947"\n'
+    )
+    en, ru = _make_pair(tmp_path, english, russian)
+
+    result = validate_pair_files(en, ru)
+    assert result.is_valid
+    assert result.errors == []
+    assert result.source_warnings
+    assert any("Duplicate key in English source" in item.message for item in result.source_warnings)
+
+
+def test_duplicate_key_only_in_russian_is_error(tmp_path: Path) -> None:
+    english = (
+        'l_english:\n'
+        'Ancient_Antares:0 "Ancient Antares"\n'
+        'Antares_Prime:0 "Antares Prime"\n'
+        'PXT_947:0 "PXT-947"\n'
+    )
+    russian = (
+        'l_russian:\n'
+        'Ancient_Antares:0 "Drevnii Antares"\n'
+        'Antares_Prime:0 "Antares Prime"\n'
+        'Antares_Prime:0 "P4T-257-a"\n'
+        'PXT_947:0 "PXT-947"\n'
+    )
+    en, ru = _make_pair(tmp_path, english, russian)
+
+    result = validate_pair_files(en, ru)
+    assert not result.is_valid
+    assert result.errors
+    assert any(
+        "Duplicate key appears only in Russian output" in item.message
+        or "Duplicate key count increased in Russian output" in item.message
+        for item in result.errors
+    )
+
+
+def test_duplicate_in_english_but_russian_breaks_full_sequence_is_error(tmp_path: Path) -> None:
+    english = (
+        'l_english:\n'
+        'Ancient_Antares:0 "Ancient Antares"\n'
+        'Antares_Prime:0 "Antares Prime"\n'
+        'Antares_Prime:0 "P4T-257-a"\n'
+        'PXT_947:0 "PXT-947"\n'
+    )
+    russian = (
+        'l_russian:\n'
+        'Ancient_Antares:0 "Drevnii Antares"\n'
+        'Antares_Prime:0 "Antares Prime"\n'
+        'PXT_947:0 "PXT-947"\n'
+    )
+    en, ru = _make_pair(tmp_path, english, russian)
+
+    result = validate_pair_files(en, ru)
+    assert not result.is_valid
+    assert result.errors
+    assert any(
+        "did not preserve full duplicate key sequence" in item.message
+        or "Missing key occurrence" in item.message
+        for item in result.errors
+    )
+
+
+def test_recursive_validation_not_blocked_by_source_duplicate_warnings(tmp_path: Path) -> None:
+    fresh_root = tmp_path / "fresh_mods" / "ModDup"
+    russian_root = tmp_path / "output" / "ModDup"
+
+    english_file = fresh_root / "localisation" / "english" / "dup_l_english.yml"
+    russian_file = russian_root / "localisation" / "russian" / "dup_l_russian.yml"
+
+    english = (
+        'l_english:\n'
+        'Antares_Prime:0 "Antares Prime"\n'
+        'Antares_Prime:0 "P4T-257-a"\n'
+    )
+    russian = (
+        'l_russian:\n'
+        'Antares_Prime:0 "Antares Prime"\n'
+        'Antares_Prime:0 "P4T-257-a"\n'
+    )
+    _write_text(english_file, english, bom=False)
+    _write_text(russian_file, russian, bom=True)
+
+    results = validate_roots(fresh_root=fresh_root, russian_root=russian_root)
+    assert len(results) == 1
+    result = results[0]
+    assert result.errors == []
+    assert result.source_warnings
+    assert result.is_valid

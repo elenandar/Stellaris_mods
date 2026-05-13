@@ -55,6 +55,12 @@ python tools/stellaris_loc_apply_translations.py --todo todo.jsonl --translation
 python tools/stellaris_loc_validate.py --fresh-root fresh_mods/SomeMod --russian-root output/SomeMod
 ```
 
+## Batch translation notes
+
+- Keys must never be translated or changed.
+- Values inside quotes may localize proper names to Cyrillic when appropriate.
+- Catalogue names like `P4T-257-a` should remain unchanged.
+
 ## Placeholder safety for LLM responses
 
 Warning:
@@ -142,6 +148,20 @@ Incorrect response example (unknown placeholder added):
 - no Unicode quotes
 - no TODO/TRUNCATED/FIXME/"ostalnoe analogichno" placeholders
 - safe localisation entry format
+
+Validator findings are separated into:
+- `errors`
+- `source_warnings`
+
+Exit code policy:
+- exit code `1` if there is at least one `error`
+- exit code `0` if there are only `source_warnings`
+- exit code `0` if there are no findings
+
+Duplicate key policy:
+- duplicate keys in English source are `source_warnings` if Russian preserves the same full ordered key sequence
+- duplicate keys that appear only in Russian are `errors`
+- duplicate keys in Russian that do not preserve English full ordered key sequence are `errors`
 
 ## Optional cache usage
 

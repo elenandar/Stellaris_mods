@@ -187,7 +187,6 @@ def parse_localisation_file(path: Path, expected_header: str | None = None) -> P
 
     header_found = expected_header is None
     entries: list[LocalisationEntry] = []
-    key_to_line: dict[str, int] = {}
 
     for line_no, raw_line in enumerate(text.splitlines(), start=1):
         # Remove hidden BOM if it leaked into first lexical token.
@@ -218,17 +217,6 @@ def parse_localisation_file(path: Path, expected_header: str | None = None) -> P
             marker = capture_match.group(2)
             value = capture_match.group(3)
             entries.append(LocalisationEntry(key=key, marker=marker, value=value, line=line_no))
-
-            if key in key_to_line:
-                issues.append(
-                    ParseIssue(
-                        message=f"Duplicate key {key!r}: first seen on line {key_to_line[key]}.",
-                        line=line_no,
-                        key=key,
-                    )
-                )
-            else:
-                key_to_line[key] = line_no
             continue
 
         if ":" in parse_line or '"' in parse_line:

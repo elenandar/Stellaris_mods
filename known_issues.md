@@ -54,3 +54,13 @@ Purpose:
 - Fix: Added normalize_header_line and reused it in has_header, parse_localisation_file, and replace_english_header_with_russian with clean l_russian: output.
 - Regression test: tests/test_stellaris_loc_tools.py
 - Notes: Rebuild now accepts header line forms like \ufeffl_english: and does not leak \ufeff into l_russian: line text.
+
+### ISSUE-0004
+- Date detected: 2026-05-13
+- Status: resolved
+- Summary: Real Workshop mods can contain duplicate localisation keys; validator previously treated them as fatal even when Russian preserved source structure.
+- Affected files: tools/stellaris_loc_validate.py
+- Root cause: Duplicate keys were not classified separately as source-origin issues.
+- Fix: Added duplicate-key policy with separated findings: source_warnings for source-preserved duplicates, errors for Russian-only or sequence-breaking duplicates.
+- Regression test: tests/test_stellaris_loc_tools.py
+- Notes: If duplicate exists in English and Russian keeps the same full ordered key sequence, this is source_warning; Russian-only duplicate is error.

@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+from collections import Counter
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -61,11 +62,18 @@ class ValidationResult:
     russian_path: Path
     english_entries: int
     russian_entries: int
-    issues: list[ValidationIssue]
+    errors: list[ValidationIssue]
+    source_warnings: list[ValidationIssue]
+
+    @property
+    def issues(self) -> list[ValidationIssue]:
+        """Backward-compatibility aggregation of all findings."""
+        return [*self.source_warnings, *self.errors]
 
     @property
     def is_valid(self) -> bool:
-        return not self.issues
+        """Translation-valid state: no fatal errors."""
+        return not self.errors
 
 
 def _display_path(path: Path) -> str:
@@ -157,20 +165,135 @@ def _scan_line_level_issues(path: Path, text: str) -> list[ValidationIssue]:
     return issues
 
 
-def _entries_by_key(entries):
-    return {entry.key: entry for entry in entries}
+def _duplicate_line_map(entries) -> dict[str, list[int]]:
+    line_map: dict[str, list[int]] = {}
+    for entry in entries:
+        line_map.setdefault(entry.key, []).append(entry.line)
+    return line_map
 
 
-def _compare_entry_structure(english_file, russian_file) -> list[ValidationIssue]:
-    issues: list[ValidationIssue] = []
+def _classify_duplicate_key_policy(english_file, russian_file) -> tuple[list[ValidationIssue], list[ValidationIssue]]:
+    errors: list[ValidationIssue] = []
+    source_warnings: list[ValidationIssue] = []
 
     english_entries = english_file.entries
     russian_entries = russian_file.entries
     english_keys = [entry.key for entry in english_entries]
     russian_keys = [entry.key for entry in russian_entries]
 
+    english_counts = Counter(english_keys)
+    russian_counts = Counter(russian_keys)
+    english_line_map = _duplicate_line_map(english_entries)
+    russian_line_map = _duplicate_line_map(russian_entries)
+
+    english_dupe_keys = [key for key, count in english_counts.items() if count > 1]
+    russian_dupe_keys = [key for key, count in russian_counts.items() if count > 1]
+
+    for key in english_dupe_keys:
+        source_warnings.append(
+            ValidationIssue(
+                message=(
+                    f"Duplicate key in English source: {key!r} occurs "
+                    f"{english_counts[key]} times."
+                ),
+                file_path=english_file.path,
+                line=english_line_map[key][0],
+                key=key,
+            )
+        )
+
+    if english_keys == russian_keys:
+        for key in russian_dupe_keys:
+            if english_counts.get(key, 0) > 1 and russian_counts[key] == english_counts[key]:
+                source_warnings.append(
+                    ValidationIssue(
+                        message=(
+                            f"Duplicate key in Russian output preserved from English source: "
+                            f"{key!r} occurs {russian_counts[key]} times."
+                        ),
+                        file_path=russian_file.path,
+                        line=russian_line_map[key][0],
+                        key=key,
+                    )
+                )
+    else:
+        for key in russian_dupe_keys:
+            en_count = english_counts.get(key, 0)
+            ru_count = russian_counts[key]
+
+            if en_count == 0:
+                errors.append(
+                    ValidationIssue(
+                        message=(
+                            f"Duplicate key appears only in Russian output: {key!r} "
+                            f"occurs {ru_count} times."
+                        ),
+                        file_path=russian_file.path,
+                        line=russian_line_map[key][0],
+                        key=key,
+                    )
+                )
+                continue
+
+            if ru_count > en_count:
+                errors.append(
+                    ValidationIssue(
+                        message=(
+                            f"Duplicate key count increased in Russian output for {key!r}: "
+                            f"English {en_count}, Russian {ru_count}."
+                        ),
+                        file_path=russian_file.path,
+                        line=russian_line_map[key][0],
+                        key=key,
+                    )
+                )
+                continue
+
+            if en_count != ru_count:
+                errors.append(
+                    ValidationIssue(
+                        message=(
+                            f"Russian output did not preserve full duplicate key sequence for {key!r}: "
+                            f"English {en_count}, Russian {ru_count}."
+                        ),
+                        file_path=russian_file.path,
+                        line=russian_line_map[key][0],
+                        key=key,
+                    )
+                )
+                continue
+
+            if en_count > 1:
+                errors.append(
+                    ValidationIssue(
+                        message=(
+                            f"Russian output did not preserve full ordered key sequence from "
+                            f"English source for duplicate key {key!r}."
+                        ),
+                        file_path=russian_file.path,
+                        line=russian_line_map[key][0],
+                        key=key,
+                    )
+                )
+
+    return errors, source_warnings
+
+
+def _compare_entry_structure(english_file, russian_file) -> tuple[list[ValidationIssue], list[ValidationIssue]]:
+    errors: list[ValidationIssue] = []
+    source_warnings: list[ValidationIssue] = []
+
+    english_entries = english_file.entries
+    russian_entries = russian_file.entries
+    english_keys = [entry.key for entry in english_entries]
+    russian_keys = [entry.key for entry in russian_entries]
+
+    duplicate_errors, duplicate_warnings = _classify_duplicate_key_policy(english_file, russian_file)
+    errors.extend(duplicate_errors)
+    source_warnings.extend(duplicate_warnings)
+
     if len(english_keys) != len(russian_keys):
-        issues.append(
+        errors.append(
             ValidationIssue(
                 message=(
                     "Localization key count mismatch: "
@@ -180,29 +303,33 @@ def _compare_entry_structure(english_file, russian_file) -> list[ValidationIssue
             )
         )
 
-    english_set = set(english_keys)
-    russian_set = set(russian_keys)
-    english_index = _entries_by_key(english_entries)
-    russian_index = _entries_by_key(russian_entries)
+    english_counts = Counter(english_keys)
+    russian_counts = Counter(russian_keys)
 
-    for key in english_keys:
-        if key not in russian_set:
-            issues.append(
+    for key, en_count in english_counts.items():
+        ru_count = russian_counts.get(key, 0)
+        if ru_count < en_count:
+            errors.append(
                 ValidationIssue(
-                    message=f"Missing key in Russian file: {key!r}.",
+                    message=(
+                        f"Missing key occurrence(s) in Russian file: {key!r} "
+                        f"(English {en_count}, Russian {ru_count})."
+                    ),
                     file_path=russian_file.path,
-                    line=english_index[key].line,
                     key=key,
                 )
             )
 
-    for key in russian_keys:
-        if key not in english_set:
-            issues.append(
+    for key, ru_count in russian_counts.items():
+        en_count = english_counts.get(key, 0)
+        if ru_count > en_count:
+            errors.append(
                 ValidationIssue(
-                    message=f"Unexpected extra key in Russian file: {key!r}.",
+                    message=(
+                        f"Unexpected extra key occurrence(s) in Russian file: {key!r} "
+                        f"(English {en_count}, Russian {ru_count})."
+                    ),
                     file_path=russian_file.path,
-                    line=russian_index[key].line,
                     key=key,
                 )
             )
@@ -213,7 +340,7 @@ def _compare_entry_structure(english_file, russian_file) -> list[ValidationIssue
                 continue
             en_entry = english_entries[idx]
             ru_entry = russian_entries[idx]
-            issues.append(
+            errors.append(
                 ValidationIssue(
                     message=(
                         "Key order mismatch at index "
@@ -225,51 +352,53 @@ def _compare_entry_structure(english_file, russian_file) -> list[ValidationIssue
                 )
             )
 
-    for key in english_keys:
-        if key not in russian_index:
+    pair_count = min(len(english_entries), len(russian_entries))
+    for idx in range(pair_count):
+        en_entry = english_entries[idx]
+        ru_entry = russian_entries[idx]
+
+        if en_entry.key != ru_entry.key:
             continue
 
-        en_entry = english_index[key]
-        ru_entry = russian_index[key]
-
         if en_entry.marker != ru_entry.marker:
-            issues.append(
+            errors.append(
                 ValidationIssue(
                     message=(
                         "Numeric marker mismatch for key "
-                        f"{key!r}: English {en_entry.marker!r}, Russian {ru_entry.marker!r}."
+                        f"{en_entry.key!r}: English {en_entry.marker!r}, Russian {ru_entry.marker!r}."
                     ),
                     file_path=russian_file.path,
                     line=ru_entry.line,
-                    key=key,
+                    key=en_entry.key,
                 )
             )
 
         en_tokens = extract_protected_token_counters(en_entry.value)
         ru_tokens = extract_protected_token_counters(ru_entry.value)
-
         for token_type, label in TOKEN_LABELS.items():
-            issues.extend(
+            errors.extend(
                 _counter_diff_issues(
                     expected=dict(en_tokens[token_type]),
                     actual=dict(ru_tokens[token_type]),
                     label=label,
                     russian_file=russian_file.path,
                     line=ru_entry.line,
-                    key=key,
+                    key=en_entry.key,
                 )
             )
 
-    return issues
+    return errors, source_warnings
 
 
 def validate_pair_files(english_path: Path, russian_path: Path) -> ValidationResult:
     english_file = parse_localisation_file(english_path, expected_header="l_english:")
     russian_file = parse_localisation_file(russian_path, expected_header="l_russian:")
 
-    issues: list[ValidationIssue] = []
+    errors: list[ValidationIssue] = []
+    source_warnings: list[ValidationIssue] = []
+
     for parse_issue in english_file.issues:
-        issues.append(
+        errors.append(
             ValidationIssue(
                 message=parse_issue.message,
                 file_path=english_path,
@@ -278,7 +407,7 @@ def validate_pair_files(english_path: Path, russian_path: Path) -> ValidationRes
             )
         )
     for parse_issue in russian_file.issues:
-        issues.append(
+        errors.append(
             ValidationIssue(
                 message=parse_issue.message,
                 file_path=russian_path,
@@ -287,11 +416,11 @@ def validate_pair_files(english_path: Path, russian_path: Path) -> ValidationRes
             )
         )
 
-    issues.extend(_scan_line_level_issues(english_path, english_file.text))
-    issues.extend(_scan_line_level_issues(russian_path, russian_file.text))
+    errors.extend(_scan_line_level_issues(english_path, english_file.text))
+    errors.extend(_scan_line_level_issues(russian_path, russian_file.text))
 
     if not russian_file.bom_present:
-        issues.append(
+        errors.append(
             ValidationIssue(
                 message="Russian file is not UTF-8 with BOM.",
                 file_path=russian_path,
@@ -299,14 +428,17 @@ def validate_pair_files(english_path: Path, russian_path: Path) -> ValidationRes
             )
         )
 
-    issues.extend(_compare_entry_structure(english_file, russian_file))
+    structure_errors, structure_warnings = _compare_entry_structure(english_file, russian_file)
+    errors.extend(structure_errors)
+    source_warnings.extend(structure_warnings)
 
     return ValidationResult(
         english_path=english_path,
         russian_path=russian_path,
         english_entries=len(english_file.entries),
         russian_entries=len(russian_file.entries),
-        issues=issues,
+        errors=errors,
+        source_warnings=source_warnings,
     )
 
 
@@ -326,13 +458,14 @@ def validate_roots(fresh_root: Path, russian_root: Path) -> list[ValidationResul
                     russian_path=russian_file,
                     english_entries=0,
                     russian_entries=0,
-                    issues=[
+                    errors=[
                         ValidationIssue(
                             message="Expected Russian file is missing.",
                             file_path=russian_file,
                             line=1,
                         )
                     ],
+                    source_warnings=[],
                 )
             )
             continue
@@ -342,8 +475,18 @@ def validate_roots(fresh_root: Path, russian_root: Path) -> list[ValidationResul
     return results
 
 
+def _print_block(title: str, issues: list[ValidationIssue]) -> None:
+    print(f"{title}:")
+    if not issues:
+        print("  - OK")
+        return
+    for issue in issues:
+        print(_format_issue(issue))
+
+
 def _print_report(results: list[ValidationResult]) -> None:
-    total_issues = sum(len(result.issues) for result in results)
+    total_errors = sum(len(result.errors) for result in results)
+    total_warnings = sum(len(result.source_warnings) for result in results)
 
     print("Validation report")
     print("=================")
@@ -353,15 +496,13 @@ def _print_report(results: list[ValidationResult]) -> None:
             f"Pair: {_display_path(result.english_path)} -> "
             f"{_display_path(result.russian_path)}"
         )
-        if not result.issues:
-            print("  - OK")
-            continue
-        for issue in result.issues:
-            print(_format_issue(issue))
+        _print_block("Source warnings", result.source_warnings)
+        _print_block("Errors", result.errors)
 
     print("-----------------")
     print(f"Pairs checked: {len(results)}")
-    print(f"Total issues: {total_issues}")
+    print(f"Source warnings: {total_warnings}")
+    print(f"Errors: {total_errors}")
 
 
 def build_arg_parser() -> argparse.ArgumentParser:
@@ -420,7 +561,7 @@ def main() -> int:
         results = validate_roots(fresh_root=fresh_root, russian_root=russian_root)
 
     _print_report(results)
-    return 1 if any(result.issues for result in results) else 0
+    return 1 if any(result.errors for result in results) else 0
 
 
 if __name__ == "__main__":
