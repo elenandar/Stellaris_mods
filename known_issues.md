@@ -74,3 +74,13 @@ Purpose:
 - Fix: Added occurrence identity (`entry_index`, `key_occurrence_index`) in parsing/extraction and switched apply to occurrence-targeted replacement.
 - Regression test: tests/test_stellaris_loc_batch_pipeline.py
 - Notes: Legacy TODO rows without occurrence identity are rejected for duplicate keys; fallback works only for unique keys.
+
+### ISSUE-0006
+- Date detected: 2026-05-13
+- Status: resolved
+- Summary: Copilot/VS Code agent cannot reliably read generated ignored batch files through chat workflow; manual copy is not scalable.
+- Affected files: tools/stellaris_loc_llm_client.py, tools/stellaris_loc_translate_batches.py, tools/stellaris_loc_translate_mod.py, tools/stellaris_loc_translate_collection.py
+- Root cause: Batch translation required manual copy/paste of generated JSON into chat instead of direct file processing.
+- Fix: Added automatic OpenAI-compatible LLM runner for batch directories, single-mod orchestration, and collection orchestration.
+- Regression test: tests/test_stellaris_loc_llm_runner.py
+- Notes: Runner reads batch files directly, validates JSON/id/placeholders, retries on malformed responses, and writes translation JSON files without chat copy.

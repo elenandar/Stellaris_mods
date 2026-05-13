@@ -5,7 +5,7 @@ This repository contains safe tooling for Stellaris `.yml` localisation workflow
 Important:
 - Fresh English localisation files are the only source of truth.
 - Old translations and translation memory are not used.
-- The pipeline prepares and applies translations safely, but does not call any LLM API directly.
+- The pipeline prepares, translates, validates, and applies translations safely.
 
 ## Workspace layout
 
@@ -33,37 +33,26 @@ Quality policy:
 - Every validator change must include a test in `tests/`.
 - Disputed terms go only to [glossary_candidates.md](glossary_candidates.md) until user approval.
 
-## Tools
+## Core tools
 
 - `tools/stellaris_loc_common.py`: shared parser/token/path/BOM helpers
 - `tools/stellaris_loc_scan.py`: scan fresh mod for English localisation files
 - `tools/stellaris_loc_rebuild_skeleton.py`: create Russian skeleton files from English files
 - `tools/stellaris_loc_extract_todo.py`: extract deduplicated translation TODO units as JSONL
-- `tools/stellaris_loc_batch_format.py`: split TODO units into JSON batches for external translation
+- `tools/stellaris_loc_batch_format.py`: split TODO units into JSON batches for translation
 - `tools/stellaris_loc_translation_cache.py`: SQLite cache for deduplicated source strings
 - `tools/stellaris_loc_apply_translations.py`: apply translated masked text back to Russian files
 - `tools/stellaris_loc_validate.py`: validate EN/RU pairs and parser safety
-
-## Quick accelerated workflow
-
-```bash
-python tools/stellaris_loc_scan.py --root fresh_mods/SomeMod
-python tools/stellaris_loc_rebuild_skeleton.py --fresh-root fresh_mods/SomeMod --russian-root output/SomeMod
-python tools/stellaris_loc_extract_todo.py --fresh-root fresh_mods/SomeMod --russian-root output/SomeMod --out todo.jsonl
-python tools/stellaris_loc_batch_format.py --todo todo.jsonl --batch-size 100 --out batches/
-python tools/stellaris_loc_apply_translations.py --todo todo.jsonl --translations translations/batch_001_ru.json --russian-root output/SomeMod
-python tools/stellaris_loc_validate.py --fresh-root fresh_mods/SomeMod --russian-root output/SomeMod
-```
 
 ## Batch translation notes
 
 - Keys must never be translated or changed.
 - Values inside quotes may localize proper names to Cyrillic when appropriate.
-- Catalogue names like `P4T-257-a` should remain unchanged.
+- Catalogue names like `P4T-257-a`, `PXT-947`, `P57J-657-b`, `XJ-9`, and `3V-0L` should remain unchanged.
 - Replacements are applied by occurrence identity (`entry_index` + `key_occurrence_index`), not only by key.
 - Legacy key-only apply is allowed only for unique keys; duplicate keys require occurrence identity.
 
-## Placeholder safety for LLM responses
+## Placeholder safety for model responses
 
 Warning:
 - The model must preserve masked placeholders exactly, e.g. `__PROT_0000__`.
@@ -94,41 +83,15 @@ If placeholder validation fails during apply:
 ]
 ```
 
-- `text` is the primary field to translate.
-- `source` is context only.
-- `file` and `key` help traceability.
-
-## Correct and incorrect model responses
-
-Correct response example:
+- `text` is the only field to translate.
+- `source`, `key`, `file`, and occurrence identity are context only.
+- Model responses must still be only:
 
 ```json
 [
   {
     "id": "unique-id",
     "translation": "Привет, __PROT_0000__"
-  }
-]
-```
-
-Incorrect response example (placeholder removed):
-
-```json
-[
-  {
-    "id": "unique-id",
-    "translation": "Привет, планета"
-  }
-]
-```
-
-Incorrect response example (unknown placeholder added):
-
-```json
-[
-  {
-    "id": "unique-id",
-    "translation": "Привет, __PROT_9999__"
   }
 ]
 ```
@@ -166,10 +129,74 @@ Duplicate key policy:
 - duplicate keys in English source are `source_warnings` if Russian preserves the same full ordered key sequence
 - duplicate keys that appear only in Russian are `errors`
 - duplicate keys in Russian that do not preserve English full ordered key sequence are `errors`
+- duplicate-safe apply targets exact occurrences, so repeated keys are not overwritten wholesale
 
-Apply safety policy for duplicates:
-- duplicate keys are applied to exact occurrences by identity
-- this prevents overwriting all occurrences of the same key with one translation
+## Fully automated LLM translation
+
+Environment variables:
+
+```env
+LLM_BASE_URL=https://api.openai.com/v1
+LLM_API_KEY=your-key
+LLM_MODEL=gpt-5.4-xhigh
+```
+
+See [.env.example](.env.example) for a minimal template.
+
+Never commit API keys.
+
+### Translate one mod
+
+```bash
+python3 tools/stellaris_loc_translate_mod.py \
+  --fresh-root fresh_mods/2638108246 \
+  --russian-root output/2638108246 \
+  --work-dir work/2638108246 \
+  --cache-db cache/translation_cache.sqlite3 \
+  --batch-size 20 \
+  --glossary-version v1
+```
+
+### Translate a collection
+
+```bash
+python3 tools/stellaris_loc_translate_collection.py \
+  --fresh-root fresh_mods \
+  --output-root output \
+  --work-root work \
+  --cache-db cache/translation_cache.sqlite3 \
+  --batch-size 20 \
+  --workers 1 \
+  --glossary-version v1
+```
+
+### Translate prepared batch files directly
+
+```bash
+python3 tools/stellaris_loc_translate_batches.py \
+  --batches-dir work/2638108246/batches \
+  --translations-dir work/2638108246/translations \
+  --cache-db cache/translation_cache.sqlite3 \
+  --provider openai-compatible \
+  --glossary-version v1 \
+  --limit 1
+```
+
+Recommendations:
+- Use `--limit-batches 1` or `--limit 1` for the first test.
+- Always check the final validator report.
+- Generated folders should remain gitignored.
+
+## Quick manual pipeline
+
+```bash
+python tools/stellaris_loc_scan.py --root fresh_mods/SomeMod
+python tools/stellaris_loc_rebuild_skeleton.py --fresh-root fresh_mods/SomeMod --russian-root output/SomeMod
+python tools/stellaris_loc_extract_todo.py --fresh-root fresh_mods/SomeMod --russian-root output/SomeMod --out todo.jsonl
+python tools/stellaris_loc_batch_format.py --todo todo.jsonl --batch-size 100 --out batches/
+python tools/stellaris_loc_apply_translations.py --todo todo.jsonl --translations-dir translations --russian-root output/SomeMod
+python tools/stellaris_loc_validate.py --fresh-root fresh_mods/SomeMod --russian-root output/SomeMod
+```
 
 ## Optional cache usage
 
@@ -192,7 +219,10 @@ Do not commit generated/runtime data:
 - `output/`
 - `batches/`
 - `translations/`
+- `cache/`
+- `work/`
 - `reports/`
 - `validation_reports/`
 - `todo.jsonl`
+- `.env`
 - cache DB files (`translation_cache.*`, `*.sqlite`, `*.sqlite3`, `*.db`)
