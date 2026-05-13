@@ -10,10 +10,12 @@ from pathlib import Path
 
 try:
     from stellaris_loc_common import (
-        apply_value_replacements,
+        OccurrenceReplacement,
+        apply_occurrence_replacements,
         escape_localisation_value,
         load_json,
         load_jsonl,
+        parse_localisation_file,
         read_utf8,
         restore_masked_tokens,
         write_utf8_bom,
@@ -21,10 +23,12 @@ try:
     from stellaris_loc_translation_cache import TranslationCache
 except ImportError:  # pragma: no cover
     from tools.stellaris_loc_common import (
-        apply_value_replacements,
+        OccurrenceReplacement,
+        apply_occurrence_replacements,
         escape_localisation_value,
         load_json,
         load_jsonl,
+        parse_localisation_file,
         read_utf8,
         restore_masked_tokens,
         write_utf8_bom,
@@ -55,6 +59,8 @@ def _todo_occurrences(record: dict) -> list[dict]:
             "file": record.get("file"),
             "key": record.get("key"),
             "line": record.get("line"),
+            "entry_index": record.get("entry_index"),
+            "key_occurrence_index": record.get("key_occurrence_index"),
             "token_map": record.get("token_map", {}),
         }
     ]
@@ -106,7 +112,6 @@ def _validate_masked_translation(record: dict, masked_translation: str) -> list[
     token_map = _record_token_map(record)
     expected_counts = _count_placeholders(str(record.get("masked_source", "")))
     if not expected_counts and token_map:
-        # Backward compatibility for TODO rows without masked_source.
         expected_counts = Counter({placeholder: 1 for placeholder in token_map})
 
     actual_counts = _count_placeholders(masked_translation)
@@ -170,6 +175,49 @@ def _cache_error(
     )
 
 
+def _cache_applied(
+    cache: TranslationCache | None,
+    record: dict,
+    masked_translation: str,
+    model_name: str,
+    glossary_version: str,
+) -> None:
+    if cache is None:
+        return
+
+    first_occurrence = _todo_occurrences(record)[0]
+    token_map = first_occurrence.get("token_map", {})
+    if not isinstance(token_map, dict):
+        token_map = _record_token_map(record)
+
+    restored = restore_masked_tokens(masked_translation, token_map)
+    cache.save_translation(
+        source_text=str(record.get("source", "")),
+        masked_source=str(record.get("masked_source", "")),
+        translated_masked_text=masked_translation,
+        restored_translation=restored,
+        model_name=model_name,
+        glossary_version=glossary_version,
+        status="applied",
+        error_message=None,
+    )
+
+
+def _record_error(
+    validation_errors: list[str],
+    error_by_id: dict[str, list[str]],
+    todo_id: str,
+    key: str,
+    file_rel: str,
+    message: str,
+) -> str:
+    error_line = f"id={todo_id} key={key or '<unknown>'} file={file_rel or '<unknown>'}: {message}"
+    validation_errors.append(error_line)
+    error_by_id.setdefault(todo_id, []).append(error_line)
+    print(f"ERROR: {error_line}")
+    return error_line
+
+
 def apply_translations(
     todo_records: list[dict],
     translations: list[dict],
@@ -196,9 +244,12 @@ def apply_translations(
             continue
         translations_by_id[item_id] = str(item.get("translation", ""))
 
-    replacements_by_file: dict[str, dict[str, str]] = {}
+    pending_by_file: dict[str, list[dict]] = {}
     missing_translation_ids = 0
     validation_errors: list[str] = []
+    error_by_id: dict[str, list[str]] = {}
+    invalid_ids: set[str] = set()
+    applied_ids: set[str] = set()
 
     for todo_id, record in todo_by_id.items():
         if todo_id not in translations_by_id:
@@ -211,13 +262,16 @@ def apply_translations(
 
         entry_errors = _validate_masked_translation(record, masked_translation)
         if entry_errors:
+            invalid_ids.add(todo_id)
             joined = "; ".join(entry_errors)
-            error_line = (
-                f"id={todo_id} key={key_for_error or '<unknown>'} "
-                f"file={file_for_error or '<unknown>'}: {joined}"
+            error_line = _record_error(
+                validation_errors,
+                error_by_id,
+                todo_id,
+                key_for_error,
+                file_for_error,
+                joined,
             )
-            validation_errors.append(error_line)
-            print(f"ERROR: {error_line}")
             _cache_error(
                 cache=cache,
                 record=record,
@@ -228,11 +282,15 @@ def apply_translations(
             )
             continue
 
+        staged: list[dict] = []
         occurrence_failed = False
-        unit_replacements: dict[str, dict[str, str]] = {}
+
         for occurrence in _todo_occurrences(record):
-            file_rel = occurrence.get("file")
-            key = occurrence.get("key")
+            file_rel = str(occurrence.get("file", ""))
+            key = str(occurrence.get("key", ""))
+            line = occurrence.get("line")
+            entry_index = occurrence.get("entry_index")
+            key_occurrence_index = occurrence.get("key_occurrence_index")
             token_map = occurrence.get("token_map")
 
             if not isinstance(token_map, dict):
@@ -244,12 +302,16 @@ def apply_translations(
             restored = restore_masked_tokens(masked_translation, token_map)
             unresolved_after_restore = sorted(set(PLACEHOLDER_RE.findall(restored)))
             if unresolved_after_restore:
-                error_line = (
-                    f"id={todo_id} key={key} file={file_rel}: unresolved placeholders remain "
-                    f"after restore: {', '.join(unresolved_after_restore)}"
+                occurrence_failed = True
+                invalid_ids.add(todo_id)
+                error_line = _record_error(
+                    validation_errors,
+                    error_by_id,
+                    todo_id,
+                    key,
+                    file_rel,
+                    "unresolved placeholders remain after restore: " + ", ".join(unresolved_after_restore),
                 )
-                validation_errors.append(error_line)
-                print(f"ERROR: {error_line}")
                 _cache_error(
                     cache=cache,
                     record=record,
@@ -258,57 +320,210 @@ def apply_translations(
                     glossary_version=glossary_version,
                     error_message=error_line,
                 )
-                occurrence_failed = True
                 break
 
             safe_value = escape_localisation_value(restored)
-            unit_replacements.setdefault(str(file_rel), {})[str(key)] = safe_value
+            staged.append(
+                {
+                    "todo_id": todo_id,
+                    "masked_translation": masked_translation,
+                    "record": record,
+                    "file": file_rel,
+                    "key": key,
+                    "line": line if isinstance(line, int) else None,
+                    "entry_index": entry_index if isinstance(entry_index, int) else None,
+                    "key_occurrence_index": (
+                        key_occurrence_index if isinstance(key_occurrence_index, int) else None
+                    ),
+                    "value": safe_value,
+                }
+            )
 
         if occurrence_failed:
             continue
 
-        for file_rel, replacements in unit_replacements.items():
-            replacements_by_file.setdefault(file_rel, {}).update(replacements)
-
-        if cache is not None:
-            first_occurrence = _todo_occurrences(record)[0]
-            first_token_map = first_occurrence.get("token_map", {})
-            if not isinstance(first_token_map, dict):
-                first_token_map = _record_token_map(record)
-            restored_for_cache = restore_masked_tokens(masked_translation, first_token_map)
-            cache.save_translation(
-                source_text=str(record.get("source", "")),
-                masked_source=str(record.get("masked_source", "")),
-                translated_masked_text=masked_translation,
-                restored_translation=restored_for_cache,
-                model_name=model_name,
-                glossary_version=glossary_version,
-                status="applied",
-                error_message=None,
-            )
+        for item in staged:
+            pending_by_file.setdefault(item["file"], []).append(item)
 
     files_updated = 0
     values_updated = 0
 
-    for file_rel, replacements in replacements_by_file.items():
+    for file_rel, pending_items in pending_by_file.items():
         file_path = russian_root / file_rel
         if not file_path.exists():
-            print(f"SKIP missing file: {file_path}")
+            for item in pending_items:
+                todo_id = item["todo_id"]
+                invalid_ids.add(todo_id)
+                _record_error(
+                    validation_errors,
+                    error_by_id,
+                    todo_id,
+                    item["key"],
+                    file_rel,
+                    "target file is missing for occurrence replacement",
+                )
             continue
 
         text, _, read_error = read_utf8(file_path)
         if read_error is not None:
-            print(f"SKIP read error: {file_path} ({read_error})")
+            for item in pending_items:
+                todo_id = item["todo_id"]
+                invalid_ids.add(todo_id)
+                _record_error(
+                    validation_errors,
+                    error_by_id,
+                    todo_id,
+                    item["key"],
+                    file_rel,
+                    f"read error: {read_error}",
+                )
             continue
 
-        new_text, replaced_keys = apply_value_replacements(text, replacements)
-        if not replaced_keys:
+        parsed = parse_localisation_file(file_path, expected_header="l_russian:")
+        key_to_entries: dict[str, list] = {}
+        for entry in parsed.entries:
+            key_to_entries.setdefault(entry.key, []).append(entry)
+
+        pairs: list[tuple[str, OccurrenceReplacement, str, dict, str]] = []
+        for item in pending_items:
+            todo_id = item["todo_id"]
+            if todo_id in invalid_ids:
+                continue
+
+            key = item["key"]
+            entry_index = item["entry_index"]
+            key_occurrence_index = item["key_occurrence_index"]
+
+            if entry_index is None or key_occurrence_index is None:
+                entries = key_to_entries.get(key, [])
+                if len(entries) != 1:
+                    invalid_ids.add(todo_id)
+                    _record_error(
+                        validation_errors,
+                        error_by_id,
+                        todo_id,
+                        key,
+                        file_rel,
+                        (
+                            "occurrence identity is missing for a non-unique key; "
+                            "refusing unsafe key-based apply"
+                        ),
+                    )
+                    continue
+                entry_index = entries[0].entry_index
+                key_occurrence_index = entries[0].key_occurrence_index
+
+            replacement = OccurrenceReplacement(
+                file=file_rel,
+                key=key,
+                entry_index=int(entry_index),
+                key_occurrence_index=int(key_occurrence_index),
+                line=item["line"],
+                value=item["value"],
+            )
+            replacement_id = f"{replacement.key}:{replacement.entry_index}:{replacement.key_occurrence_index}"
+            pairs.append(
+                (
+                    todo_id,
+                    replacement,
+                    replacement_id,
+                    item["record"],
+                    item["masked_translation"],
+                )
+            )
+
+        if not pairs:
             continue
+
+        active_pairs = [pair for pair in pairs if pair[0] not in invalid_ids]
+        if not active_pairs:
+            continue
+
+        replacements = [pair[1] for pair in active_pairs]
+        id_map = {(pair[1].key, pair[1].entry_index, pair[1].key_occurrence_index): pair for pair in active_pairs}
+        new_text, replaced_ids = apply_occurrence_replacements(text, replacements)
+
+        unmatched_ids = [
+            rid for rid in id_map.keys() if rid not in replaced_ids
+        ]
+        if unmatched_ids:
+            for rid in unmatched_ids:
+                todo_id, replacement, _, _, _ = id_map[rid]
+                invalid_ids.add(todo_id)
+                _record_error(
+                    validation_errors,
+                    error_by_id,
+                    todo_id,
+                    replacement.key,
+                    file_rel,
+                    (
+                        "occurrence replacement target not found "
+                        f"(entry_index={replacement.entry_index}, "
+                        f"key_occurrence_index={replacement.key_occurrence_index})"
+                    ),
+                )
+
+            active_pairs = [pair for pair in active_pairs if pair[0] not in invalid_ids]
+            if not active_pairs:
+                continue
+
+            replacements = [pair[1] for pair in active_pairs]
+            id_map = {(pair[1].key, pair[1].entry_index, pair[1].key_occurrence_index): pair for pair in active_pairs}
+            new_text, replaced_ids = apply_occurrence_replacements(text, replacements)
+
+            unmatched_after_retry = [
+                rid for rid in id_map.keys() if rid not in replaced_ids
+            ]
+            if unmatched_after_retry:
+                for rid in unmatched_after_retry:
+                    todo_id, replacement, _, _, _ = id_map[rid]
+                    invalid_ids.add(todo_id)
+                    _record_error(
+                        validation_errors,
+                        error_by_id,
+                        todo_id,
+                        replacement.key,
+                        file_rel,
+                        (
+                            "occurrence replacement target not found after filtering invalid units "
+                            f"(entry_index={replacement.entry_index}, "
+                            f"key_occurrence_index={replacement.key_occurrence_index})"
+                        ),
+                    )
+                continue
 
         if new_text != text:
             write_utf8_bom(file_path, new_text, dry_run=dry_run)
             files_updated += 1
-            values_updated += len(replaced_keys)
+        values_updated += len(replaced_ids)
+
+        for rid in replaced_ids:
+            todo_id, _, _, record, masked_translation = id_map[rid]
+            if todo_id in invalid_ids:
+                continue
+            applied_ids.add(todo_id)
+            _cache_applied(
+                cache=cache,
+                record=record,
+                masked_translation=masked_translation,
+                model_name=model_name,
+                glossary_version=glossary_version,
+            )
+
+    for todo_id in invalid_ids:
+        record = todo_by_id.get(todo_id)
+        if record is None:
+            continue
+        masked_translation = translations_by_id.get(todo_id, "")
+        first_error = error_by_id.get(todo_id, ["unknown apply error"])[0]
+        _cache_error(
+            cache=cache,
+            record=record,
+            masked_translation=masked_translation,
+            model_name=model_name,
+            glossary_version=glossary_version,
+            error_message=first_error,
+        )
 
     return files_updated, values_updated, missing_translation_ids, validation_errors
 
@@ -369,7 +584,7 @@ def main() -> int:
     print(f"Files updated: {files_updated}")
     print(f"Values updated: {values_updated}")
     print(f"TODO ids without translation: {missing_translation_ids}")
-    print(f"Placeholder validation errors: {len(validation_errors)}")
+    print(f"Validation errors: {len(validation_errors)}")
     if args.dry_run:
         print("DRY-RUN mode: no files were written.")
     print("Recommendation: run validator after apply.")

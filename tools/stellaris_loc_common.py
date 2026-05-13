@@ -49,6 +49,18 @@ class LocalisationEntry:
     marker: str | None
     value: str
     line: int
+    entry_index: int
+    key_occurrence_index: int
+
+
+@dataclass
+class OccurrenceReplacement:
+    file: str | None
+    key: str
+    entry_index: int
+    key_occurrence_index: int
+    line: int | None
+    value: str
 
 
 @dataclass
@@ -187,9 +199,10 @@ def parse_localisation_file(path: Path, expected_header: str | None = None) -> P
 
     header_found = expected_header is None
     entries: list[LocalisationEntry] = []
+    entry_index = 0
+    key_occurrence_counts: dict[str, int] = {}
 
     for line_no, raw_line in enumerate(text.splitlines(), start=1):
-        # Remove hidden BOM if it leaked into first lexical token.
         parse_line = raw_line.lstrip("\ufeff")
         normalized = normalize_header_line(raw_line)
 
@@ -216,7 +229,20 @@ def parse_localisation_file(path: Path, expected_header: str | None = None) -> P
             key = capture_match.group(1)
             marker = capture_match.group(2)
             value = capture_match.group(3)
-            entries.append(LocalisationEntry(key=key, marker=marker, value=value, line=line_no))
+            key_occurrence_index = key_occurrence_counts.get(key, 0)
+            key_occurrence_counts[key] = key_occurrence_index + 1
+
+            entries.append(
+                LocalisationEntry(
+                    key=key,
+                    marker=marker,
+                    value=value,
+                    line=line_no,
+                    entry_index=entry_index,
+                    key_occurrence_index=key_occurrence_index,
+                )
+            )
+            entry_index += 1
             continue
 
         if ":" in parse_line or '"' in parse_line:
@@ -326,11 +352,57 @@ def escape_localisation_value(value: str) -> str:
     return "".join(output)
 
 
+def apply_occurrence_replacements(
+    text: str,
+    replacements: list[OccurrenceReplacement],
+) -> tuple[str, set[tuple[str, int, int]]]:
+    """Replace localisation values by exact entry/key occurrence identity."""
+    lines = text.splitlines(keepends=True)
+    replacement_map: dict[tuple[str, int, int], OccurrenceReplacement] = {}
+    for item in replacements:
+        replacement_map[(item.key, item.entry_index, item.key_occurrence_index)] = item
+
+    replaced_ids: set[tuple[str, int, int]] = set()
+    entry_index = 0
+    key_occurrence_counts: dict[str, int] = {}
+
+    for idx, line in enumerate(lines):
+        body = line.rstrip("\r\n")
+        eol = line[len(body) :]
+
+        parse_body = body.lstrip("\ufeff")
+        bom_prefix = body[: len(body) - len(parse_body)]
+        match = ENTRY_REWRITE_RE.match(parse_body)
+        if match is None:
+            continue
+
+        key = match.group("key")
+        key_occurrence_index = key_occurrence_counts.get(key, 0)
+        key_occurrence_counts[key] = key_occurrence_index + 1
+
+        replacement_key = (key, entry_index, key_occurrence_index)
+        entry_index += 1
+
+        replacement = replacement_map.get(replacement_key)
+        if replacement is None:
+            continue
+
+        marker = match.group("marker")
+        marker_part = marker if marker is not None else ""
+        lines[idx] = (
+            f"{bom_prefix}{match.group('lead')}{key}:{marker_part}{match.group('space')}"
+            f"\"{replacement.value}\"{match.group('trail')}{eol}"
+        )
+        replaced_ids.add(replacement_key)
+
+    return "".join(lines), replaced_ids
+
+
 def apply_value_replacements(
     text: str,
     replacements_by_key: dict[str, str],
 ) -> tuple[str, set[str]]:
-    """Replace localisation values by key while preserving structure and comments."""
+    """Backward-compatible key-based replacement (unsafe for duplicate keys)."""
     lines = text.splitlines(keepends=True)
     replaced_keys: set[str] = set()
 
@@ -338,7 +410,9 @@ def apply_value_replacements(
         body = line.rstrip("\r\n")
         eol = line[len(body) :]
 
-        match = ENTRY_REWRITE_RE.match(body)
+        parse_body = body.lstrip("\ufeff")
+        bom_prefix = body[: len(body) - len(parse_body)]
+        match = ENTRY_REWRITE_RE.match(parse_body)
         if match is None:
             continue
 
@@ -350,7 +424,7 @@ def apply_value_replacements(
         marker_part = marker if marker is not None else ""
         new_value = replacements_by_key[key]
         lines[idx] = (
-            f"{match.group('lead')}{key}:{marker_part}{match.group('space')}"
+            f"{bom_prefix}{match.group('lead')}{key}:{marker_part}{match.group('space')}"
             f"\"{new_value}\"{match.group('trail')}{eol}"
         )
         replaced_keys.add(key)

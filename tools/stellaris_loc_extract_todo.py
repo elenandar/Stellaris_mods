@@ -49,11 +49,13 @@ def _entry_requires_translation(english_value: str, russian_value: str) -> bool:
     return False
 
 
-def _build_occurrence(file_rel: Path, key: str, line: int, token_map: dict[str, str]) -> dict:
+def _build_occurrence(file_rel: Path, entry, token_map: dict[str, str]) -> dict:
     return {
         "file": str(file_rel),
-        "key": key,
-        "line": line,
+        "key": entry.key,
+        "line": entry.line,
+        "entry_index": entry.entry_index,
+        "key_occurrence_index": entry.key_occurrence_index,
         "token_map": token_map,
     }
 
@@ -82,11 +84,13 @@ def build_todo_records(
         english_parsed = parse_localisation_file(english_file, expected_header="l_english:")
         russian_parsed = parse_localisation_file(russian_file, expected_header="l_russian:")
 
-        russian_by_key = {entry.key: entry for entry in russian_parsed.entries}
+        pair_count = min(len(english_parsed.entries), len(russian_parsed.entries))
 
-        for english_entry in english_parsed.entries:
-            russian_entry = russian_by_key.get(english_entry.key)
-            if russian_entry is None:
+        for idx in range(pair_count):
+            english_entry = english_parsed.entries[idx]
+            russian_entry = russian_parsed.entries[idx]
+
+            if english_entry.key != russian_entry.key:
                 continue
 
             if is_technical_only_value(english_entry.value):
@@ -101,8 +105,7 @@ def build_todo_records(
             unit_id = build_stable_todo_id(masked_source)
             occurrence = _build_occurrence(
                 file_rel=russian_rel,
-                key=english_entry.key,
-                line=russian_entry.line,
+                entry=russian_entry,
                 token_map=token_map,
             )
 
@@ -110,8 +113,10 @@ def build_todo_records(
                 records_by_id[unit_id] = {
                     "id": unit_id,
                     "file": str(russian_rel),
-                    "key": english_entry.key,
+                    "key": russian_entry.key,
                     "line": russian_entry.line,
+                    "entry_index": russian_entry.entry_index,
+                    "key_occurrence_index": russian_entry.key_occurrence_index,
                     "source": english_entry.value,
                     "masked_source": masked_source,
                     "token_map": token_map,

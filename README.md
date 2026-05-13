@@ -60,6 +60,8 @@ python tools/stellaris_loc_validate.py --fresh-root fresh_mods/SomeMod --russian
 - Keys must never be translated or changed.
 - Values inside quotes may localize proper names to Cyrillic when appropriate.
 - Catalogue names like `P4T-257-a` should remain unchanged.
+- Replacements are applied by occurrence identity (`entry_index` + `key_occurrence_index`), not only by key.
+- Legacy key-only apply is allowed only for unique keys; duplicate keys require occurrence identity.
 
 ## Placeholder safety for LLM responses
 
@@ -85,7 +87,9 @@ If placeholder validation fails during apply:
     "key": "localisation_key",
     "file": "localisation/russian/mod_l_russian.yml",
     "source": "Hello $PLANET$",
-    "text": "Hello __PROT_0000__"
+    "text": "Hello __PROT_0000__",
+    "entry_index": 13,
+    "key_occurrence_index": 1
   }
 ]
 ```
@@ -162,6 +166,10 @@ Duplicate key policy:
 - duplicate keys in English source are `source_warnings` if Russian preserves the same full ordered key sequence
 - duplicate keys that appear only in Russian are `errors`
 - duplicate keys in Russian that do not preserve English full ordered key sequence are `errors`
+
+Apply safety policy for duplicates:
+- duplicate keys are applied to exact occurrences by identity
+- this prevents overwriting all occurrences of the same key with one translation
 
 ## Optional cache usage
 

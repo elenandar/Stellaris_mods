@@ -28,6 +28,32 @@ def _record_file(record: dict) -> str:
     return ""
 
 
+def _record_entry_index(record: dict) -> int | None:
+    value = record.get("entry_index")
+    if isinstance(value, int):
+        return value
+
+    occurrences = record.get("occurrences")
+    if isinstance(occurrences, list) and occurrences:
+        first = occurrences[0]
+        if isinstance(first, dict) and isinstance(first.get("entry_index"), int):
+            return int(first["entry_index"])
+    return None
+
+
+def _record_key_occurrence_index(record: dict) -> int | None:
+    value = record.get("key_occurrence_index")
+    if isinstance(value, int):
+        return value
+
+    occurrences = record.get("occurrences")
+    if isinstance(occurrences, list) and occurrences:
+        first = occurrences[0]
+        if isinstance(first, dict) and isinstance(first.get("key_occurrence_index"), int):
+            return int(first["key_occurrence_index"])
+    return None
+
+
 def build_batch_items(
     todo_records: list[dict],
     cache: TranslationCache | None = None,
@@ -47,6 +73,8 @@ def build_batch_items(
                 "file": _record_file(record),
                 "source": str(record.get("source", "")),
                 "text": masked_source,
+                "entry_index": _record_entry_index(record),
+                "key_occurrence_index": _record_key_occurrence_index(record),
             }
         )
     return items

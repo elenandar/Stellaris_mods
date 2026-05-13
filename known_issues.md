@@ -64,3 +64,13 @@ Purpose:
 - Fix: Added duplicate-key policy with separated findings: source_warnings for source-preserved duplicates, errors for Russian-only or sequence-breaking duplicates.
 - Regression test: tests/test_stellaris_loc_tools.py
 - Notes: If duplicate exists in English and Russian keeps the same full ordered key sequence, this is source_warning; Russian-only duplicate is error.
+
+### ISSUE-0005
+- Date detected: 2026-05-13
+- Status: resolved
+- Summary: Applying translations by key is unsafe when localisation files contain duplicate keys.
+- Affected files: tools/stellaris_loc_common.py, tools/stellaris_loc_extract_todo.py, tools/stellaris_loc_apply_translations.py
+- Root cause: Key-based replacement can overwrite multiple occurrences of the same key with a single translation unit.
+- Fix: Added occurrence identity (`entry_index`, `key_occurrence_index`) in parsing/extraction and switched apply to occurrence-targeted replacement.
+- Regression test: tests/test_stellaris_loc_batch_pipeline.py
+- Notes: Legacy TODO rows without occurrence identity are rejected for duplicate keys; fallback works only for unique keys.
