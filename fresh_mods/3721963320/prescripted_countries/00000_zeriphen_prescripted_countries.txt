@@ -1,0 +1,98 @@
+
+zeriphen1 = {
+	name="EMPIRE_DESIGN_zeriphen1"
+	adjective="Elekial"
+	spawn_enabled = yes # yes / no / always
+
+	ship_prefix="Archiel"
+
+	species = {
+		class = "INF"
+		portrait = "zeriphenspor"
+		name = "Zeriphen"
+		plural = "Zeriphens"
+		adjective = "Zeriphean"
+		name_list = "zeriphennames"
+	
+		gender=not_set
+		trait="trait_infernal"
+		trait="trait_unbreakable_resolve"
+		trait="trait_nonadaptive"
+		trait="trait_shell_slag"
+		trait="trait_plantoid_radiotrophic"
+		trait="trait_crucible_community"
+		trait="trait_sedentary"
+	}
+
+	room="personality_harmonious_hierarchy_room"
+
+	ethic="ethic_fanatic_xenophobe"
+	ethic="ethic_spiritualist"
+
+
+	government="gov_purification_committee"
+	authority = "auth_oligarchic"
+	civics = { "civic_natural_design" "civic_fanatic_purifiers" }
+	origin = "origin_life_seeded"
+
+
+	planet_name="High Temple"
+	planet_class="pc_continental"
+	system_name="Core of Light"
+	initializer="zeriphen_system"
+
+	advisor_voice_type="l_spiritualist"
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "zeriphen_01"
+
+	empire_flag={
+		icon={
+			category="legion"
+			file="flag_mp_beta_03.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"white"
+			"beige"
+			"orange"
+			"orange"
+		}
+	}
+
+	ruler = {
+		gender=male
+		name="Alikael of the Shattered Firmament"
+		portrait="zeriphen_male_03"
+		texture=0
+		evolution_mask=0
+		attachment=5
+		clothes=6
+		ruler_title = {
+			key="Highest Seraph"
+			literal=yes
+		}
+		ruler_title_female = {
+			key="Highest Seraph"
+			literal=yes
+		}
+		heir_title = {
+			key="High Seraph"
+			literal=yes
+		}
+		heir_title_female = {
+			key="High Seraph"
+			literal=yes
+		}
+ 		custom_biography = {
+			key=""
+			literal=yes
+		}
+		trait="leader_trait_fleet_organizer"
+		leader_class="commander"
+	}
+
+	flag = empire_zeriphen
+}

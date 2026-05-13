@@ -1,0 +1,9 @@
+ZRPHN = {
+	zeriphen = {
+		name = Zeriphen
+		plural = Zeriphen
+		home_planet = Paradise
+		home_system = Empyrean
+		name_list = "zeriphennames"
+	}
+}

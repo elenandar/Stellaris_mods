@@ -1,0 +1,198 @@
+portraits = {
+
+	mecha_zeriphen_female_01 = {	entity = "portrait_zeriphen_female_02_mecha_entity"	clothes_selector = "zeriphen_female_clothes_01" attachment_selector = "mecha_zeriphen_male_hair_01"	greeting_sound = "lithoid_portrait_12_crystal"	
+		custom_attachment_label = "HAIR_STYLE"
+		character_textures = { 
+			"gfx/models/portraits/zeriphen/mecha_zeriphen_female_body_1.tga" 
+		}
+	}
+	mecha_zeriphen_female_02 = {	entity = "portrait_zeriphen_female_01_entity"	clothes_selector = "zeriphen_female_clothes_03" attachment_selector = "mecha_zeriphen_male_hair_01"	greeting_sound = "lithoid_portrait_12_crystal"	
+		custom_attachment_label = "HAIR_STYLE"
+		character_textures = { 
+			"gfx/models/portraits/zeriphen/mecha_zeriphen_female_body_2.tga" 
+		}
+	}
+	mecha_zeriphen_female_03 = {	entity = "portrait_zeriphen_female_01_entity"	clothes_selector = "zeriphen_female_clothes_03" attachment_selector = "mecha_zeriphen_male_hair_01"	greeting_sound = "lithoid_portrait_12_crystal"	
+		custom_attachment_label = "HAIR_STYLE"
+		character_textures = { 
+			"gfx/models/portraits/zeriphen/mecha_zeriphen_female_body_3.tga" 
+
+		}
+	}
+	mecha_zeriphen_male_01 = {	entity = "portrait_zeriphen_male_02_mecha_entity"	clothes_selector = "zeriphen_male_clothes_01" attachment_selector = "mecha_zeriphen_male_hair_01"	greeting_sound = "lithoid_portrait_12_crystal" 
+		custom_attachment_label = "HAIR_STYLE"
+		character_textures = { 
+			"gfx/models/portraits/zeriphen/mecha_zeriphen_male_body_1.tga" 
+		}
+	}
+	mecha_zeriphen_male_02 = {	entity = "portrait_zeriphen_male_02_mecha_entity"	clothes_selector = "zeriphen_male_clothes_03" attachment_selector = "mecha_zeriphen_male_hair_01"	greeting_sound = "lithoid_portrait_12_crystal" 
+		custom_attachment_label = "HAIR_STYLE"
+		character_textures = { 
+			"gfx/models/portraits/zeriphen/mecha_zeriphen_male_body_2.tga" 
+		}
+	}
+	mecha_zeriphen_male_03 = {	entity = "portrait_zeriphen_male_02_mecha_entity"	clothes_selector = "zeriphen_male_clothes_03" attachment_selector = "mecha_zeriphen_male_hair_01"	greeting_sound = "lithoid_portrait_12_crystal" 
+		custom_attachment_label = "HAIR_STYLE"
+		character_textures = { 
+			"gfx/models/portraits/zeriphen/mecha_zeriphen_male_body_3.tga" 
+		}
+	}
+}
+
+portrait_groups = {
+	mechazeriphenspor = {
+		default = mecha_zeriphen_male_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = male
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					mecha_zeriphen_male_01
+					mecha_zeriphen_male_02
+					mecha_zeriphen_male_03
+					
+				}
+			}
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = female
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					mecha_zeriphen_female_01
+					mecha_zeriphen_female_02
+					mecha_zeriphen_female_03
+					
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}
+
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					mecha_zeriphen_female_01
+					mecha_zeriphen_female_02
+					mecha_zeriphen_female_03
+					
+				}
+			}
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					mecha_zeriphen_male_01
+					mecha_zeriphen_male_02
+					mecha_zeriphen_male_03
+					
+				}
+			}
+		}
+
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					mecha_zeriphen_female_01
+				}
+			}
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					mecha_zeriphen_male_01
+					
+				}
+			}
+		}
+
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					OR = {
+						gender = female
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					mecha_zeriphen_female_01
+					mecha_zeriphen_female_02
+					mecha_zeriphen_female_03
+					
+				}
+			}
+			add = {
+				trigger = {
+					OR = {
+						gender = male
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					mecha_zeriphen_male_01
+					mecha_zeriphen_male_02
+					mecha_zeriphen_male_03
+					
+				}
+			}
+		}
+
+
+		#leader scope
+		ruler = {
+			add = {
+				trigger = {
+					OR = {
+						gender = female
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					mecha_zeriphen_female_01
+					mecha_zeriphen_female_02
+					mecha_zeriphen_female_03
+					
+				}
+			}
+			add = {
+				trigger = {
+					OR = {
+						gender = male
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					mecha_zeriphen_male_01
+					mecha_zeriphen_male_02
+					mecha_zeriphen_male_03
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,14 @@
+# Only for the city/room
+ZRPHN = { #unlisted only for graphical_culture options (city set)
+	randomized = no
+	generate_shipset = no
+	graphical_culture = zeriphen_01
+	possible = {
+		authority = {
+			NOT = {
+				value = auth_machine_intelligence
+				text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE
+			}
+		}
+	}
+}

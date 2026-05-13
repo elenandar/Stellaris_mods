@@ -1,0 +1,298 @@
+﻿### serpentoid names
+zeriphennames = {
+	category = Infernal
+	### SHIPS
+	randomized = no
+
+	ship_names = {
+
+		generic = {
+			Theriskein Liorichel Maliethan Echeleret Quemerethyl Salereikel Quialemen Seleriel Xarmelel Zamyrilian Xaeliaral Loesinal Gleremen Feramaral Lakareal Semerleal Damalerial Toreliel
+		}
+
+		corvette = {
+		}
+
+		destroyer = {
+		}
+
+		cruiser = {
+		}
+
+		battleship = {
+		}
+
+		titan = {
+		}
+
+		colossus = {
+		}
+
+		science = {
+		}
+
+		colonizer = {
+		}
+
+		constructor = {
+		}
+
+		transport = {
+		}
+		
+		military_station_small = {
+		}
+		ion_cannon = {
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			"Idyllic Chorus" "Harmonious Purifiers" "Heavenly Host" "Chanting Stargazers" 
+		}
+		sequential_name = ZERIPHEN_SEQ_FLEETNAME
+	}
+	
+	### ARMIES
+	army_names = {
+		defense_army = {
+			sequential_name = ZERIP_defarmy
+		}
+			
+		generic = {
+			sequential_name = ZERIP_assaultarmy
+		}
+
+		assault_army = {
+			sequential_name = ZERIP_assaultarmy
+		}
+		
+		slave_army = {
+			sequential_name = ZERIP_slavearmy
+		}
+		
+		clone_army = { 
+			sequential_name = ZERIP_clonearmy
+		}
+
+		perfected_clone_army = {
+			sequential_name = ZERIP_clonearmy
+		}
+		
+		machine_defense = {
+			sequential_name = ZERIP_machinedefarmy
+		}
+
+		machine_assault_1 = {
+			sequential_name = ZERIP_machineassaultarmy
+		}
+
+		machine_assault_2 = {
+			sequential_name = ZERIP_machineassaultarmy
+		}
+
+		machine_assault_3 = {
+			sequential_name = ZERIP_machineassaultarmy
+		}
+		
+		android_army = {
+			sequential_name = ZERIP_androidarmy
+		}
+		
+		undead_army = {
+			sequential_name = ZERIP_undeadarmy
+		}
+
+		robotic_army = {
+			sequential_name = ZERIP_machineassaultarmy
+		}
+
+		robotic_defense_army = {
+			sequential_name = ZERIP_machinedefarmy
+		}
+
+		psionic_army = {
+			sequential_name = ZERIP_psionarmy
+		}
+
+		xenomorph_army = {
+			sequential_name = ZERIP_xenoarmy
+		}
+
+		gene_warrior_army = {
+			sequential_name = ZERIP_genewarriorarmy
+		}
+		
+		occupation_army = {
+			sequential_name = REP1_OCCUPATIONGUARD
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = REP1_OCCUPATIONGUARD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = REP1_OCCUPATIONNEXUS
+		}
+
+		primitive_army = {
+			sequential_name = REP1_PRIMITIVEARMY
+		}
+
+		industrial_army = {
+			sequential_name = REP1_INDUSTRIALARMY
+		}
+
+		postatomic_army = {
+			sequential_name = REP1_POSTATOMICARMY
+		}
+
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+		
+		ember_legion = {
+			sequential_name = seq_ember_legion
+		}
+		
+		lm_imbued_army = {
+			sequential_name = seq_lm_imbued_army
+		}
+
+		abomination_army = {
+			sequential_name = seq_abomination_army
+		}
+
+		wilderness_pre_sapient_defence_army = {
+			sequential_name = seq_wilderness_pre_sapient_defence_army
+		}
+
+		wilderness_pre_sapient_assault_army = {
+			sequential_name = seq_wilderness_pre_sapient_assault_army
+		}
+	}
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				Meradaylian Selintiferlyn Toael Zemiramys Warelesyum Safaelon Lanereyl Dramaelian Yolergel Vendalorien Tynalgan Cambulal Celesmian Cararelian Quamaresiel Genefilial Agaramasun Temelestin
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+
+		pc_tropical = {
+			names = {
+			}
+		}
+
+		pc_arid = {
+			names = {
+			}
+		}
+
+		pc_continental = {
+			names = {
+			}
+		}
+
+		pc_ocean = {
+			names = {
+			}
+		}
+
+		pc_tundra = {
+			names = {
+			}
+		}
+
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}	
+	}
+	### CHARACTERS
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+			}
+			# A complete name
+			first_names_male = {
+
+				Abasdarhon Abraxos Adnachiel Adonael Adonai Aeshma Agla Akriel Amitiel Amriel Anael Anapiel Anahel Anpiel Ansiel Arael Araquiel Araton Ariel Armisael Asariel Asroilu Astanphaeus Asteraoth Atrugiel Ayil Azbogah Azrael Azriel Balthioul Baradiel 
+				Barakiel Bariel Barman Barquiel Baruchiel Bazazath Bethor Briathos Cahethal Camael Cassiel Cerviel Chamuel Chayyliel Cochabiel Dabriel Dagiel Dalquiel Damabiath Dardariel Diniel Domiel Dubbiel Dumah 
+				Eae Eiael Elyon Erathaol Eremiel Gabriel Galgaliel Galizur Gamaliel Gazardiel Geburatiel Guriel Gzrel Hadraniel Hadriel Hagith Halaliel Hamaliel Hamon Haniel Harahel Hasdiel Hasmal Hayliel Haziel Heman Hermesiel Hofniel Iaoel Iaoth Iofiel Israfil 
+				Jael Jahoel Jeduthun Jefischa Jehudiel Jeremiel Kabshiel Kazfiel Kakabel Kalaziel Karael Kemuel Kerubiel Kokabiel Kutiel Labbiel Lahabiel Lamechial Lassuarium Laylah Machidiel Marmaroth Mendrion Metatron Mihr Miniel Mitatron Morael
+				Moroni Muriel Naaririel Nahaliel Nanael Narcariel Nasargiel Nathanael Naya'il Nelchael Nuriel Och Omael Onoel Ophaniel Ophiel Oriel Orifiel Orphamiel Osmadiel Ouriel Pamyel Pathiel Peliel Peniel Pesagniyah Phaleg Phanuel Phounebiel Pravuil Pronoia Purah Puriel Qaspiel
+				Quabriel Rachiel Rachmiel Radueriel Raguel Rahab Rahatiel Rahmiel Ramiel Raphael Rathanael Raziel Remiel Rikbiel Rizoel Rogziel Ruman Sabaoth Sabathiel Sablo Sabrael Sabrathan Sachiel Sagnessagiel Sahaqiel Salathiel Samkiel Samuel Sandalphon 
+				Saniel Sarakiel Sarandiel Satqiel Seraphiel Shamsiel Shoftiel Sidqiel Sidriel Simiel Sizouze Soqedhozi Sorath Sorush Soterasiel Sraosha Suriel Tarys Tatrasiel Temeluch Theliel Tubiel Tzadkiel Ubaviel Umabel Uriel Usiel Uzziel Varhmiel Vequaniel Verchiel Vretiel Xathanael 
+				Yabbashael Yefefiah Yehudiah Yerachmiel Yeshamiel Yofiel Zaapiel Zaazenach Zabkiel Zachariel Zachriel Zadkeil Zagzagel Zakzakiel Zaphiel Zaphkiel Zarall Zazriel Zehanpuryu Zerachiel Zophiel Zuriel
+
+				Abaeloch Zadkielon Phanaelus Baraqyalim Ramielos Azazyelith Sarielax Metatronis Kasdeyul Eremielon Turielis Armarosun Jeqoniel Gadreelox Penemunel Kasbielis Asbeelun Danelyth Yomyaelox Chazaqielis Exaelon Zavebeon Samsaveelur Ertaelax Turelyth Batarielox Ananielus Zaqielon Samielis Satarielox Turielun Yomielis Sarielur Turelax Batrielon Ananyelox Zaqyul Samsapeeloth Satarielyth Ertaelyth Turelyth Vretilyth Azazelyth Armaryth Gadreelyth Kasdeulyth Penemulyth Asbeelyth Yomyalyth Chazaqylyth Exaelyth Zavebeelyth
+
+			}
+			first_names_female = {
+				Abasdarhon Abraxos Adnachiel Adonael Adonai Aeshma Agla Akriel Amitiel Amriel Anael Anapiel Anahel Anpiel Ansiel Arael Araquiel Araton Ariel Armisael Asariel Asroilu Astanphaeus Asteraoth Atrugiel Ayil Azbogah Azrael Azriel Balthioul Baradiel 
+				Barakiel Bariel Barman Barquiel Baruchiel Bazazath Bethor Briathos Cahethal Camael Cassiel Cerviel Chamuel Chayyliel Cochabiel Dabriel Dagiel Dalquiel Damabiath Dardariel Diniel Domiel Dubbiel Dumah 
+				Eae Eiael Elyon Erathaol Eremiel Gabriel Galgaliel Galizur Gamaliel Gazardiel Geburatiel Guriel Gzrel Hadraniel Hadriel Hagith Halaliel Hamaliel Hamon Haniel Harahel Hasdiel Hasmal Hayliel Haziel Heman Hermesiel Hofniel Iaoel Iaoth Iofiel Israfil 
+				Jael Jahoel Jeduthun Jefischa Jehudiel Jeremiel Kabshiel Kazfiel Kakabel Kalaziel Karael Kemuel Kerubiel Kokabiel Kutiel Labbiel Lahabiel Lamechial Lassuarium Laylah Machidiel Marmaroth Mendrion Metatron Mihr Miniel Mitatron Morael
+				Moroni Muriel Naaririel Nahaliel Nanael Narcariel Nasargiel Nathanael Naya'il Nelchael Nuriel Och Omael Onoel Ophaniel Ophiel Oriel Orifiel Orphamiel Osmadiel Ouriel Pamyel Pathiel Peliel Peniel Pesagniyah Phaleg Phanuel Phounebiel Pravuil Pronoia Purah Puriel Qaspiel
+				Quabriel Rachiel Rachmiel Radueriel Raguel Rahab Rahatiel Rahmiel Ramiel Raphael Rathanael Raziel Remiel Rikbiel Rizoel Rogziel Ruman Sabaoth Sabathiel Sablo Sabrael Sabrathan Sachiel Sagnessagiel Sahaqiel Salathiel Samkiel Samuel Sandalphon 
+				Saniel Sarakiel Sarandiel Satqiel Seraphiel Shamsiel Shoftiel Sidqiel Sidriel Simiel Sizouze Soqedhozi Sorath Sorush Soterasiel Sraosha Suriel Tarys Tatrasiel Temeluch Theliel Tubiel Tzadkiel Ubaviel Umabel Uriel Usiel Uzziel Varhmiel Vequaniel Verchiel Vretiel Xathanael 
+				Yabbashael Yefefiah Yehudiah Yerachmiel Yeshamiel Yofiel Zaapiel Zaazenach Zabkiel Zachariel Zachriel Zadkeil Zagzagel Zakzakiel Zaphiel Zaphkiel Zarall Zazriel Zehanpuryu Zerachiel Zophiel Zuriel
+				
+				Anael Sophiel Kasbeal Myrisma Penemue Jeqoniel Gadreel Israfel Amarot Ophanis Turiel Zahariel Rumyal Sariel Ethriel Kasdeja Exael Batariel Ananiel Zavebe Samsapeel Ertael Turel Yomyael Arazyal Asael Armaros Anani Baragel Zaqiel Shamsiel Satariel Tamiel Kokabiel Ezeqeel Danel Neqael Baraqiel Armoni Matriel Kokabel Chazaqiel Araziel Samyaza Urakabarameel Akibeel Tamiel Turiel Ramiel Danel
+			}
+			
+			# Always combined with a second name
+			first_names = {
+			}
+			
+			# Always combined with a first name
+			second_names = {
+				"of the Burning Wheel" "the Sevenfold Vengeance" "of the Shattered Firmament" "the Crimson Seraph" "of the Silent Trumpet" "the Iron Wings" "of the Eternal Pyre" "the Blinding Decree" "of the First Woe" "the Ashen Messenger" "of the Glass Sea" "the Vigilant Eye" "of the Sundered Throne" "the Merciless Light" "of the Ancient Wrath" "the Gilded Executioner" "of the Sacred Blade" "the Voice of Dust" "of the Starless Void" "the Hollow Sanctum" "the Radiant Scourge" "the Watcher of Graves" "of the Unmaking Breath" "the Silver Arbiter" "of the Falling Crown" "the Dread Cherubim" "of the Lost Covenant" "the Burning Witness" "of the Final Seal" "the Sorrowful Storm" "of the White Fire" "the Judge of Stars" "of the Broken Altar" "the Veiled Destroyer" "of the Endless Vigil" "the Pale Horseman" "of the Righteous Ember" "the Keeper of Chains" "of the Iron Cloud" "the Thundering Silence" "of the Golden Exile" "the Winged Terror" "of the Forgotten Word" "the Divine Shadow" "of the Bitter Cup" "the Solar Reaping" "of the Deepest Abyss" "the High Adversary" "of the Living Flame" "the Silent Watchtower" "of the Cursed Lineage" "the Herald of Ruin" "of the Unseen Blade" "the Crowned Agony" "of the Celestial Dust" "the Ghostly Praetor" "of the Wailing Wind" "the Sanctified Fury" "of the Dead Sun" "the Weaver of Fate" "of the Burning Thistle" "the Boundless Anger" "of the Holy Scars" "the Piercing Vision" "of the Last Dawn" "the Forsaken Light" "of the Sanguine Wing" "the Starry Avenger" "of the Bleeding Heavens" "the Archon of Ash" "of the Pierced Veil" "the Ethereal Hammer" "of the Raging Spirit" "the Fallen Radiance" "of the Hallowed Grudge" "the Shrouded Justice" "of the Bitter Root" "the Celestial Sickle" "of the Burning Scroll" "the Timeless Warden" "of the Dying Halo" "the Iron Intercessor" "of the Mournful Song" "the Sovereign Sting" "of the Cruel Mercy" "the Banished Glory" "of the Sacred Hunger" "the Obsidian Seraph" "of the Frozen Prayer" "the Unending Requiem" "of the Crimson Sky" "the Blazing Remnant" "of the Desolate Throne" "the Wandering Judgment" "of the Hidden Fire" "the Harbinger of Woe" "of the Silent Vow" "the Eternal Castigator" "of the Shattered Wing" "the Righteous Plague"
+			}
+			
+			regnal_first_names = {
+				Abasdarhon Abraxos Adnachiel Adonael Adonai Aeshma Agla Akriel Amitiel Amriel Anael Anapiel Anahel Anpiel Ansiel Arael Araquiel Araton Ariel Armisael Asariel Asroilu Astanphaeus Asteraoth Atrugiel Ayil Azbogah Azrael Azriel Balthioul Baradiel 
+				Barakiel Bariel Barman Barquiel Baruchiel Bazazath Bethor Briathos Cahethal Camael Cassiel Cerviel Chamuel Chayyliel Cochabiel Dabriel Dagiel Dalquiel Damabiath Dardariel Diniel Domiel Dubbiel Dumah 
+				Eae Eiael Elyon Erathaol Eremiel Gabriel Galgaliel Galizur Gamaliel Gazardiel Geburatiel Guriel Gzrel Hadraniel Hadriel Hagith Halaliel Hamaliel Hamon Haniel Harahel Hasdiel Hasmal Hayliel Haziel Heman Hermesiel Hofniel Iaoel Iaoth Iofiel Israfil 
+				Jael Jahoel Jeduthun Jefischa Jehudiel Jeremiel Kabshiel Kazfiel Kakabel Kalaziel Karael Kemuel Kerubiel Kokabiel Kutiel Labbiel Lahabiel Lamechial Lassuarium Laylah Machidiel Marmaroth Mendrion Metatron Mihr Miniel Mitatron Morael
+				Moroni Muriel Naaririel Nahaliel Nanael Narcariel Nasargiel Nathanael Naya'il Nelchael Nuriel Och Omael Onoel Ophaniel Ophiel Oriel Orifiel Orphamiel Osmadiel Ouriel Pamyel Pathiel Peliel Peniel Pesagniyah Phaleg Phanuel Phounebiel Pravuil Pronoia Purah Puriel Qaspiel
+				Quabriel Rachiel Rachmiel Radueriel Raguel Rahab Rahatiel Rahmiel Ramiel Raphael Rathanael Raziel Remiel Rikbiel Rizoel Rogziel Ruman Sabaoth Sabathiel Sablo Sabrael Sabrathan Sachiel Sagnessagiel Sahaqiel Salathiel Samkiel Samuel Sandalphon 
+				Saniel Sarakiel Sarandiel Satqiel Seraphiel Shamsiel Shoftiel Sidqiel Sidriel Simiel Sizouze Soqedhozi Sorath Sorush Soterasiel Sraosha Suriel Tarys Tatrasiel Temeluch Theliel Tubiel Tzadkiel Ubaviel Umabel Uriel Usiel Uzziel Varhmiel Vequaniel Verchiel Vretiel Xathanael 
+				Yabbashael Yefefiah Yehudiah Yerachmiel Yeshamiel Yofiel Zaapiel Zaazenach Zabkiel Zachariel Zachriel Zadkeil Zagzagel Zakzakiel Zaphiel Zaphkiel Zarall Zazriel Zehanpuryu Zerachiel Zophiel Zuriel
+			}
+
+			regnal_first_names_male = {
+				Abaeloch Zadkielon Phanaelus Baraqyalim Ramielos Azazyelith Sarielax Metatronis Kasdeyul Eremielon Turielis Armarosun Jeqoniel Gadreelox Penemunel Kasbielis Asbeelun Danelyth Yomyaelox Chazaqielis Exaelon Zavebeon Samsaveelur Ertaelax Turelyth Batarielox Ananielus Zaqielon Samielis Satarielox Turielun Yomielis Sarielur Turelax Batrielon Ananyelox Zaqyul Samsapeeloth Satarielyth Ertaelyth Turelyth Vretilyth Azazelyth Armaryth Gadreelyth Kasdeulyth Penemulyth Asbeelyth Yomyalyth Chazaqylyth Exaelyth Zavebeelyth
+			}
+
+			regnal_first_names_female = {
+				Anael Sophiel Kasbeal Myrisma Penemue Jeqoniel Gadreel Israfel Amarot Ophanis Turiel Zahariel Rumyal Sariel Ethriel Kasdeja Exael Batariel Ananiel Zavebe Samsapeel Ertael Turel Yomyael Arazyal Asael Armaros Anani Baragel Zaqiel Shamsiel Satariel Tamiel Kokabiel Ezeqeel Danel Neqael Baraqiel Armoni Matriel Kokabel Chazaqiel Araziel Samyaza Urakabarameel Akibeel Tamiel Turiel Ramiel Danel
+			}
+			regnal_second_names = {	
+				"of the Burning Wheel" "the Sevenfold Vengeance" "of the Shattered Firmament" "the Crimson Seraph" "of the Silent Trumpet" "the Iron Wings" "of the Eternal Pyre" "the Blinding Decree" "of the First Woe" "the Ashen Messenger" "of the Glass Sea" "the Vigilant Eye" "of the Sundered Throne" "the Merciless Light" "of the Ancient Wrath" "the Gilded Executioner" "of the Sacred Blade" "the Voice of Dust" "of the Starless Void" "the Hollow Sanctum" "the Radiant Scourge" "the Watcher of Graves" "of the Unmaking Breath" "the Silver Arbiter" "of the Falling Crown" "the Dread Cherubim" "of the Lost Covenant" "the Burning Witness" "of the Final Seal" "the Sorrowful Storm" "of the White Fire" "the Judge of Stars" "of the Broken Altar" "the Veiled Destroyer" "of the Endless Vigil" "the Pale Horseman" "of the Righteous Ember" "the Keeper of Chains" "of the Iron Cloud" "the Thundering Silence" "of the Golden Exile" "the Winged Terror" "of the Forgotten Word" "the Divine Shadow" "of the Bitter Cup" "the Solar Reaping" "of the Deepest Abyss" "the High Adversary" "of the Living Flame" "the Silent Watchtower" "of the Cursed Lineage" "the Herald of Ruin" "of the Unseen Blade" "the Crowned Agony" "of the Celestial Dust" "the Ghostly Praetor" "of the Wailing Wind" "the Sanctified Fury" "of the Dead Sun" "the Weaver of Fate" "of the Burning Thistle" "the Boundless Anger" "of the Holy Scars" "the Piercing Vision" "of the Last Dawn" "the Forsaken Light" "of the Sanguine Wing" "the Starry Avenger" "of the Bleeding Heavens" "the Archon of Ash" "of the Pierced Veil" "the Ethereal Hammer" "of the Raging Spirit" "the Fallen Radiance" "of the Hallowed Grudge" "the Shrouded Justice" "of the Bitter Root" "the Celestial Sickle" "of the Burning Scroll" "the Timeless Warden" "of the Dying Halo" "the Iron Intercessor" "of the Mournful Song" "the Sovereign Sting" "of the Cruel Mercy" "the Banished Glory" "of the Sacred Hunger" "the Obsidian Seraph" "of the Frozen Prayer" "the Unending Requiem" "of the Crimson Sky" "the Blazing Remnant" "of the Desolate Throne" "the Wandering Judgment" "of the Hidden Fire" "the Harbinger of Woe" "of the Silent Vow" "the Eternal Castigator" "of the Shattered Wing" "the Righteous Plague"
+			}
+		}
+	}
+}
+
+
+

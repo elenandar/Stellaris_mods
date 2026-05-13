@@ -1,0 +1,85 @@
+zeriphen_system = {
+	class = "sc_pulsar"
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 150
+	}
+	
+	usage = custom_empire
+	
+	planet = {
+		name = "Etereal Halo"
+		class = "pc_pulsar"
+		size = 150
+		orbit_distance = 0
+		init_effect = {
+			clear_deposits = yes
+			add_deposit = d_energy_deposit_8
+		}
+	}
+	
+	planet = {
+		class = pc_continental
+		name = "Paradise"
+		orbit_distance = 1
+		orbit_angle = 0
+		size = 25
+		starting_planet = yes
+		has_ring = no
+		tile_blockers = none
+		modifiers = none		
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		class = pc_barren_cold
+		name = "Phelien"
+		orbit_distance = 240
+		orbit_angle = 95
+		size = 20
+		has_ring = no
+		init_effect = {
+			clear_deposits = yes
+			add_deposit = d_mineral_deposit_8
+		}
+		moon = {
+			name = "Iriothyl"
+			orbit_distance = 35
+			class = pc_arctic
+			orbit_angle = 240
+			size = 9
+			tile_blockers = none
+		}
+		moon = {
+			name = "Samareleil"
+			orbit_distance = 14
+			class = pc_frozen
+			orbit_angle = 40
+			size = 5
+			tile_blockers = none
+		}
+		moon = {
+			name = "Calaphrenel"
+			orbit_distance = 25
+			class = pc_frozen
+			orbit_angle = 150
+			size = 3
+			tile_blockers = none
+		}
+	}
+
+	planet = {
+		class = pc_barren_cold
+		name = "Erfelen"
+		orbit_distance = 100
+		orbit_angle = -25
+		size = 5
+		has_ring = no
+		init_effect = {
+			clear_deposits = yes
+			add_deposit = d_mineral_deposit_2
+		}
+	}
+}

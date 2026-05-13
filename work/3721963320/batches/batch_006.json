@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_96d2ab6a133199a9a257187e158038368b5db9f1",
+    "key": "ZEP_WAR_GREETING_01",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "There are no words to be exchanged, [From.GetSpeciesName]. Our heavenly hosts will soon wipe your pathetic kind from the face of the Galaxy.",
+    "text": "There are no words to be exchanged, __PROT_0000__. Our heavenly hosts will soon wipe your pathetic kind from the face of the Galaxy.",
+    "entry_index": 53,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_8435a44de1b3e0f1bcfa55c187315f2e139f2fc6",
+    "key": "ZEP_WAR_GREETING_02",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "You should be honored to be dispatched by our [Root.GetName], [From.GetSpeciesName]. Not many can aspire to such a glorious and enlightened end.",
+    "text": "You should be honored to be dispatched by our __PROT_0000__, __PROT_0001__. Not many can aspire to such a glorious and enlightened end.",
+    "entry_index": 54,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_47d8e138c29892bcbd47b68814e29feb9a4d7280",
+    "key": "ZEP_WAR_GREETING_03",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "Your end is nigh, [Root.GetName]. Your false idols and miserable fleets will not shield you from the awesome might of our heavenly hosts.",
+    "text": "Your end is nigh, __PROT_0000__. Your false idols and miserable fleets will not shield you from the awesome might of our heavenly hosts.",
+    "entry_index": 55,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_08cef0993a290f1b900300574d6f04b0e7caaa80",
+    "key": "ZEP_VASSAL_GREETING_01",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "What is your wish, [From.GetRulerTitle]?",
+    "text": "What is your wish, __PROT_0000__?",
+    "entry_index": 56,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_94721d1c32b17ff178040810b3c38c8c37c35012",
+    "key": "ZEP_VASSAL_GREETING_02",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "We stand by your commands, [From.GetRulerTitle]. Which enemies do you wish to see vanquished?",
+    "text": "We stand by your commands, __PROT_0000__. Which enemies do you wish to see vanquished?",
+    "entry_index": 57,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_4d581171c1c9d657d3bd050472f14613033f3394",
+    "key": "ZEP_VASSAL_GREETING_03",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "Is it time for our heavenly hosts to take flight, [From.GetRulerTitle]?",
+    "text": "Is it time for our heavenly hosts to take flight, __PROT_0000__?",
+    "entry_index": 58,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_fdae27fc40f92a8c2b2f87ca2a73a92305f5a077",
+    "key": "ZEP_DOW_PROPOSE_01",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "The age of [Root.GetSpeciesNamePlural] is at an end. You may accept your death with dignity or engage in a futile last stand. The result will be the same.",
+    "text": "The age of __PROT_0000__ is at an end. You may accept your death with dignity or engage in a futile last stand. The result will be the same.",
+    "entry_index": 59,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_c2a625a53e1d213403bd5636071dbe48d9754e8f",
+    "key": "ZEP_DOW_PROPOSE_02",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "The [From.GetRulerTitle] has ordered for a great cleansing upon the [From.GetSpeciesAdj] people. Our heavenly hosts shall fly upon your worlds and purify them from the wickedness of your flesh.",
+    "text": "The __PROT_0000__ has ordered for a great cleansing upon the __PROT_0001__ people. Our heavenly hosts shall fly upon your worlds and purify them from the wickedness of your flesh.",
+    "entry_index": 60,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_9d958923969cce9c53bdfb3b13cd51720c0bbae8",
+    "key": "ZEP_DOW_PROPOSE_03",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "The time has come for this [From.GetSpeciesAdj] infestation to be healed. The [Root.GetRulerTitle] has so decreed: that no [From.GetSpeciesName] nor [From.GetSpeciesSpawnName] be spared.",
+    "text": "The time has come for this __PROT_0000__ infestation to be healed. The __PROT_0001__ has so decreed: that no __PROT_0002__ nor __PROT_0003__ be spared.",
+    "entry_index": 61,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_c9bb6cdae5519f5a61c91f528892a6cdefb28e8f",
+    "key": "ZEP_DOW_PROPOSE_04",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "Your unholy conduct has incurred in the wrath of the [From.GetName], [Root.GetSpeciesName]. Prepare to be extinguished.",
+    "text": "Your unholy conduct has incurred in the wrath of the __PROT_0000__, __PROT_0001__. Prepare to be extinguished.",
+    "entry_index": 62,
+    "key_occurrence_index": 0
+  }
+]

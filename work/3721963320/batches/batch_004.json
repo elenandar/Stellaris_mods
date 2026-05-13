@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_687ac3f9c500c4d52b7c6e0396b87ad06c2c9e42",
+    "key": "ZERIPHEN_SEQ_FLEETNAME",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "$ORD$ Heavenly Host",
+    "text": "__PROT_0000__ Heavenly Host",
+    "entry_index": 33,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_f399440fcd7f5c32e8ae050df61beae950627cad",
+    "key": "personality_zeriphen_enigmatic_purifiers",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "Enigmatic Purifiers",
+    "text": "Enigmatic Purifiers",
+    "entry_index": 34,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_18c17f2588397aeb45b5fcf1956f8ccb152da77a",
+    "key": "personality_zeriphen_enigmatic_purifiers_desc",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "Enigmatic Purifiers are haughty star-dwelling entities who despise organic life and feed off solar energy.",
+    "text": "Enigmatic Purifiers are haughty star-dwelling entities who despise organic life and feed off solar energy.",
+    "entry_index": 35,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_8b789a73f43d21db06d681e60478eee30afa3eb5",
+    "key": "ZEP_HOSTILE_GREETING_01",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "The disgusting sight of your form is unbearable to my senses, [From.GetSpeciesName]. Speak now and then begone.",
+    "text": "The disgusting sight of your form is unbearable to my senses, __PROT_0000__. Speak now and then begone.",
+    "entry_index": 36,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_f32e1bb6bffe4d8119942d60368e0dd5a9fc8ebb",
+    "key": "ZEP_HOSTILE_GREETING_02",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "You filthy, insignificant [From.GetSpeciesNamePlural] are nothing but a smear on the Galaxy, soon to be cleansed.",
+    "text": "You filthy, insignificant __PROT_0000__ are nothing but a smear on the Galaxy, soon to be cleansed.",
+    "entry_index": 37,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_570059a8d6388816cba01945df997cd2541a2f62",
+    "key": "ZEP_HOSTILE_GREETING_03",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "The day of reckoning shall soon be upon you and all of your kindred, [From.GetSpeciesName]. Mark my words.",
+    "text": "The day of reckoning shall soon be upon you and all of your kindred, __PROT_0000__. Mark my words.",
+    "entry_index": 38,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_374ff11da977407b700fa4018ec43f2116cbfb5d",
+    "key": "ZEP_DOMINEERING_GREETING_01",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "You are like a child, [From.GetSpeciesName], yet you expect us to listen when you speak?",
+    "text": "You are like a child, __PROT_0000__, yet you expect us to listen when you speak?",
+    "entry_index": 39,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_2d6aa2f44096a645ecd41fb66228be487c3b9d2d",
+    "key": "ZEP_DOMINEERING_GREETING_02",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "A small smear on the idyllic beauty of the Galaxy such as yourself can easily be cleansed, [From.GetSpeciesName]. Remember this when you address us.",
+    "text": "A small smear on the idyllic beauty of the Galaxy such as yourself can easily be cleansed, __PROT_0000__. Remember this when you address us.",
+    "entry_index": 40,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_801c189fb18f9063e5c39cb646844e136eb5cb0c",
+    "key": "ZEP_DOMINEERING_GREETING_03",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "Fear not, [From.GetSpeciesName]. Your time has not yet come. You may still address us in peaceful terms.",
+    "text": "Fear not, __PROT_0000__. Your time has not yet come. You may still address us in peaceful terms.",
+    "entry_index": 41,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_91b2e1e90d37a0a012be434ea75e6e12e244c352",
+    "key": "ZEP_NEUTRAL_GREETING_01",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "Beware, [From.GetSpeciesName]: the eternal eye of the [Root.GetRulerTitle] is upon you.",
+    "text": "Beware, __PROT_0000__: the eternal eye of the __PROT_0001__ is upon you.",
+    "entry_index": 42,
+    "key_occurrence_index": 0
+  }
+]

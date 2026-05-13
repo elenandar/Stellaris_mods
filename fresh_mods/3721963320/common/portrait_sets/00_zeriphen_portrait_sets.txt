@@ -1,0 +1,87 @@
+avians = {
+	species_class = AVI
+
+	conditional_portraits = {
+		randomizable = {
+				NOT = {
+				has_global_flag = game_started
+			}
+		}
+		playable = {
+			always = yes
+		}
+		portraits = {
+			"zeriphenspor"
+		}
+	}
+	# These should not be used for randomly generated species
+	non_randomized_portraits = {
+			"zeriphenspor"
+	}
+}
+
+infernals = {
+	species_class = INF
+
+	conditional_portraits = {
+		randomizable = {
+				NOT = {
+				has_global_flag = game_started
+			}
+		}
+		playable = {
+			always = yes
+		}
+		portraits = {
+			"zeriphenspor"
+		}
+	}
+	# These should not be used for randomly generated species
+	non_randomized_portraits = {
+			"zeriphenspor"
+	}
+}
+
+machines = {
+	species_class = MACHINE
+
+	conditional_portraits = {
+		randomizable = {
+				NOT = {
+				has_global_flag = game_started
+			}
+		}
+		playable = {
+			always = yes
+		}
+		portraits = {
+			"mechazeriphenspor"
+		}
+	}
+	# These should not be used for randomly generated species
+	non_randomized_portraits = {
+			"mechazeriphenspor"
+	}
+}
+
+robots = {
+	species_class = ROBOT
+	conditional_portraits = {
+		randomizable = {
+				NOT = {
+				has_global_flag = game_started
+			}
+		}
+		playable = {
+			always = yes
+		}
+		portraits = {
+			"mechazeriphenspor"
+		}
+	}
+	# These should not be used for randomly generated species
+	non_randomized_portraits = {
+			"mechazeriphenspor"
+	}
+}
+

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_18474587b440eb01a1f929edb72f52d309e2479c",
+    "key": "ZERIP_assaultarmy",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "$ORD$ Assault Chorus",
+    "text": "__PROT_0000__ Assault Chorus",
+    "entry_index": 23,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_e780b8855460c0e00e8b7dec6d17d78d6fd931b1",
+    "key": "ZERIP_slavearmy",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "$ORD$ Penitent Horde",
+    "text": "__PROT_0000__ Penitent Horde",
+    "entry_index": 24,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_745827f52853f6b2fd6565cbbd47406aa42e9c38",
+    "key": "ZERIP_clonearmy",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "$ORD$ Resonating Ranks",
+    "text": "__PROT_0000__ Resonating Ranks",
+    "entry_index": 25,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_5e1ba112083d7e3df14048a035409bf96da9ab9d",
+    "key": "ZERIP_machinedefarmy",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "$ORD$ Souless Wing",
+    "text": "__PROT_0000__ Souless Wing",
+    "entry_index": 26,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_8ff01e7b5197f39470e88df5f0be115e7c11d4e7",
+    "key": "ZERIP_machineassaultarmy",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "$ORD$ Souless Halo",
+    "text": "__PROT_0000__ Souless Halo",
+    "entry_index": 27,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_ca87bec3b639891759877788dac337bcc4243ff3",
+    "key": "ZERIP_androidarmy",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "$ORD$ Land Drones",
+    "text": "__PROT_0000__ Land Drones",
+    "entry_index": 28,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_06621d3705b18c7f959d4a7e04490d78e296df39",
+    "key": "ZERIP_psionarmy",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "$ORD$ Seraphs",
+    "text": "__PROT_0000__ Seraphs",
+    "entry_index": 29,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_6c5d03cadf2bd698e2811722f8a11bde31d48704",
+    "key": "ZERIP_undeadarmy",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "$ORD$ Undying Legion",
+    "text": "__PROT_0000__ Undying Legion",
+    "entry_index": 30,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_5ed056b409c945e1ae46757b42283729e8ba764b",
+    "key": "ZERIP_xenoarmy",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "$ORD$ Principalities",
+    "text": "__PROT_0000__ Principalities",
+    "entry_index": 31,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_c3d84b938f28af653a2f37e4043b66a7e3f1c073",
+    "key": "ZERIP_genewarriorarmy",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "$ORD$ Thrones",
+    "text": "__PROT_0000__ Thrones",
+    "entry_index": 32,
+    "key_occurrence_index": 0
+  }
+]

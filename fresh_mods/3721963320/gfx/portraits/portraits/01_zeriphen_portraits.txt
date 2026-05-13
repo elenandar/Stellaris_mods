@@ -1,0 +1,619 @@
+portraits = {
+
+	zeriphen_female_01 = {	entity = "portrait_zeriphen_female_01_entity"	clothes_selector = "zeriphen_female_clothes_01" attachment_selector = "zeriphen_female_hair_01"	greeting_sound = "lithoid_portrait_12_crystal"	
+		custom_attachment_label = "HAIR_STYLE"
+		character_textures = { 
+			"gfx/models/portraits/zeriphen/zeriphen_female_body_1.tga" 
+
+		}
+		portrait_evolution = {
+			variants = {
+				{
+					# Cyborg 1
+					value = {
+						{
+							decal = "gfx/models/portraits/zeriphen/zeriphen_ascension_female_cyber_1A.tga"
+							mask = "gfx/models/portraits/zeriphen/zeriphen_ascension_uni_cyber_1A_mask.tga"
+						}
+					}
+
+					trigger = {
+						has_cybernetization_stage_1 = yes
+					}
+				}
+				{
+					# Cyborg 2
+					value = {
+						{
+							decal = "gfx/models/portraits/zeriphen/zeriphen_ascension_female_cyber_2A.tga"
+							mask = "gfx/models/portraits/zeriphen/zeriphen_ascension_uni_cyber_2A_mask.tga"
+						}
+					}
+
+					trigger = {
+						has_cybernetization_stage_2 = yes
+					}
+				}
+				{
+					# Psionic
+					value = {
+						{
+							#portrait_override = "portrait_zeriphen_psionic_01_female_entity"
+							decal = "gfx/models/portraits/zeriphen/zeriphen_ascension_uni_psionic_1A.tga"
+							mask = "gfx/models/portraits/zeriphen/zeriphen_ascension_psion_uni_1A_mask.tga"		
+						}
+					}
+
+					trigger = {
+						has_become_psionic = yes
+					}
+				}
+				{
+					# Biogenesis 1
+					value = {
+						{
+							decal = "gfx/models/portraits/zeriphen/zeriphen_ascension_female_biogenetic_1A.tga"
+							mask = "gfx/models/portraits/zeriphen/zeriphen_ascension_uni_biogenetic_1_mask.tga"
+						}
+					}
+
+					trigger = {
+						OR = {
+							AND = {
+								is_scope_type = leader
+								species = { has_trait = trait_adaptive_mutations }
+							}
+							AND = {
+								OR = {
+									is_scope_type = pop
+									is_scope_type = pop_group
+									is_scope_type = species
+								}
+								has_trait = trait_adaptive_mutations
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	zeriphen_male_01 = {	entity = "portrait_zeriphen_male_01_entity"	clothes_selector = "zeriphen_male_clothes_01" attachment_selector = "zeriphen_male_hair_01"	greeting_sound = "lithoid_portrait_12_crystal" 
+		custom_attachment_label = "HAIR_STYLE"
+		character_textures = { 
+			"gfx/models/portraits/zeriphen/zeriphen_male_body_1.tga" 
+
+		}
+		portrait_evolution = {
+			variants = {
+				{
+					# Cyborg 1
+					value = {
+						{
+							decal = "gfx/models/portraits/zeriphen/zeriphen_ascension_male_cyber_1A.tga"
+							mask = "gfx/models/portraits/zeriphen/zeriphen_ascension_uni_cyber_1A_mask.tga"
+						}
+					}
+
+					trigger = {
+						has_cybernetization_stage_1 = yes
+					}
+				}
+				{
+					# Cyborg 2
+					value = {
+						{
+							decal = "gfx/models/portraits/zeriphen/zeriphen_ascension_male_cyber_2A.tga"
+							mask = "gfx/models/portraits/zeriphen/zeriphen_ascension_uni_cyber_2A_mask.tga"
+						}
+					}
+
+					trigger = {
+						has_cybernetization_stage_2 = yes
+					}
+				}
+				{
+					# Psionic
+					value = {
+						{
+							#portrait_override = "portrait_zeriphen_psionic_01_male_entity"
+							decal = "gfx/models/portraits/zeriphen/zeriphen_ascension_uni_psionic_1A.tga"
+							mask = "gfx/models/portraits/zeriphen/zeriphen_ascension_psion_uni_1A_mask.tga"
+						}
+					}
+
+					trigger = {
+						has_become_psionic = yes
+					}
+				}
+				{
+					# Biogenesis 1
+					value = {
+						{
+							decal = "gfx/models/portraits/zeriphen/zeriphen_ascension_male_biogenetic_1A.tga"
+							mask = "gfx/models/portraits/zeriphen/zeriphen_ascension_uni_biogenetic_1_mask.tga"
+						}
+					}
+
+					trigger = {
+						OR = {
+							AND = {
+								is_scope_type = leader
+								species = { has_trait = trait_adaptive_mutations }
+							}
+							AND = {
+								OR = {
+									is_scope_type = pop
+									is_scope_type = pop_group
+									is_scope_type = species
+								}
+								has_trait = trait_adaptive_mutations
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	zeriphen_female_02 = {	entity = "portrait_zeriphen_female_01_entity"	clothes_selector = "zeriphen_female_clothes_02" attachment_selector = "zeriphen_female_hair_01"	greeting_sound = "lithoid_portrait_12_crystal"	
+		custom_attachment_label = "HAIR_STYLE"
+		character_textures = { 
+			"gfx/models/portraits/zeriphen/zeriphen_female_body_2.tga" 
+
+		}
+		portrait_evolution = {
+			variants = {
+				{
+					# Cyborg 1
+					value = {
+						{
+							decal = "gfx/models/portraits/zeriphen/zeriphen_ascension_uni_cyber_1B.tga"
+							mask = "gfx/models/portraits/zeriphen/zeriphen_ascension_uni_cyber_1B_mask.tga"
+						}
+					}
+
+					trigger = {
+						has_cybernetization_stage_1 = yes
+					}
+				}
+				{
+					# Cyborg 2
+					value = {
+						{
+							decal = "gfx/models/portraits/zeriphen/zeriphen_ascension_female_cyber_2B.tga"
+							mask = "gfx/models/portraits/zeriphen/zeriphen_ascension_uni_cyber_1B_mask.tga"
+						}
+					}
+
+					trigger = {
+						has_cybernetization_stage_2 = yes
+					}
+				}
+				{
+					# Psionic
+					value = {
+						{
+							#portrait_override = "portrait_zeriphen_psionic_01_female_entity"
+							decal = "gfx/models/portraits/zeriphen/zeriphen_ascension_uni_psionic_1B.tga"
+							mask = "gfx/models/portraits/zeriphen/zeriphen_ascension_psion_uni_1B_mask.tga"		
+						}
+					}
+
+					trigger = {
+						has_become_psionic = yes
+					}
+				}
+				{
+					# Biogenesis 1
+					value = {
+						{
+							decal = "gfx/models/portraits/zeriphen/zeriphen_ascension_female_biogenetic_1B.tga"
+							mask = "gfx/models/portraits/zeriphen/zeriphen_ascension_uni_biogenetic_1_mask.tga"
+						}
+					}
+
+					trigger = {
+						OR = {
+							AND = {
+								is_scope_type = leader
+								species = { has_trait = trait_adaptive_mutations }
+							}
+							AND = {
+								OR = {
+									is_scope_type = pop
+									is_scope_type = pop_group
+									is_scope_type = species
+								}
+								has_trait = trait_adaptive_mutations
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	zeriphen_male_02 = {	entity = "portrait_zeriphen_male_01_entity"	clothes_selector = "zeriphen_male_clothes_02" attachment_selector = "zeriphen_male_hair_01"	greeting_sound = "lithoid_portrait_12_crystal" 
+		custom_attachment_label = "HAIR_STYLE"
+		character_textures = { 
+			"gfx/models/portraits/zeriphen/zeriphen_male_body_2.tga" 
+
+		}
+		portrait_evolution = {
+			variants = {
+				{
+					# Cyborg 1
+					value = {
+						{
+							decal = "gfx/models/portraits/zeriphen/zeriphen_ascension_uni_cyber_1B.tga"
+							mask = "gfx/models/portraits/zeriphen/zeriphen_ascension_uni_cyber_1B_mask.tga"
+						}
+					}
+
+					trigger = {
+						has_cybernetization_stage_1 = yes
+					}
+				}
+				{
+					# Cyborg 2
+					value = {
+						{
+							decal = "gfx/models/portraits/zeriphen/zeriphen_ascension_male_cyber_2B.tga"
+							mask = "gfx/models/portraits/zeriphen/zeriphen_ascension_uni_cyber_1B_mask.tga"
+						}
+					}
+
+					trigger = {
+						has_cybernetization_stage_2 = yes
+					}
+				}
+				{
+					# Psionic
+					value = {
+						{
+							#portrait_override = "portrait_zeriphen_psionic_01_male_entity"
+							decal = "gfx/models/portraits/zeriphen/zeriphen_ascension_uni_psionic_1B.tga"
+							mask = "gfx/models/portraits/zeriphen/zeriphen_ascension_psion_uni_1B_mask.tga"
+						}
+					}
+
+					trigger = {
+						has_become_psionic = yes
+					}
+				}
+				{
+					# Biogenesis 1
+					value = {
+						{
+							decal = "gfx/models/portraits/zeriphen/zeriphen_ascension_male_biogenetic_1B.tga"
+							mask = "gfx/models/portraits/zeriphen/zeriphen_ascension_uni_biogenetic_1_mask.tga"
+						}
+					}
+
+					trigger = {
+						OR = {
+							AND = {
+								is_scope_type = leader
+								species = { has_trait = trait_adaptive_mutations }
+							}
+							AND = {
+								OR = {
+									is_scope_type = pop
+									is_scope_type = pop_group
+									is_scope_type = species
+								}
+								has_trait = trait_adaptive_mutations
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	zeriphen_female_03 = {	entity = "portrait_zeriphen_female_01_entity"	clothes_selector = "zeriphen_female_clothes_02" attachment_selector = "zeriphen_female_hair_01"	greeting_sound = "lithoid_portrait_12_crystal"	
+		custom_attachment_label = "HAIR_STYLE"
+		character_textures = { 
+			"gfx/models/portraits/zeriphen/zeriphen_female_body_3.tga" 
+
+		}
+		portrait_evolution = {
+			variants = {
+				{
+					# Cyborg 1
+					value = {
+						{
+							decal = "gfx/models/portraits/zeriphen/zeriphen_ascension_uni_cyber_1B.tga"
+							mask = "gfx/models/portraits/zeriphen/zeriphen_ascension_uni_cyber_1B_mask.tga"
+						}
+					}
+
+					trigger = {
+						has_cybernetization_stage_1 = yes
+					}
+				}
+				{
+					# Cyborg 2
+					value = {
+						{
+							decal = "gfx/models/portraits/zeriphen/zeriphen_ascension_female_cyber_2B.tga"
+							mask = "gfx/models/portraits/zeriphen/zeriphen_ascension_uni_cyber_1B_mask.tga"
+						}
+					}
+
+					trigger = {
+						has_cybernetization_stage_2 = yes
+					}
+				}
+				{
+					# Psionic
+					value = {
+						{
+							#portrait_override = "portrait_zeriphen_psionic_01_female_entity"
+							decal = "gfx/models/portraits/zeriphen/zeriphen_ascension_uni_psionic_1C.tga"
+							mask = "gfx/models/portraits/zeriphen/zeriphen_ascension_psion_uni_1C_mask.tga"		
+						}
+					}
+
+					trigger = {
+						has_become_psionic = yes
+					}
+				}
+				{
+					# Biogenesis 1
+					value = {
+						{
+							decal = "gfx/models/portraits/zeriphen/zeriphen_ascension_female_biogenetic_1C.tga"
+							mask = "gfx/models/portraits/zeriphen/zeriphen_ascension_uni_biogenetic_1_mask.tga"
+						}
+					}
+
+					trigger = {
+						OR = {
+							AND = {
+								is_scope_type = leader
+								species = { has_trait = trait_adaptive_mutations }
+							}
+							AND = {
+								OR = {
+									is_scope_type = pop
+									is_scope_type = pop_group
+									is_scope_type = species
+								}
+								has_trait = trait_adaptive_mutations
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	zeriphen_male_03 = {	entity = "portrait_zeriphen_male_01_entity"	clothes_selector = "zeriphen_male_clothes_02" attachment_selector = "zeriphen_male_hair_01"	greeting_sound = "lithoid_portrait_12_crystal" 
+		custom_attachment_label = "HAIR_STYLE"
+		character_textures = { 
+			"gfx/models/portraits/zeriphen/zeriphen_male_body_3.tga" 
+
+		}
+		portrait_evolution = {
+			variants = {
+				{
+					# Cyborg 1
+					value = {
+						{
+							decal = "gfx/models/portraits/zeriphen/zeriphen_ascension_uni_cyber_1B.tga"
+							mask = "gfx/models/portraits/zeriphen/zeriphen_ascension_uni_cyber_1B_mask.tga"
+						}
+					}
+
+					trigger = {
+						has_cybernetization_stage_1 = yes
+					}
+				}
+				{
+					# Cyborg 2
+					value = {
+						{
+							decal = "gfx/models/portraits/zeriphen/zeriphen_ascension_male_cyber_2B.tga"
+							mask = "gfx/models/portraits/zeriphen/zeriphen_ascension_uni_cyber_1B_mask.tga"
+						}
+					}
+
+					trigger = {
+						has_cybernetization_stage_2 = yes
+					}
+				}
+				{
+					# Psionic
+					value = {
+						{
+							#portrait_override = "portrait_zeriphen_psionic_01_male_entity"
+							decal = "gfx/models/portraits/zeriphen/zeriphen_ascension_uni_psionic_1C.tga"
+							mask = "gfx/models/portraits/zeriphen/zeriphen_ascension_psion_uni_1C_mask.tga"
+						}
+					}
+
+					trigger = {
+						has_become_psionic = yes
+					}
+				}
+				{
+					# Biogenesis 1
+					value = {
+						{
+							decal = "gfx/models/portraits/zeriphen/zeriphen_ascension_male_biogenetic_1C.tga"
+							mask = "gfx/models/portraits/zeriphen/zeriphen_ascension_uni_biogenetic_1_mask.tga"
+						}
+					}
+
+					trigger = {
+						OR = {
+							AND = {
+								is_scope_type = leader
+								species = { has_trait = trait_adaptive_mutations }
+							}
+							AND = {
+								OR = {
+									is_scope_type = pop
+									is_scope_type = pop_group
+									is_scope_type = species
+								}
+								has_trait = trait_adaptive_mutations
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+portrait_groups = {
+	zeriphenspor = {
+		default = zeriphen_male_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = male
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					zeriphen_male_01
+					zeriphen_male_02
+					zeriphen_male_03
+					
+				}
+			}
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = female
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					zeriphen_female_01
+					zeriphen_female_02
+					zeriphen_female_03
+					
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					zeriphen_female_01
+					zeriphen_female_02
+					zeriphen_female_03
+					
+				}
+			}
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					zeriphen_male_01
+					zeriphen_male_02
+					zeriphen_male_03
+					
+				}
+			}
+		}
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					zeriphen_female_01
+					
+				}
+			}
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					zeriphen_male_01
+					
+				}
+			}
+		}
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					OR = {
+						gender = female
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					zeriphen_female_01
+					zeriphen_female_02
+					zeriphen_female_03
+					
+				}
+			}
+			add = {
+				trigger = {
+					OR = {
+						gender = male
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					zeriphen_male_01
+					zeriphen_male_02
+					zeriphen_male_03
+					
+				}
+			}
+		}
+		#leader scope
+		ruler = {
+			add = {
+				trigger = {
+					OR = {
+						gender = female
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					zeriphen_female_01
+					zeriphen_female_02
+					zeriphen_female_03
+					
+				}
+			}
+			add = {
+				trigger = {
+					OR = {
+						gender = male
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					zeriphen_male_01
+					zeriphen_male_02
+					zeriphen_male_03					
+				}
+			}
+		}
+	}
+}

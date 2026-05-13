@@ -1,0 +1,37 @@
+objectTypes = {
+
+#FEMALE
+	
+	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	
+	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#
+	
+	
+	pdxmesh = {
+		name = "portrait_zeriphen_female_01_mesh"
+		file = "gfx/models/portraits/zeriphen/zeriphen_01_uni_portrait.mesh"
+		animation = { id = "idle"	type = "zeriphen_portrait_idle1_animation" }
+		animation = { id = "idle2"	type = "zeriphen_portrait_idle2_animation" }
+		animation = { id = "idle3"	type = "zeriphen_portrait_idle3_animation" }
+		animation = { id = "idle4"	type = "zeriphen_portrait_idle4_animation" }
+
+		scale = 1.0
+	}	
+		
+#MALE
+	
+#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	
+#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#	#
+	
+		
+	pdxmesh = {
+		name = "portrait_zeriphen_male_01_mesh"
+		file = "gfx/models/portraits/zeriphen/zeriphen_01_uni_portrait.mesh"
+		animation = { id = "idle"	type = "zeriphen_portrait_idle1_animation" }
+		animation = { id = "idle2"	type = "zeriphen_portrait_idle2_animation" }
+		animation = { id = "idle3"	type = "zeriphen_portrait_idle3_animation" }
+		animation = { id = "idle4"	type = "zeriphen_portrait_idle4_animation" }
+
+		scale = 1.0
+	}
+	
+}

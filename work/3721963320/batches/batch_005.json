@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_d30cb0f0953525b6991a676497eeed8f5218cfd2",
+    "key": "ZEP_NEUTRAL_GREETING_02",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "Speak, insignificant little creature. We will entertain your senseless [From.GetRandomSpeciesSound] for a few moments.",
+    "text": "Speak, insignificant little creature. We will entertain your senseless __PROT_0000__ for a few moments.",
+    "entry_index": 43,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_1d0af644dbfb43656d2205fc87e7ffe42abb49a5",
+    "key": "ZEP_NEUTRAL_GREETING_03",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "Do not stutter in the glorious presence of the [Root.GetSpeciesNamePlural].",
+    "text": "Do not stutter in the glorious presence of the __PROT_0000__.",
+    "entry_index": 44,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_7ca6f442d6d99095580b8df310a4d03247506e46",
+    "key": "ZEP_NEUTRAL_GREETING_04",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "Our glorious host flies well beyond the limited reach of your form, [From.GetSpeciesName], yet you still talk.",
+    "text": "Our glorious host flies well beyond the limited reach of your form, __PROT_0000__, yet you still talk.",
+    "entry_index": 45,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_f4ce2f5c173091cd3ba223a2b3d6a2efa6d00436",
+    "key": "ZEP_NEUTRAL_GREETING_05",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "Away with you, primitive mongrel. We have no business to discuss with the likes of you.",
+    "text": "Away with you, primitive mongrel. We have no business to discuss with the likes of you.",
+    "entry_index": 46,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_7dcefe7f4116398bc91e54cd396b9087367f0a13",
+    "key": "ZEP_THREATENED_GREETING_01",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "I wonder if your mind is so feeble to make you think you could raise your hand against us and survive, [From.GetSpeciesName].",
+    "text": "I wonder if your mind is so feeble to make you think you could raise your hand against us and survive, __PROT_0000__.",
+    "entry_index": 47,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_32ec456299c758fd4f95146a8bfe8032d80e886e",
+    "key": "ZEP_THREATENED_GREETING_02",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "We grow tired of the crass insult represented by your continued existence, [From.GetSpeciesName]. You would do well not to strain our patience any further if you wish for your kind to survive a while longer.",
+    "text": "We grow tired of the crass insult represented by your continued existence, __PROT_0000__. You would do well not to strain our patience any further if you wish for your kind to survive a while longer.",
+    "entry_index": 48,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_5b9e9b483a2991a5e2e29ea2025923eeaac6ef71",
+    "key": "ZEP_THREATENED_GREETING_03",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "We shall not be undermined by some primitive flesh-monger, [From.GetSpeciesName]. We would sooner destroy the entire Galaxy than submit to your obscene rule.",
+    "text": "We shall not be undermined by some primitive flesh-monger, __PROT_0000__. We would sooner destroy the entire Galaxy than submit to your obscene rule.",
+    "entry_index": 49,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_6eb4b874d3516e5a12ca21054f4175957930b75d",
+    "key": "ZEP_FRIENDLY_GREETING_01",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "Your continued existence has not yet caused offense great enough to the [Root.GetName] to demand your extermination, [From.GetSpeciesName]. Rejoice.",
+    "text": "Your continued existence has not yet caused offense great enough to the __PROT_0000__ to demand your extermination, __PROT_0001__. Rejoice.",
+    "entry_index": 50,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_96c09471d1e27c3f2b996f8cd52613485b9e08e4",
+    "key": "ZEP_FRIENDLY_GREETING_02",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "Keep to your current course, [From.GetSpeciesName]. You may yet survive for another era before our reckoning.",
+    "text": "Keep to your current course, __PROT_0000__. You may yet survive for another era before our reckoning.",
+    "entry_index": 51,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_e0a57687cf4d54885b531773c8bf0e47ea175a9c",
+    "key": "ZEP_FRIENDLY_GREETING_03",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "You are doing well to not rouse the ire of the [Root.GetRulerTitle], [From.GetSpeciesName]. The continued existence of your pitiful Empire depends on it.",
+    "text": "You are doing well to not rouse the ire of the __PROT_0000__, __PROT_0001__. The continued existence of your pitiful Empire depends on it.",
+    "entry_index": 52,
+    "key_occurrence_index": 0
+  }
+]

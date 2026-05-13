@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_82b5e5b0425cd1b762391652ccefd78a12362999",
+    "key": "ZRPHN",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "Zeriphen",
+    "text": "Zeriphen",
+    "entry_index": 0,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_e8b29c0c16802eac100c24a5c3c133f518b92cc8",
+    "key": "zeriphen_system_NAME",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "Empyrean",
+    "text": "Empyrean",
+    "entry_index": 4,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_e7cdb3ce7d537b97a513a990626e6801364fe447",
+    "key": "zeriphen_system_DESC",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "The great pulsar hiding the fabled heavenly world of the Zeriphen.\\n $system_initializer_DESC$",
+    "text": "The great pulsar hiding the fabled heavenly world of the Zeriphen.__PROT_0000__ __PROT_0001__",
+    "entry_index": 5,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_02d9e3dcb82df8243920c2aa00f3bc628f4a1d1f",
+    "key": "ZRPHN_insult_01",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "light-bulb",
+    "text": "light-bulb",
+    "entry_index": 6,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_3fd7fa3762afd83a42d6e5fb208c08d1c6d9e71a",
+    "key": "ZRPHN_insult_plural_01",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "light-bulbs",
+    "text": "light-bulbs",
+    "entry_index": 7,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_c8a50f632c3c4baf27fc05facb1883104e1d16ef",
+    "key": "ZRPHN_compliment_01",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "angel",
+    "text": "angel",
+    "entry_index": 8,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_275e5d5f064b3db5f71ff7a2c2b5116cf0c902d3",
+    "key": "ZRPHN_compliment_plural_01",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "angels",
+    "text": "angels",
+    "entry_index": 9,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_546f043d22406244a4c8e006a1df9f72f93fa8ce",
+    "key": "ZRPHN_spawn",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "cherub",
+    "text": "cherub",
+    "entry_index": 10,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_dbc05a78dd50f36244757ed94dfb4a19b2d50062",
+    "key": "ZRPHN_spawn_plural",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "cherubs",
+    "text": "cherubs",
+    "entry_index": 11,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_46e3c73f77a5b5b60e93c33c622f7446c799ce09",
+    "key": "ZRPHN_sound_01",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "chanting",
+    "text": "chanting",
+    "entry_index": 12,
+    "key_occurrence_index": 0
+  }
+]

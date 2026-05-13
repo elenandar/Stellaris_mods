@@ -1,0 +1,4 @@
+
+empire_zeriphen = {
+	flags = { is_zeriphen custom_start_screen }
+}

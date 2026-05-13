@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_833b7d59e65a8b7056c0b5eaaa81409c60e95330",
+    "key": "ZRPHN_sound_02",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "whining",
+    "text": "whining",
+    "entry_index": 13,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_2e1211c27ba86fb4b72bf6b008c94dd960282d31",
+    "key": "ZRPHN_sound_03",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "sighing",
+    "text": "sighing",
+    "entry_index": 14,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_45890e2b0ecf56682145d98bbb12639bd552cff5",
+    "key": "ZRPHN_sound_04",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "shouting",
+    "text": "shouting",
+    "entry_index": 15,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_5a4a8bd98d44e99185821ef83d58774320e59ffc",
+    "key": "ZRPHN_sound_05",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "screeching",
+    "text": "screeching",
+    "entry_index": 16,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_b67123745f04210a4d6447c44b014c6de5fc2fa2",
+    "key": "ZRPHN_organ",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "wings",
+    "text": "wings",
+    "entry_index": 17,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_33b1eac210971fb02a3b90afce9dbff758be794d",
+    "key": "ZRPHN_mouth",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "halo",
+    "text": "halo",
+    "entry_index": 18,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_f85d62b28e13b2be465d453daba6e42794fca20a",
+    "key": "EMPIRE_DESIGN_zeriphen1",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "Gates of Elikiol",
+    "text": "Gates of Elikiol",
+    "entry_index": 19,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_d338bb359357efd5634a14570b92f86afac0954e",
+    "key": "EMPIRE_DESIGN_zeriphen1_desc",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "The Zeriphen are enigmatic beings whose origin is unknown. Whether through natural evolution or artificial engineering, these creatures have adapted to survive only near the boiling surface of their home star.\\n\\nUnable and unwilling to live on the solid surface of the planets around them, the Zeriphen seldom leave the Gates of Elikiol. Yet, when they do, their intentions are never peaceful. Their oligarchic leadership, organized in complex sets of hosts, harbors a deep hatred towards all other living beings, and is all too happy to cleanse any species that is so unlucky as to become their neighbor.",
+    "text": "The Zeriphen are enigmatic beings whose origin is unknown. Whether through natural evolution or artificial engineering, these creatures have adapted to survive only near the boiling surface of their home star.__PROT_0000____PROT_0001__Unable and unwilling to live on the solid surface of the planets around them, the Zeriphen seldom leave the Gates of Elikiol. Yet, when they do, their intentions are never peaceful. Their oligarchic leadership, organized in complex sets of hosts, harbors a deep hatred towards all other living beings, and is all too happy to cleanse any species that is so unlucky as to become their neighbor.",
+    "entry_index": 20,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_8dd137b8a5ee2fca4509db6e5409eb0632d7d179",
+    "key": "START_SCREEN_ZERIPHEN",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "The end of this epoch is upon us. \\n\\nThe Highest Chorus, vibrant paragon of sublime enlightenment has thus decreed that the Gates will open, and a righteous storm of heavenly hosts will fall upon this unworthy carcass of a Galaxy, and bring an end to the filthy vermin squirming within. \\n\\nLet there be no quarter and no mercy upon the wicked, let the purest candor of our shrouds be cleansed through this monumental, cosmic bloodletting!",
+    "text": "The end of this epoch is upon us. __PROT_0000____PROT_0001__The Highest Chorus, vibrant paragon of sublime enlightenment has thus decreed that the Gates will open, and a righteous storm of heavenly hosts will fall upon this unworthy carcass of a Galaxy, and bring an end to the filthy vermin squirming within. __PROT_0002____PROT_0003__Let there be no quarter and no mercy upon the wicked, let the purest candor of our shrouds be cleansed through this monumental, cosmic bloodletting!",
+    "entry_index": 21,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_96496f91569d6ef7bdd41df838472d148d7d071b",
+    "key": "ZERIP_defarmy",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "$ORD$ Choral Watchers",
+    "text": "__PROT_0000__ Choral Watchers",
+    "entry_index": 22,
+    "key_occurrence_index": 0
+  }
+]

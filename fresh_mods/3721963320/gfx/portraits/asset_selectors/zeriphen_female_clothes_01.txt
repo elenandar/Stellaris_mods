@@ -1,0 +1,113 @@
+# This is a template which multiple species can use. 
+
+zeriphen_female_clothes_01 = {
+	default = "gfx/models/portraits/zeriphen/zeriphen_female_clothes_ruler_01.tga"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/zeriphen/zeriphen_female_clothes_ruler_01.tga"
+	}
+	
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/zeriphen/zeriphen_female_clothes_ruler_01.tga"
+	}
+	
+	#pop scope
+	pop = { #for a specific pop
+		default = "gfx/models/portraits/zeriphen/zeriphen_female_hair_bald.tga"
+		
+		"gfx/models/portraits/zeriphen/zeriphen_female_hair_bald.tga" = { OR = { is_pop_category = slave is_pop_category = simple_drone } }
+
+		random = {
+			trigger = { is_pop_category = worker }
+			list = {
+				"gfx/models/portraits/zeriphen/zeriphen_female_hair_bald.tga" 
+			}
+		}
+
+		random = {
+			trigger = { OR = { is_pop_category = specialist is_pop_category = complex_drone } }
+			list = {
+				"gfx/models/portraits/zeriphen/zeriphen_female_clothes_scientist_01.tga" 
+				"gfx/models/portraits/zeriphen/zeriphen_female_clothes_ruler_01.tga" 
+			}
+		}
+
+		random = {
+			trigger = { is_pop_category = ruler owner = { NOT = { has_authority = auth_imperial } } }
+			list = {
+				"gfx/models/portraits/zeriphen/zeriphen_female_clothes_ruler_01.tga"
+			}
+		}
+		random = {
+			trigger = { is_pop_category = ruler owner = { has_authority = auth_imperial } }
+			list = {
+				"gfx/models/portraits/zeriphen/zeriphen_female_clothes_ruler_01.tga"
+				"gfx/models/portraits/zeriphen/zeriphen_female_clothes_ruler_rich_01.tga" 
+			}
+		}
+	}
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+		"gfx/models/portraits/zeriphen/zeriphen_female_clothes_scientist_01.tga" = { leader_class = scientist }
+		"gfx/models/portraits/zeriphen/zeriphen_female_clothes_scientist_01.tga" = { leader_class = official owner = { has_valid_civic = civic_technocracy } }
+
+		random = {
+			trigger = { leader_class = commander }
+			list = {
+				"gfx/models/portraits/zeriphen/zeriphen_female_clothes_commander_01.tga" 
+			}
+		}
+
+		random = {
+			trigger = { leader_class = official owner = { NOR = { has_authority = auth_imperial has_authority = auth_dictatorial } } }
+			list = {
+				"gfx/models/portraits/zeriphen/zeriphen_female_clothes_ruler_01.tga" 
+			}
+		}
+
+		random = {
+			trigger = { leader_class = official owner = { OR = { has_authority = auth_imperial has_authority = auth_dictatorial has_materialist_government = yes } } }
+			list = {
+				"gfx/models/portraits/zeriphen/zeriphen_female_clothes_ruler_01.tga" 
+				"gfx/models/portraits/zeriphen/zeriphen_female_clothes_ruler_rich_01.tga" 
+			}
+		}
+	}
+
+	#leader scope 
+	ruler = { #for rulers
+		default = "gfx/models/portraits/zeriphen/zeriphen_female_clothes_ruler_01.tga"
+
+		"gfx/models/portraits/zeriphen/zeriphen_female_clothes_scientist_01.tga" = { owner = { has_valid_civic = civic_technocracy NOT = { has_authority = auth_imperial } } }
+		random = {
+			trigger = { owner = { has_militarist_government = yes NOT = { has_authority = auth_imperial } } }
+			list = {
+				"gfx/models/portraits/zeriphen/zeriphen_female_clothes_commander_01.tga" 
+				"gfx/models/portraits/zeriphen/zeriphen_female_clothes_ruler_royal_01.tga" 
+			}
+		}
+
+		random = {
+			trigger = {  owner = { has_militarist_government = no has_materialist_government = no NOT = { has_authority = auth_imperial } } }
+			list = {
+				"gfx/models/portraits/zeriphen/zeriphen_female_clothes_ruler_01.tga" 
+			}
+		}
+
+		random = {
+			trigger = {  owner = { has_militarist_government = no has_materialist_government = yes NOT = { has_authority = auth_imperial } } }
+			list = {
+				"gfx/models/portraits/zeriphen/zeriphen_female_clothes_ruler_01.tga" 
+				"gfx/models/portraits/zeriphen/zeriphen_female_clothes_ruler_rich_01.tga" 
+			}
+		}
+
+		random = {
+			trigger = {  owner = { has_authority = auth_imperial } }
+			list = {
+				"gfx/models/portraits/zeriphen/zeriphen_female_clothes_ruler_royal_01.tga" 
+			}
+		}
+	}
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "loc_8002aca9330846476b56ee08976f8079cf5dbbb3",
+    "key": "ZEP_DOW_PROPOSE_05",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "Prepare yourselves, [Root.GetSpeciesNamePlural]: the time for your species to be purified is at hand.",
+    "text": "Prepare yourselves, __PROT_0000__: the time for your species to be purified is at hand.",
+    "entry_index": 63,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_17fe43f4c558f68fb6c74247c1dcaa2e14f2d677",
+    "key": "01_INSULT_PROPOSE_ZERIPHENS",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "Pathetic smear of intergalactic dust. You are not worthy of even gazing upon our sacred forms.",
+    "text": "Pathetic smear of intergalactic dust. You are not worthy of even gazing upon our sacred forms.",
+    "entry_index": 64,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_508a52493625ecd48e8aef7a48c670bc53ea36b7",
+    "key": "02_INSULT_PROPOSE_ZERIPHENS",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "Begone from this Galaxy, you insignificant smudge of matter.",
+    "text": "Begone from this Galaxy, you insignificant smudge of matter.",
+    "entry_index": 65,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_4034f9c1cf1c33a5f27d9520c221085e17b040d3",
+    "key": "03_INSULT_PROPOSE_ZERIPHENS",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "Your miserable attempts to preserve this pitiful Empire are doomed to failure, as all things mundane are.",
+    "text": "Your miserable attempts to preserve this pitiful Empire are doomed to failure, as all things mundane are.",
+    "entry_index": 66,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_a0bd655e56aa190d92ce29bdbd5d802c18b4ab9e",
+    "key": "04_INSULT_PROPOSE_ZERIPHENS",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "Know that, when the time will come for us to end your species, all of your so-called accomplishments will be but an insignificant dot of imperfection in the eternal harmony of the Galaxy.",
+    "text": "Know that, when the time will come for us to end your species, all of your so-called accomplishments will be but an insignificant dot of imperfection in the eternal harmony of the Galaxy.",
+    "entry_index": 67,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_b53a1304a9e36c666afd5fb6837ad4dc6d051d20",
+    "key": "05_INSULT_PROPOSE_ZERIPHENS",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "Your efforts are meaningless and your results repulsive. End yourselves with dignity before we are forced to sully our lances with your wretched ichor.",
+    "text": "Your efforts are meaningless and your results repulsive. End yourselves with dignity before we are forced to sully our lances with your wretched ichor.",
+    "entry_index": 68,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_3f37f505d5ee81f9cbbc3509afe0b4245778bca3",
+    "key": "06_INSULT_PROPOSE_ZERIPHENS",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "Our heavenly hosts sing of your incumbent, inevitable end. All that you are shall soon be undone.",
+    "text": "Our heavenly hosts sing of your incumbent, inevitable end. All that you are shall soon be undone.",
+    "entry_index": 69,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_8a1d6ce67569014916ca07c9dec08d45a111214e",
+    "key": "01_INSULT_ACCEPT_ZERIPHENS",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "Your insolence shall be your undoing, you repulsive pest.",
+    "text": "Your insolence shall be your undoing, you repulsive pest.",
+    "entry_index": 70,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_847e859c1dacbd76eb56e0023e604fb935f88562",
+    "key": "02_INSULT_ACCEPT_ZERIPHENS",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "Do not test our patience. Its borders are what keeps your species from utter annihilation.",
+    "text": "Do not test our patience. Its borders are what keeps your species from utter annihilation.",
+    "entry_index": 71,
+    "key_occurrence_index": 0
+  },
+  {
+    "id": "loc_e0fbc0dd9f68688d58af2efd290f8b4b11e339e5",
+    "key": "03_INSULT_ACCEPT_ZERIPHENS",
+    "file": "localisation/zeriphen_l_russian.yml",
+    "source": "Your vulgar antics are of no consequence to us. We are beings of a far higher nature than what lays within your limited understanding.",
+    "text": "Your vulgar antics are of no consequence to us. We are beings of a far higher nature than what lays within your limited understanding.",
+    "entry_index": 72,
+    "key_occurrence_index": 0
+  }
+]
